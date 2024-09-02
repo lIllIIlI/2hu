@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Missions>
+  <CargoMission name="Magic Substance Transport" identifier="cargoMagicItems" tags="cargoMagicItems" type="Cargo" difficulty="1" commonness="100" reward="800" achievementidentifier="cargomission" requireddeliveryamount="0.8">
+    <Reputation identifier="location" amount="2" />
+    <Items>
+      <Item identifier="mediccrate" reward="180" maxcount="16">
+        <Item identifier="Touhou_Base_Metal" />
+        <Item identifier="Reiki_Stone" amount="8" />
+        <Item identifier="Reiki_Dust_Caking" amount="4" />
+        <Item identifier="Byproduct_Alchemical" amount="2" />
+      </Item>
+    </Items>
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons01.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.cargoMagicItems" text="missionmessage.cargoMagicItems" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </CargoMission>
+  <MonsterMission name="Clearing Fluff Balls" identifier="killMaoyu" tags="killMaoyu" type="Monster" difficulty="1" commonness="100" reward="1800" sonarlabel="Maoyu" maxsonarmarkerdistance="10000" description="Fluffy creatures drifting in the sea. Although they are almost non-aggressive, the dense clusters of signals on the sonar always make one's heart skip a beat. Finding out they're just these fluff balls is both a relief and amusing.">
+    <monster character="Maoyu" min="6" max="10" />
+    <Reputation identifier="location" amount="2" />
+    <Reputation identifier="Touhou_Gensokyo" amount="1" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons01.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.killMaoyu" text="missionmessage.killMaoyu" />
+  </MonsterMission>
+  <MonsterMission name="Ghost Line" identifier="killghost" tags="killghost" type="Monster" difficulty="2" commonness="100" reward="4800" sonarlabel="Little_Ghost" maxsonarmarkerdistance="10000" description="Possibly due to some urban legend, there are some extremely dangerous ghosts floating along this route. They don't look threatening at first glance, but they've caused quite a bit of trouble for those traveling this way. Be cautious when clearing them out!">
+    <monster character="Little_Ghost" min="5" max="7" />
+    <Monster character="Little_Ghost" min="3" max="3" multiplayeronly="true" />
+    <Reputation identifier="location" amount="3" />
+    <Reputation identifier="Touhou_Gensokyo" amount="1" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons01.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.Tohou_Ghost_Line" text="missionheader.Tohou_Ghost_Line" />
+  </MonsterMission>
+  <MonsterMission name="Unending Nightmare" identifier="killphotosphere" tags="killphotosphere" type="Monster" difficulty="3" commonness="100" reward="7000" textidentifier="killphotosphere" maxsonarmarkerdistance="10000" sonarlabel="Little_photosphere">
+    <monster character="Little_photosphere" min="6" max="8" />
+    <Monster character="Little_photosphere" min="4" max="4" multiplayeronly="true" />
+    <Reputation identifier="location" amount="4" />
+    <Reputation identifier="Touhou_Gensokyo" amount="1" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons01.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.killphotosphere" text="missionmessage.killphotosphere" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <MonsterMission name="Unknown Truth - Green UFO" identifier="killgreenufo" tags="killgreenufo" type="Monster" difficulty="4" commonness="100" reward="10000" textidentifier="killgreenufo" maxsonarmarkerdistance="10000" sonarlabel="Touhou_green_ufo">
+    <monster character="Touhou_green_ufo" min="8" max="8" />
+    <monster character="Touhou_Green_UFO_Event" min="1" max="1" />
+    <Monster character="Touhou_green_ufo" min="4" max="4" multiplayeronly="true" />
+    <Reputation identifier="location" amount="5" />
+    <Reputation identifier="Touhou_Gensokyo" amount="2" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons02.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.killgreenufo" text="missionmessage.killgreenufo" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <MonsterMission name="Unknown Truth - Green UFO" identifier="killgreenufo_Hard" tags="killgreenufo_Hard" type="Monster" difficulty="4" commonness="100" reward="7000" textidentifier="killgreenufo" maxsonarmarkerdistance="10000" sonarlabel="Touhou_green_ufo">
+    <monster character="Touhou_green_ufo" min="8" max="8" />
+    <monster character="Touhou_Green_UFO_Event" min="1" max="1" />
+    <Monster character="Touhou_green_ufo" min="4" max="4" multiplayeronly="true" />
+    <Reputation identifier="location" amount="2" />
+    <Reputation identifier="Touhou_Gensokyo" amount="1" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons02.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.killgreenufo" text="missionmessage.killgreenufo" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <MonsterMission name="Unknown Truth - Red UFO" identifier="killredufo" tags="killredufo" type="Monster" difficulty="4" commonness="100" reward="11000" textidentifier="killredufo" maxsonarmarkerdistance="10000" sonarlabel="Touhou_red_ufo">
+    <monster character="Touhou_red_ufo" min="4" max="4" />
+    <monster character="Touhou_red_ufo_range" min="4" max="4" />
+    <monster character="Touhou_Red_UFO_Event" min="1" max="1" />
+    <Monster character="Touhou_red_ufo" min="2" max="2" multiplayeronly="true" />
+    <Monster character="Touhou_red_ufo_range" min="2" max="2" multiplayeronly="true" />
+    <Reputation identifier="location" amount="6" />
+    <Reputation identifier="Touhou_Gensokyo" amount="3" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons02.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.killredufo" text="missionmessage.killredufo" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <MonsterMission name="Unknown Truth - Red UFO" identifier="killredufo_Hard" tags="killredufo_Hard" type="Monster" difficulty="4" commonness="100" reward="7500" textidentifier="killredufo" maxsonarmarkerdistance="10000" sonarlabel="Touhou_red_ufo">
+    <monster character="Touhou_red_ufo" min="4" max="4" />
+    <monster character="Touhou_red_ufo_range" min="4" max="4" />
+    <monster character="Touhou_Red_UFO_Event" min="1" max="1" />
+    <Monster character="Touhou_red_ufo" min="2" max="2" multiplayeronly="true" />
+    <Monster character="Touhou_red_ufo_range" min="2" max="2" multiplayeronly="true" />
+    <Reputation identifier="location" amount="2" />
+    <Reputation identifier="Touhou_Gensokyo" amount="1" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons02.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.killredufo" text="missionmessage.killredufo" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <MonsterMission name="Unknown Truth - Blue UFO" identifier="killblueufo" tags="killblueufo" type="Monster" difficulty="4" commonness="100" reward="11000" textidentifier="killblueufo" maxsonarmarkerdistance="10000" sonarlabel="Touhou_blue_ufo">
+    <monster character="Touhou_blue_ufo" min="8" max="8" />
+    <monster character="Touhou_Blue_UFO_Event" min="1" max="1" />
+    <Monster character="Touhou_blue_ufo" min="2" max="2" multiplayeronly="true" />
+    <Reputation identifier="location" amount="8" />
+    <Reputation identifier="Touhou_Gensokyo" amount="4" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons02.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.killblueufo" text="missionmessage.killblueufo" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <MonsterMission name="Unknown Truth - Blue UFO" identifier="killblueufo_Hard" tags="killblueufo_Hard" type="Monster" difficulty="4" commonness="100" reward="8000" textidentifier="killblueufo" maxsonarmarkerdistance="10000" sonarlabel="Touhou_blue_ufo">
+    <monster character="Touhou_blue_ufo" min="7" max="7" />
+    <monster character="Touhou_Blue_UFO_Event" min="1" max="1" />
+    <Monster character="Touhou_red_ufo" min="1" max="1" />
+    <Monster character="Touhou_red_ufo_range" min="1" max="1" />
+    <monster character="Touhou_green_ufo" min="2" max="2" />
+    <Monster character="Touhou_blue_ufo" min="4" max="4" multiplayeronly="true" />
+    <Reputation identifier="location" amount="2" />
+    <Reputation identifier="Touhou_Gensokyo" amount="1" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons02.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.killblueufo" text="missionmessage.killblueufo" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <MonsterMission name="Unknown Truth of Darkness" identifier="FindHoujuuNue" tags="FindHoujuuNue" type="Monster" difficulty="4" commonness="200" reward="30000" textidentifier="FindHoujuuNue" maxsonarmarkerdistance="10000" sonarlabel="Touhou_Monster_houjuu_nue">
+    <monster character="Touhou_Monster_houjuu_nue" min="1" max="1" />
+    <Reputation identifier="location" amount="10" />
+    <Reputation identifier="Touhou_Gensokyo" amount="10" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons03.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.FindHoujuuNue" text="missionmessage.FindHoujuuNue" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <MonsterMission name="Unknown Truth of Darkness - Easy" identifier="FindHoujuuNue_Easy" tags="FindHoujuuNue_Easy" type="Monster" difficulty="4" commonness="200" reward="10000" textidentifier="FindHoujuuNue" maxsonarmarkerdistance="10000" sonarlabel="Touhou_Monster_houjuu_nue">
+    <monster character="Touhou_Monster_houjuu_nue_Easy" min="1" max="1" />
+    <Reputation identifier="location" amount="1" />
+    <Reputation identifier="Touhou_Gensokyo" amount="1" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons03.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.FindHoujuuNue" text="missionmessage.FindHoujuuNue" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <MonsterMission name="Unknown Truth of Darkness - Normal" identifier="FindHoujuuNue_Normal" tags="FindHoujuuNue_Normal" type="Monster" difficulty="4" commonness="200" reward="15000" textidentifier="FindHoujuuNue" maxsonarmarkerdistance="10000" sonarlabel="Touhou_Monster_houjuu_nue">
+    <monster character="Touhou_Monster_houjuu_nue_Normal" min="1" max="1" />
+    <Reputation identifier="location" amount="1" />
+    <Reputation identifier="Touhou_Gensokyo" amount="1" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons03.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.FindHoujuuNue" text="missionmessage.FindHoujuuNue" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <MonsterMission name="Unknown Truth of Darkness - Hard" identifier="FindHoujuuNue_Hard" tags="FindHoujuuNue_Hard" type="Monster" difficulty="4" commonness="200" reward="20000" textidentifier="FindHoujuuNue" maxsonarmarkerdistance="10000" sonarlabel="Touhou_Monster_houjuu_nue">
+    <monster character="Touhou_Monster_houjuu_nue_Hard" min="1" max="1" />
+    <Reputation identifier="location" amount="1" />
+    <Reputation identifier="Touhou_Gensokyo" amount="1" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons03.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.FindHoujuuNue" text="missionmessage.FindHoujuuNue" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+  <MonsterMission name="Unknown Truth of Darkness - Lunatic" identifier="FindHoujuuNue_Lunatic" tags="FindHoujuuNue_Lunatic" type="Monster" difficulty="4" commonness="200" reward="40000" textidentifier="FindHoujuuNue" maxsonarmarkerdistance="10000" sonarlabel="Touhou_Monster_houjuu_nue">
+    <monster character="Touhou_Monster_houjuu_nue_Lunatic" min="1" max="1" />
+    <Reputation identifier="location" amount="1" />
+    <Reputation identifier="Touhou_Gensokyo" amount="1" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons03.png" sourcerect="0,0,256,256" />
+    <message header="missionheader.FindHoujuuNue" text="missionmessage.FindHoujuuNue" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+  </MonsterMission>
+
+  <OutpostDestroyMission name="Demonic Mutation" identifier="Touhou_OutpostDestroyMission01" textidentifier="Touhou_OutpostDestroyMission01" tags="abandonedoutpost" type="OutpostDestroy" reward="10000" difficulty="4" minleveldifficulty="5" commonness="150" allowretry="true" targetitem="reactor" unhideentitysubcategories="abandonedmonster">
+    <Reputation identifier="Touhou_Gensokyo" amount="3" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons02.png" sourcerect="0,0,256,256" />
+    <TriggerEvent state="0" delay="5" eventidentifier="Touhou_Indestructible_Wall" campaignonly="true" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="Touhou_fortune_teller" min="6" max="6" />
+      <Character identifier="Touhou_fortune_teller" min="4" max="4" multiplayeronly="true" />
+    </Characters>
+  </OutpostDestroyMission>
+  <OutpostDestroyMission name="Demonic Mutation - Lunatic" identifier="Touhou_OutpostDestroyMission02" textidentifier="Touhou_OutpostDestroyMission02" tags="abandonedoutpost" type="OutpostDestroy" reward="15000" difficulty="4" minleveldifficulty="5" commonness="100" allowretry="true" targetitem="reactor" unhideentitysubcategories="abandonedmonster">
+    <Reputation identifier="Touhou_Gensokyo" amount="5" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons03.png" sourcerect="0,0,256,256" />
+    <TriggerEvent state="0" delay="5" eventidentifier="Touhou_Indestructible_Wall" campaignonly="true" />
+    <LocationType identifier="Abandoned" />
+    <LocationTypeChange from="Abandoned" to="Outpost" requireddurationrange="2,3" cooldownafterchange="5" />
+    <Characters>
+      <Character identifier="Touhou_fortune_teller" min="5" max="5" />
+      <Character identifier="Touhou_fortune_teller_Hard" min="5" max="5" />
+      <Character identifier="Touhou_fortune_teller" min="3" max="3" multiplayeronly="true" />
+      <Character identifier="Touhou_fortune_teller_Hard" min="3" max="3" multiplayeronly="true" />
+    </Characters>
+  </OutpostDestroyMission>
+  <!--打捞灵异珠-遗迹-->
+  <SalvageMission identifier="Salvage_Mysterious_Pearl_Ruins" textidentifier="Salvage_Mysterious_Pearl_Ruins" tags="Salvage_Mysterious_Pearl,salvage,salvageartifact" type="Salvage" difficulty="4" commonness="1" reward="6000" achievementidentifier="artifactmission" sonaricon="artifact" spawntype="ruin" itemtag="Touhou_Mysterious_Pearl_Rippling_Mission" existingItemTag="alienartifact" containertag="artifactholder" requireruin="true">
+    <Portrait texture="Content/Map/LocationPortraits/AlienRuins.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+    <Portrait texture="Content/Map/LocationPortraits/AlienRuins2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+    <Portrait texture="Content/Map/LocationPortraits/AlienRuins3.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+    <Portrait texture="Content/Map/LocationPortraits/AlienRuins4.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+    <Reputation identifier="location" amount="4" />
+    <Reputation identifier="Touhou_Gensokyo" amount="10" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons02.png" sourcerect="0,0,256,256" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <message header="missionheader.Salvage_Mysterious_Pearl_Ruins" text="missionmessage.Salvage_Mysterious_Pearl_Ruins" />
+  </SalvageMission>
+  <!--打捞灵异珠-洞穴-->
+  <SalvageMission identifier="Salvage_Mysterious_Pearl_Cave" textidentifier="Salvage_Mysterious_Pearl_Cave" tags="Salvage_Mysterious_Pearl,salvage,salvageartifact" type="Salvage" difficulty="4" commonness="1" reward="6000" achievementidentifier="artifactmission" sonaricon="artifact" spawntype="cave" itemtag="Touhou_Mysterious_Pearl_Rippling_Mission" existingitemtag="alienartifact">
+    <Portrait texture="Content/Map/LocationPortraits/AlienRuins.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+    <Portrait texture="Content/Map/LocationPortraits/AlienRuins2.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+    <Portrait texture="Content/Map/LocationPortraits/AlienRuins3.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+    <Portrait texture="Content/Map/LocationPortraits/AlienRuins4.png" sourcerect="0,0,2160,1080" premultiplyalpha="false" />
+    <Reputation identifier="location" amount="4" />
+    <Reputation identifier="Touhou_Gensokyo" amount="10" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons02.png" sourcerect="0,0,256,256" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <message header="missionheader.Salvage_Mysterious_Pearl_Ruins" text="missionmessage.Salvage_Mysterious_Pearl_Ruins" />
+  </SalvageMission>
+  <!--清理灵气侵蚀的巢穴-->
+  <NestMission identifier="Clear_Reiki_Erode_Crawler_Nest" textidentifier="Clear_Reiki_Erode_Crawler_Nest" tags="nest,Clear_Reiki_Erode_Crawler_Nest" achievementidentifier="nestmission" type="Nest" spawntype="cave" reward="8500" itemspawnradius="800" approachitemsradius="800" monsterspawnradius="4000" nestobjectradius="1500" nestobjectamount="20" difficulty="4" commonness="100">
+    <Items>
+      <Item identifier="crawleregg">
+        <StatusEffectOnApproach target="This" Scale="2.0" setvalue="true" />
+      </Item>
+      <Item identifier="crawleregg">
+        <StatusEffectOnApproach target="This" Scale="2.0" setvalue="true" delay="9" />
+      </Item>
+      <Item identifier="crawleregg" />
+      <Item identifier="crawleregg" />
+    </Items>
+    <Monster character="Touhou_reiki_erode_crawler" min="8" max="8" />
+    <Monster character="Touhou_reiki_erode_crawler" min="4" max="4" multiplayeronly="true" />
+    <Reputation identifier="location" amount="3" />
+    <Reputation identifier="Touhou_Gensokyo" amount="2" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons02.png" sourcerect="0,0,256,256" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <message text="missionmessage.Clear_Reiki_Erode_Crawler_Nest" />
+  </NestMission>
+</Missions>

@@ -1,0 +1,800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="" identifier="MasterSpark_Ammo" scale="0.5" tags="MasterSpark_Ammo" category="Weapon" linkable="true" impactsoundtag="impact_metal_heavy" hideinmenus="true">
+    <Sprite texture="Content/Items/Tools/tools.png" sourcerect="0,3,152,88" depth="0.55" origin="0.5,0.5" />
+    <Body width="115" height="88" density="50" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-80" handle1="-40,30" handle2="40,30" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer hideitems="true" capacity="10" drawinventory="false" canbeselected="false" canbecombined="false" ShowConditionInContainedStateIndicator="false" removecontaineditemsondeconstruct="true">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true" interval="5" stackable="false">
+        <Conditional condition="eq 100" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator000" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="Contained" disabledeltatime="true">
+        <Conditional hastag="eq indicator" />
+        <Use />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator000" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt000" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator001" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator001" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt001" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator002" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator002" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt002" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator003" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator003" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt003" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator004" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator004" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt004" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator005" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator005" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt005" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator006" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator006" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt006" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator007" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator007" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt007" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator008" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator008" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt008" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator009" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator009" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt009" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator010" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator010" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt010" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator011" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator011" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt011" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator012" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator012" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt012" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator013" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator013" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt013" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator014" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator014" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt014" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator015" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator015" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt015" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator016" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator016" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt016" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator017" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator017" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt017" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator018" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator018" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt018" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator019" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator019" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt019" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator020" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator020" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt020" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator021" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator021" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt021" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator022" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator022" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt022" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator023" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator023" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt023" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator024" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt_Indicator024" type="Contained" />
+        <SpawnItem identifiers="MasterSpark_Bolt024" spawnposition="ThisInventory" Rotation="0" />
+        <SpawnItem identifiers="MasterSpark_Bolt_Indicator000" spawnposition="ThisInventory" />
+      </StatusEffect>
+      <!--      <StatusEffect type="OnUse" target="This" condition="-0.20" disabledeltatime="true">
+        <RequiredItem items="MasterSpark_Bolt" type="Contained" />
+      </StatusEffect>-->
+      <StatusEffect type="Always" target="This" delay="3">
+        <Remove />
+      </StatusEffect>
+      <Containable items="MasterSpark_Bolt" />
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator000" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator001" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator002" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator003" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator004" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator005" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator006" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator007" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator008" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator009" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator010" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator011" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator012" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator013" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator014" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator015" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator016" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator017" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator018" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator019" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator020" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator021" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator022" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator023" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt_Indicator024" category="Weapon" tags="MasterSpark_Bolt,indicator" scale="0.5" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="143,310,369,66" depth="0.55" />
+    <Body width="10" height="10" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <ItemContainer hideitems="true" capacity="1">
+      <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+        <Remove />
+      </StatusEffect>
+    </ItemContainer>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt000" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark000" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt001" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark001" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt002" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark002" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt003" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark003" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt004" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark004" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt005" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark005" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt006" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark006" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt007" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark007" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt008" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark008" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt009" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark009" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt010" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark010" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt011" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark011" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt012" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark012" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt013" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark013" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt014" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark014" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt015" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark015" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt016" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark016" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt017" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark017" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt018" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark018" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt019" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark019" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt020" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark020" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt021" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark021" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt022" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark022" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt023" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark023" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+  <Item name="" identifier="MasterSpark_Bolt024" category="Weapon" tags="MasterSpark_Bolt" scale="1" hideinmenus="true">
+    <Sprite texture="%ModDir%/Images/Transparent.png" sourcerect="0,0,30,1024" depth="0.55" />
+    <Body width="30" height="256" density="10" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
+    <Projectile characterusable="false" launchimpulse="400" hitscan="false" maxtargetstohit="100" spread="0">
+      <Attack structuredamage="10" itemdamage="5" severlimbsprobability="1" penetration="0.1" targetforce="0">
+        <Affliction identifier="burn" strength="2.5" />
+      </Attack>
+      <StatusEffect type="OnActive" target="This" interval="5">
+        <ParticleEmitter particle="masterspark024" scalemin="0.4" scalemax="0.6" copyentityangle="true" particleamount="1" velocitymin="0" velocitymax="0" initialdelay="0" />
+      </StatusEffect>
+      <StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
+        <Remove />
+      </StatusEffect>
+    </Projectile>
+  </Item>
+</Items>
