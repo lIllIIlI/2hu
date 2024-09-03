@@ -1,8 +1,7 @@
-<!--
 <?xml version="1.0" encoding="utf-8"?>
 <Talents>
     <Talent identifier="Kappa_Pororoca">
         <Icon texture="%ModDir%/Images/Talents/Kappa_Pororoca.png" sheetindex="0,0" sheetelementsize="128,128" />
         <Description tag="talentdescription.Kappa_Pororoca"/>
     </Talent>
-</Talents>-->
+</Talents>

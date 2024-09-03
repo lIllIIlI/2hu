@@ -45,11 +45,11 @@
 	<entitydescription.Remilia_Gungnier>‖color:255,36,0,255‖Gungnir's Spear. Civilian version.‖color:end‖</entitydescription.Remilia_Gungnier>
 	<entityname.Gungnier_Spear>‖color:255,36,0,255‖Gungnir's Spear‖color:end‖</entityname.Gungnier_Spear>
 	<entitydescription.Gungnier_Spear>‖color:255,36,0,255‖Just a shadow of Gungnir, but still the shadow of Gungnir (Use it in the Civilian Version of the Gungnir Spear).‖color:end‖</entitydescription.Gungnier_Spear>
-		<!-- Youmu -->
+	<!-- Youmu -->
 	<entityname.youmugear>‖color:156,158,161,255‖Youmu’s Outfit‖color:end‖</entityname.youmugear>
-	<entitydescription.youmugear>‖color:156,158,161,255‖A gardener and fencing instructor working and living at the Tower of White Jades. She’s half-ghost, half-human, which might explain why she carries two swords. ‖color:end‖</entitydescription.youmugear>
+	<entitydescription.youmugear>‖color:156,158,161,255‖A gardener and fencing instructor working and living at Hakugyokurou. She’s half-ghost, half-human, which might explain why she carries two swords. ‖color:end‖</entitydescription.youmugear>
 	<entityname.Youmu_Plus>‖color:156,158,161,255‖Youmu’s Outfit+‖color:end‖</entityname.Youmu_Plus>
-	<entitydescription.Youmu_Plus>‖color:156,158,161,255‖A gardener and fencing instructor working and living at the Tower of White Jades. She’s half-ghost, half-human, which might explain why she carries two swords, though this outfit seems to be stronger. ‖color:end‖</entitydescription.Youmu_Plus>
+	<entitydescription.Youmu_Plus>‖color:156,158,161,255‖A gardener and fencing instructor working and living at Hakugyokurou. She’s half-ghost, half-human, which might explain why she carries two swords, though this outfit seems to be stronger. ‖color:end‖</entitydescription.Youmu_Plus>
 	<entityname.youmupaint>‖color:156,158,161,255‖Autumn Sakura of the Underworld (Youmu’s Paint)‖color:end‖</entityname.youmupaint>
 	<entitydescription.youmupaint>A spray can of Youmu Paint for the Touhou Sprayer. No one knows how it works, but you can see something resembling a small spirit moving around. \n‖color:156,158,161,255‖Roukanken's sheath has a cherry blossom flower on top of it.‖color:end‖</entitydescription.youmupaint>
 	<entityname.youmudecalmask>‖color:156,158,161,255‖Youmu's Mask‖color:end‖</entityname.youmudecalmask>
@@ -57,66 +57,66 @@
 	<entityname.youmusmg>‖color:156,158,161,255‖Dreams of the Soul‖color:end‖</entityname.youmusmg>
 	<entitydescription.youmusmg>‖color:156,158,161,255‖"How can Patchouli create something like this in this planet... she really is a genius." - Coalition Scientist‖color:end‖</entitydescription.youmusmg>
 	<entityname.Youmu_Smgmagazine>‖color:156,158,161,255‖Underworld’s Magazine‖color:end‖</entityname.Youmu_Smgmagazine>
-	<entitydescription.Youmu_Smgmagazine>‖color:156,158,161,255‖Having turned ghosts into bullets, this ammo can penetrate most of the armor in Europa. (Can be used in Dreams of the Soul or other SMGs.)‖color:end‖</entitydescription.Youmu_Smgmagazine>
+	<entitydescription.Youmu_Smgmagazine>‖color:156,158,161,255‖Bullets of the Netherworld, capable of penetrating most armors on Europa (can be used in SMG-type weapons).‖color:end‖</entitydescription.Youmu_Smgmagazine>
 	<entityname.youmuceremonialsword>‖color:156,158,161,255‖Roukanken‖color:end‖</entityname.youmuceremonialsword>
 	<entitydescription.youmuceremonialsword>‖color:156,158,161,255‖The Roukanken blade is said to have been forged by Youkais and is able to kill ten ghosts in one swing. No one knows if this claim is true, though, as people can’t see ghosts.\n"A memento of Cherry Blossoms."‖color:end‖</entitydescription.youmuceremonialsword>
-	<entityname.youmuwatermelon>Watermelon (Touhou quest item.)</entityname.youmuwatermelon>
-	<entitydescription.youmuwatermelon>The latest achievement of Hydroponic technology in Europa. It’s mostly water, so don’t expect it to fill you up much.</entitydescription.youmuwatermelon>
-	<eventtext.youmujoin.c1>"Again at a noisy station, erratic crowds, and this fucking headache..." you think, as you pop through the outpost's airlock\n\nHowever, as you climb up the ladder and enter the station, a very strange sense of dissonance makes you look behind.\n\nThe source of this seems to be a young girl with her eyes closed... as if meditating. Definitely not something you'd expect to see in this place, as this girl looks about 15 years old, her delicate face surpasses the most exaggerated propaganda of Europa Coalition for their leaders, and her silver hair makes you inexplicably think of the light reflected from the ship's porthole. \n\nAfter shaking your head and letting go of "that thought", you notice that she wears two sword scabbards around her waist, despite both being empty. \n\nYou can't help but wonder, "what the fuck is such a girl doing in THIS place?"</eventtext.youmujoin.c1>
-	<eventtext.youmujoin.o1>Step closer to have a look at her</eventtext.youmujoin.o1>
-	<eventtext.youmujoin.c2>You are about to approach, but the seemingly unprepared girl raises her head first. \n\nAt that moment, you manage to get a glimpse of a sword ———— different from the boarding axes stained with rusty blood used by security officers, or ceremonial swords decorated with striped ribbons by assistants. This particular sword feels like a weapon that could not be controlled by mere people, but makes you feel it has been honed in countless years of training after being extracted from the coldness of the vast ocean.\n\nFor a moment, you feel like you and the outpost you're in have been cut in half in a single strike, making you choke on your own air, even if the scabbards she is wearing are empty. \n\n"Hello. Do you happen to have a watermelon, please?" \nThe girl's voice was just like you imagined it: clear, but with a hint of sonority, like a sharp sword cutting through cherry bloss- wait... watermelon?</eventtext.youmujoin.c2>
-	<eventtext.youmujoin.o2>"A watermelon?"</eventtext.youmujoin.o2>
-	<eventtext.youmujoin.c3>"I don't blame if you don't know it, it's new here. A kind of spherical fruit, green on the outside, and black stripes on it... Could you help me find one?" The girl makes a somewhat embarrassing request to you. \n\nAfter coming back to your senses ———— the girl in front of you speaks better than you thought.</eventtext.youmujoin.c3>
-	<eventtext.youmujoin.o3>Find out if you have anything she wants on you.</eventtext.youmujoin.o3>
-	<eventtext.youmujoin.c3.c1>You do happen to have a watermelon on you, and the girl seems quite happy. However, she quickly frowns again, as if wondering how to speak. \n\n"Thank you. Truth be told, I lost my way while chasing that damned rabbit, and I don't know where I am now... could you give me a ride? I'll work if you need me to."</eventtext.youmujoin.c3.c1>
-	<eventtext.youmujoin.c3.o1>"It'd be my honor, Miss Youmu Konpaku."</eventtext.youmujoin.c3.o1>
-	<eventtext.youmujoin.c3.o1.c1>The girl looks relieved. You hear a very excited "Thank you!" as you watch her run towards your submarine. But, wait... did she tell you her name?</eventtext.youmujoin.c3.o1.c1>
-	<eventtext.youmujoin.c3.o2>"I'm sorry, but we're already full."</eventtext.youmujoin.c3.o2>
-	<eventtext.youmujoin.c3.o2.c1>You definitely wouldn't allow such a young girl on a trip as dangerous as this, but this is Youmu! How can we not let her join us? Is it even possible that someone would refuse her with such coldness?</eventtext.youmujoin.c3.o2.c1>
-	<eventtext.youmujoin.c3.c2>After some searching, it seems that you don't have any watermelon on you. Looking up, the girl is waiting for your answer.</eventtext.youmujoin.c3.c2>
-	<eventtext.youmujoin.c3.c2.o1>"Sorry, I'm afraid I don't have what you want here. But I can try to find one..."</eventtext.youmujoin.c3.c2.o1>
-	<eventtext.youmujoin.c3.c2.c1>The girl sighs slightly and stops paying attention to you. "What should I do? Yuyuko sama will..." As you left, you seemed to hear her muttering something. Maybe the outpost vending machines could have one of these fruits?</eventtext.youmujoin.c3.c2.c1>
-	<eventtext.youmujoin_return.c1>With the sense of dissonance on her, you easily find the girl at the outpost again.</eventtext.youmujoin_return.c1>
-	<eventtext.youmujoin_return.o1>"Missy, I got the watermelon you asked for..."</eventtext.youmujoin_return.o1>
-	<eventtext.youmujoin_return.o1.c2>You wanted to say that, but suddenly it occurred to you that you didn't actually have a watermelon with you.</eventtext.youmujoin_return.o1.c2>
+	<entityname.youmuwatermelon>Watermelon (Quest Item)</entityname.youmuwatermelon>
+	<entitydescription.youmuwatermelon>The latest result of hydroponic technology on Europa. Unfortunately, it only fills the stomach and cannot heal injuries.</entitydescription.youmuwatermelon>
+	<eventtext.youmujoin.c1>It's another typical day on Europa. The noisy station, the moving crowds, and your damn headache... You think as you pass through the station's airlock.\n\nHowever, as you climb the ladder and enter the station, a strange sense of discomfort draws your attention.\n\nThe source of this discomfort is a girl who seems to be meditating — she looks about ten years old, her delicate face surpassing even the most exaggerated propaganda of the Europa Union about their leaders, and her silver hair oddly reminds you of the light reflected off a shipwreck's porthole. Shaking your head to dismiss this ominous thought, you notice that she has two sword sheaths at her waist, but they both appear to be empty.\n\nYou can't help but feel curious, who exactly is this girl who seems so out of place here?</eventtext.youmujoin.c1>
+	<eventtext.youmujoin.o1>Take a closer look.</eventtext.youmujoin.o1>
+	<eventtext.youmujoin.c2>You are about to approach her, but the seemingly unguarded girl lifts her head first.\n\nFor a moment, you see a treasure sword about to be drawn — unlike the bloodstained boarding axes of the security officers or the ceremonial swords of the assistants adorned with stripes and sashes, the girl before you feels like a blade forged from the icy coldness of the ocean, sharpened over countless years, a weapon that cannot be wielded by mere humans. Neither blood nor spirits would leave any trace on that flawless blade.\n\nFor a brief moment, you have no doubt that she could cut you, along with the station you stand on, in two — even though her sword sheaths are empty.\n\n"Do you have a watermelon?" The girl's voice is as clear as you imagined, crisp yet with a slight clang, like the sharp light of a sword cutting through flying cherry blossoms — wait, watermelon?</eventtext.youmujoin.c2>
+	<eventtext.youmujoin.o2>"Watermelon?"</eventtext.youmujoin.o2>
+	<eventtext.youmujoin.c3>"It's a round fruit with a green rind and black stripes... Could you please help me find one?" The girl shyly asks you.\n\nYou finally snap back to reality — the girl before you seems to be more approachable than you thought.</eventtext.youmujoin.c3>
+	<eventtext.youmujoin.o3>Check if you have what she wants.</eventtext.youmujoin.o3>
+	<eventtext.youmujoin.c3.c1>You happen to be carrying a watermelon, and the girl seems very pleased. However, she quickly frowns, as if troubled about how to ask something.\n\n"It's like this, I got lost while chasing that rabbit, and now I don't know where I am... Could you give me a ride?"</eventtext.youmujoin.c3.c1>
+	<eventtext.youmujoin.c3.o1>"It would be my honor, Miss Youmu Konpaku."</eventtext.youmujoin.c3.o1>
+	<eventtext.youmujoin.c3.o1.c1>The girl looks relieved, "Thank you!" She runs towards your submarine. Wait... did she tell you her name?</eventtext.youmujoin.c3.o1.c1>
+	<eventtext.youmujoin.c3.o2>"Sorry, but we're full." </eventtext.youmujoin.c3.o2>
+	<eventtext.youmujoin.c3.o2.c1>You were about to brush her off with this, but this is Youmu! How could you not let her join? Could anyone really be heartless enough to refuse?</eventtext.youmujoin.c3.o2.c1>
+	<eventtext.youmujoin.c3.c2>After some rummaging, it seems you don't have a watermelon on you. Looking up, the girl is waiting for your response.</eventtext.youmujoin.c3.c2>
+	<eventtext.youmujoin.c3.c2.o1>"Sorry, I don't think I have what you're looking for. But I can try to find one..."</eventtext.youmujoin.c3.c2.o1>
+	<eventtext.youmujoin.c3.c2.c1>The girl sighs slightly and then ignores you. "What should I do, Lady Yuyuko will..." You seem to hear her muttering something as you leave. Speaking of watermelons, maybe the station's vending machines have some?</eventtext.youmujoin.c3.c2.c1>
+	<eventtext.youmujoin_return.c1>Thanks to that strange feeling, you easily find the girl in the station.</eventtext.youmujoin_return.c1>
+	<eventtext.youmujoin_return.o1>"Hello, I got the watermelon you wanted..."</eventtext.youmujoin_return.o1>
+	<eventtext.youmujoin_return.o1.c2>You were about to say this, but then you remember you don't actually have a watermelon on you.</eventtext.youmujoin_return.o1.c2>
 	<eventtext.youmujoin_return.o2>Don't disturb her.</eventtext.youmujoin_return.o2>
-	<eventtext.youmujoin.c3.c2.o2>"Sorry, I'm afraid I don't have what you want here. Let's go our separate ways."</eventtext.youmujoin.c3.c2.o2>
-	<afflictionname.Ancient_Temple>Ancient Temple</afflictionname.Ancient_Temple>
-	<afflictiondescription.Ancient_Temple>There is hardly anything that can be cut off</afflictiondescription.Ancient_Temple>
+	<eventtext.youmujoin.c3.c2.o2>"Sorry, I don't think I have what you're looking for. Let's go our separate ways."</eventtext.youmujoin.c3.c2.o2>
+	<afflictionname.Ancient_Temple>Half-Human, Half-Ghost Gardener</afflictionname.Ancient_Temple>
+	<afflictiondescription.Ancient_Temple>There's almost nothing that can't be cut.</afflictiondescription.Ancient_Temple>
 	<!-- Marisa -->
 	<entityname.marisagear>‖color:255,255,0,255‖Marisa's Outfit‖color:end‖</entityname.marisagear>
-	<entitydescription.marisagear>‖color:255,255,0,255‖Just an Ordinary Magician‖color:end‖</entitydescription.marisagear>
+	<entitydescription.marisagear>‖color:255,255,0,255‖Just an Ordinary Magician‖color:end‖(Includes Sonar)</entitydescription.marisagear>
 	<entityname.Marisa_Plus>‖color:255,255,0,255‖Marisa's Outfit+‖color:end‖</entityname.Marisa_Plus>
-	<entitydescription.Marisa_Plus>‖color:255,255,0,255‖Just an Ordinary Magician, though this set of clothes seem to be of higher quality‖color:end‖</entitydescription.Marisa_Plus>
+	<entitydescription.Marisa_Plus>‖color:255,255,0,255‖Just an Ordinary Magician, though this set of clothes seem to be of higher quality‖color:end‖(Includes Sonar)</entitydescription.Marisa_Plus>
 	<entityname.marisahat>‖color:255,255,0,255‖Marisa's Hat‖color:end‖</entityname.marisahat>
-	<entitydescription.marisahat>‖color:255,255,0,255‖Hat of an Ordinary Magician‖color:end‖</entitydescription.marisahat>
+	<entitydescription.marisahat>‖color:255,255,0,255‖An ordinary magician's hat‖color:end‖</entitydescription.marisahat>
 	<afflictionname.Ordinary_Magician>Ordinary Magician</afflictionname.Ordinary_Magician>
 	<afflictiondescription.Ordinary_Magician>Marisa stole something important daze~</afflictiondescription.Ordinary_Magician>
 	<talentname.Casket_Of_Star>Ordinary Magician</talentname.Casket_Of_Star>
 	<talentdescription.Casket_Of_Star>While wearing ‖color:gui.orange‖Marisa's Outfit+‖end‖: \nRecover faster from‖color:gui.green‖physical injuries and burns.‖end‖ \nThe ‖color:gui.green‖damage dealt ‖end‖is increased. \nThe‖color:gui.green‖ firerate of all guns ‖end‖is increased. </talentdescription.Casket_Of_Star>
 	<!-- Aya -->
 	<entityname.ayagear>‖color:255,255,255,255‖Aya's Outfit‖color:end‖</entityname.ayagear>
-	<entitydescription.ayagear>‖color:255,255,255,255‖Aya Shameimaru is a crow Tengu who surpasses the rest of Tengu in her speed. She flies around Gensokyo with her camera, and when she finds an interesting event, she leaves after taking a few pictures.\nThough she is not human, she looks basically the same as one.‖color:end‖</entitydescription.ayagear>
+	<entitydescription.ayagear>‖color:255,255,255,255‖Aya Shameimaru is a crow tengu, one of the fastest among the tengu. She carries a camera and runs around Gensokyo, recording various interesting events.\nAlthough she is a crow tengu, her appearance is not much different from that of a human.\n————《Perfect Memento in Strict Sense》‖color:end‖\n(Includes Sonar)</entitydescription.ayagear>
 	<entityname.Aya_Plus>‖color:255,255,255,255‖Aya's Outfit+‖color:end‖</entityname.Aya_Plus>
-	<entitydescription.Aya_Plus>‖color:255,255,255,255‖Aya Shameimaru is a crow Tengu who surpasses the rest of Tengu in her speed. She flies around Gensokyo with her camera, and when she finds an interesting event, she leaves after taking a few pictures.\nThough she is not human, she looks basically the same as one.\nThis particular outfit was tailored for her fast flying and is more resistent to the environment.‖color:end‖</entitydescription.Aya_Plus>
+	<entitydescription.Aya_Plus>‖color:255,255,255,255‖Aya Shameimaru is a crow tengu, one of the fastest among the tengu. She carries a camera and runs around Gensokyo, recording various interesting events.\nAlthough she is a crow tengu, her appearance is not much different from that of a human.\n————《Perfect Memento in Strict Sense》‖color:end‖\n(Includes Sonar)</entitydescription.Aya_Plus>
 	<afflictionname.Wind_God_Girl>Wind God Girl</afflictionname.Wind_God_Girl>
-	<afflictiondescription.Wind_God_Girl>Read the news to know more about current affairs</afflictiondescription.Wind_God_Girl>
-	<entityname.Aya_News>Aya News</entityname.Aya_News>
-	<entitydescription.Aya_News>These few pages are perfect to kill some time with, so it usually sells for a good price</entitydescription.Aya_News>
-	<entityname.Aya_Circular_Fan>Aya's Circular Fan</entityname.Aya_Circular_Fan>
-	<entitydescription.Aya_Circular_Fan>These maple-leaf-shaped fans are very popular among the Tengu.</entitydescription.Aya_Circular_Fan>
+	<afflictiondescription.Wind_God_Girl>Reading more newspapers makes you more informed about current events.</afflictiondescription.Wind_God_Girl>
+	<entityname.Aya_News>‖color:255,255,255,255‖Bunbunmaru Newspaper‖color:end‖</entityname.Aya_News>
+	<entitydescription.Aya_News>‖color:255,255,255,255‖This newspaper is perfect for passing time on a boring afternoon with a cup of tea, and thus it can be sold at a good price.‖color:end‖</entitydescription.Aya_News>
+	<entityname.Aya_Circular_Fan>Aya's Fan</entityname.Aya_Circular_Fan>
+	<entitydescription.Aya_Circular_Fan>A fan in the shape of maple leaves, very popular among crow tengu.</entitydescription.Aya_Circular_Fan>
 	<entityname.Aya_Maple_Leaves>Maple Leaves</entityname.Aya_Maple_Leaves>
-	<entitydescription.Aya_Maple_Leaves>A few maple leaves. It is said that one fan can blow away a house, two can blow down a big tree, and three can blow away a traveler's cloak. (ammo for Aya's Circular Fan)</entitydescription.Aya_Maple_Leaves>
+	<entitydescription.Aya_Maple_Leaves>The fan is a tool for creating wind. One wave can blow down a house, two waves can knock down a tree, and three waves can blow away a traveler's cloak.(Aya's Fan Ammo)</entitydescription.Aya_Maple_Leaves>
 	<!--Reimu-->
 	<entityname.Reimu_gear>‖color:255,81,75,255‖Reimu's Outfit‖color:end‖</entityname.Reimu_gear>
-	<entitydescription.Reimu_gear>‖color:255,81,75,255‖Hakurei Reimu is the maiden of Hakurei Shrine, located in Gensokyo. While mostly residing at the Hakurei Shrine, she sometimes appears in various places within Gensokyo whenever the situation calls for her.‖color:end‖</entitydescription.Reimu_gear>
+	<entitydescription.Reimu_gear>‖color:255,81,75,255‖Reimu Hakurei is the current shrine maiden of the Hakurei Shrine, located within Gensokyo.\n————《Perfect Memento in Strict Sense》.\nShe usually resides at the Hakurei Shrine but can also be found throughout Gensokyo and even outside of it when there is work or an incident.‖color:end‖\n(Includes Sonar)</entitydescription.Reimu_gear>
 	<entityname.Reimu_Plus>‖color:255,81,75,255‖Reimu's Outfit+‖color:end‖</entityname.Reimu_Plus>
-	<entitydescription.Reimu_Plus>‖color:255,81,75,255‖Hakurei Reimu is the maiden of Hakurei Shrine, located in Gensokyo. While mostly residing at the Hakurei Shrine, she sometimes appears in various places within Gensokyo whenever the situation calls for her.‖color:end‖</entitydescription.Reimu_Plus>
-	<afflictionname.RedAndWhite>Red and White makes a Hakurei</afflictionname.RedAndWhite>
-	<entityname.Reimu_Paint>‖color:255,81,75,255‖Offering Box (Reimu's Paint)‖color:end‖</entityname.Reimu_Paint>
-	<entitydescription.Reimu_Paint>A spray can of Remilia Paint for the Touhou Sprayer.\nWhen visiting the shrine, don't feel pressured to offer money, but you could bring some food for the maiden. \nShaking it slightly makes several metalic sounds... there can't possibly be coins inside... right? [Dev comment: This can is temporarily not working] ‖color:255,81,75,255‖‖color:end‖</entitydescription.Reimu_Paint>
-	<entityname.Reimu_Decalmask>‖color:255,81,75,255‖Reimu's Mask‖color:end‖</entityname.Reimu_Decalmask>
-	<entitydescription.Reimu_Decalmask>‖color:255,81,75,255‖It looks surprisingly good.‖color:end‖</entitydescription.Reimu_Decalmask>
+	<entitydescription.Reimu_Plus>‖color:255,81,75,255‖Reimu Hakurei is the current shrine maiden of the Hakurei Shrine, located within Gensokyo.\n————《Perfect Memento in Strict Sense》.\nShe usually resides at the Hakurei Shrine but can also be found throughout Gensokyo and even outside of it when there is work or an incident.‖color:end‖\n(Includes Sonar)</entitydescription.Reimu_Plus>
+	<afflictionname.RedAndWhite>Eternal Shrine Maiden</afflictionname.RedAndWhite>
+	<entityname.Reimu_Paint>‖color:255,81,75,255‖Offertory Box (Reimu Paint)‖color:end‖</entityname.Reimu_Paint>
+	<entitydescription.Reimu_Paint>A can of Reimu's decal paint, to be used with the Touhou Sprayer.\n‖color:255,81,75,255‖When visiting the shrine, you don't need to bring incense money; just bring some food or sake. Because of this, the offertory box is often empty...‖color:end‖</entitydescription.Reimu_Paint>
+	<entityname.Reimu_Decalmask>‖color:255,81,75,255‖Reimu's Decal Mask‖color:end‖</entityname.Reimu_Decalmask>
+	<entitydescription.Reimu_Decalmask>‖color:255,81,75,255‖Surprisingly, it looks pretty good on your face.‖color:end‖</entitydescription.Reimu_Decalmask>
 	<!--Nitori-->
 	<entityname.Nitori_Gear>‖color:52,94,60,255‖Nitori's Outfit‖color:end‖</entityname.Nitori_Gear>
 	<entitydescription.Nitori_Gear>‖color:52,94,60,255‖As a Kappa, she is very sensitive to business opportunities.\n Whenever Gensokyo holds a slightly large-scale festival or rally, she and other Kappas can often be seen hawking at the scene.‖color:end‖</entitydescription.Nitori_Gear>
@@ -136,7 +136,6 @@
 	<afflictionname.Memory_Of_Gensokyo>Memory Of Gensokyo</afflictionname.Memory_Of_Gensokyo>
 	<entityname.Symposium_Of_Post_Mysticism>‖color:193,204,65,255‖Symposium Of Post Mysticism (Europa Edition)‖color:end‖</entityname.Symposium_Of_Post_Mysticism>
 	<talentname.Savant>Savant</talentname.Savant>
-	<talentdescription.Savant>While wearing‖color:52,94,60,255‖Akyuu's Outfit+‖end‖: \n After completing the round, you will receive Symposium Of Post Mysticism (Europa Edition) and ‖color:gui.green‖50%‖end‖ extra experience. \n Skill Gain speed is faster, but reduces movement speed by ‖color:gui.green‖25%‖end‖ and maximum health by ‖color:gui.green‖30%‖end‖. \n Increases effectivenes of medical items by ‖color:gui.green‖25%‖end‖.</talentdescription.Savant>
 	<!--Mokou-->
 	<entityname.Mokou_gear>‖color:255,72,36,255‖Mokou's Outfit‖color:end‖</entityname.Mokou_gear>
 	<entitydescription.Mokou_gear>‖color:255,72,36,255‖Originally the daughter of a noble family, Mokou became an immortal human after drinking the Hourai's Elixir left by Houraisan Kaguya. Whenever Mokou sees Kaguya, they begin an endless slaughter with one another.‖color:end‖</entitydescription.Mokou_gear>
@@ -307,12 +306,9 @@
 	<entityname.Touhou_Elements_Book>‖color:120,75,100,255‖Magic Book of the Seven Lights‖color:end‖</entityname.Touhou_Elements_Book>
 	<entitydescription.Touhou_Elements_Book>A magic book containing records of elemental conversion and combination, able to quickly switch between elements at a moment's notice. Patchouli explained that only magicians with years of practice can use its full power. \n(Elemental Generation requires a Philosopher Stone. [Imitation works.] Elemental Generation will remove the original content.)</entitydescription.Touhou_Elements_Book>
 	<entityname.Kanameishi_Cannon>‖color:5,105,195,160‖Keystone: Cannon of Rumbling Heavens‖color:end‖</entityname.Kanameishi_Cannon>
-	<entitydescription.Kanameishi_Cannon>Whether creating an earthquake or stopping it, only the Hinanawa clan can do it. (Railgun Ammo)</entitydescription.Kanameishi_Cannon>
+	<entitydescription.Kanameishi_Cannon>Whether creating an earthquake or stopping it, only the Hinanawa clan can do it. (Flak Cannon Ammo)</entitydescription.Kanameishi_Cannon>
 	<entityname.Immortal_Moon_Smoke>‖color:255,72,36,255‖Reach for the Moon, Immortal Smoke‖color:end‖</entityname.Immortal_Moon_Smoke>
 	<entitydescription.Immortal_Moon_Smoke>Reach for the Moon, Immortal Smoke</entitydescription.Immortal_Moon_Smoke>
-	<talentdescription.Savant>While wearing ‖color:52,94,60,255‖Akyuu's Outfit+‖end‖: After completing a round, you'll receive‖color:gui.green‖ Symposium Of Post Mysticism (Europa Edition) ‖end‖and an extra ‖color:gui.green‖50%‖end‖ experience. \nSkill Gain speed is faster, but reduces movement speed by ‖color:gui.green‖25%‖end‖ and maximum health by ‖color:gui.green‖35%‖end‖ \nIncreases effectivenes of medical items by ‖color:gui.green‖25%‖end‖ \nIncreases speed of Fabricators and Constructors by ‖color:gui.green‖50%‖end‖</talentdescription.Savant>
-	<talentname.Casket_Of_Star>Ordinary Magician</talentname.Casket_Of_Star>
-	<talentdescription.Casket_Of_Star>While wearing ‖color:gui.orange‖Marisa's Outfit+‖end‖: \nRecover faster from‖color:gui.green‖ physical injuries and burns.‖end‖ \nIncrease total damage caused by ‖color:gui.green‖25%‖end‖ \nIncrease firerate by ‖color:gui.green‖20%‖end‖ \nThe first time you open a shipwreck container, there's a 15% chance of finding a‖color:gui.green‖ Magic Book.‖end‖</talentdescription.Casket_Of_Star>
 	<entityname.Touhou_Spell_Book>‖color:255,255,0,255‖Magic Book‖color:end‖</entityname.Touhou_Spell_Book>
 	<entitydescription.Touhou_Spell_Book>A book detailing all kinds of magic. Take the time to study it, and you'll gain very important knowledge.</entitydescription.Touhou_Spell_Book>
 	<entityname.Magic_Veil>‖color:120,75,100,255‖Magic Veil‖color:end‖</entityname.Magic_Veil>
@@ -365,7 +361,7 @@
 	<entityname.Baka_Horn>Baka Horn</entityname.Baka_Horn>
 	<entitydescription.Baka_Horn>Doesn't seem any different from clown horns, but the sound is rather unique.</entitydescription.Baka_Horn>
 	<entityname.Touhou_Royal_Flare>Sun Sign: Royal Flare</entityname.Touhou_Royal_Flare>
-	<entitydescription.Touhou_Royal_Flare>"Struggle all you want. In the end, not even the strongest of winters can resist the scorching sun."</entitydescription.Touhou_Royal_Flare>
+	<entitydescription.Touhou_Royal_Flare>"Struggle all you want. In the end, not even the strongest of winters can resist the scorching sun. (Pulse Laser Ammo)"</entitydescription.Touhou_Royal_Flare>
 	<entityname.Touhou_Silent_Selene_Ammo>Moon Sign: Silent Selene</entityname.Touhou_Silent_Selene_Ammo>
 	<entitydescription.Touhou_Silent_Selene_Ammo>The cold silent moonlight stares into the distance every broken night. (Coilgun Ammo)</entitydescription.Touhou_Silent_Selene_Ammo>
 	<afflictionname.Touhou_Royal_Flare_Burn>Royal Flare Burn</afflictionname.Touhou_Royal_Flare_Burn>
@@ -597,7 +593,7 @@
 	<afflictionname.Ancient_Sorrow_Terror>Ancient Sorrow and Terror</afflictionname.Ancient_Sorrow_Terror>
 	<afflictiondescription.Ancient_Sorrow_Terror>Negative emotions from within are causing your mental state to become unstable.</afflictiondescription.Ancient_Sorrow_Terror>
 	<randomnews35>Dr. Patchouli says the rocket project will proceed as planned.</randomnews35>
-	<randomnews36>Many people are still skeptical of the tengu task force, fearing it will cause panic.</randomnews36>
+	<randomnews36>Many people are still skeptical of the Tengu Task Force, fearing it will cause panic.</randomnews36>
 	<randomnews37>The chief scientist publicly apologized to Dr. Patchouli about the existence of the Philosopher's Stone.</randomnews37>
 	<randomnews38>Since the appearance of Gensokyo residents, rumors have spread that humans have a special way of achieving "evolution" on Europa.</randomnews38>
 	<randomnews39>Members of the "Painting Skin" cult have been increasingly active, frequently appearing in areas inhabited by kappa, but there are no signs of painting skin parasites.</randomnews39>
@@ -638,7 +634,7 @@
 	<afflictiondescription.Younger_Sister_Of_Scarlet>Flandre is the younger sister of Remilia Scarlet. She likes her sister Remilia but is rarely seen with her. Usually cared for by maid Sakuya Izayoi along with Remilia.</afflictiondescription.Younger_Sister_Of_Scarlet>
 	<!-- Momizi's talent may be further adjusted -->
 	<talentname.MomiziTalent>Eyes of the Mountain</talentname.MomiziTalent>
-	<talentdescription.MomiziTalent>While wearing Momizi's Outfit+, you have increased resistance to bites and stings. \nMaximum health increased by ‖color:gui.green‖30%‖end‖. \nWhen enemies are nearby, you gain alertness and increased ‖color:gui.green‖20%‖end‖ walking speed, ‖color:gui.green‖10%‖end‖ swimming speed, and ‖color:gui.green‖30%‖end‖ melee attack speed. \nAfter being attacked, physical damage resistance and ‖color:gui.green‖40%‖end‖ melee attack damage are briefly increased.</talentdescription.MomiziTalent>
+	<talentdescription.MomiziTalent>While wearing Momiji's Outfit+, you have increased resistance to bites and stings. \nMaximum health increased by ‖color:gui.green‖30%‖end‖. \nWhen enemies are nearby, you gain alertness and increased ‖color:gui.green‖20%‖end‖ walking speed, ‖color:gui.green‖10%‖end‖ swimming speed, and ‖color:gui.green‖30%‖end‖ melee attack speed. \nAfter being attacked, physical damage resistance and ‖color:gui.green‖40%‖end‖ melee attack damage are briefly increased.</talentdescription.MomiziTalent>
 	<!-- Yuka's talent may be further adjusted -->
 	<talentname.AunnTalent>Devoted Guardian Beast</talentname.AunnTalent>
 	<talentdescription.AunnTalent>While wearing Aunn's Outfit+, you have higher resistance to spiritual pressure and mental attacks. \nPhysical damage (excluding spiritual pressure) and bites inflicted by non-friendly characters (red-named creatures) increased by ‖color:gui.green‖20%‖end‖. \nDamage to friendly characters is reduced to ‖color:gui.green‖half‖end‖. \nEach time you cycle, you can choose between two states: Lion / Koma Inu. \nKoma Inu: Crew members near you gain the effect of ‖color:gui.orange‖Guardian Beast‖end‖, increasing ‖color:gui.green‖15%‖end‖ ‖color:gui.orange‖physical damage and mental illness‖end‖ resistance, and reducing damage to friendly characters by ‖color:gui.green‖10%‖end‖, recovering faster from ‖color:gui.orange‖spiritual pressure and bites‖end‖, and increasing maximum health by ‖color:gui.green‖20%‖end‖. \nLion: ‖color:gui.orange‖Physical damage‖end‖ resistance reduced by ‖color:gui.green‖10%‖end‖, ‖color:gui.orange‖attack damage, attack speed, and movement speed‖end‖ increased by ‖color:gui.green‖20%‖‖, and damage to non-friendly characters (red-named creatures) increased by ‖color:gui.green‖15%‖‖.</talentdescription.AunnTalent>
@@ -650,25 +646,25 @@
 	<talentdescription.FlandreTalent3>When you wear the Flandre Outfit+, your movement speed increases by ‖color:gui.green‖15%‖end‖, skill gain speed increases by ‖color:gui.green‖50%‖end‖, and your resistance to debuffs increases by ‖color:gui.green‖35%‖end‖ when there are living beings nearby. If a friendly crew member is close by, your medical skill increases by ‖color:gui.green‖66‖end‖ points.</talentdescription.FlandreTalent3>
 	<talentname.FlandreTalent4>Caged Bird</talentname.FlandreTalent4>
 	<talentdescription.FlandreTalent4>When you wear the Flandre's Outfit+ and press Ctrl, a magical shield that blocks all ranged attacks (including your own) from any creature will continuously generate around you. During this time, your movement speed decreases by ‖color:gui.green‖60%‖end‖, attack damage decreases by ‖color:gui.green‖140%‖end‖, and skill level decreases by ‖color:gui.green‖45%‖end‖, but your resistances return to normal levels.</talentdescription.FlandreTalent4>
-	<entityname.Youmu_Skirt>‖color:156,158,161,255‖Youmu Outfit (Gardener Skirt)‖end‖</entityname.Youmu_Skirt>
+	<entityname.Youmu_Skirt>‖color:156,158,161,255‖Youmu's Outfit (Gardener Skirt)‖end‖</entityname.Youmu_Skirt>
 	<entitydescription.Youmu_Skirt>‖color:156,158,161,255‖A gardener working at the Hakugyokuro. Half human, half ghost, half alive, half dead, half solid, half ephemeral. But she has two swords.\n————“Touhou: Subterranean Animism”‖color:end‖\n(Includes Sonar)</entitydescription.Youmu_Skirt>
-	<entityname.Youmu_Skirt_Plus>‖color:156,158,161,255‖Youmu Outfit+ (Gardener Skirt)‖end‖</entityname.Youmu_Skirt_Plus>
+	<entityname.Youmu_Skirt_Plus>‖color:156,158,161,255‖Youmu's Outfit+ (Gardener Skirt)‖end‖</entityname.Youmu_Skirt_Plus>
 	<entitydescription.Youmu_Skirt_Plus>‖color:156,158,161,255‖A gardener working at the Hakugyokuro. Half human, half ghost, half alive, half dead, half solid, half ephemeral. But she has two swords.\n————“Touhou: Subterranean Animism”‖color:end‖\n(Includes Sonar)</entitydescription.Youmu_Skirt_Plus>
-	<entityname.Yuka_gear>‖color:117,128,110,255‖Yuka Outfit‖end‖</entityname.Yuka_gear>
+	<entityname.Yuka_gear>‖color:117,128,110,255‖Yuka's Outfit‖end‖</entityname.Yuka_gear>
 	<entitydescription.Yuka_gear>‖color:117,128,110,255‖Yuka lives in the sunflower field and eliminates any humans and youkai that disturb the area. Due to her long life, she rarely leaves the flower fields.\nShe is very fond of seasonal flowers, aiming to have flowers blooming throughout the entire year in the natural surroundings she lives in.‖color:end‖\n(Includes Sonar)</entitydescription.Yuka_gear>
-	<entityname.Yuka_Plus>‖color:117,128,110,255‖Yuka Outfit+‖end‖</entityname.Yuka_Plus>
+	<entityname.Yuka_Plus>‖color:117,128,110,255‖Yuka's Outfit+‖end‖</entityname.Yuka_Plus>
 	<entitydescription.Yuka_Plus>‖color:117,128,110,255‖Yuka lives in the sunflower field and eliminates any humans and youkai that disturb the area. Due to her long life, she rarely leaves the flower fields.\nShe is very fond of seasonal flowers, aiming to have flowers blooming throughout the entire year in the natural surroundings she lives in.‖color:end‖\n(Includes Sonar)</entitydescription.Yuka_Plus>
-	<entityname.Aunn_gear>‖color:162,190,160,255‖Aunn Outfit‖end‖</entityname.Aunn_gear>
+	<entityname.Aunn_gear>‖color:162,190,160,255‖Aunn's Outfit‖end‖</entityname.Aunn_gear>
 	<entitydescription.Aunn_gear>‖color:162,190,160,255‖Aunn will find, cling to, and guard places that might gather human faith. She usually does not show herself and only attacks when hostile beings appear, but she often loses due to her lack of strength.\nShe particularly attracts frogs in the summer.‖color:end‖\n(Includes Sonar)</entitydescription.Aunn_gear>
-	<entityname.Aunn_Plus>‖color:162,190,160,255‖Aunn Outfit+‖end‖</entityname.Aunn_Plus>
+	<entityname.Aunn_Plus>‖color:162,190,160,255‖Aunn's Outfit+‖end‖</entityname.Aunn_Plus>
 	<entitydescription.Aunn_Plus>‖color:162,190,160,255‖Aunn will find, cling to, and guard places that might gather human faith. She usually does not show herself and only attacks when hostile beings appear, but she often loses due to her lack of strength.\nShe particularly attracts frogs in the summer.‖color:end‖\n(Includes Sonar)</entitydescription.Aunn_Plus>
-	<entityname.Momizi_gear>‖color:255,255,255,255‖Momizi Outfit‖end‖</entityname.Momizi_gear>
-	<entitydescription.Momizi_gear>‖color:255,255,255,255‖Momizi usually stays inside the Nine-Tailed Waterfall. Due to the rarity of intruders in Youkai Mountain, she is often idle and will play large chess with nearby kappa who are also idle.‖color:end‖\n(Includes Sonar)</entitydescription.Momizi_gear>
-	<entityname.Momizi_Plus>‖color:255,255,255,255‖Momizi Outfit+‖end‖</entityname.Momizi_Plus>
-	<entitydescription.Momizi_Plus>‖color:255,255,255,255‖Momizi usually stays inside the Nine-Tailed Waterfall. Due to the rarity of intruders in Youkai Mountain, she is often idle and will play large chess with nearby kappa who are also idle.‖color:end‖\n(Includes Sonar)</entitydescription.Momizi_Plus>
-	<entityname.Flandre_gear>‖color:255,36,0,255‖Flandre Outfit‖end‖</entityname.Flandre_gear>
+	<entityname.Momizi_gear>‖color:255,255,255,255‖Momiji's Outfit‖end‖</entityname.Momizi_gear>
+	<entitydescription.Momizi_gear>‖color:255,255,255,255‖Stays idle inside the Nine-Tailed Waterfall during the day. Since there are few intruders from the Youkai Mountain, she is usually quite idle and will often play shogi with nearby kappas.‖color:end‖\n(Includes Sonar)</entitydescription.Momizi_gear>
+	<entityname.Momizi_Plus>‖color:255,255,255,255‖Momiji's Outfit+‖end‖</entityname.Momizi_Plus>
+	<entitydescription.Momizi_Plus>‖color:255,255,255,255‖Stays idle inside the Nine-Tailed Waterfall during the day. Since there are few intruders from the Youkai Mountain, she is usually quite idle and will often play shogi with nearby kappas.‖color:end‖\n(Includes Sonar)</entitydescription.Momizi_Plus>
+	<entityname.Flandre_gear>‖color:255,36,0,255‖Flandre's Outfit‖end‖</entityname.Flandre_gear>
 	<entitydescription.Flandre_gear>‖color:255,255,255,255‖Flandre lives in the basement of the Scarlet Devil Mansion and rarely goes outside. Although the others in the mansion restrict her due to her dangerous abilities and mental issues, Flandre actually enjoys staying in the mansion.‖color:end‖\n(Includes Sonar)</entitydescription.Flandre_gear>
-	<entityname.Flandre_Plus>‖color:255,36,0,255‖Flandre Outfit+‖end‖</entityname.Flandre_Plus>
+	<entityname.Flandre_Plus>‖color:255,36,0,255‖Flandre's Outfit+‖end‖</entityname.Flandre_Plus>
 	<entitydescription.Flandre_Plus>‖color:255,255,255,255‖Flandre lives in the basement of the Scarlet Devil Mansion and rarely goes outside. Although the others in the mansion restrict her due to her dangerous abilities and mental issues, Flandre actually enjoys staying in the mansion.‖color:end‖\n(Includes Sonar)</entitydescription.Flandre_Plus>
 	<entityname.Yuka_Parasol>Flower Scent Parasol</entityname.Yuka_Parasol>
 	<entitydescription.Yuka_Parasol>A parasol emitting the scent of flowers. Its owner must really love gardening.</entitydescription.Yuka_Parasol>
@@ -702,14 +698,15 @@
 	<afflictioncauseofdeath.Reiki_Pressure>Spiritual Pressure Collapse</afflictioncauseofdeath.Reiki_Pressure>
 	<afflictioncauseofdeathself.Reiki_Pressure>You perished due to the collapse of your body caused by excessive spiritual pressure.</afflictioncauseofdeathself.Reiki_Pressure>
 	<afflictioncauseofdeath.Phoenix_Burn>Turned to Ashes</afflictioncauseofdeath.Phoenix_Burn>
-	<afflictioncauseofdeathself.Phoenix_Burn>You were burned to ashes by the continuous flames of the Phoenix.</afflictioncauseofdeathself.Phoenix_Burn>
+	<afflictioncauseofdeathself.Phoenix_Burn>You were burned to ashes by the eternal flames of the Phoenix.</afflictioncauseofdeathself.Phoenix_Burn>
 	<afflictioncauseofdeath.Touhou_Bite>Devoured</afflictioncauseofdeath.Touhou_Bite>
-	<afflictioncauseofdeathself.Touhou_Bite>You were devoured completely due to severe biting.</afflictioncauseofdeathself.Touhou_Bite>
+	<afflictioncauseofdeathself.Touhou_Bite>You were devoured completely.</afflictioncauseofdeathself.Touhou_Bite>
 	<!--1.0.7Part02-->
 	<loadingscreentip>Try Kyushu Arsenal and the T.S.M. missions!</loadingscreentip>
 	<loadingscreentip>Buying materials is usually faster than trying to craft them from zero.</loadingscreentip>
 	<loadingscreentip>Some materials are particularly expensive, but their alchemical efficiency is quite high.</loadingscreentip>
-	<talentdescription.Savant>While wearing ‖color:52,94,60,255‖Akyuu's Outfit+:‖end‖ \nAfter completing ‖color:gui.orange‖any mission‖end‖，receive ‖color:gui.orange‖Symposium of Post-mysticism - Europa Edition‖end‖. \nAfter completing ‖color:gui.orange‖any mission without casualties‖end‖，receive ‖color:gui.orange‖Perfect Memento in Strict Sense - Europa Edition‖end‖. \n‖color:gui.red‖Reading [Symposium of Post-mysticism - Europa Edition] or [Perfect Memento in Strict Sense - Europa Edition] will provide NO effects to yourself.‖end‖ \nAfter completing a round, receive an additional ‖color:gui.green‖50%‖end‖ experience. \nSkill gain speed is increased by ‖color:gui.green‖100%‖end‖ \nEffectiveness of healing effects is increased by ‖color:gui.green‖25%‖end‖ \nCrafting and Deconstructing speed is increased by ‖color:gui.green‖25%‖end‖ \nMovement speed is reduced by ‖color:gui.green‖25%‖end‖ and maximum health is reduced by ‖color:gui.green‖35%‖end‖ \nMelee damage is reduced by ‖color:gui.green‖25%‖end‖ \nRate of fire is reduced by ‖color:gui.green‖15%‖end‖ \nCombine "Symposium of Post-mysticism - Europa Edition", "Perfect Memento in Strict Sense - Europa Edition" and "Aya's News Report" into ‖color:gui.red‖"Historic Records of Gensokyo"‖end‖ at the processing table. \nReading this new book will give you all the effects.</talentdescription.Savant>
+	<talentdescription.Savant>While wearing ‖color:52,94,60,255‖Akyuu's Outfit+:‖end‖
+	 \nAfter completing ‖color:gui.orange‖any mission‖end‖，receive ‖color:gui.orange‖Symposium of Post-mysticism - Europa Edition‖end‖. \nAfter completing ‖color:gui.orange‖any mission without casualties‖end‖，receive ‖color:gui.orange‖Perfect Memento in Strict Sense - Europa Edition‖end‖. \n‖color:gui.red‖Reading [Symposium of Post-mysticism - Europa Edition] or [Perfect Memento in Strict Sense - Europa Edition] will provide NO effects to yourself.‖end‖ \nAfter completing a round, receive an additional ‖color:gui.green‖50%‖end‖ experience. \nSkill gain speed is increased by ‖color:gui.green‖100%‖end‖ \nEffectiveness of healing effects is increased by ‖color:gui.green‖25%‖end‖ \nCrafting and Deconstructing speed is increased by ‖color:gui.green‖25%‖end‖ \nMovement speed is reduced by ‖color:gui.green‖25%‖end‖ and maximum health is reduced by ‖color:gui.green‖35%‖end‖ \nMelee damage is reduced by ‖color:gui.green‖25%‖end‖ \nRate of fire is reduced by ‖color:gui.green‖15%‖end‖ \nCombine "Symposium of Post-mysticism - Europa Edition", "Perfect Memento in Strict Sense - Europa Edition" and "Aya's News Report" into ‖color:gui.red‖"Historic Records of Gensokyo"‖end‖ at the processing table. \nReading this new book will give you all the effects.</talentdescription.Savant>
 	<entityname.Symposium_Of_Post_Mysticism>‖color:193,204,65,255‖Symposium of Post-mysticism - Europa Edition‖color:end‖</entityname.Symposium_Of_Post_Mysticism>
 	<entitydescription.Symposium_Of_Post_Mysticism>Wisdom, courage and benevolence are the most important virtues. Let them be gathered here.</entitydescription.Symposium_Of_Post_Mysticism>
 	<entityname.Perfect_Memento_In_Strict_Sense>‖color:193,204,65,255‖Perfect Memento in Strict Sense - Europa Edition‖color:end‖</entityname.Perfect_Memento_In_Strict_Sense>
@@ -774,13 +771,13 @@
 	<entitydescription.Touhou_Mysterious_Pearl_Rippling_Mission>There seem to be some weird pearls out there or something. Honestly? I don't fucking know anymore.</entitydescription.Touhou_Mysterious_Pearl_Rippling_Mission>
 	<entityname.Salvage_Mysterious_Pearl_Mission_Completed>Voucher</entityname.Salvage_Mysterious_Pearl_Mission_Completed>
 	<entitydescription.Salvage_Mysterious_Pearl_Mission_Completed>Contains important data, possibly key clues for investigating anomalies.</entitydescription.Salvage_Mysterious_Pearl_Mission_Completed>
-	<entityname.Touhou_Missions_Collection_Nue_List>Akyuu's Task Log - The Mystic Ripples and Endless Night</entityname.Touhou_Missions_Collection_Nue_List>
+	<entityname.Touhou_Missions_Collection_Nue_List>Akyuu's Mission Log - The Mystic Ripples and Endless Night</entityname.Touhou_Missions_Collection_Nue_List>
 	<entitydescription.Touhou_Missions_Collection_Nue_List>Records valuable data that can help you recall past battles.</entitydescription.Touhou_Missions_Collection_Nue_List>
-	<entityname.Touhou_Missions_Collection_Green_UFO>Akyuu's Task Log - Green UFO</entityname.Touhou_Missions_Collection_Green_UFO>
-	<entityname.Touhou_Missions_Collection_Red_UFO>Akyuu's Task Log - Red UFO</entityname.Touhou_Missions_Collection_Red_UFO>
-	<entityname.Touhou_Missions_Collection_Blue_UFO>Akyuu's Task Log - Blue UFO</entityname.Touhou_Missions_Collection_Blue_UFO>
-	<entityname.Touhou_Missions_Collection_Nue>Akyuu's Task Log - Infinite Darkness</entityname.Touhou_Missions_Collection_Nue>
-	<entitydescription.Touhou_Missions_Collection_Nue>Can be synthesized with other logs at the Altar to create a master log, allowing you to undertake all currently known tasks (cannot re-challenge story difficulty).</entitydescription.Touhou_Missions_Collection_Nue>
+	<entityname.Touhou_Missions_Collection_Green_UFO>Akyuu's Mission Log - Green UFO</entityname.Touhou_Missions_Collection_Green_UFO>
+	<entityname.Touhou_Missions_Collection_Red_UFO>Akyuu's Mission Log - Red UFO</entityname.Touhou_Missions_Collection_Red_UFO>
+	<entityname.Touhou_Missions_Collection_Blue_UFO>Akyuu's Mission Log - Blue UFO</entityname.Touhou_Missions_Collection_Blue_UFO>
+	<entityname.Touhou_Missions_Collection_Nue>Akyuu's Mission Log - Infinite Darkness</entityname.Touhou_Missions_Collection_Nue>
+	<entitydescription.Touhou_Missions_Collection_Nue>Can be synthesized with other logs at the Altar to create a master log, allowing you to undertake all currently known missions (cannot re-challenge story missions).</entitydescription.Touhou_Missions_Collection_Nue>
 	<entityname.Touhou_Aya_Token>Aya's Token</entityname.Touhou_Aya_Token>
 	<entitydescription.Touhou_Aya_Token>Right-click to greatly enhance physical abilities. Effective only for Tengus.</entitydescription.Touhou_Aya_Token>
 	<afflictiondescription.Touhou_Medical_Effect_Down_Effect>You feel as if your knowledge slips away.</afflictiondescription.Touhou_Medical_Effect_Down_Effect>
@@ -891,7 +888,7 @@
 	<talentdescription.Talents_Yousei_Primary09>Skill levels are averaged two by two, and based on the average, get the corresponding bonuses of ‖color:gui.green‖8%‖end‖: ‖color:gui.yellow‖Driving level + Weapon operation‖end‖: ‖color:gui.orange‖Max HP‖end‖; ‖color:gui.yellow‖Mechanical level + Electrical engineering‖end‖: ‖color:gui.orange‖Repair speed‖end‖; ‖color:gui.yellow‖Medical level + Magical ability‖end‖: ‖color:gui.orange‖Attack damage‖end‖.</talentdescription.Talents_Yousei_Primary09>
 	<talenttree.Behind_The_Scenes>Quail living in the shadow</talenttree.Behind_The_Scenes>
 	<talentname.Touhou_Candy_Fun>Candy Fun</talentname.Touhou_Candy_Fun>
-	<talentdescription.Touhou_Candy_Fun>After completing any task at the end of the cycle, receive ‖color:gui.orange‖Fairy Candy (Yuzu Flavor)‖end‖. Using different candies in the medical interface provides various additional benefits for 150 seconds each: ‖color:gui.yellow‖Apple flavor‖end‖: ‖color:gui.orange‖Speed‖end‖‖color:gui.green‖150 points‖end‖; ‖color:gui.yellow‖Peach flavor‖end‖: ‖color:gui.orange‖Max HP‖end‖‖color:gui.green‖Increased by 15%‖end‖; ‖color:gui.yellow‖Lemon flavor‖end‖: ‖color:gui.orange‖Attack speed‖end‖‖color:gui.green‖Increased by 10%‖end‖; ‖color:gui.yellow‖Yuzu flavor‖end‖: ‖color:gui.orange‖Attack damage‖end‖‖color:gui.green‖Increased by 10%‖end‖.</talentdescription.Touhou_Candy_Fun>
+	<talentdescription.Touhou_Candy_Fun>After completing any mission, receive ‖color:gui.orange‖Fairy Candy (Yuzu Flavor)‖end‖. Using different candies in the medical interface provides various additional benefits for 150 seconds each: ‖color:gui.yellow‖Apple flavor‖end‖: ‖color:gui.orange‖Speed‖end‖‖color:gui.green‖150 points‖end‖; ‖color:gui.yellow‖Peach flavor‖end‖: ‖color:gui.orange‖Max HP‖end‖‖color:gui.green‖Increased by 15%‖end‖; ‖color:gui.yellow‖Lemon flavor‖end‖: ‖color:gui.orange‖Attack speed‖end‖‖color:gui.green‖Increased by 10%‖end‖; ‖color:gui.yellow‖Yuzu flavor‖end‖: ‖color:gui.orange‖Attack damage‖end‖‖color:gui.green‖Increased by 10%‖end‖.</talentdescription.Touhou_Candy_Fun>
 	<talentname.Touhou_Insouciance>Carefree</talentname.Touhou_Insouciance>
 	<talentdescription.Touhou_Insouciance>If there are no hostile creatures nearby, accelerate the recovery of ‖color:gui.yellow‖Physical damage, burn, and bleeding‖end‖.</talentdescription.Touhou_Insouciance>
 	<talentname.Touhou_Emergency_Avoidance>Emergency Evasion</talentname.Touhou_Emergency_Avoidance>
@@ -913,7 +910,7 @@
 	<talentname.Touhou_Magical_Assistant>Magical Assistant</talentname.Touhou_Magical_Assistant>
 	<talentdescription.Touhou_Magical_Assistant>If there is a magician on the ship, provide them with ‖color:gui.green‖25%‖end‖ ‖color:gui.orange‖skill gain speed‖end‖, and receive an additional ‖color:gui.green‖10%‖end‖ money per cycle.</talentdescription.Touhou_Magical_Assistant>
 	<talentname.Touhou_Self_Made>Self-Taught</talentname.Touhou_Self_Made>
-	<talentdescription.Touhou_Self_Made>Complete any task at the end of each cycle to receive one piece of ‖color:gui.orange‖Etherium Metal‖end‖. If no one dies, also receive an additional ‖color:gui.green‖10%‖end‖ experience.</talentdescription.Touhou_Self_Made>
+	<talentdescription.Touhou_Self_Made>Complete any mission to receive one piece of ‖color:gui.orange‖Etherium Metal‖end‖. If no one dies, also receive an additional ‖color:gui.green‖10%‖end‖ experience.</talentdescription.Touhou_Self_Made>
 	<talentname.Quiet_And_Well_Behaved>Quiet and Well-Behaved</talentname.Quiet_And_Well_Behaved>
 	<talentdescription.Quiet_And_Well_Behaved>Increases ‖color:gui.green‖15%‖end‖ repair speed and ‖color:gui.green‖10%‖end‖ ‖color:gui.orange‖maximum health‖end‖; this bonus also applies to spellcasters on the ship.</talentdescription.Quiet_And_Well_Behaved>
 	<talentname.Touhou_Vibrant>Vibrant</talentname.Touhou_Vibrant>
@@ -988,15 +985,18 @@
 	<entitydescription.Magic_Pouch_Medical_Expansion>An upgraded version of the elemental belt, sacrificing magical defense performance for more medical storage space without altering its magical properties.</entitydescription.Magic_Pouch_Medical_Expansion>
 	<entityname.Touhou_Candy_Essence>Candy Essence</entityname.Touhou_Candy_Essence>
 	<entitydescription.Touhou_Candy_Essence>When used by fairies, it grants additional talents, up to five.</entitydescription.Touhou_Candy_Essence>
-	<entityname.Touhou_Elixir_Of_Penglai>‖color:gui.red‖Hōrai Elixer‖end‖</entityname.Touhou_Elixir_Of_Penglai>
+	<entityname.Touhou_Elixir_Of_Penglai>‖color:gui.red‖Horai Elixer‖end‖</entityname.Touhou_Elixir_Of_Penglai>
 	<entitydescription.Touhou_Elixir_Of_Penglai>A miraculous medicine that can bring people back to life and instantly heal injuries. (Using it will make the player unable to control their character after revival, use with caution)</entitydescription.Touhou_Elixir_Of_Penglai>
 	<entityname.Touhou_Kappa_Welding_Tool>Kappa Welding Tool</entityname.Touhou_Kappa_Welding_Tool>
-	<entitydescription.Touhou_Kappa_Welding_Tool>An efficient repair tool that can use welding oil cans and fuel cans, or specialized ‖color:gui.orange‖Fix Foam Cans‖end‖, and can also be equipped with weapon accessories. Highly praised and on sale.</entitydescription.Touhou_Kappa_Welding_Tool>
+	<entitydescription.Touhou_Kappa_Welding_Tool>An efficient repair tool that can use welding fuel cans, or specialized ‖color:gui.orange‖Fix Foam Cans‖end‖, and can also be equipped with weapon accessories. Highly praised and on sale.</entitydescription.Touhou_Kappa_Welding_Tool>
 	<entityname.Touhou_Nuclear_Battery>“Kappa Fuel”</entityname.Touhou_Nuclear_Battery>
 	<entitydescription.Touhou_Nuclear_Battery>Can be used in Kappa welding tools. When equipped, it allows the welding tool to fire repair rays for remote hull repairs.</entitydescription.Touhou_Nuclear_Battery>
 	<entityname.Touhou_Fix_Foamg_Tank>Fix Foam Can</entityname.Touhou_Fix_Foamg_Tank>
 	<entitydescription.Touhou_Fix_Foamg_Tank>Highly compressed Fix Foam,especially used for hull repairs with Kappa welding tools. It is quite durable and speeds up repair by about 40%. \n—— “Even though tools are good, don’t forget to improve your own abilities.”</entitydescription.Touhou_Fix_Foamg_Tank>
-	<talentdescription.Casket_Of_Star>While wearing ‖color:gui.orange‖Marisa's Outfit+‖end‖, recovery from ‖color:gui.green‖physical damage and burning‖end‖ is faster and resistance is higher: \nDamage dealt increased by ‖color:gui.green‖15%‖end‖. \nAttack speed of ranged weapons increased by ‖color:gui.green‖10%‖end‖. \n15% chance to find ‖color:gui.green‖《Magic Book》‖end‖ each time you open a shipwreck container. \nWearing Marisa’s hat slightly increases resistance and attack damage.</talentdescription.Casket_Of_Star>
+	<talentdescription.Casket_Of_Star>While wearing ‖color:gui.orange‖Marisa's Outfit+‖end‖, recovery from ‖color:gui.green‖physical damage and burning‖end‖ is faster and resistance is higher:
+	\nDamage dealt increased by ‖color:gui.green‖15%‖end‖.
+	\nAttack speed of ranged weapons increased by ‖color:gui.green‖10%‖end‖.
+	\n15% chance to find ‖color:gui.green‖《Magic Book》‖end‖ each time you open a shipwreck container. \nWearing Marisa’s hat slightly increases resistance and attack damage.</talentdescription.Casket_Of_Star>
 	<entityname.Touhou_Nuclear_Energy_Capacitor_Magazine>Nuclear Energy Capacitor Magazine</entityname.Touhou_Nuclear_Energy_Capacitor_Magazine>
 	<entitydescription.Touhou_Nuclear_Energy_Capacitor_Magazine>A technological product from Kappa Heavy Industries, a crystallization of advanced nuclear fusion technology that can fire scorching lasers, easily melting obstacles in the way.</entitydescription.Touhou_Nuclear_Energy_Capacitor_Magazine>
 	<entityname.Touhou_Kappa_Multi_Functional_Tool>Kappa Multi-Tool</entityname.Touhou_Kappa_Multi_Functional_Tool>
