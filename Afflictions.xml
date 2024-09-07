@@ -83,27 +83,39 @@
   <Affliction name="Freeze" identifier="Touhou_Freeze" description="" type="burn" limbspecific="true" maxstrength="100" affectmachines="true" iconcolors="94,94,94;163,164,164;255,255,255" MedicalSkillGain="0">
     <Description textidentifier="afflictiondescription.Touhou_Freeze_Low" minstrength="0" maxstrength="50" />
     <Description textidentifier="afflictiondescription.Touhou_Freeze_High" minstrength="50" maxstrength="100" />
-    <Effect minstrength="0" maxstrength="50" multiplybymaxvitality="true" minvitalitydecrease="0" maxvitalitydecrease="0.35" minspeedmultiplier="1.0" maxspeedmultiplier="0.85" strengthchange="-0.04" />
-    <Effect minstrength="50" maxstrength="100" multiplybymaxvitality="true" minspeedmultiplier="0.85" maxspeedmultiplier="0.6" minvitalitydecrease="0.35" maxvitalitydecrease="0.9" />
+    <Effect minstrength="0" maxstrength="50" multiplybymaxvitality="true" minvitalitydecrease="0" maxvitalitydecrease="0.35" minspeedmultiplier="1.0" maxspeedmultiplier="0.85" strengthchange="-0.04">
+      <StatValue stattype="RangedAttackSpeed" minvalue="0" value="-0.1" />
+      <StatValue stattype="MeleeAttackSpeed" minvalue="0" value="-0.1" />
+    </Effect>
+    <Effect minstrength="50" maxstrength="100" multiplybymaxvitality="true" minspeedmultiplier="0.85" maxspeedmultiplier="0.65" minvitalitydecrease="0.35" maxvitalitydecrease="0.9">
+      <StatValue stattype="RangedAttackSpeed" minvalue="-0.1" value="-0.2" />
+      <StatValue stattype="MeleeAttackSpeed" minvalue="-0.1" value="-0.2" />
+    </Effect>
     <icon texture="%ModDir%/Images/Afflictions/Touhou_Freeze.png" sourcerect="0,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!--目之破坏-->
   <Affliction name="Destruction of Mu" identifier="Destruction_Of_Mu" description="" type="Destruction_Of_Mu" limbspecific="false" maxstrength="100" affectmachines="true" iconcolors="94,94,94;163,164,164;255,255,255">
     <Description textidentifier="afflictiondescription.Destruction_Of_Mu" minstrength="0" maxstrength="100" />
-    <Effect minstrength="0" maxstrength="30" multiplybymaxvitality="true" minvitalitydecrease="0" maxvitalitydecrease="0.3" strengthchange="-0.002" />
-    <Effect minstrength="30" maxstrength="60" multiplybymaxvitality="true" minvitalitydecrease="0.3" maxvitalitydecrease="0.6" strengthchange="-0.001" />
+    <Effect minstrength="0" maxstrength="30" multiplybymaxvitality="true" minvitalitydecrease="0" maxvitalitydecrease="0.3" strengthchange="-0.002">
+      <StatValue stattype="MedicalItemEffectivenessMultiplier" minvalue="0" value="-0.3" />
+      <StatValue stattype="BuffItemApplyingMultiplier" minvalue="0" value="-0.15" />
+    </Effect>
+    <Effect minstrength="30" maxstrength="60" multiplybymaxvitality="true" minvitalitydecrease="0.3" maxvitalitydecrease="0.6" strengthchange="-0.001">
+      <StatValue stattype="MedicalItemEffectivenessMultiplier" minvalue="-0.3" value="-0.6" />
+      <StatValue stattype="BuffItemApplyingMultiplier" minvalue="-0.15" value="-0.3" />
+    </Effect>
     <Effect minstrength="60" maxstrength="100" multiplybymaxvitality="true" minvitalitydecrease="0.6" maxvitalitydecrease="1.0">
-      <StatusEffect type="Always" target="Character" IsDead="true">
-        <Conditional Destruction_Of_Mu="gte 99.5" />
-      </StatusEffect>
+      <StatValue stattype="MedicalItemEffectivenessMultiplier" minvalue="-0.6" value="-0.9" />
+      <StatValue stattype="BuffItemApplyingMultiplier" minvalue="-0.3" value="-0.5" />
+      <StatValue stattype="AttackMultiplier" minvalue="0" value="-0.4" />
     </Effect>
     <icon texture="%ModDir%/Images/Afflictions/Destruction_Of_Mu.png" sourcerect="0,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!--不死鸟的灼烧-->
-  <Affliction name="" identifier="Phoenix_Burn" description="" type="Phoenix_Burn" limbspecific="true" maxstrength="600" burnoverlayalpha="0.2" healcostmultiplier="7" WeaponsSkillGain="0.02" showiconthreshold="0" iconcolors="94,94,94;163,164,164;255,255,255">
-    <Description textidentifier="afflictiondescription.Phoenix_Burn" minstrength="0" maxstrength="600" />
-    <Effect minstrength="0" maxstrength="300" multiplybymaxvitality="true" minvitalitydecrease="0" maxvitalitydecrease="0.5" strengthchange="-0.1" />
-    <Effect minstrength="300" maxstrength="600" multiplybymaxvitality="true" minvitalitydecrease="0.5" maxvitalitydecrease="0.95" strengthchange="-0.02" />
+  <Affliction name="" identifier="Phoenix_Burn" description="" type="Phoenix_Burn" limbspecific="true" maxstrength="500" burnoverlayalpha="0.2" healcostmultiplier="7" WeaponsSkillGain="0.02" showiconthreshold="0" iconcolors="94,94,94;163,164,164;255,255,255">
+    <Description textidentifier="afflictiondescription.Phoenix_Burn" minstrength="0" maxstrength="500" />
+    <Effect minstrength="0" maxstrength="250" multiplybymaxvitality="true" minvitalitydecrease="0" maxvitalitydecrease="0.5" strengthchange="-0.1" />
+    <Effect minstrength="250" maxstrength="500" multiplybymaxvitality="true" minvitalitydecrease="0.5" maxvitalitydecrease="0.95" strengthchange="-0.02" />
     <icon texture="%ModDir%/Images/Afflictions/Phoenix_Burn.png" sourcerect="0,0,128,128" color="255,255,255,255" origin="0,0" />
   </Affliction>
   <!--精油涂抹-->

@@ -18,11 +18,14 @@
     <target Tag="sonar" State="Attack" Priority="15" ReactDistance="0" AttackDistance="0" Timer="0" IgnoreContained="False" IgnoreInside="False" IgnoreOutside="False" IgnoreIfNotInSameSub="False" IgnoreIncapacitated="False" Threshold="0" ThresholdMin="-1" ThresholdMax="-1" Offset="0,0" AttackPattern="Sweep" PrioritizeSubCenter="False" SweepDistance="1500" SweepStrength="5" SweepSpeed="1" CircleStartDistance="5000" IgnoreTargetSize="False" CircleRotationSpeed="1" DynamicCircleRotationSpeed="False" CircleRandomRotationFactor="0" CircleStrikeDistanceMultiplier="5" CircleMaxRandomOffset="0" />
     <SwarmBehavior mindistfromclosest="300" maxdistfromcenter="1000" cohesion="0.5" />
   </ai>
-  <inventory Slots="Any,Any,Any" AccessibleWhenAlive="False" Commonness="0.5">
+  <inventory Slots="Any,Any,Any" AccessibleWhenAlive="False" Commonness="0.25">
     <item Identifier="Score_Point" />
   </inventory>
-  <inventory Slots="Any,Any,Any" AccessibleWhenAlive="False" Commonness="1">
+  <inventory Slots="Any,Any,Any" AccessibleWhenAlive="False" Commonness="0.74">
     <item Identifier="organicfiber" />
+  </inventory>
+  <inventory Slots="Any,Any,Any" AccessibleWhenAlive="False" Commonness="0.74">
+    <item Identifier="Touhou_Base_Metal" />
   </inventory>
   <inventory Slots="Any,Any,Any" AccessibleWhenAlive="False" Commonness="0.01">
     <item Identifier="Power_Point" />

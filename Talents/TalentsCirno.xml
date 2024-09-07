@@ -85,7 +85,7 @@
         <AbilityConditionAttackData tags="Low_Alchemical_Metal" ignorenonharmfulattacks="true" weapontype="Melee" />
       </Conditions>
       <Abilities>
-        <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="1" />
+        <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="1.5" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
@@ -95,32 +95,13 @@
         <AbilityConditionAttackData tags="Low_Alchemical_Metal" ignorenonharmfulattacks="true" weapontype="Melee" />
       </Conditions>
       <Abilities>
-        <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="1" />
+        <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="0.75" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="OnAttack">
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Ice" />
         <AbilityConditionAttackData tags="Normal_Alchemical_Metal" ignorenonharmfulattacks="true" weapontype="Melee" />
-      </Conditions>
-      <Abilities>
-        <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="2" />
-      </Abilities>
-    </AbilityGroupEffect>
-    <AbilityGroupEffect abilityeffecttype="OnAttack">
-      <Conditions>
-        <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Ice" />
-        <AbilityConditionHasAffliction afflictionidentifier="Touhou_Yousei_Alliance_Effect02" />
-        <AbilityConditionAttackData tags="Normal_Alchemical_Metal" ignorenonharmfulattacks="true" weapontype="Melee" />
-      </Conditions>
-      <Abilities>
-        <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="2" />
-      </Abilities>
-    </AbilityGroupEffect>
-    <AbilityGroupEffect abilityeffecttype="OnAttack">
-      <Conditions>
-        <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Ice" />
-        <AbilityConditionAttackData tags="High_Alchemical_Metal" ignorenonharmfulattacks="true" weapontype="Melee" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="3" />
@@ -130,10 +111,29 @@
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Ice" />
         <AbilityConditionHasAffliction afflictionidentifier="Touhou_Yousei_Alliance_Effect02" />
+        <AbilityConditionAttackData tags="Normal_Alchemical_Metal" ignorenonharmfulattacks="true" weapontype="Melee" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="1.5" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Ice" />
         <AbilityConditionAttackData tags="High_Alchemical_Metal" ignorenonharmfulattacks="true" weapontype="Melee" />
       </Conditions>
       <Abilities>
-        <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="3" />
+        <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="4.5" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttack">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Ice" />
+        <AbilityConditionHasAffliction afflictionidentifier="Touhou_Yousei_Alliance_Effect02" />
+        <AbilityConditionAttackData tags="High_Alchemical_Metal" ignorenonharmfulattacks="true" weapontype="Melee" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="2.25" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>

@@ -639,7 +639,7 @@
     \n狛犬：在你身边的船员能获得‖color:gui.orange‖守护神兽‖end‖的效果，该效果能提高‖color:gui.green‖15%‖end‖‖color:gui.orange‖物理伤害和精神病‖end‖抗性，并且对友方角色造成的伤害再下降‖color:gui.green‖10%‖end‖，更快地从‖color:gui.orange‖灵压、噬咬‖end‖中恢复,并提高‖color:gui.green‖20%‖end‖最大生命值。
     \n狮子：‖color:gui.orange‖物理伤害‖end‖抗性下降‖color:gui.green‖10%‖end‖，‖color:gui.orange‖攻击伤害、攻击速度、移动速度‖end‖增加‖color:gui.green‖20%‖end‖，对非友好角色（红名生物）造成的伤害额外增加‖color:gui.green‖15%‖end‖</talentdescription.AunnTalent>
   <talentname.FlandreTalent>吸血鬼的破坏性妹妹</talentname.FlandreTalent>
-  <talentdescription.FlandreTalent>当你身着 芙兰朵露装束+ 时，对物理伤害和烧伤的抗性非常低，同时，受到的物理伤害额外增加‖color:gui.green‖50%‖end‖，受到的烧伤额外增加‖color:gui.green‖100%‖end‖。
+  <talentdescription.FlandreTalent>当你身着 芙兰朵露装束+ 时，对物理伤害和烧伤的抗性非常低，同时，受到的物理伤害额外增加‖color:gui.green‖40%‖end‖，受到的烧伤额外增加‖color:gui.green‖70%‖end‖。
     \n生命值越低，你造成的伤害无视的护甲越高，最高‖color:gui.green‖66.6%‖end‖。
     \n修复速度下降‖color:gui.green‖20%‖end‖。
     \n更快从‖color:gui.orange‖出血‖end‖和‖color:gui.orange‖失血‖end‖中恢复。
@@ -941,7 +941,7 @@
   <talentname.Talents_Yousei_Primary07>悠哉悠哉</talentname.Talents_Yousei_Primary07>
   <talentdescription.Talents_Yousei_Primary07>巡回结束完成任意任务，获得‖color:gui.orange‖妖精糖果（柠檬味）‖end‖，解锁配方：‖color:gui.orange‖糖衣炮弹，糖果炮‖end‖</talentdescription.Talents_Yousei_Primary07>
   <talentname.Talents_Yousei_Primary08>小小异变</talentname.Talents_Yousei_Primary08>
-  <talentdescription.Talents_Yousei_Primary08>每次巡回完成任务，都会获得异变能量，异变能量能提供最多‖color:gui.green‖10%‖end‖的‖color:gui.orange‖攻击速度‖end‖和‖color:gui.orange‖攻击伤害‖end‖加成。解锁配方：‖color:gui.orange‖异变糖果‖end‖</talentdescription.Talents_Yousei_Primary08>
+  <talentdescription.Talents_Yousei_Primary08>每次巡回完成任务，都会获得异变能量，异变能量能提供最多‖color:gui.green‖10%‖end‖的‖color:gui.orange‖攻击速度‖end‖，‖color:gui.orange‖攻击伤害‖end‖和‖color:gui.green‖10%‖end‖‖color:gui.orange‖烧伤抗性‖end‖加成。解锁配方：‖color:gui.orange‖异变糖果‖end‖</talentdescription.Talents_Yousei_Primary08>
   <talentname.Talents_Yousei_Primary09>自然生长</talentname.Talents_Yousei_Primary09>
   <talentdescription.Talents_Yousei_Primary09>技能水平两两取均值，根据平均值的‖color:gui.green‖8%‖end‖获得对应加成：
     ‖color:gui.yellow‖驾驶水平+武器操作‖end‖：‖color:gui.orange‖最大生命值‖end‖；
@@ -966,11 +966,11 @@
   <talentname.Touhou_Yousei_Alliance>妖精联盟</talentname.Touhou_Yousei_Alliance>
   <talentdescription.Touhou_Yousei_Alliance>当你身穿妖精‖color:gui.orange‖装束+‖end‖时，提高‖color:gui.green‖50%‖end‖对应装束效果。</talentdescription.Touhou_Yousei_Alliance>
   <talentname.Behind_The_Mutation>异变幕后</talentname.Behind_The_Mutation>
-  <talentdescription.Behind_The_Mutation>每次击杀生物都有‖color:gui.green‖50%‖end‖概率为自己增加‖color:gui.green‖5‖end‖点异变能量，当异变能量大于‖color:gui.green‖10‖end‖时，获得额外‖color:gui.green‖50%‖end‖‖color:gui.orange‖技能获取速度‖end‖；异变能量大于‖color:gui.green‖20‖end‖时，获得‖color:gui.green‖20%‖end‖的‖color:gui.orange‖烧伤抗性‖end‖和‖color:gui.orange‖眩晕抗性‖end‖。</talentdescription.Behind_The_Mutation>
+  <talentdescription.Behind_The_Mutation>每次击杀生物都有‖color:gui.green‖50%‖end‖概率为自己增加‖color:gui.green‖2‖end‖点异变能量，当异变能量大于‖color:gui.green‖10‖end‖时，获得额外‖color:gui.green‖50%‖end‖‖color:gui.orange‖技能获取速度‖end‖；异变能量大于‖color:gui.green‖20‖end‖时，获得‖color:gui.green‖20%‖end‖的‖color:gui.orange‖烧伤抗性‖end‖和‖color:gui.orange‖眩晕抗性‖end‖。</talentdescription.Behind_The_Mutation>
   <talentname.Touhou_Cute_Prank>小小的恶作剧</talentname.Touhou_Cute_Prank>
-  <talentdescription.Touhou_Cute_Prank>每次击杀生物都有‖color:gui.green‖50%‖end‖概率为自己增加‖color:gui.green‖5‖end‖点异变能量，当异变能量大于‖color:gui.green‖30‖end‖时，增加‖color:gui.green‖15%‖end‖最大生命值，操控的炮塔的射速提高‖color:gui.green‖10%‖end‖</talentdescription.Touhou_Cute_Prank>
+  <talentdescription.Touhou_Cute_Prank>每次击杀生物都有‖color:gui.green‖50%‖end‖概率为自己增加‖color:gui.green‖2‖end‖点异变能量，当异变能量大于‖color:gui.green‖30‖end‖时，增加‖color:gui.green‖15%‖end‖最大生命值，操控的炮塔的射速提高‖color:gui.green‖10%‖end‖</talentdescription.Touhou_Cute_Prank>
   <talentname.Eastern_And_Little_Nature_Deity>妖精大战争</talentname.Eastern_And_Little_Nature_Deity>
-  <talentdescription.Eastern_And_Little_Nature_Deity>异变能量大于‖color:gui.green‖40‖end‖时，提高‖color:gui.green‖15%‖end‖的‖color:gui.orange‖攻击伤害‖end‖，减少‖color:gui.green‖10%‖end‖受到的‖color:gui.orange‖物理伤害‖end‖，给予‖color:gui.green‖15点‖end‖所有技能‖end‖加成。解锁配方：‖color:gui.orange‖冰之勇者剑‖end‖。</talentdescription.Eastern_And_Little_Nature_Deity>
+  <talentdescription.Eastern_And_Little_Nature_Deity>异变能量大于‖color:gui.green‖40‖end‖时，提高‖color:gui.green‖15%‖end‖的‖color:gui.orange‖攻击伤害‖end‖，减少‖color:gui.green‖10%‖end‖受到的‖color:gui.orange‖物理伤害‖end‖，给予‖color:gui.green‖15点‖end‖所有技能‖end‖加成。解锁配方：‖color:gui.orange‖冰之勇者剑，地狱火炬‖end‖。</talentdescription.Eastern_And_Little_Nature_Deity>
   <talenttree.Mischievous_Mischief>稚气未脱</talenttree.Mischievous_Mischief>
   <talentname.Touhou_Magical_Assistant>魔法助理</talentname.Touhou_Magical_Assistant>
   <talentdescription.Touhou_Magical_Assistant>如果船上有魔法使，则为其提供‖color:gui.green‖25%‖end‖‖color:gui.orange‖技能获取速度‖end‖，每个巡回获得额外‖color:gui.green‖10%‖end‖金钱</talentdescription.Touhou_Magical_Assistant>
@@ -1047,7 +1047,7 @@
   当你在水中时，增加‖color:gui.green‖20%‖end‖的‖color:gui.orange‖攻击速度‖end‖和‖color:gui.green‖20%‖end‖的‖color:gui.orange‖移动速度‖end‖，并持续治愈一些伤势。
   \n使用魔法近战武器时，每次攻击附带4~8点冻结，这个效果随着武器制作难度的不同会上升。</talentdescription.CirnoTalent>
   <entityname.Touhou_Frozen_Frog>冻青蛙</entityname.Touhou_Frozen_Frog>
-  <entitydescription.Touhou_Frozen_Frog>一块透着寒意的冰块，里面还封着一只青蛙</entitydescription.Touhou_Frozen_Frog>
+  <entitydescription.Touhou_Frozen_Frog>一块透着寒意的冰块，里面还封着一只青蛙。填入‖color:gui.yellow‖完美雪花‖end‖可以激活发射弹幕的能力。</entitydescription.Touhou_Frozen_Frog>
   <entityname.Touhou_Perfect_Snowflake>完美雪花</entityname.Touhou_Perfect_Snowflake>
   <entitydescription.Touhou_Perfect_Snowflake>一块完美的六边形雪花，蕴含纯粹的寒气。</entitydescription.Touhou_Perfect_Snowflake>
   <entityname.Touhou_Baka_Sword>‖color:60,90,255,255‖ 冰之勇者剑‖end‖</entityname.Touhou_Baka_Sword>
@@ -1076,6 +1076,12 @@
   <entitydescription.Touhou_Nuclear_Energy_Capacitor_Magazine>河童重工的科技产物，先进的核聚变科技结晶，可以发射灼热的激光，轻易融化挡路的阻碍。</entitydescription.Touhou_Nuclear_Energy_Capacitor_Magazine>
   <entityname.Touhou_Kappa_Multi_Functional_Tool>河童多功能工具</entityname.Touhou_Kappa_Multi_Functional_Tool>
   <entitydescription.Touhou_Kappa_Multi_Functional_Tool>经由河童多次精细改进的简易维修工具，可同时维修机械和电气设备，对于熟练手来说，修复的效率会大大提高。然而因为制作方法保密，获取途径至今还是从商贩那里购买。</entitydescription.Touhou_Kappa_Multi_Functional_Tool>
-  <entityname.Touhou_Hellfire_Torch>地狱火炬</entityname.Touhou_Hellfire_Torch>
+  <entityname.Touhou_Hellfire_Torch>‖color:255,90,40,255‖地狱火炬‖end‖</entityname.Touhou_Hellfire_Torch>
   <entitydescription.Touhou_Hellfire_Torch>重新沾染地狱火焰的火炬，其中不稳定的能量会导致持有者的精神受到影响，只有地狱的妖精才能适应这柄火炬的魔力。</entitydescription.Touhou_Hellfire_Torch>
+  <!--妖魔异化-->
+  <missionname.Touhou_OutpostDestroyMission02>妖魔异化</missionname.Touhou_OutpostDestroyMission02>
+  <missiondescription.Touhou_OutpostDestroyMission02>一群彻底妖魔化的家伙盘踞在此，为了防止这种事情再度发生，有人出资请你解决它们，杀鸡儆猴，并引爆反应堆，彻底摧毁这个不洁之地。</missiondescription.Touhou_OutpostDestroyMission02>
+  <missionheader.Touhou_OutpostDestroyMission02>净化完成</missionheader.Touhou_OutpostDestroyMission02>
+  <missionmessage.Touhou_OutpostDestroyMission02>人类变成妖怪是头等大罪，这种事情就让四季大人好好教教它吧</missionmessage.Touhou_OutpostDestroyMission02>
+  <afflictionname.Scarletdevil_Treatment_Effect>自愈</afflictionname.Scarletdevil_Treatment_Effect>
 </infotexts>

@@ -33,6 +33,20 @@
     <AbilityGroupInterval interval="0.9">
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Hell" />
+        <AbilityConditionHasAffliction afflictionidentifier="Touhou_Yousei_Alliance_Effect01" />
+        <AbilityConditionHasAffliction afflictionidentifier="psychosis" minimumPercentage="0.15" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyStat stattype="MovementSpeed" value="0.01" />
+        <CharacterAbilityModifyStat stattype="AttackMultiplier" value="0.01" />
+        <CharacterAbilityModifyStat stattype="RangedAttackSpeed" value="0.01" />
+        <CharacterAbilityModifyStat stattype="MeleeAttackSpeed" value="0.01" />
+        <CharacterAbilityModifyStat stattype="TeamAttackMultiplier" value="0.05" />
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Hell" />
         <AbilityConditionHasAffliction afflictionidentifier="psychosis" minimumPercentage="0.3" />
       </Conditions>
       <Abilities>
@@ -46,6 +60,20 @@
     <AbilityGroupInterval interval="0.9">
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Hell" />
+        <AbilityConditionHasAffliction afflictionidentifier="Touhou_Yousei_Alliance_Effect01" />
+        <AbilityConditionHasAffliction afflictionidentifier="psychosis" minimumPercentage="0.3" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyStat stattype="MovementSpeed" value="0.025" />
+        <CharacterAbilityModifyStat stattype="AttackMultiplier" value="0.025" />
+        <CharacterAbilityModifyStat stattype="RangedAttackSpeed" value="0.025" />
+        <CharacterAbilityModifyStat stattype="MeleeAttackSpeed" value="0.025" />
+        <CharacterAbilityModifyStat stattype="TeamAttackMultiplier" value="0.05" />
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Hell" />
         <AbilityConditionHasAffliction afflictionidentifier="psychosis" minimumPercentage="0.45" />
       </Conditions>
       <Abilities>
@@ -54,6 +82,20 @@
         <CharacterAbilityModifyStat stattype="RangedAttackSpeed" value="0.08" />
         <CharacterAbilityModifyStat stattype="MeleeAttackSpeed" value="0.08" />
         <CharacterAbilityModifyStat stattype="TeamAttackMultiplier" value="0.1" />
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval interval="0.9">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Hell" />
+        <AbilityConditionHasAffliction afflictionidentifier="Touhou_Yousei_Alliance_Effect01" />
+        <AbilityConditionHasAffliction afflictionidentifier="psychosis" minimumPercentage="0.45" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyStat stattype="MovementSpeed" value="0.04" />
+        <CharacterAbilityModifyStat stattype="AttackMultiplier" value="0.04" />
+        <CharacterAbilityModifyStat stattype="RangedAttackSpeed" value="0.04" />
+        <CharacterAbilityModifyStat stattype="MeleeAttackSpeed" value="0.04" />
+        <CharacterAbilityModifyStat stattype="TeamAttackMultiplier" value="0.05" />
       </Abilities>
     </AbilityGroupInterval>
     <AbilityGroupInterval interval="0.9">

@@ -78,22 +78,20 @@
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
-  <!--小小异变 每次巡回完成任务，都会获得异变能量，异变能量能提供最多10%的攻击速度和攻击伤害加成。解锁配方：异变糖果-->
+  <!--轻飘飘 增加20%的游泳速度，增加15%获取的经验值-->
   <Talent identifier="Talents_Yousei_Primary05">
     <Icon texture="%ModDir%/Images/Talents/Talents_Magician_Primary.png" sheetindex="0,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.Talents_Yousei_Primary05" />
-    <AbilityGroupEffect abilityeffecttype="OnAnyMissionCompleted">
+    <AbilityGroupEffect abilityeffecttype="None">
       <Abilities>
-        <CharacterAbilityApplyStatusEffects>
-          <StatusEffects>
-            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
-              <Affliction identifier="Touhou_Yousei_Power" amount="20" setvalue="true" />
-            </StatusEffect>
-          </StatusEffects>
-        </CharacterAbilityApplyStatusEffects>
+        <CharacterAbilityGiveStat stattype="SwimmingSpeed" value="0.2" />
       </Abilities>
     </AbilityGroupEffect>
-    <AddedRecipe itemidentifier="Touhou_Mutation_Candy" />
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="ExperienceGainMultiplier" value="0.15" />
+      </Abilities>
+    </AbilityGroupEffect>
   </Talent>
   <!--自然躲避 所在潜艇遭到攻击后，会让自己在6秒内提高15%的物理伤害抗性和10%的移动速度。-->
   <Talent identifier="Talents_Yousei_Primary06">
@@ -126,20 +124,22 @@
     <AddedRecipe itemidentifier="Touhou_Sugar_Coated_Cannonball" />
     <AddedRecipe itemidentifier="Touhou_Candy_Cannon" />
   </Talent>
-  <!--轻飘飘 增加20%的游泳速度，增加15%获取的经验值-->
+  <!--小小异变 每次巡回完成任务，都会获得异变能量，异变能量能提供最多10%的攻击速度和攻击伤害加成。解锁配方：异变糖果-->
   <Talent identifier="Talents_Yousei_Primary08">
     <Icon texture="%ModDir%/Images/Talents/Talents_Magician_Primary.png" sheetindex="0,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.Talents_Yousei_Primary08" />
-    <AbilityGroupEffect abilityeffecttype="None">
+    <AbilityGroupEffect abilityeffecttype="OnAnyMissionCompleted">
       <Abilities>
-        <CharacterAbilityGiveStat stattype="SwimmingSpeed" value="0.2" />
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+              <Affliction identifier="Touhou_Yousei_Power" amount="20" setvalue="true" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
       </Abilities>
     </AbilityGroupEffect>
-    <AbilityGroupEffect abilityeffecttype="None">
-      <Abilities>
-        <CharacterAbilityGiveStat stattype="ExperienceGainMultiplier" value="0.15" />
-      </Abilities>
-    </AbilityGroupEffect>
+    <AddedRecipe itemidentifier="Touhou_Mutation_Candy" />
   </Talent>
   <!--自然生长 技能水平两两取均值，根据平均值的8%获得对应加成：驾驶水平+武器操作：最大生命值；机械水平+电器工程：修理速度；医疗水平+魔法能力：攻击伤害-->
   <Talent identifier="Talents_Yousei_Primary09">
@@ -297,22 +297,41 @@
       </Abilities>
     </AbilityGroupInterval>
   </Talent>
-  <!--异变幕后 每次击杀生物都有50%概率为自己增加5点异变能量，当异变能量大于10时，获得额外50%技能获取速度；异变能量大于20时，获得20%的烧伤抗性和眩晕抗性。-->
+  <!--异变幕后 每次击杀生物都有50%概率为自己增加2点异变能量，当异变能量大于10时，获得额外50%技能获取速度；异变能量大于20时，获得20%的烧伤抗性和眩晕抗性。-->
   <Talent identifier="Behind_The_Mutation">
     <Icon texture="%ModDir%/Images/Talents/Talents_Magician_Primary.png" sheetindex="0,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.Behind_The_Mutation" />
-    <AbilityGroupEffect abilityeffecttype="OnKillCharacter">
+    <AbilityGroupEffect abilityeffecttype="OnRoundEnd">
+      <Abilities>
+        <CharacterAbilityResetPermanentStat statidentifier="Yousei_Kill" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Abilities>
+        <CharacterAbilityGivePermanentStat statidentifier="Yousei_Kill" value="0" setvalue="true" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupInterval Interval="1.0">
       <Conditions>
-        <AbilityConditionServerRandom randomchance="0.50" />
+        <AbilityConditionHasPermanentStat statidentifier="Yousei_Kill" min="1" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
-              <Affliction identifier="Touhou_Yousei_Power" amount="5" setvalue="true" />
+              <Affliction identifier="Touhou_Yousei_Power" amount="2" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
+        <CharacterAbilityGivePermanentStat statidentifier="Yousei_Kill" value="-1" />
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupEffect abilityeffecttype="OnKillCharacter">
+      <Conditions>
+        <AbilityConditionServerRandom randomchance="0.50" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityGivePermanentStat statidentifier="Yousei_Kill" value="1" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupInterval interval="0.9">
@@ -338,7 +357,7 @@
       </Abilities>
     </AbilityGroupInterval>
   </Talent>
-  <!--小小的恶作剧 每次击杀生物都有50%概率为自己增加5点异变能量，当异变能量大于30时，增加15%最大生命值，操控的炮塔的射速提高10%-->
+  <!--小小的恶作剧 每次击杀生物都有50%概率为自己增加2点异变能量，当异变能量大于30时，增加15%最大生命值，操控的炮塔的射速提高10%-->
   <Talent identifier="Touhou_Cute_Prank">
     <Icon texture="%ModDir%/Images/Talents/Talents_Magician_Primary.png" sheetindex="0,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.Touhou_Cute_Prank" />
@@ -347,13 +366,7 @@
         <AbilityConditionServerRandom randomchance="0.50" />
       </Conditions>
       <Abilities>
-        <CharacterAbilityApplyStatusEffects>
-          <StatusEffects>
-            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
-              <Affliction identifier="Touhou_Yousei_Power" amount="5" setvalue="true" />
-            </StatusEffect>
-          </StatusEffects>
-        </CharacterAbilityApplyStatusEffects>
+        <CharacterAbilityGivePermanentStat statidentifier="Yousei_Kill" value="1" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupInterval interval="0.9">
@@ -366,7 +379,7 @@
       </Abilities>
     </AbilityGroupInterval>
   </Talent>
-  <!--妖精大战争 异变能量大于40%时，提高10%的攻击伤害，减少10%受到的物理伤害，给予15所有技能加成。解锁配方：冰之勇者剑。-->
+  <!--妖精大战争 异变能量大于40%时，提高10%的攻击伤害，减少10%受到的物理伤害，给予15所有技能加成。解锁配方：冰之勇者剑，地狱火炬。-->
   <Talent identifier="Eastern_And_Little_Nature_Deity">
     <Icon texture="%ModDir%/Images/Talents/Talents_Magician_Primary.png" sheetindex="0,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.Eastern_And_Little_Nature_Deity" />
@@ -398,6 +411,7 @@
       </Abilities>
     </AbilityGroupEffect>
     <AddedRecipe itemidentifier="Touhou_Baka_Sword" />
+    <AddedRecipe itemidentifier="Touhou_Hellfire_Torch" />
   </Talent>
   <!--稚气未脱-->
   <!--魔法助理 如果船上有魔法使，则为其提供25%技能获取速度，每个巡回获得额外10%金钱-->

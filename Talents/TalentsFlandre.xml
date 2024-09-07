@@ -16,8 +16,8 @@
         <AbilityConditionHasAffliction afflictionidentifier="Younger_Sister_Of_Scarlet" />
       </Conditions>
       <Abilities>
-        <CharacterAbilityModifyResistance resistanceid="damage" multiplier="1.5" />
-        <CharacterAbilityModifyResistance resistanceid="burn" multiplier="2" />
+        <CharacterAbilityModifyResistance resistanceid="damage" multiplier="1.4" />
+        <CharacterAbilityModifyResistance resistanceid="burn" multiplier="1.7" />
       </Abilities>
     </AbilityGroupInterval>
     <AbilityGroupEffect abilityeffecttype="OnAttack">

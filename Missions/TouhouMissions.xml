@@ -159,7 +159,7 @@
       <Character identifier="Touhou_fortune_teller" min="4" max="4" multiplayeronly="true" />
     </Characters>
   </OutpostDestroyMission>
-  <OutpostDestroyMission name="Demonic Mutation - Lunatic" identifier="Touhou_OutpostDestroyMission02" textidentifier="Touhou_OutpostDestroyMission02" tags="abandonedoutpost" type="OutpostDestroy" reward="15000" difficulty="4" minleveldifficulty="5" commonness="100" allowretry="true" targetitem="reactor" unhideentitysubcategories="abandonedmonster">
+  <OutpostDestroyMission name="Youkai Transformation" identifier="Touhou_OutpostDestroyMission02" textidentifier="Touhou_OutpostDestroyMission02" tags="abandonedoutpost" type="OutpostDestroy" reward="15000" difficulty="4" minleveldifficulty="5" commonness="100" allowretry="true" targetitem="reactor" unhideentitysubcategories="abandonedmonster">
     <Reputation identifier="Touhou_Gensokyo" amount="5" />
     <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons03.png" sourcerect="0,0,256,256" />
     <TriggerEvent state="0" delay="5" eventidentifier="Touhou_Indestructible_Wall" campaignonly="true" />

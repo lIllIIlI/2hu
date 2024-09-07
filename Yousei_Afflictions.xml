@@ -15,7 +15,7 @@
   </Affliction>
   <!--异变能量-->
   <Affliction identifier="Touhou_Yousei_Power" type="talentbuff" isbuff="true" limbspecific="false" maxstrength="100" hideiconafterdelay="true" iconcolors="255,255,255;255,255,255;255,255,255;255,255,255">
-    <Effect minstrength="0" maxstrength="100" strengthchange="-0.02">
+    <Effect minstrength="0" maxstrength="100" resistancefor="burn" minresistance="0" maxresistance="0.1" strengthchange="-0.02">
       <StatValue stattype="RangedAttackSpeed" minvalue="0" maxvalue="0.1" />
       <StatValue stattype="MeleeAttackSpeed" minvalue="0" maxvalue="0.1" />
       <StatValue stattype="AttackMultiplier" minvalue="0" maxvalue="0.1" />
@@ -43,13 +43,13 @@
       <StatValue stattype="RangedAttackSpeed" value="0.1" />
       <StatValue stattype="MeleeAttackSpeed" value="0.1" />
     </Effect>
-    <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="2,0" sheetelementsize="128,128" origin="0,0" />
+    <Icon texture="%ModDir%/Images/Afflictions/Touhou_Candy_Fun_Effect.png" sourcerect="0,0,128,128" color="255,255,255,255" />
   </Affliction>
   <Affliction identifier="Touhou_Candy_Fun_Effect03" type="talentbuff" isbuff="true" limbspecific="false" maxstrength="1" hideiconafterdelay="true" duration="150.0" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
     <Effect minstrength="0" maxstrength="1">
       <StatValue stattype="AttackMultiplier" value="0.1" />
     </Effect>
-    <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="2,0" sheetelementsize="128,128" origin="0,0" />
+    <Icon texture="%ModDir%/Images/Afflictions/Touhou_Candy_Fun_Effect.png" sourcerect="0,0,128,128" color="255,255,255,255" />
   </Affliction>
   <Affliction identifier="Touhou_Insouciance_Effect" type="talentbuff" isbuff="true" limbspecific="false" maxstrength="1" showiconthreshold="100" showinhealthscannerthreshold="100" treatmentthreshold="1000" hideiconafterdelay="true" duration="5.0" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
     <Effect minstrength="0" maxstrength="1">
