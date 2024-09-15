@@ -84,7 +84,7 @@
 			</StatusEffect>
 			<!-- Remove the item when fully used -->
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</MeleeWeapon>
 		<Projectile characterusable="false" launchimpulse="24.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
@@ -188,7 +188,7 @@
 			</StatusEffect>
 			<!-- Remove the item when fully used -->
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</MeleeWeapon>
 		<Projectile characterusable="false" launchimpulse="24.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
@@ -292,7 +292,7 @@
 			</StatusEffect>
 			<!-- Remove the item when fully used -->
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</MeleeWeapon>
 		<Projectile characterusable="false" launchimpulse="24.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
@@ -404,7 +404,7 @@
 			</StatusEffect>
 			<!-- Remove the item when fully used -->
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -436,7 +436,7 @@
 				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</MeleeWeapon>
 	</Item>
@@ -499,7 +499,7 @@
 			</StatusEffect>
 			<!-- Remove the item when fully used -->
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</MeleeWeapon>
 		<SkillRequirementHint identifier="medical" level="40" />
@@ -571,7 +571,7 @@
 			</StatusEffect>
 			<!-- Remove the item when fully used -->
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</MeleeWeapon>
 		<Projectile characterusable="false" launchimpulse="24.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
@@ -672,7 +672,7 @@
 			</StatusEffect>
 			<!-- Remove the item when fully used -->
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</MeleeWeapon>
 		<Projectile characterusable="false" launchimpulse="24.0" sticktocharacters="true" launchrotation="-90" inheritstatuseffectsfrom="MeleeWeapon" inheritrequiredskillsfrom="MeleeWeapon" />
@@ -726,7 +726,7 @@
 				<Affliction identifier="chemwithdrawal" amount="20" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This" disabledeltatime="true">
-				<RemoveItem/>
+				<RemoveItem />
 				<SpawnItem identifier="Spiritual_Water" spawnposition="SameInventory" Condition="0.0" />
 			</StatusEffect>
 		</MeleeWeapon>
@@ -785,7 +785,7 @@
 				<Affliction identifier="chemaddiction" amount="1" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This" disabledeltatime="true">
-				<RemoveItem/>
+				<RemoveItem />
 				<SpawnItem identifier="Spiritual_Water" spawnposition="SameInventory" Condition="0.0" />
 			</StatusEffect>
 		</MeleeWeapon>
@@ -815,7 +815,7 @@
 				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</MeleeWeapon>
 	</Item>
@@ -865,7 +865,7 @@
 			<StatusEffect tags="medical" type="OnFailure" target="UseTarget" IsDead="false" />
 			<!-- Remove the item when fully used -->
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</MeleeWeapon>
 	</Item>

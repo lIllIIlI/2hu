@@ -16,11 +16,11 @@
 				<ParticleEmitter particle="ammotrailwater" copyentityangle="true" anglemin="0" anglemax="0" particleamount="10" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This" stackable="false" delay="3">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 			<StatusEffect type="OnImpact" target="This" condition="-26" />
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 			<StatusEffect type="OnImpact" target="UseTarget">
 				<ParticleEmitter particle="impactfirearm" anglemin="0" anglemax="360" particleamount="6" velocitymin="0" scalemin="0.5" scalemax="0.8" scalemultiplier="7,7" colormultiplier="255,115,95,150" lifetimemultiplier="0.5" />
@@ -53,7 +53,7 @@
 				<ParticleEmitter particle="ammotrailwater" copyentityangle="true" anglemin="0" anglemax="0" particleamount="7" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This" stackable="false" delay="3">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 			<StatusEffect type="OnImpact" target="UseTarget">
 				<ParticleEmitter particle="impactfirearm" anglemin="0" anglemax="360" particleamount="5" velocitymin="0" scalemin="0.5" scalemax="0.8" scalemultiplier="7,7" colormultiplier="255,115,95,150" lifetimemultiplier="0.5" />
@@ -68,7 +68,7 @@
 					<Affliction identifier="lacerations" strength="5" />
 					<Affliction identifier="Sleepless_Nightmare" strength="10" />
 				</Explosion>
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -119,7 +119,7 @@
 				<ParticleEmitter particle="ammotrailwater" copyentityangle="true" anglemin="0" anglemax="0" particleamount="10" velocitymin="-10" velocitymax="-100" scalemin="0.5" scalemax="1" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This" stackable="false" delay="3">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 			<StatusEffect type="OnImpact" target="UseTarget">
 				<ParticleEmitter particle="impactfirearm" anglemin="0" anglemax="360" particleamount="4" velocitymin="0" scalemin="0.5" scalemax="0.8" scalemultiplier="7,7" colormultiplier="255,115,95,150" lifetimemultiplier="0.5" />
@@ -135,7 +135,7 @@
 					<Affliction identifier="Reiki_Pressure" strength="10" />
 					<Affliction identifier="emp" strength="20" multiplybymaxvitality="true" />
 				</Explosion>
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -154,7 +154,7 @@
 				<ParticleEmitter particle="GlowDot" scalemin="2.5" scalemax="3.0" particlespersecond="160" anglemin="0" anglemax="360" colormultiplier="255,75,50,170" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This" stackable="false" delay="3">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 			<StatusEffect type="OnImpact" target="UseTarget">
 				<ParticleEmitter particle="impactfirearm" anglemin="0" anglemax="360" particleamount="4" velocitymin="0" scalemin="0.5" scalemax="0.8" scalemultiplier="7,7" colormultiplier="255,115,95,150" lifetimemultiplier="0.5" />
@@ -169,7 +169,7 @@
 					<Affliction identifier="burn" strength="15" />
 					<Affliction identifier="Sleepless_Nightmare" strength="10" />
 				</Explosion>
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -197,7 +197,7 @@
 				<Explosion range="360.0" ballastfloradamage="50" severlimbsprobability="0.5" structuredamage="20" levelwalldamage="40" itemdamage="20" force="3.0" flames="false" smoke="false" sparks="false" underwaterbubble="false">
 					<Affliction identifier="burn" strength="30" />
 				</Explosion>
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -227,7 +227,7 @@
 				</Explosion>
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This" delay="2.0" stackable="false" checkconditionalalways="true">
 				<Conditional Removed="false" />
@@ -236,7 +236,7 @@
 					<Affliction identifier="bleeding" strength="5" />
 					<sound file="Content/Items/Weapons/ExplosionLarge2.ogg" volume="1.0" selectionmode="Random" range="500" />
 				</Explosion>
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -271,7 +271,7 @@
 					<Affliction identifier="bleeding" strength="5" probability="0.1" dividebylimbcount="false" />
 					<sound file="Content/Items/Weapons/ExplosionLarge2.ogg" volume="1.0" selectionmode="Random" range="500" />
 				</Explosion>
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -295,7 +295,7 @@
 				<Explosion range="360.0" ballastfloradamage="50" severlimbsprobability="0.5" structuredamage="10" levelwalldamage="40" itemdamage="20" force="3.0" flames="false" smoke="false" sparks="false" underwaterbubble="false">
 					<Affliction identifier="Reiki_Pressure" strength="10" />
 				</Explosion>
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -315,11 +315,11 @@
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="Contained">
 				<RequiredItems items="Touhou_Mysterious_Pearl_Rippling_MonsterUsed" type="Contained" />
-				<Use/>
+				<Use />
 			</StatusEffect>
 			<RequiredItems items="Touhou_Mysterious_Pearl_Rippling_MonsterUsed" type="Contained" />
 			<StatusEffect type="OnNotContained" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</RangedWeapon>
 		<Body width="130" height="55" density="25" />
@@ -345,11 +345,11 @@
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="Contained">
 				<RequiredItems items="Touhou_Mysterious_Pearl_Rippling_MonsterUsed" type="Contained" />
-				<Use/>
+				<Use />
 			</StatusEffect>
 			<RequiredItems items="Touhou_Mysterious_Pearl_Rippling_MonsterUsed" type="Contained" />
 			<StatusEffect type="OnNotContained" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</RangedWeapon>
 		<Body width="130" height="55" density="25" />
@@ -366,7 +366,7 @@
 		<Body width="32" height="32" density="10" />
 		<Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0">
 			<StatusEffect type="OnNotContained" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Holdable>
 		<ItemContainer autofill="False" hideitems="true" capacity="1" maxstacksize="1" SpawnWithId="Touhou_Rippling_Bolt_Monster_Fortune_Teller" removecontaineditemsondeconstruct="true" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true">
@@ -426,7 +426,7 @@
 				<sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="1000" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This" delay="1.0" disabledeltatime="true">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -454,7 +454,7 @@
 				<sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="4000" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This" delay="3.0" disabledeltatime="true">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -487,7 +487,7 @@
 				<sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="4000" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This" delay="2.5" disabledeltatime="true">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -521,7 +521,7 @@
 				<sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="4000" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This" delay="2.0" disabledeltatime="true">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -530,16 +530,16 @@
 		<Sprite texture="Content/Items/Alien/AlienRuins_Items.png" depth="0.84" sourcerect="21,1367,1,1" origin="0.5,0.5" />
 		<ItemComponent>
 			<StatusEffect type="Always" target="This">
-				<Use/>
+				<Use />
 			</StatusEffect>
 			<StatusEffect type="Always" target="This">
 				<ParticleEmitter particle="gravityspherefx" particleamount="1" emitinterval="0.5" />
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="This" delay="0.5">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="This" delay="1.0">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</ItemComponent>
 		<TriggerComponent triggeredby="Creature" force="150" radius="1500" distancebasedforce="true" />
@@ -555,7 +555,7 @@
 				<Explosion range="500.0" camerashake="0" stun="0" force="0.0" flames="false" shockwave="false" sparks="true" underwaterbubble="false" />
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="This" delay="1.0">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</ElectricalDischarger>
 	</Item>
@@ -583,7 +583,7 @@
 				<sound file="Content/Items/Weapons/ExplosionDebris5.ogg" range="4000" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This" delay="3.0" disabledeltatime="true">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 			<StatusEffect type="OnActive" target="This" delay="2.5" disabledeltatime="true">
         <Remove />

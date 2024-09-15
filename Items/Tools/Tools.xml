@@ -718,7 +718,7 @@
 				<Affliction identifier="Touhou_Aya_Token_Effect" strength="100" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This" disabledeltatime="true">
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<aitarget soundrange="800" fadeouttime="5" />
@@ -949,7 +949,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="Contained">
 				<RequiredItems items="Touhou_Kappa_Welding_Tool_Ammo" type="Contained" />
-				<Use/>
+				<Use />
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="This" reload="0.2" maxchargetime="0.6" setvalue="true">
 				<RequiredItems items="Touhou_Nuclear_Battery" type="Contained" />
@@ -1132,7 +1132,7 @@
 				<ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -1164,7 +1164,7 @@
 				<ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -1196,7 +1196,7 @@
 				<ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -1228,7 +1228,7 @@
 				<ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>
@@ -1315,7 +1315,7 @@
 				<ParticleEmitter particle="spark" copyentityangle="true" anglemin="-10" anglemax="10" particleamount="5" velocitymin="-10" velocitymax="-200" scalemin="0.5" scalemax="1" />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>

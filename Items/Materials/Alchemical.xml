@@ -174,7 +174,7 @@
 		<PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab" spawnprobability="0.15" />
 		<Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0">
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Holdable>
 		<LightComponent lightcolor="7,174,0,225" range="50" powerconsumption="0" flickerspeed="0" pulsefrequency="0.25" pulseamount="1" ison="true" castshadows="false" allowingameediting="false">
@@ -237,7 +237,7 @@
 		<PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab" spawnprobability="0.15" />
 		<Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0">
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Holdable>
 		<Price baseprice="400" minavailable="1">
@@ -301,7 +301,7 @@
 		<PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab" spawnprobability="0.15" />
 		<Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0">
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Holdable>
 		<LightComponent lightcolor="70,50,2,225" range="50" powerconsumption="0" flickerspeed="0" pulsefrequency="0.25" pulseamount="1" ison="true" castshadows="false" allowingameediting="false">
@@ -364,7 +364,7 @@
 		<PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab" spawnprobability="0.15" />
 		<Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0">
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Holdable>
 		<LightComponent lightcolor="220,150,10,225" range="50" powerconsumption="0" flickerspeed="0" pulsefrequency="0.25" pulseamount="1" ison="true" castshadows="false" allowingameediting="false">
@@ -427,7 +427,7 @@
 		<PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab" spawnprobability="0.15" />
 		<Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0">
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Holdable>
 		<LightComponent lightcolor="20,20,200,225" range="50" powerconsumption="0" flickerspeed="0" pulsefrequency="0.25" pulseamount="1" ison="true" castshadows="false" allowingameediting="false">
@@ -490,7 +490,7 @@
 		<PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab" spawnprobability="0.05" />
 		<Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0">
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Holdable>
 		<LightComponent lightcolor="255,72,72,225" range="75" powerconsumption="0" flickerspeed="0" pulsefrequency="0.25" pulseamount="1" ison="true" castshadows="false" allowingameediting="false">
@@ -524,7 +524,7 @@
 		<PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab" spawnprobability="0.05" />
 		<Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0">
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Holdable>
 		<LightComponent lightcolor="10,70,120,225" range="75" powerconsumption="0" flickerspeed="0" pulsefrequency="0.25" pulseamount="1" ison="true" castshadows="false" allowingameediting="false">
@@ -560,7 +560,7 @@
 		<Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0">
 			<StatusEffect type="Always" target="This" Interval="1.0">
 				<Conditional condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<Price baseprice="2000" minleveldifficulty="15">

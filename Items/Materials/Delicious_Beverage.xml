@@ -24,7 +24,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
 				<Conditional Condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -48,7 +48,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
 				<Conditional Condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -76,7 +76,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
 				<Conditional Condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -111,7 +111,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
 				<Conditional Condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -148,7 +148,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
 				<Conditional Condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -186,7 +186,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
 				<Conditional Condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -229,7 +229,7 @@
 				<Affliction identifier="drunk" amount="1" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This" disabledeltatime="true">
-				<RemoveItem/>
+				<RemoveItem />
 				<SpawnItem identifier="Spiritual_Water" spawnposition="SameInventory" Condition="0.0" />
 			</StatusEffect>
 		</Holdable>
@@ -262,7 +262,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
 				<Conditional Condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="This,UseTarget" Condition="-100.0" multiplyafflictionsbymaxvitality="true">
 				<Sound file="Content/Items/Medical/Syringe.ogg" range="300" />
@@ -275,7 +275,7 @@
 				<Affliction identifier="haste" amount="150" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This" disabledeltatime="true">
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -306,7 +306,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
 				<Conditional Condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="This,UseTarget" Condition="-100.0" multiplyafflictionsbymaxvitality="true">
 				<Sound file="Content/Items/Medical/Syringe.ogg" range="300" />
@@ -318,7 +318,7 @@
 				<Affliction identifier="Touhou_Candy_Fun_Effect01" amount="150" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This" disabledeltatime="true">
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -349,7 +349,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
 				<Conditional Condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="This,UseTarget" Condition="-100.0" multiplyafflictionsbymaxvitality="true">
 				<Sound file="Content/Items/Medical/Syringe.ogg" range="300" />
@@ -361,7 +361,7 @@
 				<Affliction identifier="Touhou_Candy_Fun_Effect02" amount="150" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This" disabledeltatime="true">
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -393,7 +393,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
 				<Conditional Condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="This,UseTarget" Condition="-100.0" multiplyafflictionsbymaxvitality="true">
 				<Sound file="Content/Items/Medical/Syringe.ogg" range="300" />
@@ -406,7 +406,7 @@
 				<Affliction identifier="Touhou_Candy_Fun_Effect03" amount="150" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This" disabledeltatime="true">
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -458,7 +458,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnSecondaryUse" target="This,Character" disabledeltatime="true">
 				<Conditional Condition="lte 0" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="This,UseTarget" Condition="-6.25" multiplyafflictionsbymaxvitality="true">
 				<Sound file="Content/Items/Medical/Syringe.ogg" range="300" />
@@ -481,7 +481,7 @@
 				<Affliction identifier="Touhou_Candy_Fun_Effect03" amount="10" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This" disabledeltatime="true">
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />
@@ -513,7 +513,7 @@
 				<Affliction identifier="Touhou_Yousei_Power" amount="25" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This" disabledeltatime="true">
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<AiTarget sightrange="1000" static="true" />

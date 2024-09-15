@@ -150,7 +150,7 @@
 		<Body width="25" height="55" density="12" />
 		<Holdable slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect">
 			<StatusEffect type="OnBroken" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Holdable>
 		<Fabricate suitablefabricators="fabricator" requiredtime="20">
@@ -176,10 +176,10 @@
 		<Projectile characterusable="false" launchimpulse="5" damagedoors="true">
 			<StatusEffect type="OnUse" target="This" delay="0.1">
 				<Explosion range="0.0" structuredamage="0" itemdamage="0" force="0.0" severlimbsprobability="0.0" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" flash="false" camerashake="0.0" decal="Reimu_Decal" decalsize="1.0" />
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 			<StatusEffect type="OnNotContained" target="This" stackable="false" delay="1">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Projectile>
 	</Item>

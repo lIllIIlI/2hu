@@ -644,7 +644,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="Contained">
 				<RequiredItems items="Fire_Element_Book_Ammo" type="Contained" />
-				<Use/>
+				<Use />
 			</StatusEffect>
 			<StatusEffect type="Always" target="This" disabledeltatime="true" delay="1" stackable="false" drawhudwhenequipped="true">
 				<SpawnItem identifiers="Fire_Element_Book_Ammo" spawnposition="ThisInventory" />
@@ -716,7 +716,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="Contained">
 				<RequiredItems items="Water_Element_Book_Ammo" type="Contained" />
-				<Use/>
+				<Use />
 			</StatusEffect>
 			<StatusEffect type="Always" target="This" disabledeltatime="true" delay="1" stackable="false" drawhudwhenequipped="true">
 				<SpawnItem identifiers="Water_Element_Book_Ammo" spawnposition="ThisInventory" />
@@ -886,7 +886,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="Contained">
 				<RequiredItems items="Touhou_Mysterious_Pearl_Rippling" type="Contained" />
-				<Use/>
+				<Use />
 			</StatusEffect>
 			<RequiredSkill identifier="Touhou_Magic" level="70" />
 			<RequiredItems items="Touhou_Mysterious_Pearl_Rippling" type="Contained" />
@@ -962,7 +962,7 @@
 		<Sprite texture="Content/Items/Alien/AlienRuins_Items.png" depth="0.84" sourcerect="21,1367,1,1" origin="0.5,0.5" />
 		<ItemComponent>
 			<StatusEffect type="Always" target="This">
-				<Use/>
+				<Use />
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="This" delay="0.5">
 				<Remove />
@@ -1058,7 +1058,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="Contained">
 				<RequiredItems items="Touhou_Brilliant_Dragon_Bullet" type="Contained" />
-				<Use/>
+				<Use />
 			</StatusEffect>
 			<RequiredItems items="Touhou_Brilliant_Dragon_Bullet" type="Contained" msg="ItemMsgAmmoRequired" />
 			<RequiredSkill identifier="Touhou_Magic" level="60" />
@@ -1489,7 +1489,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="Contained">
 				<RequiredItems items="Touhou_Candy_Cannon_Ammo" type="Contained" />
-				<Use/>
+				<Use />
 			</StatusEffect>
 			<RequiredSkill identifier="Touhou_Magic" level="30" />
 			<RequiredItems items="Touhou_Candy_Cannon_Ammo" type="Contained" />
@@ -1543,7 +1543,7 @@
 			</StatusEffect>
 			<StatusEffect type="OnUse" target="Contained">
 				<RequiredItems items="Touhou_Candy_Cannon_Ammo" type="Contained" />
-				<Use/>
+				<Use />
 			</StatusEffect>
 			<RequiredSkill identifier="Touhou_Magic" level="30" />
 			<RequiredItems items="Touhou_Candy_Cannon_Ammo" type="Contained" />

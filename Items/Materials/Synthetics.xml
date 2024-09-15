@@ -169,7 +169,7 @@
 		<Body width="32" height="32" density="10.1" />
 		<Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,-55" handle2="0,-55">
 			<StatusEffect type="InWater" target="This">
-				<Remove/>
+				<Remove />
 			</StatusEffect>
 		</Holdable>
 	</Item>
@@ -227,7 +227,7 @@
 				<GiveSkill skillidentifier="medical" amount="2" triggertalents="false" />
 				<GiveSkill skillidentifier="weapons" amount="2" triggertalents="false" />
 				<GiveExperience amount="200" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 			<StatusEffect type="Always" target="This" condition="2.0">
 				<Conditional condition="gt 10" />
@@ -257,7 +257,7 @@
 				<Conditional Memory_Of_Gensokyo="eq 0" />
 				<GiveSkill skillidentifier="Touhou_Magic" amount="5" triggertalents="false" />
 				<GiveExperience amount="250" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 			<StatusEffect type="Always" target="This" condition="2.0">
 				<Conditional condition="gt 10" />
@@ -296,7 +296,7 @@
 				<GiveSkill skillidentifier="weapons" amount="4" triggertalents="false" />
 				<GiveSkill skillidentifier="Touhou_Magic" amount="4" triggertalents="false" />
 				<GiveExperience amount="800" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 			<StatusEffect type="Always" target="This" condition="2.0">
 				<Conditional condition="gt 10" />
@@ -329,7 +329,7 @@
 				<GiveSkill skillidentifier="weapons" amount="2" triggertalents="false" />
 				<GiveSkill skillidentifier="Touhou_Magic" amount="4" triggertalents="false" />
 				<GiveExperience amount="350" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 			<StatusEffect type="Always" target="This" condition="2.0">
 				<Conditional condition="gt 10" />
@@ -360,7 +360,7 @@
 				<Conditional Condition="lte 0" />
 				<GiveSkill skillidentifier="Touhou_Magic" amount="3" triggertalents="false" />
 				<GiveExperience amount="150" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 			<StatusEffect type="Always" target="This" condition="2.0">
 				<Conditional condition="gt 10" />
@@ -590,7 +590,7 @@
 				<Conditional speciesname="human" />
 				<TriggerEvent identifier="Touhou_Supply_Station01" />
 				<TriggerEvent identifier="Touhou_Supply_Station01_Data_Clear" />
-				<RemoveItem/>
+				<RemoveItem />
 			</StatusEffect>
 		</Holdable>
 		<aitarget soundrange="800" fadeouttime="5" />
