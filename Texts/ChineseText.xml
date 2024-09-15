@@ -111,17 +111,6 @@
   <entitydescription.Reimu_Paint>一罐灵梦的贴纸涂料，装入东方喷漆器中使用。\n‖color:255,81,75,255‖拜访神社的时候，不需要香钱，只要带些吃的或者酒就可以。正因如此，赛钱箱里经常空空如也呢……‖color:end‖</entitydescription.Reimu_Paint>
   <entityname.Reimu_Decalmask>‖color:255,81,75,255‖灵梦贴纸面具‖color:end‖</entityname.Reimu_Decalmask>
   <entitydescription.Reimu_Decalmask>‖color:255,81,75,255‖戴在脸上意外的不错呢。‖color:end‖</entitydescription.Reimu_Decalmask>
-  <!--Nitori-->
-  <!--  <entityname.Nitori_Gear>‖color:52,94,60,255‖荷取装束‖color:end‖</entityname.Nitori_Gear>
-  <entitydescription.Nitori_Gear>‖color:52,94,60,255‖作为河童，对商业机遇很敏感，每当幻想乡内举办稍具规模的节庆活动或是集会，时常能在现场看见包括她在内的河童们出摊叫卖。\n————《人妖名鉴》‖color:end‖</entitydescription.Nitori_Gear>
-  <entityname.Nitori_Plus>‖color:52,94,60,255‖荷取装束+‖color:end‖</entityname.Nitori_Plus>
-  <entitydescription.Nitori_Plus>‖color:52,94,60,255‖作为河童，对商业机遇很敏感，每当幻想乡内举办稍具规模的节庆活动或是集会，时常能在现场看见包括她在内的河童们出摊叫卖。\n————《人妖名鉴》‖color:end‖</entitydescription.Nitori_Plus>
-  <entityname.Nitori_Hat>荷取的鸭舌帽</entityname.Nitori_Hat>
-  <entitydescription.Nitori_Hat>常见的河童装饰</entitydescription.Nitori_Hat>
-  <afflictionname.Candid_Friend>超妖怪弹头</afflictionname.Candid_Friend>
-  <afflictiondescription.Candid_Friend>擅长买卖且守财如命的河童</afflictiondescription.Candid_Friend>
-  <talentname.Kappa_Pororoca>芥川龙之介的河童</talentname.Kappa_Pororoca>
-  <talentdescription.Kappa_Pororoca>当你身着‖color:52,94,60,255‖荷取装束+‖end‖时，额外获得‖color:gui.green‖150%‖end‖修理速度。</talentdescription.Kappa_Pororoca>-->
   <!--Akyuu-->
   <entityname.Akyuu_gear>‖color:193,204,65,255‖阿求装束‖color:end‖</entityname.Akyuu_gear>
   <entitydescription.Akyuu_gear>‖color:193,204,65,255‖经常会去铃奈庵借书的“第九代学者”，拥有过目不忘程度的能力。“幻想乡的记忆”。‖color:end‖\n（内置扫描仪槽位）</entitydescription.Akyuu_gear>
@@ -487,7 +476,7 @@
   <talentname.Gensokyo_Banquet>宴会</talentname.Gensokyo_Banquet>
   <talentdescription.Gensokyo_Banquet>每次巡回结束后，如果没有人死亡，则恢复所有人一部分的‖color:gui.yellow‖物理伤害、烧伤、出血、失血和死神之税‖end‖。</talentdescription.Gensokyo_Banquet>
   <talentname.Gensokyo_Hermit>飘逸</talentname.Gensokyo_Hermit>
-  <talentdescription.Gensokyo_Hermit>受到攻击时有‖color:gui.green‖10%‖end‖概率减少‖color:gui.green‖40%‖end‖的承受伤害。</talentdescription.Gensokyo_Hermit>
+  <talentdescription.Gensokyo_Hermit>受到攻击时有‖color:gui.green‖25%‖end‖概率减少‖color:gui.green‖40%‖end‖的承受伤害，这个效果有‖color:gui.green‖2‖end‖秒冷却。</talentdescription.Gensokyo_Hermit>
   <talentname.Enter_Gensokyo>超出常识</talentname.Enter_Gensokyo>
   <talentdescription.Enter_Gensokyo>获得对灵气紊乱‖color:gui.green‖40%‖end‖的抗性，修理完成的设备更加难以损坏，但制造的工具品质等级下降‖color:gui.green‖1‖end‖级。</talentdescription.Enter_Gensokyo>
   <talentname.Izakaya>居酒屋</talentname.Izakaya>
@@ -651,7 +640,9 @@
   <talentname.FlandreTalent3>鲜红血液的恶魔</talentname.FlandreTalent3>
   <talentdescription.FlandreTalent3>当你身着 芙兰朵露装束+ 时,身边存在活物时，移动速度加快‖color:gui.green‖15%‖end‖，技能获取速度加快‖color:gui.green‖50%‖end‖,对debuff的抗性提高‖color:gui.green‖35%‖end‖。如果身旁紧邻友方船员，还可增加‖color:gui.green‖66‖end‖点医疗水平.</talentdescription.FlandreTalent3>
   <talentname.FlandreTalent4>笼中鸟</talentname.FlandreTalent4>
-  <talentdescription.FlandreTalent4>当你身着 芙兰朵露装束+ 时,按下Ctrl时，会在周围持续生成可以阻挡所有生物远程弹幕（包括自己）的魔法护盾，期间自己的移动速度下降‖color:gui.green‖60%‖end‖，攻击伤害下降‖color:gui.green‖140%‖end‖，技能水平下降‖color:gui.green‖45%‖end‖，但抗性回归正常水平。</talentdescription.FlandreTalent4>
+  <talentdescription.FlandreTalent4>当你身着 芙兰朵露装束+ 时,按下Ctrl时，会在周围持续生成可以阻挡所有生物远程弹幕（包括自己）的魔法护盾，
+    期间自己的移动速度下降‖color:gui.green‖60%‖end‖，攻击伤害下降‖color:gui.green‖140%‖end‖，技能水平下降‖color:gui.green‖45%‖end‖，但抗性回归正常水平。
+    护盾持续时间‖color:gui.green‖15‖end‖秒，护盾剩余时间大于‖color:gui.green‖0‖end‖时，每秒恢复‖color:gui.green‖1‖end‖秒持续时间。否则将在时间耗尽后第‖color:gui.green‖30‖end‖秒重置时长。</talentdescription.FlandreTalent4>
   <entityname.Youmu_Skirt>‖color:156,158,161,255‖妖梦装束（庭师裙）‖end‖</entityname.Youmu_Skirt>
   <entitydescription.Youmu_Skirt>‖color:156,158,161,255‖住在白玉楼工作的庭师。半人半幽灵、一半是生一半是死、一半是实体一半是虚幻的半吊子。但是剑有两把。\n————《东方萃梦想》‖color:end‖\n（内置扫描仪槽位）</entitydescription.Youmu_Skirt>
   <entityname.Youmu_Skirt_Plus>‖color:156,158,161,255‖妖梦装束+（庭师裙）‖end‖</entityname.Youmu_Skirt_Plus>
@@ -797,10 +788,10 @@
   <entitydescription.Touhou_Eternal_Night_Bow>模仿永琳的长弓所制作的一柄武器，威力更多取决于使用的箭矢。遗憾的是，模仿终究只是模仿。</entitydescription.Touhou_Eternal_Night_Bow>
   <entityname.Touhou_Magic_Metal_Arrow>魔箭</entityname.Touhou_Magic_Metal_Arrow>
   <entitydescription.Touhou_Magic_Metal_Arrow>由魔法金属制成的、最基础的魔箭，命中后可以有效限制对象的行动。</entitydescription.Touhou_Magic_Metal_Arrow>
-  <entityname.Piece_gear>‖color:255,90,40,255‖ 皮丝装束‖end‖</entityname.Piece_gear>
+  <entityname.Piece_gear>‖color:255,90,40,255‖皮丝装束‖end‖</entityname.Piece_gear>
   <entitydescription.Piece_gear>皮丝是赫卡提亚·拉碧斯拉祖利的部下，对赫卡提亚很忠诚的同时也有自己的主见，称呼赫卡提亚为“主人”。
     在绀珠传之后，被赫卡提亚派往幻想乡居住，结识了光之三妖精桑尼米尔克、露娜切露德、斯塔萨菲雅，与她们一起恶作剧。之后还先后结识了琪露诺、爱塔妮缇拉尔瓦等妖精。</entitydescription.Piece_gear>
-  <entityname.Piece_Plus>‖color:255,90,40,255‖ 皮丝装束+‖end‖</entityname.Piece_Plus>
+  <entityname.Piece_Plus>‖color:255,90,40,255‖皮丝装束+‖end‖</entityname.Piece_Plus>
   <entitydescription.Piece_Plus>皮丝是赫卡提亚·拉碧斯拉祖利的部下，对赫卡提亚很忠诚的同时也有自己的主见，称呼赫卡提亚为“主人”。
     在绀珠传之后，被赫卡提亚派往幻想乡居住，结识了光之三妖精桑尼米尔克、露娜切露德、斯塔萨菲雅，与她们一起恶作剧。之后还先后结识了琪露诺、爱塔妮缇拉尔瓦等妖精。</entitydescription.Piece_Plus>
   <entityname.Touhou_Starbow_Break>‖color:gui.red‖禁弹「星弧破碎」‖end‖</entityname.Touhou_Starbow_Break>
@@ -871,7 +862,6 @@
   <!--妖魔异化-->
   <missionname.Touhou_OutpostDestroyMission01>妖魔异化</missionname.Touhou_OutpostDestroyMission01>
   <missiondescription.Touhou_OutpostDestroyMission01>一群妄图迈向新生命形式的无知之人，经不住诱惑，最后堕落成了半人半妖的怪物，为了幻想乡的正义和安宁，有人出资请你解决它们，并引爆反应堆，彻底摧毁这个不洁之地。</missiondescription.Touhou_OutpostDestroyMission01>
-  <missionsonarlabel.Touhou_fortune_teller>怨灵</missionsonarlabel.Touhou_fortune_teller>
   <missionheader.Touhou_OutpostDestroyMission01>净化完成</missionheader.Touhou_OutpostDestroyMission01>
   <missionmessage.Touhou_OutpostDestroyMission01>人类变成妖怪是头等大罪，这种事情就让四季大人好好教教它吧</missionmessage.Touhou_OutpostDestroyMission01>
   <!--未确认未知遗迹-->
@@ -1066,7 +1056,7 @@
   <entitydescription.Touhou_Nuclear_Battery>可用于河童工具枪，装配后，可让河童工具枪发射修复光线，进行远程船体修复。</entitydescription.Touhou_Nuclear_Battery>
   <entityname.Touhou_Fix_Foamg_Tank>固化泡沫罐</entityname.Touhou_Fix_Foamg_Tank>
   <entitydescription.Touhou_Fix_Foamg_Tank>高度压缩的固化泡沫，专用于河童工具枪的船体修复，相当耐用的同时，还能加快约40%的修复速度。\n——“外物虽好，也不要忘了锻炼自身的能力。”</entitydescription.Touhou_Fix_Foamg_Tank>
-  <talentdescription.Casket_Of_Star>当你身着‖color:gui.orange‖魔理沙装束+‖end‖时，从‖color:gui.green‖物理伤害、烧伤‖end‖中恢复得更快、抗性也更高：
+  <talentdescription.Casket_Of_Star>当你身着‖color:gui.orange‖魔理沙装束+‖end‖时，从‖color:gui.orange‖物理伤害、烧伤‖end‖中恢复得更快、抗性也更高：
     \n造成的伤害提高‖color:gui.green‖15%‖end‖。
     \n远程武器的攻击速度提高‖color:gui.green‖10%‖end‖。
     \n每次打开沉船容器时有15%概率找到‖color:gui.green‖《魔法书》‖end‖。
@@ -1084,4 +1074,37 @@
   <missionheader.Touhou_OutpostDestroyMission02>净化完成</missionheader.Touhou_OutpostDestroyMission02>
   <missionmessage.Touhou_OutpostDestroyMission02>人类变成妖怪是头等大罪，这种事情就让四季大人好好教教它吧</missionmessage.Touhou_OutpostDestroyMission02>
   <afflictionname.Scarletdevil_Treatment_Effect>自愈</afflictionname.Scarletdevil_Treatment_Effect>
+  <entityname.Touhou_Love_Maze>‖color:255,90,40,255‖恋之迷宫‖end‖</entityname.Touhou_Love_Maze>
+  <entitydescription.Touhou_Love_Maze>完全由火魔法凝聚而成的弓形武器，但发射的却是炽热的弹幕。对生命越低的敌人，造成的伤害也会越高。连续三次普通射击后，下一次将会暂时变为三连射击。</entitydescription.Touhou_Love_Maze>
+  <!--Nitori-->
+  <entityname.Nitori_Gear>‖color:52,94,60,255‖荷取装束‖color:end‖</entityname.Nitori_Gear>
+  <entitydescription.Nitori_Gear>‖color:52,94,60,255‖作为河童，对商业机遇很敏感，每当幻想乡内举办稍具规模的节庆活动或是集会，时常能在现场看见包括她在内的河童们出摊叫卖。\n————《人妖名鉴》‖color:end‖</entitydescription.Nitori_Gear>
+  <entityname.Nitori_Plus>‖color:52,94,60,255‖荷取装束+‖color:end‖</entityname.Nitori_Plus>
+  <entitydescription.Nitori_Plus>‖color:52,94,60,255‖作为河童，对商业机遇很敏感，每当幻想乡内举办稍具规模的节庆活动或是集会，时常能在现场看见包括她在内的河童们出摊叫卖。\n————《人妖名鉴》‖color:end‖</entitydescription.Nitori_Plus>
+  <entityname.Nitori_Hat>荷取的鸭舌帽</entityname.Nitori_Hat>
+  <entitydescription.Nitori_Hat>常见的河童装饰</entitydescription.Nitori_Hat>
+  <afflictionname.Candid_Friend>超妖怪弹头</afflictionname.Candid_Friend>
+  <afflictiondescription.Candid_Friend>擅长买卖且守财如命的河童</afflictiondescription.Candid_Friend>
+  <afflictionname.Nitori_Weapons>水中的工程师</afflictionname.Nitori_Weapons>
+  <afflictiondescription.Nitori_Weapons>她很怕生，有着胆小的一面，独处时如果有人类或者其他妖怪靠近就会立即逃跑。只有在同伴圈里，她才表现出开朗活泼的另一面。</afflictiondescription.Nitori_Weapons>
+  <talentname.Kappa_Pororoca>芥川龙之介的河童</talentname.Kappa_Pororoca>
+  <talentdescription.Kappa_Pororoca>当你身着‖color:52,94,60,255‖荷取装束+‖end‖时，
+      \n在水中且‖color:gui.orange‖机械工程‖end‖和‖color:gui.orange‖电气工程‖end‖均大于‖color:gui.green‖60‖end‖时，缓慢恢复部分伤势
+      \n额外获得‖color:gui.green‖70%‖end‖游泳速度
+      \n根据当前‖color:gui.orange‖机械工程‖end‖和‖color:gui.orange‖电气工程‖end‖之和的水平，提高相应‖color:gui.green‖16%‖end‖的‖color:gui.orange‖修理速度‖end‖和‖color:gui.orange‖船体修复速度‖end‖
+      \n根据当前‖color:gui.orange‖机械工程‖end‖的水平，额外提高相应‖color:gui.green‖10%‖end‖的‖color:gui.orange‖远程攻击伤害
+      \n当打开沉船容器时，有‖color:gui.green‖15%‖end‖概率找到简单零件，‖color:gui.green‖5%‖end‖概率找到精密零件
+      \n当打开信标站容器时，有‖color:gui.green‖10%‖end‖概率找到精密零件
+      \n修复的设备相当难以损坏
+      \n交易舰船时拥有‖color:gui.green‖10%‖end‖的折扣</talentdescription.Kappa_Pororoca>
+  <entityname.Touhou_Simple_Parts>简单零件</entityname.Touhou_Simple_Parts>
+  <entitydescription.Touhou_Simple_Parts>从废弃设备上回收的零件，可用于一些工具的合成。</entitydescription.Touhou_Simple_Parts>
+  <entityname.Touhou_Precision_Parts>精密零件</entityname.Touhou_Precision_Parts>
+  <entitydescription.Touhou_Precision_Parts>从无人在意的角落里回收的可用材料。</entitydescription.Touhou_Precision_Parts>
+  <afflictionname.FlandreTalent4_Effect_CD>笼中鸟-护盾剩余时长</afflictionname.FlandreTalent4_Effect_CD>
+  <!--物换星移-->
+  <missionname.Touhou_OutpostDestroyMission03>为时已晚</missionname.Touhou_OutpostDestroyMission03>
+  <missiondescription.Touhou_OutpostDestroyMission03>炼金实验室在此处丢失了一批重要材料，因此出重金委托有意愿的船长回收这些资源</missiondescription.Touhou_OutpostDestroyMission03>
+  <missionheader.Touhou_OutpostDestroyMission03>净化完成</missionheader.Touhou_OutpostDestroyMission03>
+  <missionmessage.Touhou_OutpostDestroyMission03>看来我们来晚了，资源都变成他们手里的破铜烂铁了，希望炼金实验室愿意接受这个结局吧</missionmessage.Touhou_OutpostDestroyMission03>
 </infotexts>

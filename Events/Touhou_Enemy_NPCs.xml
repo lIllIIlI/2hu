@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npcsets>
+  <npcset identifier="Touhou_ODM3_Enemy_NPC">
+    <!--Lunatic难度-->
+    <npc identifier="Touhou_ODM03_Enemy_Human_Lunatic" commonness="0" tags="Touhou_Enemy" moduleflags="banditleader,crewmodule,engineeringmodule,securitymodule" job="Magician" behavior="Patrol" healthmultiplier="2.0" healthmultiplierinmultiplayer="3.0" reactionTime="0.1" aimspeed="25" aimaccuracy="0.3" reportrange="2000" skillmultiplier="5" FindWeaponsRange="3000">
+      <ItemSet commonness="0.5">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="Illness_Recovery_Charm_Shield_Lunatic" equip="true">
+          <Item identifier="Touhou_MEID" />
+        </Item>
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="Gensokyo_Divinggear_Enemy" equip="true" />
+        <Item identifier="Touhou_Blunderbuss_Enemy" equip="true">
+          <Item identifier="Lunatic_Bullet" amount="12" />
+        </Item>
+        <Item identifier="Lunatic_Bullet" amount="30" />
+        <Item identifier="boardingaxe" />
+        <Item identifier="antibleeding2" amount="6" />
+        <Item identifier="deusizine" amount="2" />
+      </ItemSet>
+      <ItemSet commonness="0.35">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="Illness_Recovery_Charm_Shield_Lunatic" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="Gensokyo_Divinggear_Enemy" equip="true">
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="Touhou_Blunderbuss_Enemy" equip="true">
+          <Item identifier="Lunatic_Bullet" amount="12" />
+        </Item>
+        <Item identifier="Lunatic_Bullet" amount="30" />
+        <Item identifier="boardingaxe" />
+        <Item identifier="antibleeding2" amount="6" />
+        <Item identifier="deusizine" amount="2" />
+      </ItemSet>
+      <ItemSet commonness="0.15">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="Illness_Recovery_Charm_Shield_Lunatic" equip="true">
+          <Item identifier="Touhou_MEID" />
+        </Item>
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="Gensokyo_Divinggear_Enemy" equip="true">
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="handcannon" equip="true">
+          <Item identifier="handcannonround" amount="6" />
+        </Item>
+        <Item identifier="handcannonround" amount="12" />
+        <Item identifier="boardingaxe" />
+        <Item identifier="antibleeding2" amount="6" />
+        <Item identifier="deusizine" amount="2" />
+      </ItemSet>
+    </npc>
+    <!--Hard难度-->
+    <npc identifier="Touhou_ODM03_Enemy_Human_Hard" commonness="0" tags="Touhou_Enemy" moduleflags="crewmodule,engineeringmodule,securitymodule" job="Magician" behavior="Patrol" healthmultiplier="1.75" healthmultiplierinmultiplayer="2.5" reactionTime="0.1" aimspeed="20" aimaccuracy="0.3" reportrange="2000" skillmultiplier="5" FindWeaponsRange="3000">
+      <ItemSet commonness="0.5">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="Illness_Recovery_Charm_Locked01" equip="true">
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="Ether_Divinggear_Enemy" equip="true" />
+        <Item identifier="Touhou_Blunderbuss_Enemy" equip="true">
+          <Item identifier="Mind_Bullet" amount="12" />
+        </Item>
+        <Item identifier="Mind_Bullet" amount="24" />
+        <Item identifier="boardingaxe" />
+        <Item identifier="deusizine" />
+      </ItemSet>
+      <ItemSet commonness="0.35">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="Illness_Recovery_Charm_Locked02" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="Ether_Divinggear_Enemy" equip="true">
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="Touhou_Blunderbuss_Enemy" equip="true">
+          <Item identifier="Lunatic_Bullet" amount="12" />
+        </Item>
+        <Item identifier="Lunatic_Bullet" amount="12" />
+        <Item identifier="boardingaxe" />
+        <Item identifier="antibleeding2" amount="4" />
+        <Item identifier="deusizine" />
+      </ItemSet>
+      <ItemSet commonness="0.15">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="Illness_Recovery_Charm_Locked01" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="Gensokyo_Divinggear_Enemy" equip="true">
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="Touhou_Blunderbuss_Enemy" equip="true">
+          <Item identifier="Lunatic_Bullet" amount="12" />
+        </Item>
+        <Item identifier="Lunatic_Bullet" amount="24" />
+        <Item identifier="boardingaxe" />
+        <Item identifier="antibleeding2" amount="6" />
+        <Item identifier="deusizine" amount="2" />
+      </ItemSet>
+    </npc>
+    <!--Normal难度-->
+    <npc identifier="Touhou_ODM03_Enemy_Human_Normal" commonness="0" tags="Touhou_Enemy" moduleflags="crewmodule,engineeringmodule,securitymodule" job="Magician" behavior="Patrol" healthmultiplier="1.5" healthmultiplierinmultiplayer="2.0" reactionTime="0.3" aimspeed="15" aimaccuracy="0.5" reportrange="2000" skillmultiplier="5" FindWeaponsRange="3000">
+      <ItemSet commonness="0.4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="Illness_Recovery_Charm_Locked02" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="Ether_Divinggear_Enemy" equip="true" />
+        <Item identifier="Touhou_Hompson_Contender_Enemy" equip="true">
+          <Item identifier="revolverround" amount="4" />
+        </Item>
+        <Item identifier="revolverround" amount="12" />
+        <Item identifier="revolverround" amount="12" />
+        <Item identifier="boardingaxe" />
+        <Item identifier="antibleeding2" amount="2" />
+        <Item identifier="antidama1" amount="2" />
+      </ItemSet>
+      <ItemSet commonness="0.4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="Illness_Recovery_Charm_Locked02" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="pirateclothes" equip="true" />
+        <Item identifier="Ether_Divinggear_Enemy" equip="true" />
+        <Item identifier="Touhou_Magic_Automatic_Shotgun" equip="true">
+          <Item identifier="Touhou_Magic_Automatic_Shotgun_Bullet" amount="12" />
+        </Item>
+        <Item identifier="Touhou_Magic_Automatic_Shotgun_Bullet" amount="18" />
+        <Item identifier="boardingaxe" />
+        <Item identifier="antibleeding2" amount="2" />
+        <Item identifier="antidama1" amount="2" />
+      </ItemSet>
+      <ItemSet commonness="0.2">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="Illness_Recovery_Charm_Locked01" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="pirateclotheshard" equip="true" />
+        <Item identifier="Ether_Divinggear_Enemy" equip="true">
+          <Item identifier="combatstimulantsyringe" />
+        </Item>
+        <Item identifier="Touhou_Magic_Automatic_Shotgun" equip="true">
+          <Item identifier="Touhou_Magic_Automatic_Shotgun_Bullet" amount="12" />
+        </Item>
+        <Item identifier="Touhou_Magic_Automatic_Shotgun_Bullet" amount="36" />
+        <Item identifier="boardingaxe" />
+        <Item identifier="antibleeding2" amount="2" />
+        <Item identifier="deusizine" amount="2" />
+      </ItemSet>
+    </npc>
+    <!--Easy难度-->
+    <npc identifier="Touhou_ODM03_Enemy_Human_Easy" commonness="0" tags="Touhou_Enemy" moduleflags="crewmodule,engineeringmodule,securitymodule" job="Magician" behavior="Patrol" healthmultiplier="1.25" healthmultiplierinmultiplayer="1.5" reactionTime="0.4" aimspeed="10" aimaccuracy="0.6" reportrange="2000" skillmultiplier="5" FindWeaponsRange="3000">
+      <ItemSet commonness="0.4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="Illness_Recovery_Charm_Locked02" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="doctorsuniform1" equip="true" />
+        <Item identifier="Ether_Divinggear_Enemy" equip="true" />
+        <Item identifier="Fire_Element_Book" amount="2" />
+        <Item identifier="boardingaxe" />
+        <Item identifier="antibleeding2" amount="2" />
+        <Item identifier="antidama1" />
+      </ItemSet>
+      <ItemSet commonness="0.4">
+        <Item identifier="idcard" equip="true" />
+        <Item identifier="Illness_Recovery_Charm_Locked02" equip="true" />
+        <Item identifier="piratehelmet" equip="true" />
+        <Item identifier="doctorsuniform1" equip="true" />
+        <Item identifier="Ether_Divinggear_Enemy" equip="true" />
+        <Item identifier="Water_Element_Book" amount="2" />
+        <Item identifier="boardingaxe" />
+        <Item identifier="antibleeding2" amount="2" />
+        <Item identifier="antidama1" />
+      </ItemSet>
+    </npc>
+  </npcset>
+</npcsets>

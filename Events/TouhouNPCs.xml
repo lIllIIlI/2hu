@@ -5,7 +5,7 @@
             <npc identifier="Mission_Hieda_no_Akyuu"
                  moduleflags="none"
                  behavior="Passive"
-                 healthmultiplier="5.0">
+                 healthmultiplier="3.0">
                   <Character speciesname="human"
                              tags="female,head14"
                              additionaltalentpoints="0"
@@ -65,7 +65,7 @@
             <npc identifier="Store_Hieda_no_Akyuu01"
                  moduleflags="none"
                  behavior="Passive"
-                 healthmultiplier="5.0">
+                 healthmultiplier="3.0">
                   <Character speciesname="human"
                              tags="female,head14"
                              additionaltalentpoints="0"

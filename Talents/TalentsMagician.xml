@@ -151,16 +151,24 @@
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
-  <!--飘逸 受到攻击时有10%概率减少40%的承受伤害-->
+  <!--飘逸 受到攻击时有25%概率减少40%的承受伤害，这个效果有2秒冷却-->
   <Talent identifier="Gensokyo_Hermit">
     <Icon texture="%ModDir%/Images/Talents/Talents_Magician_Primary.png" sheetindex="0,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.Gensokyo_Hermit" />
     <AbilityGroupEffect abilityeffecttype="OnAttacked">
       <Conditions>
-        <AbilityConditionServerRandom randomchance="0.1" />
+        <AbilityConditionServerRandom randomchance="0.25" />
+        <AbilityConditionHasAffliction afflictionidentifier="Gensokyo_Hermit_CD" invert="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyAttackData addeddamagemultiplier="-0.4" />
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" multiplyafflictionsbymaxvitality="true">
+              <Affliction identifier="Gensokyo_Hermit_CD" amount="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
       </Abilities>
     </AbilityGroupEffect>
   </Talent>

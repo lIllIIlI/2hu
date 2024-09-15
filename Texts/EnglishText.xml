@@ -23,9 +23,9 @@
 	<itemmsgtouhoupaintrequired>Touhou paint needed.</itemmsgtouhoupaintrequired>
 	<!-- Remilia -->
 	<entityname.remiliagear>‖color:255,36,0,255‖Remilia's Outfit‖color:end‖</entityname.remiliagear>
-	<entitydescription.remiliagear>‖color:255,36,0,255‖The spilled blood has turned the dress scarlet, hence it's called "Scarlet Devil."‖color:end‖\n(Includes Sonar)</entitydescription.remiliagear>
+	<entitydescription.remiliagear>‖color:255,36,0,255‖The spilled blood has turned the dress scarlet, hence it's called "Scarlet Devil."‖color:end‖\n(Includes Scanner)</entitydescription.remiliagear>
 	<entityname.Remilia_Plus>‖color:255,36,0,255‖Remilia's Outfit+‖color:end‖</entityname.Remilia_Plus>
-	<entitydescription.Remilia_Plus>‖color:255,36,0,255‖The spilled blood has turned the dress scarlet, hence it's called "Scarlet Devil."‖color:end‖\n‖color:150,150,150,255‖Note: After wearing, be sure to check the talent menu~‖color:end‖\n(Includes Sonar)</entitydescription.Remilia_Plus>
+	<entitydescription.Remilia_Plus>‖color:255,36,0,255‖The spilled blood has turned the dress scarlet, hence it's called "Scarlet Devil."‖color:end‖\n‖color:150,150,150,255‖Note: After wearing, be sure to check the talent menu~‖color:end‖\n(Includes Scanner)</entitydescription.Remilia_Plus>
 	<entityname.bloodpackB>Premium Type-B Blood</entityname.bloodpackB>
 	<entitydescription.bloodpackB>Not much different from a regular blood pack, but it's particularly delicious for vampires.</entitydescription.bloodpackB>
 	<talentname.demonkingcradle>Night Sign "Demon King Cradle"</talentname.demonkingcradle>
@@ -82,9 +82,9 @@
 	<afflictiondescription.Ancient_Temple>There's almost nothing that can't be cut.</afflictiondescription.Ancient_Temple>
 	<!-- Marisa -->
 	<entityname.marisagear>‖color:255,255,0,255‖Marisa's Outfit‖color:end‖</entityname.marisagear>
-	<entitydescription.marisagear>‖color:255,255,0,255‖Just an Ordinary Magician‖color:end‖(Includes Sonar)</entitydescription.marisagear>
+	<entitydescription.marisagear>‖color:255,255,0,255‖Just an Ordinary Magician‖color:end‖(Includes Scanner)</entitydescription.marisagear>
 	<entityname.Marisa_Plus>‖color:255,255,0,255‖Marisa's Outfit+‖color:end‖</entityname.Marisa_Plus>
-	<entitydescription.Marisa_Plus>‖color:255,255,0,255‖Just an Ordinary Magician, though this set of clothes seem to be of higher quality‖color:end‖(Includes Sonar)</entitydescription.Marisa_Plus>
+	<entitydescription.Marisa_Plus>‖color:255,255,0,255‖Just an Ordinary Magician, though this set of clothes seem to be of higher quality‖color:end‖(Includes Scanner)</entitydescription.Marisa_Plus>
 	<entityname.marisahat>‖color:255,255,0,255‖Marisa's Hat‖color:end‖</entityname.marisahat>
 	<entitydescription.marisahat>‖color:255,255,0,255‖An ordinary magician's hat‖color:end‖</entitydescription.marisahat>
 	<afflictionname.Ordinary_Magician>Ordinary Magician</afflictionname.Ordinary_Magician>
@@ -93,9 +93,9 @@
 	<talentdescription.Casket_Of_Star>While wearing ‖color:gui.orange‖Marisa's Outfit+‖end‖: \nRecover faster from‖color:gui.green‖physical injuries and burns.‖end‖ \nThe ‖color:gui.green‖damage dealt ‖end‖is increased. \nThe‖color:gui.green‖ firerate of all guns ‖end‖is increased. </talentdescription.Casket_Of_Star>
 	<!-- Aya -->
 	<entityname.ayagear>‖color:255,255,255,255‖Aya's Outfit‖color:end‖</entityname.ayagear>
-	<entitydescription.ayagear>‖color:255,255,255,255‖Aya Shameimaru is a crow tengu, one of the fastest among the tengu. She carries a camera and runs around Gensokyo, recording various interesting events.\nAlthough she is a crow tengu, her appearance is not much different from that of a human.\n————《Perfect Memento in Strict Sense》‖color:end‖\n(Includes Sonar)</entitydescription.ayagear>
+	<entitydescription.ayagear>‖color:255,255,255,255‖Aya Shameimaru is a crow tengu, one of the fastest among the tengu. She carries a camera and runs around Gensokyo, recording various interesting events.\nAlthough she is a crow tengu, her appearance is not much different from that of a human.\n————《Perfect Memento in Strict Sense》‖color:end‖\n(Includes Scanner)</entitydescription.ayagear>
 	<entityname.Aya_Plus>‖color:255,255,255,255‖Aya's Outfit+‖color:end‖</entityname.Aya_Plus>
-	<entitydescription.Aya_Plus>‖color:255,255,255,255‖Aya Shameimaru is a crow tengu, one of the fastest among the tengu. She carries a camera and runs around Gensokyo, recording various interesting events.\nAlthough she is a crow tengu, her appearance is not much different from that of a human.\n————《Perfect Memento in Strict Sense》‖color:end‖\n(Includes Sonar)</entitydescription.Aya_Plus>
+	<entitydescription.Aya_Plus>‖color:255,255,255,255‖Aya Shameimaru is a crow tengu, one of the fastest among the tengu. She carries a camera and runs around Gensokyo, recording various interesting events.\nAlthough she is a crow tengu, her appearance is not much different from that of a human.\n————《Perfect Memento in Strict Sense》‖color:end‖\n(Includes Scanner)</entitydescription.Aya_Plus>
 	<afflictionname.Wind_God_Girl>Wind God Girl</afflictionname.Wind_God_Girl>
 	<afflictiondescription.Wind_God_Girl>Reading more newspapers makes you more informed about current events.</afflictiondescription.Wind_God_Girl>
 	<entityname.Aya_News>‖color:255,255,255,255‖Bunbunmaru Newspaper‖color:end‖</entityname.Aya_News>
@@ -106,9 +106,9 @@
 	<entitydescription.Aya_Maple_Leaves>The fan is a tool for creating wind. One wave can blow down a house, two waves can knock down a tree, and three waves can blow away a traveler's cloak.(Aya's Fan Ammo)</entitydescription.Aya_Maple_Leaves>
 	<!--Reimu-->
 	<entityname.Reimu_gear>‖color:255,81,75,255‖Reimu's Outfit‖color:end‖</entityname.Reimu_gear>
-	<entitydescription.Reimu_gear>‖color:255,81,75,255‖Reimu Hakurei is the current shrine maiden of the Hakurei Shrine, located within Gensokyo.\n————《Perfect Memento in Strict Sense》.\nShe usually resides at the Hakurei Shrine but can also be found throughout Gensokyo and even outside of it when there is work or an incident.‖color:end‖\n(Includes Sonar)</entitydescription.Reimu_gear>
+	<entitydescription.Reimu_gear>‖color:255,81,75,255‖Reimu Hakurei is the current shrine maiden of the Hakurei Shrine, located within Gensokyo.\n————《Perfect Memento in Strict Sense》.\nShe usually resides at the Hakurei Shrine but can also be found throughout Gensokyo and even outside of it when there is work or an incident.‖color:end‖\n(Includes Scanner)</entitydescription.Reimu_gear>
 	<entityname.Reimu_Plus>‖color:255,81,75,255‖Reimu's Outfit+‖color:end‖</entityname.Reimu_Plus>
-	<entitydescription.Reimu_Plus>‖color:255,81,75,255‖Reimu Hakurei is the current shrine maiden of the Hakurei Shrine, located within Gensokyo.\n————《Perfect Memento in Strict Sense》.\nShe usually resides at the Hakurei Shrine but can also be found throughout Gensokyo and even outside of it when there is work or an incident.‖color:end‖\n(Includes Sonar)</entitydescription.Reimu_Plus>
+	<entitydescription.Reimu_Plus>‖color:255,81,75,255‖Reimu Hakurei is the current shrine maiden of the Hakurei Shrine, located within Gensokyo.\n————《Perfect Memento in Strict Sense》.\nShe usually resides at the Hakurei Shrine but can also be found throughout Gensokyo and even outside of it when there is work or an incident.‖color:end‖\n(Includes Scanner)</entitydescription.Reimu_Plus>
 	<afflictionname.RedAndWhite>Eternal Shrine Maiden</afflictionname.RedAndWhite>
 	<entityname.Reimu_Paint>‖color:255,81,75,255‖Offertory Box (Reimu Paint)‖color:end‖</entityname.Reimu_Paint>
 	<entitydescription.Reimu_Paint>A can of Reimu's decal paint, to be used with the Touhou Sprayer.\n‖color:255,81,75,255‖When visiting the shrine, you don't need to bring incense money; just bring some food or sake. Because of this, the offertory box is often empty...‖color:end‖</entitydescription.Reimu_Paint>
@@ -146,9 +146,9 @@
 	<entityname.Sunnu_Scary_Mask>Sunnu's Scary Mask</entityname.Sunnu_Scary_Mask>
 	<entitydescription.Sunnu_Scary_Mask>Although it's supposed to be a test of courage, it seems that no one has been scared.</entitydescription.Sunnu_Scary_Mask>
 	<!--Other-->
-	<entityname.gensokyo_divinggear>Gensokyo Diving gear</entityname.gensokyo_divinggear>
+	<entityname.gensokyo_divinggear>Gensokyo Diving Gear</entityname.gensokyo_divinggear>
 	<entitydescription.gensokyo_divinggear>A magical aura that protects the human body</entitydescription.gensokyo_divinggear>
-	<entityname.Ether_Divinggear>Wakasagihime Diving gear</entityname.Ether_Divinggear>
+	<entityname.Ether_Divinggear>Wakasagihime Diving Gear</entityname.Ether_Divinggear>
 	<entitydescription.Ether_Divinggear>This diving suit, produced with Patchouli's magic, is based on the idea of mythical beings called mermaids, half-human half-fish individuals that seem to be immune to the pressure of the depths of the ocean.\n While not perfect yet, it's capable of protect the user from water pressure up to 7000 meters.\nThis should go without saying, but after scientists witnessed the ease with which their best diving suits were replicated without Patchouli putting any effort into it, declaring they were left speechless would be underselling it. </entitydescription.Ether_Divinggear>
 	<entityname.Power_Point>Power-up (Red)</entityname.Power_Point>
 	<entitydescription.Power_Point>With these items, replication of the strongest gear is made possible.</entitydescription.Power_Point>
@@ -170,6 +170,8 @@
 	<entitydescription.Remilia_Doll>It can carry Remilia Paint. When held, it can slowly heal injuries.\n When held, right-clicking can double the effect.</entitydescription.Remilia_Doll>
 	<entityname.Maoyu_Duffel_Bag>Kedama Duffel Bag</entityname.Maoyu_Duffel_Bag>
 	<entitydescription.Maoyu_Duffel_Bag>The soft shell left behind after the Kedama's spirit departs.\n Eliminating Kedamas is difficult, as their spirits keep wandering in the form of duffel bags. Patchouli claimed to be "working" in a solution, but she just sleeps through the days.</entitydescription.Maoyu_Duffel_Bag>
+	<entityname.Touhou_Duffel_Bag_Box>Duffelbag Crate</entityname.Touhou_Duffel_Bag_Box>
+	<entitydescription.Touhou_Duffel_Bag_Box>Can store duffelbags. 63 stack size.</entitydescription.Touhou_Duffel_Bag_Box>
 	<!--Medical-->
 	<entityname.Plant_Essential_Oil>Plant Essential Oil</entityname.Plant_Essential_Oil>
 	<entitydescription.Plant_Essential_Oil>This essential oil extracted from plants can be used as Alchemy material and medicine to treat some common injuries.\nIt is said that the recipe came from a place called House of Eternity.</entitydescription.Plant_Essential_Oil>
@@ -478,7 +480,7 @@
 	<talentname.Gensokyo_Banquet>Banquet</talentname.Gensokyo_Banquet>
 	<talentdescription.Gensokyo_Banquet>After every round, if no crewmates died, everyone's ‖color:gui.yellow‖physical damage, burns, blood loss and Reaper's Tax‖end‖ is mildly cured.</talentdescription.Gensokyo_Banquet>
 	<talentname.Gensokyo_Hermit>Elegant</talentname.Gensokyo_Hermit>
-	<talentdescription.Gensokyo_Hermit>When attacked, there is a ‖color:gui.green‖10%‖end‖ chance of reducing ‖color:gui.green‖40%‖end‖ of the damage of the attack.</talentdescription.Gensokyo_Hermit>
+	<talentdescription.Gensokyo_Hermit>When attacked, there is a ‖color:gui.green‖25%‖end‖ chance of reducing ‖color:gui.green‖40%‖end‖ of the damage of the attack.</talentdescription.Gensokyo_Hermit>
 	<talentname.Enter_Gensokyo>Down to Earth</talentname.Enter_Gensokyo>
 	<talentdescription.Enter_Gensokyo>Resistance to Magic Destruction increases by ‖color:gui.green‖40%‖end‖. Repaired equipment becomes more durable, but the quality of your crafting decreases by ‖color:gui.green‖1‖end‖ level.</talentdescription.Enter_Gensokyo>
 	<talentname.Izakaya>Bartender</talentname.Izakaya>
@@ -642,27 +644,29 @@
 	<talentname.FlandreTalent3>Scarlet Blood Demon</talentname.FlandreTalent3>
 	<talentdescription.FlandreTalent3>When you wear the Flandre Outfit+, your movement speed increases by ‖color:gui.green‖15%‖end‖, skill gain speed increases by ‖color:gui.green‖50%‖end‖, and your resistance to debuffs increases by ‖color:gui.green‖35%‖end‖ when there are living beings nearby. If a friendly crew member is close by, your medical skill increases by ‖color:gui.green‖66‖end‖ points.</talentdescription.FlandreTalent3>
 	<talentname.FlandreTalent4>Caged Bird</talentname.FlandreTalent4>
-	<talentdescription.FlandreTalent4>When you wear the Flandre's Outfit+ and press Ctrl, a magical shield that blocks all ranged attacks (including your own) from any creature will continuously generate around you. During this time, your movement speed decreases by ‖color:gui.green‖60%‖end‖, attack damage decreases by ‖color:gui.green‖140%‖end‖, and skill level decreases by ‖color:gui.green‖45%‖end‖, but your resistances return to normal levels.</talentdescription.FlandreTalent4>
+	<talentdescription.FlandreTalent4>While wearing Flandre's Outfit+ and pressing Ctrl, a magical shield will continuously generate around you, blocking all ranged barrages (including your own) from all creatures.
+	During this time, your movement speed is reduced by ‖color:gui.green‖60%‖end‖, attack damage is reduced by ‖color:gui.green‖140%‖end‖, and skill level is reduced by ‖color:gui.green‖45%‖end‖, but resistance returns to normal levels.
+	The shield lasts for ‖color:gui.green‖15‖end‖ seconds. If the remaining shield time is greater than ‖color:gui.green‖0‖end‖, it restores ‖color:gui.green‖1‖end‖ second of duration per second. Otherwise, the duration will reset after ‖color:gui.green‖30‖end‖ seconds once time runs out.</talentdescription.FlandreTalent4>
 	<entityname.Youmu_Skirt>‖color:156,158,161,255‖Youmu's Outfit (Gardener Skirt)‖end‖</entityname.Youmu_Skirt>
-	<entitydescription.Youmu_Skirt>‖color:156,158,161,255‖A gardener working at the Hakugyokuro. Half human, half ghost, half alive, half dead, half solid, half ephemeral. But she has two swords.\n————“Touhou: Subterranean Animism”‖color:end‖\n(Includes Sonar)</entitydescription.Youmu_Skirt>
+	<entitydescription.Youmu_Skirt>‖color:156,158,161,255‖A gardener working at the Hakugyokuro. Half human, half ghost, half alive, half dead, half solid, half ephemeral. But she has two swords.\n————“Touhou: Subterranean Animism”‖color:end‖\n(Includes Scanner)</entitydescription.Youmu_Skirt>
 	<entityname.Youmu_Skirt_Plus>‖color:156,158,161,255‖Youmu's Outfit+ (Gardener Skirt)‖end‖</entityname.Youmu_Skirt_Plus>
-	<entitydescription.Youmu_Skirt_Plus>‖color:156,158,161,255‖A gardener working at the Hakugyokuro. Half human, half ghost, half alive, half dead, half solid, half ephemeral. But she has two swords.\n————“Touhou: Subterranean Animism”‖color:end‖\n(Includes Sonar)</entitydescription.Youmu_Skirt_Plus>
+	<entitydescription.Youmu_Skirt_Plus>‖color:156,158,161,255‖A gardener working at the Hakugyokuro. Half human, half ghost, half alive, half dead, half solid, half ephemeral. But she has two swords.\n————“Touhou: Subterranean Animism”‖color:end‖\n(Includes Scanner)</entitydescription.Youmu_Skirt_Plus>
 	<entityname.Yuka_gear>‖color:117,128,110,255‖Yuka's Outfit‖end‖</entityname.Yuka_gear>
-	<entitydescription.Yuka_gear>‖color:117,128,110,255‖Yuka lives in the sunflower field and eliminates any humans and youkai that disturb the area. Due to her long life, she rarely leaves the flower fields.\nShe is very fond of seasonal flowers, aiming to have flowers blooming throughout the entire year in the natural surroundings she lives in.‖color:end‖\n(Includes Sonar)</entitydescription.Yuka_gear>
+	<entitydescription.Yuka_gear>‖color:117,128,110,255‖Yuka lives in the sunflower field and eliminates any humans and youkai that disturb the area. Due to her long life, she rarely leaves the flower fields.\nShe is very fond of seasonal flowers, aiming to have flowers blooming throughout the entire year in the natural surroundings she lives in.‖color:end‖\n(Includes Scanner)</entitydescription.Yuka_gear>
 	<entityname.Yuka_Plus>‖color:117,128,110,255‖Yuka's Outfit+‖end‖</entityname.Yuka_Plus>
-	<entitydescription.Yuka_Plus>‖color:117,128,110,255‖Yuka lives in the sunflower field and eliminates any humans and youkai that disturb the area. Due to her long life, she rarely leaves the flower fields.\nShe is very fond of seasonal flowers, aiming to have flowers blooming throughout the entire year in the natural surroundings she lives in.‖color:end‖\n(Includes Sonar)</entitydescription.Yuka_Plus>
+	<entitydescription.Yuka_Plus>‖color:117,128,110,255‖Yuka lives in the sunflower field and eliminates any humans and youkai that disturb the area. Due to her long life, she rarely leaves the flower fields.\nShe is very fond of seasonal flowers, aiming to have flowers blooming throughout the entire year in the natural surroundings she lives in.‖color:end‖\n(Includes Scanner)</entitydescription.Yuka_Plus>
 	<entityname.Aunn_gear>‖color:162,190,160,255‖Aunn's Outfit‖end‖</entityname.Aunn_gear>
-	<entitydescription.Aunn_gear>‖color:162,190,160,255‖Aunn will find, cling to, and guard places that might gather human faith. She usually does not show herself and only attacks when hostile beings appear, but she often loses due to her lack of strength.\nShe particularly attracts frogs in the summer.‖color:end‖\n(Includes Sonar)</entitydescription.Aunn_gear>
+	<entitydescription.Aunn_gear>‖color:162,190,160,255‖Aunn will find, cling to, and guard places that might gather human faith. She usually does not show herself and only attacks when hostile beings appear, but she often loses due to her lack of strength.\nShe particularly attracts frogs in the summer.‖color:end‖\n(Includes Scanner)</entitydescription.Aunn_gear>
 	<entityname.Aunn_Plus>‖color:162,190,160,255‖Aunn's Outfit+‖end‖</entityname.Aunn_Plus>
-	<entitydescription.Aunn_Plus>‖color:162,190,160,255‖Aunn will find, cling to, and guard places that might gather human faith. She usually does not show herself and only attacks when hostile beings appear, but she often loses due to her lack of strength.\nShe particularly attracts frogs in the summer.‖color:end‖\n(Includes Sonar)</entitydescription.Aunn_Plus>
+	<entitydescription.Aunn_Plus>‖color:162,190,160,255‖Aunn will find, cling to, and guard places that might gather human faith. She usually does not show herself and only attacks when hostile beings appear, but she often loses due to her lack of strength.\nShe particularly attracts frogs in the summer.‖color:end‖\n(Includes Scanner)</entitydescription.Aunn_Plus>
 	<entityname.Momizi_gear>‖color:255,255,255,255‖Momiji's Outfit‖end‖</entityname.Momizi_gear>
-	<entitydescription.Momizi_gear>‖color:255,255,255,255‖Stays idle inside the Nine-Tailed Waterfall during the day. Since there are few intruders from the Youkai Mountain, she is usually quite idle and will often play shogi with nearby kappas.‖color:end‖\n(Includes Sonar)</entitydescription.Momizi_gear>
+	<entitydescription.Momizi_gear>‖color:255,255,255,255‖Stays idle inside the Nine-Tailed Waterfall during the day. Since there are few intruders from the Youkai Mountain, she is usually quite idle and will often play shogi with nearby kappas.‖color:end‖\n(Includes Scanner)</entitydescription.Momizi_gear>
 	<entityname.Momizi_Plus>‖color:255,255,255,255‖Momiji's Outfit+‖end‖</entityname.Momizi_Plus>
-	<entitydescription.Momizi_Plus>‖color:255,255,255,255‖Stays idle inside the Nine-Tailed Waterfall during the day. Since there are few intruders from the Youkai Mountain, she is usually quite idle and will often play shogi with nearby kappas.‖color:end‖\n(Includes Sonar)</entitydescription.Momizi_Plus>
+	<entitydescription.Momizi_Plus>‖color:255,255,255,255‖Stays idle inside the Nine-Tailed Waterfall during the day. Since there are few intruders from the Youkai Mountain, she is usually quite idle and will often play shogi with nearby kappas.‖color:end‖\n(Includes Scanner)</entitydescription.Momizi_Plus>
 	<entityname.Flandre_gear>‖color:255,36,0,255‖Flandre's Outfit‖end‖</entityname.Flandre_gear>
-	<entitydescription.Flandre_gear>‖color:255,255,255,255‖Flandre lives in the basement of the Scarlet Devil Mansion and rarely goes outside. Although the others in the mansion restrict her due to her dangerous abilities and mental issues, Flandre actually enjoys staying in the mansion.‖color:end‖\n(Includes Sonar)</entitydescription.Flandre_gear>
+	<entitydescription.Flandre_gear>‖color:255,255,255,255‖Flandre lives in the basement of the Scarlet Devil Mansion and rarely goes outside. Although the others in the mansion restrict her due to her dangerous abilities and mental issues, Flandre actually enjoys staying in the mansion.‖color:end‖\n(Includes Scanner)</entitydescription.Flandre_gear>
 	<entityname.Flandre_Plus>‖color:255,36,0,255‖Flandre's Outfit+‖end‖</entityname.Flandre_Plus>
-	<entitydescription.Flandre_Plus>‖color:255,255,255,255‖Flandre lives in the basement of the Scarlet Devil Mansion and rarely goes outside. Although the others in the mansion restrict her due to her dangerous abilities and mental issues, Flandre actually enjoys staying in the mansion.‖color:end‖\n(Includes Sonar)</entitydescription.Flandre_Plus>
+	<entitydescription.Flandre_Plus>‖color:255,255,255,255‖Flandre lives in the basement of the Scarlet Devil Mansion and rarely goes outside. Although the others in the mansion restrict her due to her dangerous abilities and mental issues, Flandre actually enjoys staying in the mansion.‖color:end‖\n(Includes Scanner)</entitydescription.Flandre_Plus>
 	<entityname.Yuka_Parasol>Flower Scent Parasol</entityname.Yuka_Parasol>
 	<entitydescription.Yuka_Parasol>A parasol emitting the scent of flowers. Its owner must really love gardening.</entitydescription.Yuka_Parasol>
 	<entityname.Flandre_Doll>Flandre Doll</entityname.Flandre_Doll>
@@ -1002,4 +1006,48 @@
 	<missionheader.Touhou_OutpostDestroyMission02>Purification Complete</missionheader.Touhou_OutpostDestroyMission02>
 	<missionmessage.Touhou_OutpostDestroyMission02>Humans turning into youkai is a grave sin. Let Lady Shiki properly educate them.</missionmessage.Touhou_OutpostDestroyMission02>
 	<afflictionname.Scarletdevil_Treatment_Effect>Self-Healing</afflictionname.Scarletdevil_Treatment_Effect>
+	<entityname.Touhou_Love_Maze>‖color:255,90,40,255‖Labyrinth of Love‖end‖</entityname.Touhou_Love_Maze>
+	<entitydescription.Touhou_Love_Maze>A bow-shaped weapon fully formed from fire magic, but it shoots scorching barrages. The lower the enemy's health, the higher the damage dealt. After three consecutive normal shots, the next shot temporarily becomes a triple shot.</entitydescription.Touhou_Love_Maze>
+
+	<!--Nitori-->
+	<entityname.Nitori_Gear>‖color:52,94,60,255‖Nitori's Outfit‖color:end‖</entityname.Nitori_Gear>
+	<entitydescription.Nitori_Gear>‖color:52,94,60,255‖As a kappa, she is highly sensitive to business opportunities. Every time a major festival or gathering is held in Gensokyo, kappa, including herself, are often seen setting up stalls to sell their goods.\n————《Bestiary》‖color:end‖</entitydescription.Nitori_Gear>
+
+	<entityname.Nitori_Plus>‖color:52,94,60,255‖Nitori's Outfit+‖color:end‖</entityname.Nitori_Plus>
+	<entitydescription.Nitori_Plus>‖color:52,94,60,255‖As a kappa, she is highly sensitive to business opportunities. Every time a major festival or gathering is held in Gensokyo, kappa, including herself, are often seen setting up stalls to sell their goods.\n————《Bestiary》‖color:end‖</entitydescription.Nitori_Plus>
+
+	<entityname.Nitori_Hat>Nitori's Cap</entityname.Nitori_Hat>
+	<entitydescription.Nitori_Hat>A common kappa accessory.</entitydescription.Nitori_Hat>
+
+	<afflictionname.Candid_Friend>Super Youkai Warhead</afflictionname.Candid_Friend>
+	<afflictiondescription.Candid_Friend>A kappa who excels in business and is obsessed with hoarding wealth.</afflictiondescription.Candid_Friend>
+
+	<afflictionname.Nitori_Weapons>Engineer of the Water</afflictionname.Nitori_Weapons>
+	<afflictiondescription.Nitori_Weapons>She is quite shy and has a timid side. When alone, she will immediately flee if a human or other youkai approaches. However, among her companions, she shows a bright and lively side.</afflictiondescription.Nitori_Weapons>
+
+	<talentname.Kappa_Pororoca>Akutagawa Ryūnosuke's Kappa</talentname.Kappa_Pororoca>
+	<talentdescription.Kappa_Pororoca>When you are wearing the ‖color:52,94,60,255‖Nitori Outfit+‖end‖,
+		\nWhile in water and with ‖color:gui.orange‖Mechanical Engineering‖end‖ and ‖color:gui.orange‖Electrical Engineering‖end‖ both above ‖color:gui.green‖60‖end‖, you slowly recover some health.
+		\nYou gain an additional ‖color:gui.green‖70%‖end‖ swimming speed.
+		\nBased on the combined levels of ‖color:gui.orange‖Mechanical Engineering‖end‖ and ‖color:gui.orange‖Electrical Engineering‖end‖, repair speed and hull repair speed increase by ‖color:gui.green‖16%‖end‖.
+		\nBased on the current level of ‖color:gui.orange‖Mechanical Engineering‖end‖, increase ranged attack damage by ‖color:gui.green‖10%‖end‖.
+		\nWhen opening sunken ship containers, there is a ‖color:gui.green‖15%‖end‖ chance to find simple parts and a ‖color:gui.green‖5%‖end‖ chance to find precision parts.
+		\nWhen opening beacon station containers, there is a ‖color:gui.green‖10%‖end‖ chance to find precision parts.
+		\nRepaired equipment becomes significantly harder to break.
+		\nYou get a ‖color:gui.green‖10%‖end‖ discount when trading ships.</talentdescription.Kappa_Pororoca>
+
+	<entityname.Touhou_Simple_Parts>Simple Parts</entityname.Touhou_Simple_Parts>
+	<entitydescription.Touhou_Simple_Parts>Parts salvaged from discarded equipment, used in the crafting of some tools.</entitydescription.Touhou_Simple_Parts>
+
+	<entityname.Touhou_Precision_Parts>Precision Parts</entityname.Touhou_Precision_Parts>
+	<entitydescription.Touhou_Precision_Parts>Usable materials salvaged from unnoticed corners.</entitydescription.Touhou_Precision_Parts>
+
+	<afflictionname.FlandreTalent4_Effect_CD>Cage of the Bird - Remaining Shield Duration</afflictionname.FlandreTalent4_Effect_CD>
+
+	<!--物换星移-->
+	<missionname.Touhou_OutpostDestroyMission03>Too Late</missionname.Touhou_OutpostDestroyMission03>
+	<missiondescription.Touhou_OutpostDestroyMission03>The alchemy lab lost a batch of important materials here, so they are offering a high reward to any captain willing to retrieve these resources.</missiondescription.Touhou_OutpostDestroyMission03>
+	<missionheader.Touhou_OutpostDestroyMission03>Purification Complete</missionheader.Touhou_OutpostDestroyMission03>
+	<missionmessage.Touhou_OutpostDestroyMission03>Looks like we arrived too late—the resources have all turned into useless scrap in their hands. Let’s hope the alchemy lab can accept this outcome.</missionmessage.Touhou_OutpostDestroyMission03>
+
 </infotexts>

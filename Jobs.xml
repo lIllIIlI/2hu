@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Jobs>
   <!--魔法使-->
-  <Job identifier="Magician" minnumber="0" initialcount="1" uicolor="0.56,0.56,0.56" vitalitymodifier="0" pricemultiplier="1" idlebehavior="Active" hiddenjob="false">
+  <Job identifier="Magician" initialcount="1" AllowAlways="true" pricemultiplier="1" uicolor="0.92,0.92,0.92,0.92" idlebehavior="Active" hiddenjob="false">
     <Jobicon>
       <sprite texture="%ModDir%/Images/Job/Marisa_Icon1_2.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
     </Jobicon>
@@ -32,7 +32,7 @@
     </ItemSet>
   </Job>
   <!--妖精-->
-  <Job identifier="Yousei" minnumber="0" initialcount="1" uicolor="0.11,0.78,0.68" vitalitymodifier="0" pricemultiplier="1" idlebehavior="Active" hiddenjob="false">
+  <Job identifier="Yousei" initialcount="1" AllowAlways="true" pricemultiplier="1" uicolor="0.45,0.7,0.45,1" idlebehavior="Active" hiddenjob="false">
     <Jobicon>
       <sprite texture="%ModDir%/Images/Job/Yousei_Icon1.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
     </Jobicon>

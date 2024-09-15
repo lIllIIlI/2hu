@@ -54,7 +54,7 @@
       <RequiredItem identifier="alientrinket2" />
       <RequiredItem identifier="alientrinket3" />
     </Fabricate>
-    <InventoryIcon texture="%ModDir%/Images/Maoyu/Point.png" sourcerect="32,0,32,32" />
+    <InventoryIcon texture="%ModDir%/Images/Maoyu/Point.png" sourcerect="33,0,32,32" />
     <Sprite texture="%ModDir%/Images/Maoyu/Point.png" depth="0.4" sourcerect="33,0,32,32" />
     <Body width="32" height="32" density="10" />
     <Holdable slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0" />

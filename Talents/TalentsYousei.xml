@@ -149,7 +149,7 @@
       <Abilities>
         <CharacterAbilityModifyStatToSkill stattype="MaximumHealthMultiplier" maxvalue="0.04" skillidentifier="helm" />
         <CharacterAbilityModifyStatToSkill stattype="MaximumHealthMultiplier" maxvalue="0.04" skillidentifier="weapons" />
-        <CharacterAbilityModifyStatToSkill stattype="RepairSpeed" maxvalue="0.04" skillidentifier="mechanical," />
+        <CharacterAbilityModifyStatToSkill stattype="RepairSpeed" maxvalue="0.04" skillidentifier="mechanical" />
         <CharacterAbilityModifyStatToSkill stattype="RepairSpeed" maxvalue="0.04" skillidentifier="electrical" />
         <CharacterAbilityModifyStatToSkill stattype="AttackMultiplier" maxvalue="0.04" skillidentifier="medical" />
         <CharacterAbilityModifyStatToSkill stattype="AttackMultiplier" maxvalue="0.04" skillidentifier="Touhou_Magic" />

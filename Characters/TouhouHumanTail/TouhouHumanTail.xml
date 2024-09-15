@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Character speciesname="HumanTail" displayname="" husk="True" humanoid="True" caninteract="True" hasinfo="True" usehuskappendage="True" needsair="False" specifiertags="true" canspeak="False" blooddecal="blood" group="husk" speciestranslationoverride="" needswater="False" noise="100" visibility="100" bleedparticleair="blooddrop" bleedparticlewater="waterblood" bleedparticlemultiplier="1" eatingspeed="10" pathfinderpriority="1" hideinsonar="False" hideinthermalgoggles="True" sonardisruption="0" disabledistance="25000">
+<Character speciesname="TouhouHumanTail" displayname="" husk="True" humanoid="True" caninteract="True" hasinfo="True" usehuskappendage="True" needsair="False" specifiertags="true" canspeak="False" blooddecal="blood" group="husk" speciestranslationoverride="" needswater="False" noise="100" visibility="100" bleedparticleair="blooddrop" bleedparticlewater="waterblood" bleedparticlemultiplier="1" eatingspeed="10" pathfinderpriority="1" hideinsonar="False" hideinthermalgoggles="True" sonardisruption="0" disabledistance="25000">
   <!--    <ragdolls folder="Content/Characters/Human/Ragdolls/HumanDefaultRagdoll.xml" />
-    <animations folder="%ModDir%/Characters/HumanTail/Animations" />-->
+    <animations folder="%ModDir%/Characters/TouhouHumanTail/Animations" />-->
   <ragdolls folder="default" />
-  <animations folder="%ModDir%/Characters/HumanTail/Animations" />
+  <animations folder="%ModDir%/Characters/TouhouHumanTail/Animations" />
   <!-- Only this element matters... -->
-  <huskappendage affliction="Aunn_Tail_Spawn" path="%ModDir%/Characters/HumanTail/AunnTail.xml" onlyfromafflictions="true" />
-  <huskappendage affliction="Momizi_Tail_Spawn" path="%ModDir%/Characters/HumanTail/MomiziTail.xml" onlyfromafflictions="true" />
-  <huskappendage affliction="Piece_Wings_Spawn" path="%ModDir%/Characters/HumanTail/PieceWings.xml" onlyfromafflictions="true" />
-  <huskappendage affliction="Cirno_Wings_Spawn" path="%ModDir%/Characters/HumanTail/CirnoWings.xml" onlyfromafflictions="true" />
+  <huskappendage affliction="Aunn_Tail_Spawn" path="%ModDir%/Characters/TouhouHumanTail/AunnTail.xml" onlyfromafflictions="true" />
+  <huskappendage affliction="Momizi_Tail_Spawn" path="%ModDir%/Characters/TouhouHumanTail/MomiziTail.xml" onlyfromafflictions="true" />
+  <huskappendage affliction="Piece_Wings_Spawn" path="%ModDir%/Characters/TouhouHumanTail/PieceWings.xml" onlyfromafflictions="true" />
+  <huskappendage affliction="Cirno_Wings_Spawn" path="%ModDir%/Characters/TouhouHumanTail/CirnoWings.xml" onlyfromafflictions="true" />
   <bloodemitter particle="blood" particleamount="5" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <bloodemitter particle="waterblood" particleamount="1" anglemin="0" anglemax="0" scalemin="1" scalemax="1" velocitymin="0" velocitymax="0" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
   <health usehealthwindow="True" vitality="50" crushdepth="-30000" doesbleed="True" bleedingreduction="10" burnreduction="0" constanthealthregeneration="1" healthregenerationwheneating="0" applyafflictioncolors="True" stunimmunity="False">

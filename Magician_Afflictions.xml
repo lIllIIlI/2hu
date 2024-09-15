@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Afflictions>
+  <Affliction identifier="Gensokyo_Hermit_CD" type="talentbuff" isbuff="true" limbspecific="false" maxstrength="1" showiconthreshold="100" showinhealthscannerthreshold="100" treatmentthreshold="1000" hideiconafterdelay="true" duration="2.0" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
+    <Effect minstrength="0" maxstrength="1" />
+    <Icon texture="Content/UI/TalentsIcons4.png" sheetindex="2,0" sheetelementsize="128,128" origin="0,0" />
+  </Affliction>
   <Affliction identifier="Magic_Breakthrough_Effect01" type="talentbuff" isbuff="true" limbspecific="false" maxstrength="1" showiconthreshold="100" showinhealthscannerthreshold="100" treatmentthreshold="1000" hideiconafterdelay="true" duration="1" iconcolors="33,75,78;126,211,224;126,211,224;227,247,249">
     <Effect minstrength="0" maxstrength="1">
       <StatValue stattype="IncreaseFabricationQuality" value="1" />
