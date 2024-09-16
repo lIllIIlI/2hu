@@ -1,229 +1,126 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Randomevents>
   <EventSprites>
-    <Sprite identifier="Touhou_Supply_Station01"
-            texture="%ModDir%/Images/Missions/Touhou_Akyuu_Mission.png"
-            sourcerect="0,0,504,712"
-            origin="0.5,0.5" />
-    <Sprite identifier="Touhou_Supply_Station02"
-            texture="%ModDir%/Images/Missions/Touhou_Aunn_Mission.png"
-            sourcerect="0,0,504,712"
-            origin="0.5,0.5" />
+    <Sprite identifier="Touhou_Supply_Station01" texture="%ModDir%/Images/Missions/Touhou_Akyuu_Mission.png" sourcerect="0,0,504,712" origin="0.5,0.5" />
+    <Sprite identifier="Touhou_Supply_Station02" texture="%ModDir%/Images/Missions/Touhou_Aunn_Mission.png" sourcerect="0,0,504,712" origin="0.5,0.5" />
   </EventSprites>
   <EventPrefabs>
     <!--清除阿求的设定值，用于下一次触发-->
-    <ScriptedEvent identifier="Touhou_Supply_Station01_Data_Clear"
-                   commonness="0">
-      <SetDataAction value="false"
-                     identifier="Player_Bought01" />
-      <SetDataAction value="false"
-                     identifier="Player_Bought02" />
-      <SetDataAction value="false"
-                     identifier="Akyuu_bought01" />
-      <SetDataAction value="false"
-                     identifier="talked" />
-      <SetDataAction value="false"
-                     identifier="gift" />
-      <SetDataAction value="false"
-                     identifier="Player_Donated" />
+    <ScriptedEvent identifier="Touhou_Supply_Station01_Data_Clear" commonness="0">
+      <SetDataAction value="false" identifier="Player_Bought01" />
+      <SetDataAction value="false" identifier="Player_Bought02" />
+      <SetDataAction value="false" identifier="Akyuu_bought01" />
+      <SetDataAction value="false" identifier="talked" />
+      <SetDataAction value="false" identifier="gift" />
+      <SetDataAction value="false" identifier="Player_Donated" />
     </ScriptedEvent>
     <!--站点无敌-->
     <ScriptedEvent identifier="Touhou_Indestructible_Wall">
       <!-- StructurePrefabs.xml -->
-      <TagAction criteria="structureidentifier:ff_x_wall"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:ff_y_wall"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:sshella25"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:sshella26"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:sshellaglassd"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:sshellaglasse"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:sshellaglassf"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:topwindow"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:verticalwindow"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:ff_x_wall" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:ff_y_wall" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshella25" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshella26" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglassd" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglasse" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglassf" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:topwindow" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:verticalwindow" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
       <!-- OutpostStructurePrefabs.xml -->
-      <TagAction criteria="structureidentifier:icewall"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:icewall90"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:icewall" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:icewall90" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
       <!-- StructurePrefabsWrecked.xml -->
-      <TagAction criteria="structureidentifier:ff_x_wall_wrecked"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:sshella07wrecked"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:sshella21wrecked"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:sshella23wrecked"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:shella26degwrecked"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:sshellaglassdwrecked"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:sshellaglassewrecked"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
-      <TagAction criteria="structureidentifier:sshellaglassfwrecked"
-                 tag="targetwall"
-                 submarinetype="outpost"
-                 continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:ff_x_wall_wrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshella07wrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshella21wrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshella23wrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:shella26degwrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglassdwrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglassewrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
+      <TagAction criteria="structureidentifier:sshellaglassfwrecked" tag="targetwall" submarinetype="outpost" continueifnotargetsfound="true" />
       <StatusEffectAction targettag="targetwall">
-        <StatusEffect target="This"
-                      indestructible="true" />
+        <StatusEffect target="This" indestructible="true" />
       </StatusEffectAction>
     </ScriptedEvent>
     <!--魔法物质运输任务-->
-    <ScriptedEvent identifier="Touhou_MagicItems_Mission"
-                   commonness="0">
+    <ScriptedEvent identifier="Touhou_MagicItems_Mission" commonness="0">
       <MissionAction missiontag="cargoMagicItems" />
     </ScriptedEvent>
     <!--清理毛玉任务-->
-    <ScriptedEvent identifier="Touhou_Maoyu_Mission"
-                   commonness="0">
+    <ScriptedEvent identifier="Touhou_Maoyu_Mission" commonness="0">
       <MissionAction missiontag="killMaoyu" />
     </ScriptedEvent>
     <!--幽灵线任务-->
-    <ScriptedEvent identifier="Touhou_Ghost_Mission"
-                   commonness="0">
+    <ScriptedEvent identifier="Touhou_Ghost_Mission" commonness="0">
       <MissionAction missiontag="killghost" />
     </ScriptedEvent>
     <!--魔咒爬行者任务-->
-    <ScriptedEvent identifier="Touhou_Reiki_Erode_Crawler_Mission"
-                   commonness="0">
+    <ScriptedEvent identifier="Touhou_Reiki_Erode_Crawler_Mission" commonness="0">
       <MissionAction missiontag="Clear_Reiki_Erode_Crawler_Nest" />
     </ScriptedEvent>
     <!--长眠不醒的噩梦任务-->
-    <ScriptedEvent identifier="Touhou_Photosphere_Mission"
-                   commonness="0">
+    <ScriptedEvent identifier="Touhou_Photosphere_Mission" commonness="0">
       <MissionAction missiontag="killphotosphere" />
     </ScriptedEvent>
     <!--绿UFO任务-->
-    <ScriptedEvent identifier="Touhou_Green_UFO_Mission"
-                   commonness="0">
+    <ScriptedEvent identifier="Touhou_Green_UFO_Mission" commonness="0">
       <MissionAction missiontag="killgreenufo_Hard" />
     </ScriptedEvent>
     <!--红UFO任务-->
-    <ScriptedEvent identifier="Touhou_Red_UFO_Mission"
-                   commonness="0">
+    <ScriptedEvent identifier="Touhou_Red_UFO_Mission" commonness="0">
       <MissionAction missiontag="killRedufo_Hard" />
     </ScriptedEvent>
     <!--蓝UFO任务-->
-    <ScriptedEvent identifier="Touhou_Blue_UFO_Mission"
-                   commonness="0">
+    <ScriptedEvent identifier="Touhou_Blue_UFO_Mission" commonness="0">
       <MissionAction missiontag="killBlueufo_Hard" />
     </ScriptedEvent>
     <!--寻找灵异珠-获得凭证-->
-    <ScriptedEvent identifier="Salvage_Mysterious_Pearl_Completed"
-                   commonness="0">
-      <SetDataAction value="true"
-                     identifier="Salvage_Mysterious_Pearl_Completed" />
+    <ScriptedEvent identifier="Salvage_Mysterious_Pearl_Completed" commonness="0">
+      <SetDataAction value="true" identifier="Salvage_Mysterious_Pearl_Completed" />
     </ScriptedEvent>
     <!--击败绿UFO-->
-    <ScriptedEvent identifier="Touhou_Green_UFO_Mission_Completed"
-                   commonness="0">
-      <SetDataAction value="true"
-                     identifier="Touhou_Green_UFO_Mission" />
-      <SetDataAction value="false"
-                     identifier="Touhou_Akyuu_UFO_Mission01_Agree" />
-      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission01"
-                          nextround="true" />
+    <ScriptedEvent identifier="Touhou_Green_UFO_Mission_Completed" commonness="0">
+      <SetDataAction value="true" identifier="Touhou_Green_UFO_Mission" />
+      <SetDataAction value="false" identifier="Touhou_Akyuu_UFO_Mission01_Agree" />
+      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission01" nextround="true" />
     </ScriptedEvent>
     <!--击败红UFO-->
-    <ScriptedEvent identifier="Touhou_Red_UFO_Mission_Completed"
-                   commonness="0">
-      <SetDataAction value="true"
-                     identifier="Touhou_Red_UFO_Mission" />
-      <SetDataAction value="false"
-                     identifier="Touhou_Akyuu_UFO_Mission02_Agree" />
-      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission02"
-                          nextround="true" />
+    <ScriptedEvent identifier="Touhou_Red_UFO_Mission_Completed" commonness="0">
+      <SetDataAction value="true" identifier="Touhou_Red_UFO_Mission" />
+      <SetDataAction value="false" identifier="Touhou_Akyuu_UFO_Mission02_Agree" />
+      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission02" nextround="true" />
     </ScriptedEvent>
     <!--击败蓝UFO-->
-    <ScriptedEvent identifier="Touhou_Blue_UFO_Mission_Completed"
-                   commonness="0">
-      <SetDataAction value="true"
-                     identifier="Touhou_Blue_UFO_Mission" />
-      <SetDataAction value="false"
-                     identifier="Touhou_Akyuu_UFO_Mission03_Agree" />
-      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission03"
-                          nextround="true" />
+    <ScriptedEvent identifier="Touhou_Blue_UFO_Mission_Completed" commonness="0">
+      <SetDataAction value="true" identifier="Touhou_Blue_UFO_Mission" />
+      <SetDataAction value="false" identifier="Touhou_Akyuu_UFO_Mission03_Agree" />
+      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission03" nextround="true" />
     </ScriptedEvent>
     <!--击败封兽-->
-    <ScriptedEvent identifier="Touhou_Find_Nue_Mission_Completed"
-                   commonness="0">
-      <SetDataAction value="true"
-                     identifier="Touhou_Find_Nue_Mission" />
-      <SetDataAction value="false"
-                     identifier="Touhou_Find_Nue_Mission_End" />
-      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission04"
-                          nextround="true" />
+    <ScriptedEvent identifier="Touhou_Find_Nue_Mission_Completed" commonness="0">
+      <SetDataAction value="true" identifier="Touhou_Find_Nue_Mission" />
+      <SetDataAction value="false" identifier="Touhou_Find_Nue_Mission_End" />
+      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission04" nextround="true" />
     </ScriptedEvent>
     <!--封兽鵺Easy-->
-    <ScriptedEvent identifier="FindHoujuuNue_Mission_Easy"
-                   commonness="0">
+    <ScriptedEvent identifier="FindHoujuuNue_Mission_Easy" commonness="0">
       <MissionAction missiontag="FindHoujuuNue_Easy" />
     </ScriptedEvent>
     <!--封兽鵺Normal-->
-    <ScriptedEvent identifier="FindHoujuuNue_Mission_Normal"
-                   commonness="0">
+    <ScriptedEvent identifier="FindHoujuuNue_Mission_Normal" commonness="0">
       <MissionAction missiontag="FindHoujuuNue_Normal" />
     </ScriptedEvent>
     <!--封兽鵺Hard-->
-    <ScriptedEvent identifier="FindHoujuuNue_Mission_Hard"
-                   commonness="0">
+    <ScriptedEvent identifier="FindHoujuuNue_Mission_Hard" commonness="0">
       <MissionAction missiontag="FindHoujuuNue_Hard" />
     </ScriptedEvent>
     <!--封兽鵺Lunatic-->
-    <ScriptedEvent identifier="FindHoujuuNue_Mission_Lunatic"
-                   commonness="0">
+    <ScriptedEvent identifier="FindHoujuuNue_Mission_Lunatic" commonness="0">
       <MissionAction missiontag="FindHoujuuNue_Lunatic" />
     </ScriptedEvent>
     <!--文文的记者证选择事件-->
-    <ScriptedEvent identifier="Aya_Press_Card_Select_Event"
-                   commonness="0">
-      <CheckDataAction identifier="Touhou_Mysterious_Pearl_Rippling_Completed"
-                       condition="eq true">
+    <ScriptedEvent identifier="Aya_Press_Card_Select_Event" commonness="0">
+      <CheckDataAction identifier="Touhou_Mysterious_Pearl_Rippling_Completed" condition="eq true">
         <Success>
           <TriggerEventAction identifier="Akyuu_Join" />
         </Success>
@@ -233,79 +130,47 @@
       </CheckDataAction>
     </ScriptedEvent>
     <!--补给站事件01-->
-    <ScriptedEvent identifier="Touhou_Supply_Station01"
-                   commonness="0">
+    <ScriptedEvent identifier="Touhou_Supply_Station01" commonness="0">
       <!--声望检测部分也许不应该放在spawnNPC前-->
       <!--必须在所有选项下一个个判断声望？也许和判断的位置有关，先生成角色再判断，可以一试，但是角色入组不能这么做，否则入组事件会直接触发，等待更好的解决方案-->
       <!--以后可以做一个事件用于判断声望，然后根据声望直接触发不同的事件，减少编写难度-->
       <!--英文文本化问题-->
-      <CheckDataAction identifier="Akyuu_Join_complete"
-                       condition="eq true">
+      <CheckDataAction identifier="Akyuu_Join_complete" condition="eq true">
         <Success>
-          <TagAction criteria="player"
-                     tag="player" />
-          <SpawnAction npcsetidentifier="touhounpc"
-                       npcidentifier="Komano_Aunn_Store01"
-                       targettag="Komano_Aunn_Store01"
-                       spawnpointtag="saferoom"
-                       spawnlocation="beaconstation"
-                       requirespawnpointtag="true"
-                       teamid="FriendlyNPC" />
-          <TriggerAction target1tag="Komano_Aunn_Store01"
-                         target2tag="player"
-                         applytotarget2="triggerer_player"
-                         radius="120"
-                         waitforinteraction="true" />
+          <TagAction criteria="player" tag="player" />
+          <SpawnAction npcsetidentifier="touhounpc" npcidentifier="Komano_Aunn_Store01" targettag="Komano_Aunn_Store01" spawnpointtag="saferoom" spawnlocation="beaconstation" requirespawnpointtag="true" teamid="FriendlyNPC" />
+          <TriggerAction target1tag="Komano_Aunn_Store01" target2tag="player" applytotarget2="triggerer_player" radius="120" waitforinteraction="true" />
           <Label name="waitfortalk_Aunn" />
-          <ConversationAction targettag="triggerer_player"
-                              speakertag="Komano_Aunn_Store01"
-                              text="”Hello, is there something you need?“"
-                              eventsprite="Touhou_Supply_Station02">
+          <ConversationAction targettag="triggerer_player" speakertag="Komano_Aunn_Store01" text="”Hello, is there something you need?“" eventsprite="Touhou_Supply_Station02">
             <Option text="Buy">
-              <CheckReputationAction targettype="faction"
-                                     identifier="Touhou_Gensokyo"
-                                     condition="gte 20">
+              <CheckReputationAction targettype="faction" identifier="Touhou_Gensokyo" condition="gte 20">
                 <Success>
-                  <ConversationAction targettag="triggerer_player"
-                                      dialogtype="Small"
-                                      text="“What do you want?”">
+                  <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“What do you want?”">
                     <Option text="Some medical supplies, 600mk">
-                      <CheckDataAction identifier="Player_Bought01"
-                                       condition="eq true">
+                      <CheckDataAction identifier="Player_Bought01" condition="eq true">
                         <Success>
-                          <ConversationAction text="Aunn looked at the report in her hand: “There's nothing more for now.”"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="Aunn looked at the report in her hand: “There's nothing more for now.”" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Aunn" />
                         </Success>
                         <Failure>
                           <CheckMoneyAction amount="600">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="“Feel free to take it!”" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“Feel free to take it!”" />
                               <MoneyAction amount="-600" />
-                              <SpawnAction itemidentifier="Europa_Infusion"
-                                           targetinventory="triggerer_player" />
-                              <SpawnAction itemidentifier="antidama1"
-                                           targetinventory="triggerer_player" />
-                              <SpawnAction itemidentifier="stabilozine"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
-                              <SpawnAction itemidentifier="antibleeding1"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
+                              <SpawnAction itemidentifier="Europa_Infusion" targetinventory="triggerer_player" />
+                              <SpawnAction itemidentifier="antidama1" targetinventory="triggerer_player" />
+                              <SpawnAction itemidentifier="stabilozine" targetinventory="triggerer_player" amount="2" />
+                              <SpawnAction itemidentifier="antibleeding1" targetinventory="triggerer_player" amount="2" />
                               <RNGAction chance="0.65">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Player_Bought01" />
+                                  <SetDataAction value="true" identifier="Player_Bought01" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Aunn" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="”You touched your pocket and found you didn't have that much money. Maybe you can ask someone here to sell you some?“" />
+                              <ConversationAction targettag="triggerer_player" text="”You touched your pocket and found you didn't have that much money. Maybe you can ask someone here to sell you some?“" />
                               <GoTo name="waitfortalk_Aunn" />
                             </Failure>
                           </CheckMoneyAction>
@@ -313,38 +178,28 @@
                       </CheckDataAction>
                     </Option>
                     <Option text="Some fuel and food, 200mk">
-                      <CheckDataAction identifier="Player_Bought02"
-                                       condition="eq true">
+                      <CheckDataAction identifier="Player_Bought02" condition="eq true">
                         <Success>
-                          <ConversationAction text="Aunn looked at the report in her hand: “There's nothing more for now.”"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="Aunn looked at the report in her hand: “There's nothing more for now.”" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Aunn" />
                         </Success>
                         <Failure>
                           <CheckMoneyAction amount="200">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="“Feel free to take it!”" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“Feel free to take it!”" />
                               <MoneyAction amount="-200" />
-                              <SpawnAction itemidentifier="fuelrod"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
-                              <SpawnAction itemidentifier="Touhou_Apple"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
+                              <SpawnAction itemidentifier="fuelrod" targetinventory="triggerer_player" amount="2" />
+                              <SpawnAction itemidentifier="Touhou_Apple" targetinventory="triggerer_player" amount="2" />
                               <RNGAction chance="0.5">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Player_Bought02" />
+                                  <SetDataAction value="true" identifier="Player_Bought02" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Aunn" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="”You touched your pocket and found you didn't have that much money. Maybe you can ask someone here to sell you some?“" />
+                              <ConversationAction targettag="triggerer_player" text="”You touched your pocket and found you didn't have that much money. Maybe you can ask someone here to sell you some?“" />
                               <GoTo name="waitfortalk_Aunn" />
                             </Failure>
                           </CheckMoneyAction>
@@ -352,53 +207,38 @@
                       </CheckDataAction>
                     </Option>
                     <Option text="Later">
-                      <ConversationAction text="You remembered you still had some unfinished business and hurried away."
-                                          targettag="triggerer_player" />
+                      <ConversationAction text="You remembered you still had some unfinished business and hurried away." targettag="triggerer_player" />
                       <GoTo name="waitfortalk_Aunn" />
                     </Option>
                   </ConversationAction>
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player"
-                                      dialogtype="Small"
-                                      text="“What do you want?”">
+                  <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“What do you want?”">
                     <Option text="Some medical supplies, 800mk">
-                      <CheckDataAction identifier="Player_Bought01"
-                                       condition="eq true">
+                      <CheckDataAction identifier="Player_Bought01" condition="eq true">
                         <Success>
-                          <ConversationAction text="Aunn looked at the report in her hand: “There's nothing more for now.”"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="Aunn looked at the report in her hand: “There's nothing more for now.”" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Aunn" />
                         </Success>
                         <Failure>
                           <CheckMoneyAction amount="800">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="“Feel free to take it!”" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“Feel free to take it!”" />
                               <MoneyAction amount="-800" />
-                              <SpawnAction itemidentifier="Europa_Infusion"
-                                           targetinventory="triggerer_player" />
-                              <SpawnAction itemidentifier="antidama1"
-                                           targetinventory="triggerer_player" />
-                              <SpawnAction itemidentifier="stabilozine"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
-                              <SpawnAction itemidentifier="antibleeding1"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
+                              <SpawnAction itemidentifier="Europa_Infusion" targetinventory="triggerer_player" />
+                              <SpawnAction itemidentifier="antidama1" targetinventory="triggerer_player" />
+                              <SpawnAction itemidentifier="stabilozine" targetinventory="triggerer_player" amount="2" />
+                              <SpawnAction itemidentifier="antibleeding1" targetinventory="triggerer_player" amount="2" />
                               <RNGAction chance="0.75">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Player_Bought01" />
+                                  <SetDataAction value="true" identifier="Player_Bought01" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Aunn" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="”You touched your pocket and found you didn't have that much money. Maybe you can ask someone here to sell you some?“" />
+                              <ConversationAction targettag="triggerer_player" text="”You touched your pocket and found you didn't have that much money. Maybe you can ask someone here to sell you some?“" />
                               <GoTo name="waitfortalk_Aunn" />
                             </Failure>
                           </CheckMoneyAction>
@@ -406,38 +246,28 @@
                       </CheckDataAction>
                     </Option>
                     <Option text="Some fuel and food, 400mk">
-                      <CheckDataAction identifier="Player_Bought02"
-                                       condition="eq true">
+                      <CheckDataAction identifier="Player_Bought02" condition="eq true">
                         <Success>
-                          <ConversationAction text="Aunn looked at the report in her hand: “This is all the idle supplies at the supply station.”"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="Aunn looked at the report in her hand: “This is all the idle supplies at the supply station.”" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Aunn" />
                         </Success>
                         <Failure>
                           <CheckMoneyAction amount="400">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="“Feel free to take it!”" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“Feel free to take it!”" />
                               <MoneyAction amount="-400" />
-                              <SpawnAction itemidentifier="fuelrod"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
-                              <SpawnAction itemidentifier="Touhou_Apple"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
+                              <SpawnAction itemidentifier="fuelrod" targetinventory="triggerer_player" amount="2" />
+                              <SpawnAction itemidentifier="Touhou_Apple" targetinventory="triggerer_player" amount="2" />
                               <RNGAction chance="0.7">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Player_Bought02" />
+                                  <SetDataAction value="true" identifier="Player_Bought02" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Aunn" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="”You touched your pocket and found you didn't have that much money. Maybe you can ask someone here to sell you some?“" />
+                              <ConversationAction targettag="triggerer_player" text="”You touched your pocket and found you didn't have that much money. Maybe you can ask someone here to sell you some?“" />
                               <GoTo name="waitfortalk_Aunn" />
                             </Failure>
                           </CheckMoneyAction>
@@ -445,8 +275,7 @@
                       </CheckDataAction>
                     </Option>
                     <Option text="Later">
-                      <ConversationAction text="You remembered you still had some unfinished business and hurried away."
-                                          targettag="triggerer_player" />
+                      <ConversationAction text="You remembered you still had some unfinished business and hurried away." targettag="triggerer_player" />
                       <GoTo name="waitfortalk_Aunn" />
                     </Option>
                   </ConversationAction>
@@ -454,83 +283,65 @@
               </CheckReputationAction>
             </Option>
             <Option text="Sell">
-              <CheckDataAction identifier="Akyuu_bought01"
-                               condition="eq true">
+              <CheckDataAction identifier="Akyuu_bought01" condition="eq true">
                 <Success>
-                  <ConversationAction text="“It seems like... you don’t really need anything?” The girl scratched her head."
-                                      targettag="triggerer_player" />
+                  <ConversationAction text="“It seems like... you don’t really need anything?” The girl scratched her head." targettag="triggerer_player" />
                   <GoTo name="waitfortalk_Aunn" />
                 </Success>
                 <Failure>
-                  <CheckReputationAction targettype="faction"
-                                         identifier="Touhou_Gensokyo"
-                                         condition="gte 20">
+                  <CheckReputationAction targettype="faction" identifier="Touhou_Gensokyo" condition="gte 20">
                     <Success>
-                      <ConversationAction targettag="triggerer_player"
-                                          text="“The shrine maiden asks you to buy some cinnamon. Can I buy 1 piece from you? Just 1 will do. I can offer 1000 Marks.”">
+                      <ConversationAction targettag="triggerer_player" text="“The shrine maiden asks you to buy some cinnamon. Can I buy 1 piece from you? Just 1 will do. I can offer 1000 Marks.”">
                         <Option text="Deal">
-                          <CheckItemAction targettag="triggerer_player"
-                                           itemidentifiers="Cinnamon_Branch">
+                          <CheckItemAction targettag="triggerer_player" itemidentifiers="Cinnamon_Branch">
                             <Success>
-                              <RemoveItemAction targettag="triggerer_player"
-                                                itemidentifier="Cinnamon_Branch" />
+                              <RemoveItemAction targettag="triggerer_player" itemidentifier="Cinnamon_Branch" />
                               <MoneyAction amount="1000" />
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="“Thank you, the amount has been transferred to your account.”" />
+                              <ConversationAction targettag="triggerer_player" text="“Thank you, the amount has been transferred to your account.”" />
                               <RNGAction chance="0.6">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Akyuu_bought01" />
+                                  <SetDataAction value="true" identifier="Akyuu_bought01" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Aunn" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You touched your pocket and realized you didn't have what the girl needed. “Sorry, I used to have some, but I can't find it now.”" />
+                              <ConversationAction targettag="triggerer_player" text="You touched your pocket and realized you didn't have what the girl needed. “Sorry, I used to have some, but I can't find it now.”" />
                               <GoTo name="waitfortalk_Aunn" />
                             </Failure>
                           </CheckItemAction>
                         </Option>
                         <Option text="Sorry, I don’t have what you need either.">
-                          <ConversationAction text="“It’s alright, we can talk about it later.”"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="“It’s alright, we can talk about it later.”" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Aunn" />
                         </Option>
                       </ConversationAction>
                     </Success>
                     <Failure>
-                      <ConversationAction targettag="triggerer_player"
-                                          text="“The shrine maiden asks you to buy some cinnamon. Can I buy 1 piece from you? Just 1 will do. I can offer 800 Marks.”">
+                      <ConversationAction targettag="triggerer_player" text="“The shrine maiden asks you to buy some cinnamon. Can I buy 1 piece from you? Just 1 will do. I can offer 800 Marks.”">
                         <Option text="Deal">
-                          <CheckItemAction targettag="triggerer_player"
-                                           itemidentifiers="Cinnamon_Branch">
+                          <CheckItemAction targettag="triggerer_player" itemidentifiers="Cinnamon_Branch">
                             <Success>
-                              <RemoveItemAction targettag="triggerer_player"
-                                                itemidentifier="Cinnamon_Branch" />
+                              <RemoveItemAction targettag="triggerer_player" itemidentifier="Cinnamon_Branch" />
                               <MoneyAction amount="800" />
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="“Thank you, the amount has been transferred to your account.”" />
+                              <ConversationAction targettag="triggerer_player" text="“Thank you, the amount has been transferred to your account.”" />
                               <RNGAction chance="0.6">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Akyuu_bought01" />
+                                  <SetDataAction value="true" identifier="Akyuu_bought01" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Aunn" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You touched your pocket and realized you didn't have what the girl needed. “Sorry, I used to have some, but I can't find it now.”" />
+                              <ConversationAction targettag="triggerer_player" text="You touched your pocket and realized you didn't have what the girl needed. “Sorry, I used to have some, but I can't find it now.”" />
                               <GoTo name="waitfortalk_Aunn" />
                             </Failure>
                           </CheckItemAction>
                         </Option>
                         <Option text="Sorry, I don’t have what you need either.">
-                          <ConversationAction text="“It’s alright, we can talk about it later.”"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="“It’s alright, we can talk about it later.”" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Aunn" />
                         </Option>
                       </ConversationAction>
@@ -540,192 +351,134 @@
               </CheckDataAction>
             </Option>
             <Option text="Give">
-              <CheckDataAction identifier="Player_Donated"
-                               condition="eq true">
+              <CheckDataAction identifier="Player_Donated" condition="eq true">
                 <Success>
-                  <ConversationAction text="“I don’t really need anything right now…”"
-                                      eventsprite="Touhou_Supply_Station02" />
+                  <ConversationAction text="“I don’t really need anything right now…”" eventsprite="Touhou_Supply_Station02" />
                   <GoTo name="waitfortalk_Aunn" />
                 </Success>
                 <Failure>
-                  <CheckReputationAction targettype="faction"
-                                         identifier="Touhou_Gensokyo"
-                                         condition="gte 20">
+                  <CheckReputationAction targettype="faction" identifier="Touhou_Gensokyo" condition="gte 20">
                     <Success>
-                      <ConversationAction text="What would you like to give?"
-                                          targettag="triggerer_player">
+                      <ConversationAction text="What would you like to give?" targettag="triggerer_player">
                         <Option text="1000mk">
                           <CheckMoneyAction amount="1000">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="”Thank you! I will remember it.“" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="”Thank you! I will remember it.“" />
                               <MoneyAction amount="-1000" />
-                              <ReputationAction targettype="Faction"
-                                                identifier="Touhou_Gensokyo"
-                                                increase="2" />
+                              <ReputationAction targettype="Faction" identifier="Touhou_Gensokyo" increase="2" />
                               <RNGAction chance="0.7">
                                 <Success>
-                                  <SetDataAction identifier="Player_Donated"
-                                                 value="true" />
+                                  <SetDataAction identifier="Player_Donated" value="true" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Aunn" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You don't have that much money." />
+                              <ConversationAction targettag="triggerer_player" text="You don't have that much money." />
                               <GoTo name="waitfortalk_Aunn" />
                             </Failure>
                           </CheckMoneyAction>
                         </Option>
                         <Option text="2 pieces of Ether Base Metal">
-                          <CheckItemAction targettag="triggerer_player"
-                                           itemidentifiers="Touhou_Base_Metal"
-                                           amount="2">
+                          <CheckItemAction targettag="triggerer_player" itemidentifiers="Touhou_Base_Metal" amount="2">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="”Thank you! I will remember it.“" />
-                              <RemoveItemAction targettag="triggerer_player"
-                                                itemidentifier="Touhou_Base_Metal"
-                                                amount="2" />
-                              <ReputationAction targettype="Faction"
-                                                identifier="Touhou_Gensokyo"
-                                                increase="2" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="”Thank you! I will remember it.“" />
+                              <RemoveItemAction targettag="triggerer_player" itemidentifier="Touhou_Base_Metal" amount="2" />
+                              <ReputationAction targettype="Faction" identifier="Touhou_Gensokyo" increase="2" />
                               <RNGAction chance="0.7">
                                 <Success>
-                                  <SetDataAction identifier="Player_Donated"
-                                                 value="true" />
+                                  <SetDataAction identifier="Player_Donated" value="true" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Aunn" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You don’t have these materials."
-                                                  eventsprite="Touhou_Supply_Station02" />
+                              <ConversationAction targettag="triggerer_player" text="You don’t have these materials." eventsprite="Touhou_Supply_Station02" />
                               <Goto name="waitfortalk_Aunn" />
                             </Failure>
                           </CheckItemAction>
                         </Option>
                         <Option text="A moon-viewing dango and a mooncake.">
-                          <CheckItemAction targettag="triggerer_player"
-                                           itemidentifiers="Touhou_Fullmoon_Dumpling">
+                          <CheckItemAction targettag="triggerer_player" itemidentifiers="Touhou_Fullmoon_Dumpling">
                             <Success>
-                              <CheckItemAction targettag="triggerer_player"
-                                               itemidentifiers="Touhou_Fullmoon_Cake">
+                              <CheckItemAction targettag="triggerer_player" itemidentifiers="Touhou_Fullmoon_Cake">
                                 <Success>
-                                  <ConversationAction targettag="triggerer_player"
-                                                      dialogtype="Small"
-                                                      text="”Thank you! I will remember it.“" />
-                                  <RemoveItemAction targettag="triggerer_player"
-                                                    itemidentifier="Touhou_Fullmoon_Dumpling" />
-                                  <RemoveItemAction targettag="triggerer_player"
-                                                    itemidentifier="Touhou_Fullmoon_Cake" />
-                                  <ReputationAction targettype="Faction"
-                                                    identifier="Touhou_Gensokyo"
-                                                    increase="2" />
+                                  <ConversationAction targettag="triggerer_player" dialogtype="Small" text="”Thank you! I will remember it.“" />
+                                  <RemoveItemAction targettag="triggerer_player" itemidentifier="Touhou_Fullmoon_Dumpling" />
+                                  <RemoveItemAction targettag="triggerer_player" itemidentifier="Touhou_Fullmoon_Cake" />
+                                  <ReputationAction targettype="Faction" identifier="Touhou_Gensokyo" increase="2" />
                                   <RNGAction chance="0.7">
                                     <Success>
-                                      <SetDataAction identifier="Player_Donated"
-                                                     value="true" />
+                                      <SetDataAction identifier="Player_Donated" value="true" />
                                     </Success>
                                     <Failure></Failure>
                                   </RNGAction>
                                   <GoTo name="waitfortalk_Aunn" />
                                 </Success>
                                 <Failure>
-                                  <ConversationAction targettag="triggerer_player"
-                                                      text="You don’t have these materials."
-                                                      eventsprite="Touhou_Supply_Station02" />
+                                  <ConversationAction targettag="triggerer_player" text="You don’t have these materials." eventsprite="Touhou_Supply_Station02" />
                                   <Goto name="waitfortalk_Aunn" />
                                 </Failure>
                               </CheckItemAction>
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You don’t have these materials."
-                                                  eventsprite="Touhou_Supply_Station02" />
+                              <ConversationAction targettag="triggerer_player" text="You don’t have these materials." eventsprite="Touhou_Supply_Station02" />
                               <Goto name="waitfortalk_Aunn" />
                             </Failure>
                           </CheckItemAction>
                         </Option>
                         <Option text="Later">
-                          <ConversationAction text="You remembered you still had some unfinished business and hurried away."
-                                              dialogtype="Small"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="You remembered you still had some unfinished business and hurried away." dialogtype="Small" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Aunn" />
                         </Option>
                       </ConversationAction>
                     </Success>
                     <Failure>
-                      <ConversationAction targettag="triggerer_player"
-                                          text="What would you like to give?"
-                                          eventsprite="Touhou_Supply_Station02">
+                      <ConversationAction targettag="triggerer_player" text="What would you like to give?" eventsprite="Touhou_Supply_Station02">
                         <Option text="1600mk">
                           <CheckMoneyAction amount="1600">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="”Thank you! I will remember it.“" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="”Thank you! I will remember it.“" />
                               <MoneyAction amount="-1600" />
-                              <ReputationAction targettype="Faction"
-                                                identifier="Touhou_Gensokyo"
-                                                increase="2" />
+                              <ReputationAction targettype="Faction" identifier="Touhou_Gensokyo" increase="2" />
                               <RNGAction chance="0.8">
                                 <Success>
-                                  <SetDataAction identifier="Player_Donated"
-                                                 value="true" />
+                                  <SetDataAction identifier="Player_Donated" value="true" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Aunn" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You don't have that much money." />
+                              <ConversationAction targettag="triggerer_player" text="You don't have that much money." />
                               <GoTo name="waitfortalk_Aunn" />
                             </Failure>
                           </CheckMoneyAction>
                         </Option>
                         <Option text="3 pieces of Ether Base Metal">
-                          <CheckItemAction targettag="triggerer_player"
-                                           itemidentifiers="Touhou_Base_Metal"
-                                           amount="3">
+                          <CheckItemAction targettag="triggerer_player" itemidentifiers="Touhou_Base_Metal" amount="3">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="”Thank you! I will remember it.“" />
-                              <RemoveItemAction targettag="triggerer_player"
-                                                itemidentifier="Touhou_Base_Metal"
-                                                amount="3" />
-                              <ReputationAction targettype="Faction"
-                                                identifier="Touhou_Gensokyo"
-                                                increase="2" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="”Thank you! I will remember it.“" />
+                              <RemoveItemAction targettag="triggerer_player" itemidentifier="Touhou_Base_Metal" amount="3" />
+                              <ReputationAction targettype="Faction" identifier="Touhou_Gensokyo" increase="2" />
                               <RNGAction chance="0.8">
                                 <Success>
-                                  <SetDataAction identifier="Player_Donated"
-                                                 value="true" />
+                                  <SetDataAction identifier="Player_Donated" value="true" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Aunn" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You don’t have these materials."
-                                                  eventsprite="Touhou_Supply_Station02" />
+                              <ConversationAction targettag="triggerer_player" text="You don’t have these materials." eventsprite="Touhou_Supply_Station02" />
                               <Goto name="waitfortalk_Aunn" />
                             </Failure>
                           </CheckItemAction>
                         </Option>
                         <Option text="Later">
-                          <ConversationAction text="You remembered you still had some unfinished business and hurried away."
-                                              dialogtype="Small"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="You remembered you still had some unfinished business and hurried away." dialogtype="Small" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Aunn" />
                         </Option>
                       </ConversationAction>
@@ -735,78 +488,46 @@
               </CheckDataAction>
             </Option>
             <Option text="Later">
-              <ConversationAction text="You remembered you still had some unfinished business and hurried away."
-                                  dialogtype="Small"
-                                  targettag="triggerer_player" />
+              <ConversationAction text="You remembered you still had some unfinished business and hurried away." dialogtype="Small" targettag="triggerer_player" />
               <GoTo name="waitfortalk_Aunn" />
             </Option>
           </ConversationAction>
         </Success>
         <Failure>
-          <TagAction criteria="player"
-                     tag="player" />
-          <SpawnAction npcsetidentifier="touhounpc"
-                       npcidentifier="Store_Hieda_no_Akyuu01"
-                       targettag="Store_Hieda_no_Akyuu01"
-                       spawnpointtag="saferoom"
-                       spawnlocation="beaconstation"
-                       requirespawnpointtag="true"
-                       teamid="FriendlyNPC" />
-          <TriggerAction target1tag="Store_Hieda_no_Akyuu01"
-                         target2tag="player"
-                         applytotarget2="triggerer_player"
-                         radius="120"
-                         waitforinteraction="true" />
+          <TagAction criteria="player" tag="player" />
+          <SpawnAction npcsetidentifier="touhounpc" npcidentifier="Store_Hieda_no_Akyuu01" targettag="Store_Hieda_no_Akyuu01" spawnpointtag="saferoom" spawnlocation="beaconstation" requirespawnpointtag="true" teamid="FriendlyNPC" />
+          <TriggerAction target1tag="Store_Hieda_no_Akyuu01" target2tag="player" applytotarget2="triggerer_player" radius="120" waitforinteraction="true" />
           <Label name="waitfortalk_Akyuu" />
-          <ConversationAction targettag="triggerer_player"
-                              speakertag="Store_Hieda_no_Akyuu01"
-                              text="”Hello, is there something you need?“"
-                              eventsprite="Touhou_Supply_Station01">
+          <ConversationAction targettag="triggerer_player" speakertag="Store_Hieda_no_Akyuu01" text="”Hello, is there something you need?“" eventsprite="Touhou_Supply_Station01">
             <Option text="Buy">
-              <CheckReputationAction targettype="faction"
-                                     identifier="Touhou_Gensokyo"
-                                     condition="gte 20">
+              <CheckReputationAction targettype="faction" identifier="Touhou_Gensokyo" condition="gte 20">
                 <Success>
-                  <ConversationAction targettag="triggerer_player"
-                                      dialogtype="Small"
-                                      text="“What do you want?”">
+                  <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“What do you want?”">
                     <Option text="Some medical supplies, 600mk">
-                      <CheckDataAction identifier="Player_Bought01"
-                                       condition="eq true">
+                      <CheckDataAction identifier="Player_Bought01" condition="eq true">
                         <Success>
-                          <ConversationAction text="The girl checked her log: “There's nothing more for now.”"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="The girl checked her log: “There's nothing more for now.”" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Akyuu" />
                         </Success>
                         <Failure>
                           <CheckMoneyAction amount="600">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="“I hope this helps you.”" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“I hope this helps you.”" />
                               <MoneyAction amount="-600" />
-                              <SpawnAction itemidentifier="Europa_Infusion"
-                                           targetinventory="triggerer_player" />
-                              <SpawnAction itemidentifier="antidama1"
-                                           targetinventory="triggerer_player" />
-                              <SpawnAction itemidentifier="stabilozine"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
-                              <SpawnAction itemidentifier="antibleeding1"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
+                              <SpawnAction itemidentifier="Europa_Infusion" targetinventory="triggerer_player" />
+                              <SpawnAction itemidentifier="antidama1" targetinventory="triggerer_player" />
+                              <SpawnAction itemidentifier="stabilozine" targetinventory="triggerer_player" amount="2" />
+                              <SpawnAction itemidentifier="antibleeding1" targetinventory="triggerer_player" amount="2" />
                               <RNGAction chance="0.65">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Player_Bought01" />
+                                  <SetDataAction value="true" identifier="Player_Bought01" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Akyuu" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="”You touched your pocket and found you didn’t have that much money. Maybe you can ask someone here to sell you some?“" />
+                              <ConversationAction targettag="triggerer_player" text="”You touched your pocket and found you didn’t have that much money. Maybe you can ask someone here to sell you some?“" />
                               <GoTo name="waitfortalk_Akyuu" />
                             </Failure>
                           </CheckMoneyAction>
@@ -814,38 +535,28 @@
                       </CheckDataAction>
                     </Option>
                     <Option text="Some fuel and food, 200mk">
-                      <CheckDataAction identifier="Player_Bought02"
-                                       condition="eq true">
+                      <CheckDataAction identifier="Player_Bought02" condition="eq true">
                         <Success>
-                          <ConversationAction text="The girl checked her log: “This is all the supply station can offer.”"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="The girl checked her log: “This is all the supply station can offer.”" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Akyuu" />
                         </Success>
                         <Failure>
                           <CheckMoneyAction amount="200">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="“I hope this helps you.”" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“I hope this helps you.”" />
                               <MoneyAction amount="-200" />
-                              <SpawnAction itemidentifier="fuelrod"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
-                              <SpawnAction itemidentifier="Touhou_Apple"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
+                              <SpawnAction itemidentifier="fuelrod" targetinventory="triggerer_player" amount="2" />
+                              <SpawnAction itemidentifier="Touhou_Apple" targetinventory="triggerer_player" amount="2" />
                               <RNGAction chance="0.5">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Player_Bought02" />
+                                  <SetDataAction value="true" identifier="Player_Bought02" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Akyuu" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="”You touched your pocket and found you didn’t have that much money. Maybe you can ask someone here to sell you some?“" />
+                              <ConversationAction targettag="triggerer_player" text="”You touched your pocket and found you didn’t have that much money. Maybe you can ask someone here to sell you some?“" />
                               <GoTo name="waitfortalk_Akyuu" />
                             </Failure>
                           </CheckMoneyAction>
@@ -853,53 +564,38 @@
                       </CheckDataAction>
                     </Option>
                     <Option text="Later">
-                      <ConversationAction text="You remembered you still had some unfinished business and hurried away."
-                                          targettag="triggerer_player" />
+                      <ConversationAction text="You remembered you still had some unfinished business and hurried away." targettag="triggerer_player" />
                       <GoTo name="waitfortalk_Akyuu" />
                     </Option>
                   </ConversationAction>
                 </Success>
                 <Failure>
-                  <ConversationAction targettag="triggerer_player"
-                                      dialogtype="Small"
-                                      text="“What do you want?”">
+                  <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“What do you want?”">
                     <Option text="Some medical supplies, 800mk">
-                      <CheckDataAction identifier="Player_Bought01"
-                                       condition="eq true">
+                      <CheckDataAction identifier="Player_Bought01" condition="eq true">
                         <Success>
-                          <ConversationAction text="The girl checked her log: “There's nothing more for now.”"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="The girl checked her log: “There's nothing more for now.”" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Akyuu" />
                         </Success>
                         <Failure>
                           <CheckMoneyAction amount="800">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="“I hope this helps you.”" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“I hope this helps you.”" />
                               <MoneyAction amount="-800" />
-                              <SpawnAction itemidentifier="Europa_Infusion"
-                                           targetinventory="triggerer_player" />
-                              <SpawnAction itemidentifier="antidama1"
-                                           targetinventory="triggerer_player" />
-                              <SpawnAction itemidentifier="stabilozine"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
-                              <SpawnAction itemidentifier="antibleeding1"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
+                              <SpawnAction itemidentifier="Europa_Infusion" targetinventory="triggerer_player" />
+                              <SpawnAction itemidentifier="antidama1" targetinventory="triggerer_player" />
+                              <SpawnAction itemidentifier="stabilozine" targetinventory="triggerer_player" amount="2" />
+                              <SpawnAction itemidentifier="antibleeding1" targetinventory="triggerer_player" amount="2" />
                               <RNGAction chance="0.75">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Player_Bought01" />
+                                  <SetDataAction value="true" identifier="Player_Bought01" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Akyuu" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="”You touched your pocket and found you didn’t have that much money. Maybe you can ask someone here to sell you some?“" />
+                              <ConversationAction targettag="triggerer_player" text="”You touched your pocket and found you didn’t have that much money. Maybe you can ask someone here to sell you some?“" />
                               <GoTo name="waitfortalk_Akyuu" />
                             </Failure>
                           </CheckMoneyAction>
@@ -907,38 +603,28 @@
                       </CheckDataAction>
                     </Option>
                     <Option text="Some fuel and food, 400mk">
-                      <CheckDataAction identifier="Player_Bought02"
-                                       condition="eq true">
+                      <CheckDataAction identifier="Player_Bought02" condition="eq true">
                         <Success>
-                          <ConversationAction text="The girl checked her log: “This is all the supply station can offer.”"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="The girl checked her log: “This is all the supply station can offer.”" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Akyuu" />
                         </Success>
                         <Failure>
                           <CheckMoneyAction amount="400">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="“I hope this helps you.”" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“I hope this helps you.”" />
                               <MoneyAction amount="-400" />
-                              <SpawnAction itemidentifier="fuelrod"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
-                              <SpawnAction itemidentifier="Touhou_Apple"
-                                           targetinventory="triggerer_player"
-                                           amount="2" />
+                              <SpawnAction itemidentifier="fuelrod" targetinventory="triggerer_player" amount="2" />
+                              <SpawnAction itemidentifier="Touhou_Apple" targetinventory="triggerer_player" amount="2" />
                               <RNGAction chance="0.7">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Player_Bought02" />
+                                  <SetDataAction value="true" identifier="Player_Bought02" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Akyuu" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="”You touched your pocket and found you didn’t have that much money. Maybe you can ask someone here to sell you some?“" />
+                              <ConversationAction targettag="triggerer_player" text="”You touched your pocket and found you didn’t have that much money. Maybe you can ask someone here to sell you some?“" />
                               <GoTo name="waitfortalk_Akyuu" />
                             </Failure>
                           </CheckMoneyAction>
@@ -946,8 +632,7 @@
                       </CheckDataAction>
                     </Option>
                     <Option text="Later">
-                      <ConversationAction text="You remembered you still had some unfinished business and hurried away."
-                                          targettag="triggerer_player" />
+                      <ConversationAction text="You remembered you still had some unfinished business and hurried away." targettag="triggerer_player" />
                       <GoTo name="waitfortalk_Akyuu" />
                     </Option>
                   </ConversationAction>
@@ -955,83 +640,65 @@
               </CheckReputationAction>
             </Option>
             <Option text="Sell">
-              <CheckDataAction identifier="Akyuu_bought01"
-                               condition="eq true">
+              <CheckDataAction identifier="Akyuu_bought01" condition="eq true">
                 <Success>
-                  <ConversationAction text="“I don’t really have anything I want to buy…” The girl shook her head."
-                                      targettag="triggerer_player" />
+                  <ConversationAction text="“I don’t really have anything I want to buy…” The girl shook her head." targettag="triggerer_player" />
                   <GoTo name="waitfortalk_Akyuu" />
                 </Success>
                 <Failure>
-                  <CheckReputationAction targettype="faction"
-                                         identifier="Touhou_Gensokyo"
-                                         condition="gte 20">
+                  <CheckReputationAction targettype="faction" identifier="Touhou_Gensokyo" condition="gte 20">
                     <Success>
-                      <ConversationAction targettag="triggerer_player"
-                                          text="“The plant materials in the supply station are running low. Can I buy 1 piece of cinnamon from you? Just 1 will do. I can offer 1000 Marks.”">
+                      <ConversationAction targettag="triggerer_player" text="“The plant materials in the supply station are running low. Can I buy 1 piece of cinnamon from you? Just 1 will do. I can offer 1000 Marks.”">
                         <Option text="Deal">
-                          <CheckItemAction targettag="triggerer_player"
-                                           itemidentifiers="Cinnamon_Branch">
+                          <CheckItemAction targettag="triggerer_player" itemidentifiers="Cinnamon_Branch">
                             <Success>
-                              <RemoveItemAction targettag="triggerer_player"
-                                                itemidentifier="Cinnamon_Branch" />
+                              <RemoveItemAction targettag="triggerer_player" itemidentifier="Cinnamon_Branch" />
                               <MoneyAction amount="1000" />
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="“Thank you, the amount has been transferred to your account.”" />
+                              <ConversationAction targettag="triggerer_player" text="“Thank you, the amount has been transferred to your account.”" />
                               <RNGAction chance="0.6">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Akyuu_bought01" />
+                                  <SetDataAction value="true" identifier="Akyuu_bought01" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Akyuu" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You touched your pocket and realized you didn’t have what the girl needed. “Sorry, I used to have some, but I can’t find it now.”" />
+                              <ConversationAction targettag="triggerer_player" text="You touched your pocket and realized you didn’t have what the girl needed. “Sorry, I used to have some, but I can’t find it now.”" />
                               <GoTo name="waitfortalk_Akyuu" />
                             </Failure>
                           </CheckItemAction>
                         </Option>
                         <Option text="Sorry, I don’t have what you need either.">
-                          <ConversationAction text="The girl sighed and left gently."
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="The girl sighed and left gently." targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Akyuu" />
                         </Option>
                       </ConversationAction>
                     </Success>
                     <Failure>
-                      <ConversationAction targettag="triggerer_player"
-                                          text="“The plant materials in the supply station are running low. Can I buy 1 piece of cinnamon from you? Just 1 will do. I can offer 800 Marks.”">
+                      <ConversationAction targettag="triggerer_player" text="“The plant materials in the supply station are running low. Can I buy 1 piece of cinnamon from you? Just 1 will do. I can offer 800 Marks.”">
                         <Option text="Deal">
-                          <CheckItemAction targettag="triggerer_player"
-                                           itemidentifiers="Cinnamon_Branch">
+                          <CheckItemAction targettag="triggerer_player" itemidentifiers="Cinnamon_Branch">
                             <Success>
-                              <RemoveItemAction targettag="triggerer_player"
-                                                itemidentifier="Cinnamon_Branch" />
+                              <RemoveItemAction targettag="triggerer_player" itemidentifier="Cinnamon_Branch" />
                               <MoneyAction amount="800" />
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="“Thank you, the amount has been transferred to your account.”" />
+                              <ConversationAction targettag="triggerer_player" text="“Thank you, the amount has been transferred to your account.”" />
                               <RNGAction chance="0.6">
                                 <Success>
-                                  <SetDataAction value="true"
-                                                 identifier="Akyuu_bought01" />
+                                  <SetDataAction value="true" identifier="Akyuu_bought01" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Akyuu" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You touched your pocket and realized you didn’t have what the girl needed. “Sorry, I used to have some, but I can’t find it now.”" />
+                              <ConversationAction targettag="triggerer_player" text="You touched your pocket and realized you didn’t have what the girl needed. “Sorry, I used to have some, but I can’t find it now.”" />
                               <GoTo name="waitfortalk_Akyuu" />
                             </Failure>
                           </CheckItemAction>
                         </Option>
                         <Option text="Sorry, I don’t have what you need either.">
-                          <ConversationAction text="The girl sighed and left gently."
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="The girl sighed and left gently." targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Akyuu" />
                         </Option>
                       </ConversationAction>
@@ -1041,193 +708,134 @@
               </CheckDataAction>
             </Option>
             <Option text="Give">
-              <CheckDataAction identifier="Player_Donated"
-                               condition="eq true">
+              <CheckDataAction identifier="Player_Donated" condition="eq true">
                 <Success>
-                  <ConversationAction targettag="triggerer_player"
-                                      text="“I don’t really need anything right now…”"
-                                      eventsprite="Touhou_Supply_Station01" />
+                  <ConversationAction targettag="triggerer_player" text="“I don’t really need anything right now…”" eventsprite="Touhou_Supply_Station01" />
                   <GoTo name="waitfortalk_Akyuu" />
                 </Success>
                 <Failure>
-                  <CheckReputationAction targettype="faction"
-                                         identifier="Touhou_Gensokyo"
-                                         condition="gte 20">
+                  <CheckReputationAction targettype="faction" identifier="Touhou_Gensokyo" condition="gte 20">
                     <Success>
-                      <ConversationAction text="What would you like to give?"
-                                          eventsprite="Touhou_Supply_Station01">
+                      <ConversationAction text="What would you like to give?" eventsprite="Touhou_Supply_Station01">
                         <Option text="1000mk">
                           <CheckMoneyAction amount="1000">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="”Thank you for your contribution, I will remember it.“" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="”Thank you for your contribution, I will remember it.“" />
                               <MoneyAction amount="-1000" />
-                              <ReputationAction targettype="Faction"
-                                                identifier="Touhou_Gensokyo"
-                                                increase="2" />
+                              <ReputationAction targettype="Faction" identifier="Touhou_Gensokyo" increase="2" />
                               <RNGAction chance="0.7">
                                 <Success>
-                                  <SetDataAction identifier="Player_Donated"
-                                                 value="true" />
+                                  <SetDataAction identifier="Player_Donated" value="true" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Akyuu" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You don't have that much money." />
+                              <ConversationAction targettag="triggerer_player" text="You don't have that much money." />
                               <GoTo name="waitfortalk_Akyuu" />
                             </Failure>
                           </CheckMoneyAction>
                         </Option>
                         <Option text="2 pieces of Ether Base Metal">
-                          <CheckItemAction targettag="triggerer_player"
-                                           itemidentifiers="Touhou_Base_Metal"
-                                           amount="2">
+                          <CheckItemAction targettag="triggerer_player" itemidentifiers="Touhou_Base_Metal" amount="2">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="”Thank you for your contribution, I will remember it.“" />
-                              <RemoveItemAction targettag="triggerer_player"
-                                                itemidentifier="Touhou_Base_Metal"
-                                                amount="2" />
-                              <ReputationAction targettype="Faction"
-                                                identifier="Touhou_Gensokyo"
-                                                increase="2" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="”Thank you for your contribution, I will remember it.“" />
+                              <RemoveItemAction targettag="triggerer_player" itemidentifier="Touhou_Base_Metal" amount="2" />
+                              <ReputationAction targettype="Faction" identifier="Touhou_Gensokyo" increase="2" />
                               <RNGAction chance="0.7">
                                 <Success>
-                                  <SetDataAction identifier="Player_Donated"
-                                                 value="true" />
+                                  <SetDataAction identifier="Player_Donated" value="true" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Akyuu" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You don’t have these materials."
-                                                  eventsprite="Touhou_Supply_Station01" />
+                              <ConversationAction targettag="triggerer_player" text="You don’t have these materials." eventsprite="Touhou_Supply_Station01" />
                               <Goto name="waitfortalk_Akyuu" />
                             </Failure>
                           </CheckItemAction>
                         </Option>
                         <Option text="A moon-viewing dango and a mooncake.">
-                          <CheckItemAction targettag="triggerer_player"
-                                           itemidentifiers="Touhou_Fullmoon_Dumpling">
+                          <CheckItemAction targettag="triggerer_player" itemidentifiers="Touhou_Fullmoon_Dumpling">
                             <Success>
-                              <CheckItemAction targettag="triggerer_player"
-                                               itemidentifiers="Touhou_Fullmoon_Cake">
+                              <CheckItemAction targettag="triggerer_player" itemidentifiers="Touhou_Fullmoon_Cake">
                                 <Success>
-                                  <ConversationAction targettag="triggerer_player"
-                                                      dialogtype="Small"
-                                                      text="”Thank you for your contribution, I will remember it.“" />
-                                  <RemoveItemAction targettag="triggerer_player"
-                                                    itemidentifier="Touhou_Fullmoon_Dumpling" />
-                                  <RemoveItemAction targettag="triggerer_player"
-                                                    itemidentifier="Touhou_Fullmoon_Cake" />
-                                  <ReputationAction targettype="Faction"
-                                                    identifier="Touhou_Gensokyo"
-                                                    increase="2" />
+                                  <ConversationAction targettag="triggerer_player" dialogtype="Small" text="”Thank you for your contribution, I will remember it.“" />
+                                  <RemoveItemAction targettag="triggerer_player" itemidentifier="Touhou_Fullmoon_Dumpling" />
+                                  <RemoveItemAction targettag="triggerer_player" itemidentifier="Touhou_Fullmoon_Cake" />
+                                  <ReputationAction targettype="Faction" identifier="Touhou_Gensokyo" increase="2" />
                                   <RNGAction chance="0.7">
                                     <Success>
-                                      <SetDataAction identifier="Player_Donated"
-                                                     value="true" />
+                                      <SetDataAction identifier="Player_Donated" value="true" />
                                     </Success>
                                     <Failure></Failure>
                                   </RNGAction>
                                   <GoTo name="waitfortalk_Akyuu" />
                                 </Success>
                                 <Failure>
-                                  <ConversationAction targettag="triggerer_player"
-                                                      text="You don’t have these materials."
-                                                      eventsprite="Touhou_Supply_Station01" />
+                                  <ConversationAction targettag="triggerer_player" text="You don’t have these materials." eventsprite="Touhou_Supply_Station01" />
                                   <Goto name="waitfortalk_Akyuu" />
                                 </Failure>
                               </CheckItemAction>
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You don’t have these materials."
-                                                  eventsprite="Touhou_Supply_Station01" />
+                              <ConversationAction targettag="triggerer_player" text="You don’t have these materials." eventsprite="Touhou_Supply_Station01" />
                               <Goto name="waitfortalk_Akyuu" />
                             </Failure>
                           </CheckItemAction>
                         </Option>
                         <Option text="Later">
-                          <ConversationAction text="You remembered you still had some unfinished business and hurried away."
-                                              dialogtype="Small"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="You remembered you still had some unfinished business and hurried away." dialogtype="Small" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Akyuu" />
                         </Option>
                       </ConversationAction>
                     </Success>
                     <Failure>
-                      <ConversationAction targettag="triggerer_player"
-                                          text="What would you like to give?"
-                                          eventsprite="Touhou_Supply_Station01">
+                      <ConversationAction targettag="triggerer_player" text="What would you like to give?" eventsprite="Touhou_Supply_Station01">
                         <Option text="1600mk">
                           <CheckMoneyAction amount="1600">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="”Thank you for your contribution, I will remember it.“" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="”Thank you for your contribution, I will remember it.“" />
                               <MoneyAction amount="-1600" />
-                              <ReputationAction targettype="Faction"
-                                                identifier="Touhou_Gensokyo"
-                                                increase="2" />
+                              <ReputationAction targettype="Faction" identifier="Touhou_Gensokyo" increase="2" />
                               <RNGAction chance="0.8">
                                 <Success>
-                                  <SetDataAction identifier="Player_Donated"
-                                                 value="true" />
+                                  <SetDataAction identifier="Player_Donated" value="true" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Akyuu" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You don't have that much money." />
+                              <ConversationAction targettag="triggerer_player" text="You don't have that much money." />
                               <GoTo name="waitfortalk_Akyuu" />
                             </Failure>
                           </CheckMoneyAction>
                         </Option>
                         <Option text="3 pieces of Ether Base Metal">
-                          <CheckItemAction targettag="triggerer_player"
-                                           itemidentifiers="Touhou_Base_Metal"
-                                           amount="3">
+                          <CheckItemAction targettag="triggerer_player" itemidentifiers="Touhou_Base_Metal" amount="3">
                             <Success>
-                              <ConversationAction targettag="triggerer_player"
-                                                  dialogtype="Small"
-                                                  text="”Thank you for your contribution, I will remember it.“" />
-                              <RemoveItemAction targettag="triggerer_player"
-                                                itemidentifier="Touhou_Base_Metal"
-                                                amount="3" />
-                              <ReputationAction targettype="Faction"
-                                                identifier="Touhou_Gensokyo"
-                                                increase="2" />
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="”Thank you for your contribution, I will remember it.“" />
+                              <RemoveItemAction targettag="triggerer_player" itemidentifier="Touhou_Base_Metal" amount="3" />
+                              <ReputationAction targettype="Faction" identifier="Touhou_Gensokyo" increase="2" />
                               <RNGAction chance="0.8">
                                 <Success>
-                                  <SetDataAction identifier="Player_Donated"
-                                                 value="true" />
+                                  <SetDataAction identifier="Player_Donated" value="true" />
                                 </Success>
                                 <Failure></Failure>
                               </RNGAction>
                               <GoTo name="waitfortalk_Akyuu" />
                             </Success>
                             <Failure>
-                              <ConversationAction targettag="triggerer_player"
-                                                  text="You don’t have these materials."
-                                                  eventsprite="Touhou_Supply_Station01" />
+                              <ConversationAction targettag="triggerer_player" text="You don’t have these materials." eventsprite="Touhou_Supply_Station01" />
                               <Goto name="waitfortalk_Akyuu" />
                             </Failure>
                           </CheckItemAction>
                         </Option>
                         <Option text="Later">
-                          <ConversationAction text="You remembered you still had some unfinished business and hurried away."
-                                              dialogtype="Small"
-                                              targettag="triggerer_player" />
+                          <ConversationAction text="You remembered you still had some unfinished business and hurried away." dialogtype="Small" targettag="triggerer_player" />
                           <GoTo name="waitfortalk_Akyuu" />
                         </Option>
                       </ConversationAction>
@@ -1237,45 +845,30 @@
               </CheckDataAction>
             </Option>
             <Option text="Chat">
-              <CheckDataAction identifier="talked"
-                               condition="eq true">
+              <CheckDataAction identifier="talked" condition="eq true">
                 <Success>
-                  <ConversationAction text="You've chatted enough; it’s better not to disturb her anymore…"
-                                      targettag="triggerer_player" />
+                  <ConversationAction text="You've chatted enough; it’s better not to disturb her anymore…" targettag="triggerer_player" />
                   <GoTo name="waitfortalk_Akyuu" />
                 </Success>
                 <Failure>
-                  <ConversationAction text="“Hello, is there something you need?” The girl puts down her notebook and turns to look at you."
-                                      dialogtype="Small"
-                                      targettag="triggerer_player">
+                  <ConversationAction text="“Hello, is there something you need?” The girl puts down her notebook and turns to look at you." dialogtype="Small" targettag="triggerer_player">
                     <Option text="“Is this supply station built by the Kappa Heavy Industries? I didn’t expect to find a resting place in the deep sea.”">
-                      <ConversationAction text="“Actually, Kappa are not very friendly to humans. They built the supply stations to better exploit the alien ruins here. It was only due to the Alliance’s substantial offer for cooperation that the Kappa agreed to open these stations.”"
-                                          dialogtype="Small"
-                                          targettag="triggerer_player" />
-                      <SetDataAction value="true"
-                                     identifier="talked" />
+                      <ConversationAction text="“Actually, Kappa are not very friendly to humans. They built the supply stations to better exploit the alien ruins here. It was only due to the Alliance’s substantial offer for cooperation that the Kappa agreed to open these stations.”" dialogtype="Small" targettag="triggerer_player" />
+                      <SetDataAction value="true" identifier="talked" />
                       <GoTo name="waitfortalk_Akyuu" />
                     </Option>
                     <Option text="“There’s no sign of the Tengu Task Force here. Don’t they patrol this place?”">
-                      <ConversationAction text="“Tengus dislike confined spaces. They’re building larger stations for themselves. Other than the outposts, they rarely patrol places like this.”"
-                                          dialogtype="Small"
-                                          targettag="triggerer_player" />
-                      <SetDataAction value="true"
-                                     identifier="talked" />
+                      <ConversationAction text="“Tengus dislike confined spaces. They’re building larger stations for themselves. Other than the outposts, they rarely patrol places like this.”" dialogtype="Small" targettag="triggerer_player" />
+                      <SetDataAction value="true" identifier="talked" />
                       <GoTo name="waitfortalk_Akyuu" />
                     </Option>
                     <Option text="”Can I use the supplies at the supply station?“">
-                      <ConversationAction text="The girl nodded, “You can use whatever you need; that’s what the supply station is for.”"
-                                          dialogtype="Small"
-                                          targettag="triggerer_player" />
-                      <SetDataAction value="true"
-                                     identifier="talked" />
+                      <ConversationAction text="The girl nodded, “You can use whatever you need; that’s what the supply station is for.”" dialogtype="Small" targettag="triggerer_player" />
+                      <SetDataAction value="true" identifier="talked" />
                       <GoTo name="waitfortalk_Akyuu" />
                     </Option>
                     <Option text="Later">
-                      <ConversationAction text="You remembered you still had some unfinished business and hurried away."
-                                          dialogtype="Small"
-                                          targettag="triggerer_player" />
+                      <ConversationAction text="You remembered you still had some unfinished business and hurried away." dialogtype="Small" targettag="triggerer_player" />
                       <GoTo name="waitfortalk_Akyuu" />
                     </Option>
                   </ConversationAction>
@@ -1283,48 +876,27 @@
               </CheckDataAction>
             </Option>
             <Option text="Request for charity">
-              <CheckDataAction identifier="gift"
-                               condition="eq true">
+              <CheckDataAction identifier="gift" condition="eq true">
                 <Success>
-                  <ConversationAction text="You think for a moment and decide it’s not necessary to ask for more."
-                                      targettag="triggerer_player" />
+                  <ConversationAction text="You think for a moment and decide it’s not necessary to ask for more." targettag="triggerer_player" />
                   <GoTo name="waitfortalk_Akyuu" />
                 </Success>
                 <Failure>
-                  <CheckReputationAction targettype="faction"
-                                         identifier="Touhou_Gensokyo"
-                                         condition="gte 20">
+                  <CheckReputationAction targettype="faction" identifier="Touhou_Gensokyo" condition="gte 20">
                     <Success>
-                      <ConversationAction targettag="triggerer_player"
-                                          dialogtype="Small"
-                                          text="“If you need help, you can come to find me later as well?” The girl’s smile is reassuring." />
-                      <SpawnAction itemidentifier="steel"
-                                   targetinventory="triggerer_player"
-                                   amount="2" />
-                      <SpawnAction itemidentifier="alienblood"
-                                   targetinventory="triggerer_player"
-                                   amount="2" />
-                      <SpawnAction itemidentifier="antibleeding1"
-                                   targetinventory="triggerer_player"
-                                   amount="2" />
-                      <SpawnAction itemidentifier="Touhou_Flour"
-                                   targetinventory="triggerer_player"
-                                   amount="2" />
-                      <SetDataAction value="true"
-                                     identifier="gift" />
+                      <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“If you need help, you can come to find me later as well?” The girl’s smile is reassuring." />
+                      <SpawnAction itemidentifier="steel" targetinventory="triggerer_player" amount="2" />
+                      <SpawnAction itemidentifier="alienblood" targetinventory="triggerer_player" amount="2" />
+                      <SpawnAction itemidentifier="antibleeding1" targetinventory="triggerer_player" amount="2" />
+                      <SpawnAction itemidentifier="Touhou_Flour" targetinventory="triggerer_player" amount="2" />
+                      <SetDataAction value="true" identifier="gift" />
                       <GoTo name="waitfortalk_Akyuu" />
                     </Success>
                     <Failure>
-                      <ConversationAction targettag="triggerer_player"
-                                          dialogtype="Small"
-                                          text="“If you need help, you can come to find me later as well?” The girl’s smile is reassuring." />
-                      <SpawnAction itemidentifier="steel"
-                                   targetinventory="triggerer_player" />
-                      <SpawnAction itemidentifier="alienblood"
-                                   targetinventory="triggerer_player"
-                                   amount="2" />
-                      <SetDataAction value="true"
-                                     identifier="gift" />
+                      <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“If you need help, you can come to find me later as well?” The girl’s smile is reassuring." />
+                      <SpawnAction itemidentifier="steel" targetinventory="triggerer_player" />
+                      <SpawnAction itemidentifier="alienblood" targetinventory="triggerer_player" amount="2" />
+                      <SetDataAction value="true" identifier="gift" />
                       <GoTo name="waitfortalk_Akyuu" />
                     </Failure>
                   </CheckReputationAction>
@@ -1332,9 +904,7 @@
               </CheckDataAction>
             </Option>
             <Option text="Maybe Later">
-              <ConversationAction text="You remembered you still had some unfinished business and hurried away."
-                                  dialogtype="Small"
-                                  targettag="triggerer_player" />
+              <ConversationAction text="You remembered you still had some unfinished business and hurried away." dialogtype="Small" targettag="triggerer_player" />
               <GoTo name="waitfortalk_Akyuu" />
             </Option>
           </ConversationAction>
@@ -1342,13 +912,8 @@
       </CheckDataAction>
     </ScriptedEvent>
   </EventPrefabs>
-  <EventSet identifier="Touhou_Supply_Station_Store"
-            chooserandom="false"
-            triggereventcooldown="false"
-            allowatstart="true">
-    <ScriptedEvent identifier="Touhou_Supply_Station01"
-                   commonness="0"
-                   triggercooldown="false" />
+  <EventSet identifier="Touhou_Supply_Station_Store" chooserandom="false" triggereventcooldown="false" allowatstart="true">
+    <ScriptedEvent identifier="Touhou_Supply_Station01" commonness="0" triggercooldown="false" />
     <!--        <ScriptedEvent identifier="Touhou_Supply_Station02" commonness="0" triggercooldown="false" />-->
   </EventSet>
 </Randomevents>
