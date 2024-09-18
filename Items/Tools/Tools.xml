@@ -309,9 +309,9 @@
     <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="55,-10" aimpos="50,0" handle1="-40,-14" handle2="-5,-16" holdangle="-40" msg="ItemMsgPickUpSelect" />
     <RepairTool firedamage="10.0" structurefixamount="-0.7" range="300" barrelpos="64,16" combatpriority="23" RepairMultiple="true" RepairThroughHoles="false" levelwallfixamount="-15.0">
       <RequiredItems identifier="batterycell,Spiritual_Water,fulguriumbatterycell" type="Contained" msg="Requires a battery or Spirit Water" />
-      <ParticleEmitter particle="plasma" particlespersecond="50" copyentityangle="true" scalemin="1.8" scalemax="2.2" />
+      <ParticleEmitter particle="largeplasma" particlespersecond="50" copyentityangle="true" scalemin="1.8" scalemax="2.2" ColorMultiplier="130,255,60,155"/>
       <StatusEffect type="OnUse" target="This" Condition="-18" />
-      <StatusEffect type="Always" target="This" Condition="10">
+      <StatusEffect type="Always" target="This" Condition="10" interval="1">
         <Conditional condition="gt 0" />
       </StatusEffect>
       <StatusEffect type="InWater" target="This" Condition="4">

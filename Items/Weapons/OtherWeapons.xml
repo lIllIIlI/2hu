@@ -160,7 +160,7 @@
     <PreferredContainer secondary="outpostsecarmcab" minamount="3" maxamount="18" spawnprobability="0.2" />
     <PreferredContainer secondary="wreckarmcab,wrecksecarmcab,abandonedarmcab,abandonedsecarmcab" minamount="2" maxamount="6" spawnprobability="0.1" />
     <PreferredContainer secondary="secarmcab" />
-    <Price baseprice="128" sold="true">
+    <Price baseprice="96" sold="true">
       <Price storeidentifier="merchantoutpost" minavailable="8" />
       <Price storeidentifier="merchantcity" multiplier="0.9" minavailable="32" />
       <Price storeidentifier="merchantresearch" minavailable="16" />
@@ -476,7 +476,7 @@
     </Projectile>
   </Item>
   <!--退魔圣焰-->
-  <Item name="Exorcism Holy Flame" identifier="Touhou_Winchester" subcategory="Touhou" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,Low_Alchemical_Metal" Scale="0.45" impactsoundtag="impact_metal_light">
+  <Item name="Winchester" identifier="Touhou_Winchester" subcategory="Touhou" category="Equipment,Weapon" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,Low_Alchemical_Metal" Scale="0.45" impactsoundtag="impact_metal_light">
     <PreferredContainer secondary="armcab" />
     <Deconstruct time="3">
       <Item identifier="Reiki_Stone" amount="2" />
@@ -588,7 +588,7 @@
       </StatusEffect>
       <StatusEffect type="OnImpact" target="UseTarget" comparison="And">
         <Conditional speciesname="neq human" />
-        <Conditional speciesname="neq TouhouHumanTail" />
+        <Conditional speciesname="neq HumanTouhou_Tail" />
         <Affliction identifier="Reiki_Pressure" strength="6" />
       </StatusEffect>
       <StatusEffect type="OnImpact" target="This" disabledeltatime="true">
@@ -1115,7 +1115,7 @@
     <Body width="146" height="28" density="10" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
     <Projectile characterusable="false" launchimpulse="50" hitscan="false" removeonhit="true" friendlyfire="false">
-      <Attack itemdamage="25" targetforce="5" penetration="0.35" severlimbsprobability="0.2">
+      <Attack itemdamage="25" targetforce="5" penetration="0.3" severlimbsprobability="0.2">
         <Affliction identifier="burn" strength="10.0" />
         <Affliction identifier="acidburn" strength="7.0" />
         <Affliction identifier="stun" strength="0.1" probability="0.2" />
@@ -1217,7 +1217,7 @@
     <Body width="146" height="28" density="10" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
     <Projectile characterusable="false" launchimpulse="50" hitscan="false" removeonhit="true" friendlyfire="false">
-      <Attack itemdamage="65" targetforce="15" penetration="0.15" severlimbsprobability="0.2">
+      <Attack itemdamage="65" targetforce="15" penetration="0.1" severlimbsprobability="0.2">
         <Affliction identifier="explosiondamage" strength="8" />
         <Affliction identifier="lacerations" strength="8" />
         <Affliction identifier="blunttrauma" strength="8" />
@@ -1252,7 +1252,7 @@
     <Body width="146" height="28" density="10" />
     <Holdable slots="Any,RightHand,LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" />
     <Projectile characterusable="false" launchimpulse="50" hitscan="false" removeonhit="true" friendlyfire="false">
-      <Attack itemdamage="65" targetforce="5" penetration="0.2" severlimbsprobability="0.2">
+      <Attack itemdamage="65" targetforce="5" penetration="0.15" severlimbsprobability="0.2">
         <Affliction identifier="burn" strength="6" />
         <Affliction identifier="Touhou_Freeze" strength="6" />
         <Affliction identifier="Reiki_Pressure" strength="6" />
@@ -1295,7 +1295,7 @@
     <Fabricate suitablefabricators="Magic_Altar" requiredtime="15">
       <RequiredSkill identifier="weapons" level="60" />
       <RequiredItem tag="alienartifact" />
-      <RequiredItem identifier="Touhou_Precious_Metal" />
+      <RequiredItem identifier="Touhou_Precious_Metal" amount="2" />
       <RequiredItem identifier="Touhou_Base_Metal" amount="4" />
       <RequiredItem identifier="Power_Point" />
       <RequiredItem identifier="Reiki_Stone" amount="4" />

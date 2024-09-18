@@ -286,7 +286,7 @@
   <afflictionname.Phoenix_Burn>Phoenix's Scorching Burn</afflictionname.Phoenix_Burn>
   <afflictiondescription.Phoenix_Burn>The scars left by being burned by Mokou's flames always give people a false sense of invincibility.</afflictiondescription.Phoenix_Burn>
   <afflictionname.Aura_Strip>Aura Stripping</afflictionname.Aura_Strip>
-  <afflictiondescription.Aura_Strip>When your Aura is forcibly taken away, you feel that your physical condition has inexplicably deteriorated a lot.</afflictiondescription.Aura_Strip>
+  <afflictiondescription.Aura_Strip>When your Aura is forcibly taken away, you feel that your physical condition has inexplicably deteriorated.</afflictiondescription.Aura_Strip>
   <afflictionname.Resurrection>Resurrection</afflictionname.Resurrection>
   <afflictiondescription.Resurrection>It's just an unremarkable everyday routine.</afflictiondescription.Resurrection>
   <afflictionname.Touhou_Water_Heart>Water Heart</afflictionname.Touhou_Water_Heart>
@@ -478,9 +478,10 @@
   <talentname.Gensokyo_Banquet>Banquet</talentname.Gensokyo_Banquet>
   <talentdescription.Gensokyo_Banquet>After every round, if no crewmates died, everyone's ‖color:gui.yellow‖physical damage, burns, blood loss and Reaper's Tax‖end‖ is mildly cured.</talentdescription.Gensokyo_Banquet>
   <talentname.Gensokyo_Hermit>Elegant</talentname.Gensokyo_Hermit>
-  <talentdescription.Gensokyo_Hermit>When attacked, there is a ‖color:gui.green‖25%‖end‖ chance of reducing ‖color:gui.green‖40%‖end‖ of the damage of the attack.</talentdescription.Gensokyo_Hermit>
+  <talentdescription.Gensokyo_Hermit>When attacked, there is a ‖color:gui.green‖25%‖end‖ chance to reduce damage taken by ‖color:gui.green‖40%‖end‖. This effect has a ‖color:gui.green‖2‖end‖ second cooldown.</talentdescription.Gensokyo_Hermit>
   <talentname.Enter_Gensokyo>Down to Earth</talentname.Enter_Gensokyo>
-  <talentdescription.Enter_Gensokyo>Resistance to Magic Destruction increases by ‖color:gui.green‖40%‖end‖. Repaired equipment becomes more durable, but the quality of your crafting decreases by ‖color:gui.green‖1‖end‖ level.</talentdescription.Enter_Gensokyo>
+  <talentdescription.Enter_Gensokyo>Gain ‖color:gui.green‖40%‖end‖ resistance to Aura Stripping. 
+  When ‖color:gui.orange‖Magic Ability‖end‖ is below ‖color:gui.green‖70‖end‖ but greater than ‖color:gui.green‖30‖end‖, provide a ‖color:gui.green‖5‖end‖ point bonus to all skills (vanilla skills); if greater than ‖color:gui.green‖70‖end‖, provide a ‖color:gui.green‖10‖end‖ point bonus.</talentdescription.Enter_Gensokyo>
   <talentname.Izakaya>Bartender</talentname.Izakaya>
   <talentdescription.Izakaya>Resistance to drunkeness increases by ‖color:gui.green‖80%‖end‖. Unlocks ‖color:gui.orange‖Beer‖end‖ recipe.</talentdescription.Izakaya>
   <talentname.Gensokyo_Divinggear_Unlocked>Skilled</talentname.Gensokyo_Divinggear_Unlocked>
@@ -504,7 +505,7 @@
   <talentname.Mana_Release>Resilient Magician</talentname.Mana_Release>
   <talentdescription.Mana_Release>Become immune to water pressure, but the damage caused by Spiritual Pressure is reduced by ‖color:gui.green‖10%‖end‖.</talentdescription.Mana_Release>
   <talentname.Mana_Convergence>Swift Magician</talentname.Mana_Convergence>
-  <talentdescription.Mana_Convergence>Swimming speed is increased by ‖color:gui.green‖50%‖end‖，but resistance to Spiritual Pressure decreases by ‖color:gui.green‖10%‖end‖.</talentdescription.Mana_Convergence>
+  <talentdescription.Mana_Convergence>Swimming speed is increased by ‖color:gui.green‖80%‖end‖，but resistance to Spiritual Pressure decreases by ‖color:gui.green‖50%‖end‖.</talentdescription.Mana_Convergence>
   <talentname.Power_Point_Efficient_Synthesis>Leader Magician</talentname.Power_Point_Efficient_Synthesis>
   <talentdescription.Power_Point_Efficient_Synthesis>Your crew is able to accept one extra mission, and reputation gained increases by ‖color:gui.green‖25%‖end‖. You can now drag creatures at full speed. Unlocks the ‖color:gui.orange‖ P Point (Efficient)‖end‖ recipe.</talentdescription.Power_Point_Efficient_Synthesis>
   <talentname.MEID_Unlocked>Strongest Magician</talentname.MEID_Unlocked>
@@ -533,7 +534,6 @@
   <charactername.Syameimaru_Aya>Shameimaru Aya</charactername.Syameimaru_Aya>
   <charactername.Huziwara_no_Mokou>Fujiwara no Mokou</charactername.Huziwara_no_Mokou>
   <charactername.Patchouli_Knowledge>Patchouli Knowledge</charactername.Patchouli_Knowledge>
-  <charactername.youmukonpaku>Konpaku Youmu</charactername.youmukonpaku>
   <charactername.Kazami_Yuka>Kazami Yuuka</charactername.Kazami_Yuka>
   <charactername.Hinanawi_Tenshi>Hinanawi Tenshi</charactername.Hinanawi_Tenshi>
   <charactername.Inubashiri_Momizi>Inubashiri Momiji</charactername.Inubashiri_Momizi>
@@ -724,8 +724,8 @@
   <entitydescription.Touhou_Magic_Potion_Purification>A magic potion that purifies alien infections in the body, quickly killing alien life forms like the Husks and Symbiotes.</entitydescription.Touhou_Magic_Potion_Purification>
   <entityname.Touhou_Cyber_Homing_Amulet>Cyber Homing Amulet</entityname.Touhou_Cyber_Homing_Amulet>
   <entitydescription.Touhou_Cyber_Homing_Amulet>Through the combination of magic and technology, the Kappas and Patchouli sacrificed some firerate in exchange of greater power and a rechargeable system.</entitydescription.Touhou_Cyber_Homing_Amulet>
-  <entityname.Magic_Pouch>Elemental Bag</entityname.Magic_Pouch>
-  <entitydescription.Magic_Pouch>A belt made from magical materials, which quickly became popular among mages upon release. When paired with a magical mantle, it maximizes the user’s magical power. It also includes three elemental bottle slots, allowing the user to place different elemental bottles to provide various healing effects.</entitydescription.Magic_Pouch>
+  <entityname.Magic_Pouch>Magic Pouch</entityname.Magic_Pouch>
+  <entitydescription.Magic_Pouch>A bag made from magical materials, which quickly became popular among mages upon release. When paired with a magical mantle, it maximizes the user’s magical power. It also includes three elemental bottle slots, allowing the user to place different elemental bottles to provide various healing effects.</entitydescription.Magic_Pouch>
   <entityname.Camellia_Hair_Accessory>‖color:193,204,65,255‖Camellia‖color:end‖</entityname.Camellia_Hair_Accessory>
   <entitydescription.Camellia_Hair_Accessory>A beautiful camellia hair accessory made using real flowers, resulting in high craftsmanship. Wearing this will completely improve forgetfulness.</entitydescription.Camellia_Hair_Accessory>
   <entityname.Touhou_Aya_Camera>‖color:255,255,255,255‖Aya's Camera‖color:end‖</entityname.Touhou_Aya_Camera>
@@ -742,8 +742,8 @@
   <entitydescription.Sun_Flower_Petal01>A petal with very sharp edges, handle with care (used in the medical interface)</entitydescription.Sun_Flower_Petal01>
   <entityname.Sun_Flower_Petal02>Light Petal</entityname.Sun_Flower_Petal02>
   <entitydescription.Sun_Flower_Petal02>A petal so light it is almost weightless; it will disappear with a gust of wind (used in the medical interface)</entitydescription.Sun_Flower_Petal02>
-  <entityname.Sun_Flower_Petal03>Active Petal</entityname.Sun_Flower_Petal03>
-  <entitydescription.Sun_Flower_Petal03>A petal that seems alive, with a slight vibration when held (used in the medical interface)</entitydescription.Sun_Flower_Petal03>
+  <entityname.Sun_Flower_Petal03>Living Petal</entityname.Sun_Flower_Petal03>
+  <entitydescription.Sun_Flower_Petal03>These petals vibrate slightly. You can feel them twist slightly when you touch them. (used in the medical interface)</entitydescription.Sun_Flower_Petal03>
   <entityname.Touhou_Crimson_Moonlight>‖color:255,36,0,255‖Under the Scarlet Moon‖end‖</entityname.Touhou_Crimson_Moonlight>
   <entitydescription.Touhou_Crimson_Moonlight>‖color:255,36,0,255‖Is there no one left?‖end‖</entitydescription.Touhou_Crimson_Moonlight>
   <entitydescription.Touhou_Magic_Potion_Candy>Magic Potion (Glucose)</entitydescription.Touhou_Magic_Potion_Candy>
@@ -979,7 +979,7 @@
   <entitydescription.Touhou_Baka_Sword>“I am the strongest!”</entitydescription.Touhou_Baka_Sword>
   <afflictionname.Cirno_Weapons>Ice Fairy of Misty Lake</afflictionname.Cirno_Weapons>
   <afflictiondescription.Cirno_Weapons>She is a leader among the fairies near the lake and is stronger than other fairies.</afflictiondescription.Cirno_Weapons>
-  <entityname.Magic_Pouch_Medical_Expansion>Elemental Belt - Medical Expansion</entityname.Magic_Pouch_Medical_Expansion>
+  <entityname.Magic_Pouch_Medical_Expansion>Magic Pouch - Medical Expansion</entityname.Magic_Pouch_Medical_Expansion>
   <entitydescription.Magic_Pouch_Medical_Expansion>An upgraded version of the elemental belt, sacrificing magical defense performance for more medical storage space without altering its magical properties.</entitydescription.Magic_Pouch_Medical_Expansion>
   <entityname.Touhou_Candy_Essence>Candy Essence</entityname.Touhou_Candy_Essence>
   <entitydescription.Touhou_Candy_Essence>When used by fairies, it grants additional talents, up to five.</entitydescription.Touhou_Candy_Essence>

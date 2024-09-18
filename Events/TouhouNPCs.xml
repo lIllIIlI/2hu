@@ -68,7 +68,7 @@
       </ItemSet>
     </npc>
     <!--阿求-入组-->
-    <npc identifier="Hieda_no_Akyuu" moduleflags="none" behavior="Passive" healthmultiplier="3.0">
+    <npc identifier="Hieda_no_Akyuu" moduleflags="none" behavior="Passive">
       <Character speciesname="human" tags="female,head3" experiencepoints="20000" additionaltalentpoints="0" hairindex="7" beardindex="0" moustacheindex="0" faceattachmentindex="10" skincolor="200,165,131,255" haircolor="71,54,55,255" facialhaircolor="106,59,55,255" startitemsgiven="false" ragdoll="" personality="laid-back" missionscompletedsincedeath="29">
         <job identifier="medicaldoctor">
           <skill identifier="weapons" level="70" />

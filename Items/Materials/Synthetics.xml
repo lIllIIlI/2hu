@@ -159,7 +159,7 @@
       <Price storeidentifier="merchantmilitary" minavailable="132" />
       <Price storeidentifier="merchantmine" minavailable="196" />
     </Price>
-    <Deconstruct time="1" />
+    <Deconstruct time="1"></Deconstruct>
     <Fabricate suitablefabricators="Magic_Altar" requiredtime="0.5" amount="6">
       <RequiredSkill identifier="Touhou_Magic" level="30" />
       <RequiredItem identifier="carbon" amount="2" />
@@ -320,7 +320,7 @@
       <Item identifier="Jin_Alchemical" commonness="0.2" />
       <Item identifier="Shui_Alchemical" commonness="0.2" />
     </Deconstruct>
-    <Sprite texture="Content/Items/JobGear/TalentGear.png" sourcerect="1,368,40,56" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/Materials/Touhou_Spell_Book.png" depth="0.4" sourcerect="0,0,36,52" />
     <Body width="28" height="36" density="14" />
     <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="5,0" aimangle="340" handangle="300" swingamount="0,3" swingspeed="0.5" swingwhenaiming="true" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnSecondaryUse" target="This" Condition="-10" />
@@ -352,7 +352,7 @@
       <Item identifier="Jin_Alchemical" commonness="0.2" />
       <Item identifier="Shui_Alchemical" commonness="0.2" />
     </Deconstruct>
-    <Sprite texture="Content/Items/JobGear/TalentGear.png" sourcerect="1,368,40,56" depth="0.6" origin="0.5,0.5" />
+    <Sprite texture="%ModDir%/Images/Materials/Touhou_Spell_Tutorial.png" depth="0.4" sourcerect="0,0,36,52" />
     <Body width="28" height="36" density="14" />
     <Holdable slots="Any,RightHand+LeftHand" aimable="false" aimpos="40,-20" handle1="5,0" aimangle="340" handangle="300" swingamount="0,3" swingspeed="0.5" swingwhenaiming="true" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnSecondaryUse" target="This" Condition="-22" />

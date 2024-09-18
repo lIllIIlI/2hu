@@ -68,7 +68,7 @@
     <icon texture="%ModDir%/Images/Afflictions/Reiki_Side_Effect.png" sourcerect="0,0,128,128" color="255,255,2555,255" origin="0,0" />
   </Affliction>
   <!--灵压-->
-  <Affliction name="Spiritual Pressure" identifier="Reiki_Pressure" description="" type="damage" limbspecific="false" maxstrength="200" damageoverlayalpha="0.01" affectmachines="true" showiconthreshold="0" iconcolors="94,94,94;163,164,164;255,255,255" MedicalSkillGain="0">
+  <Affliction name="Reiki Pressure" identifier="Reiki_Pressure" description="" type="damage" limbspecific="false" maxstrength="200" damageoverlayalpha="0.01" affectmachines="true" showiconthreshold="0" iconcolors="94,94,94;163,164,164;255,255,255" MedicalSkillGain="0">
     <Description textidentifier="afflictiondescription.Reiki_Pressure" minstrength="0" maxstrength="200" />
     <Effect minstrength="0" maxstrength="200" multiplybymaxvitality="true" minvitalitydecrease="0" maxvitalitydecrease="2" strengthchange="-0.01" />
     <icon texture="%ModDir%/Images/Afflictions/Reiki_Pressure.png" sourcerect="0,0,128,128" color="255,255,255,255" origin="0,0" />
@@ -83,7 +83,7 @@
   <Affliction name="Freeze" identifier="Touhou_Freeze" description="" type="burn" limbspecific="true" maxstrength="100" affectmachines="true" iconcolors="94,94,94;163,164,164;255,255,255" MedicalSkillGain="0">
     <Description textidentifier="afflictiondescription.Touhou_Freeze_Low" minstrength="0" maxstrength="50" />
     <Description textidentifier="afflictiondescription.Touhou_Freeze_High" minstrength="50" maxstrength="100" />
-    <Effect minstrength="0" maxstrength="50" multiplybymaxvitality="true" minvitalitydecrease="0" maxvitalitydecrease="0.35" minspeedmultiplier="1.0" maxspeedmultiplier="0.85" strengthchange="-0.04">
+    <Effect minstrength="0" maxstrength="50" multiplybymaxvitality="true" minspeedmultiplier="1.0" maxspeedmultiplier="0.85" minvitalitydecrease="0" maxvitalitydecrease="0.35" strengthchange="-0.04">
       <StatValue stattype="RangedAttackSpeed" minvalue="0" value="-0.1" />
       <StatValue stattype="MeleeAttackSpeed" minvalue="0" value="-0.1" />
     </Effect>

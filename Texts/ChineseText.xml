@@ -478,7 +478,8 @@
   <talentname.Gensokyo_Hermit>飘逸</talentname.Gensokyo_Hermit>
   <talentdescription.Gensokyo_Hermit>受到攻击时有‖color:gui.green‖25%‖end‖概率减少‖color:gui.green‖40%‖end‖的承受伤害，这个效果有‖color:gui.green‖2‖end‖秒冷却。</talentdescription.Gensokyo_Hermit>
   <talentname.Enter_Gensokyo>超出常识</talentname.Enter_Gensokyo>
-  <talentdescription.Enter_Gensokyo>获得对灵气紊乱‖color:gui.green‖40%‖end‖的抗性，修理完成的设备更加难以损坏，但制造的工具品质等级下降‖color:gui.green‖1‖end‖级。</talentdescription.Enter_Gensokyo>
+  <talentdescription.Enter_Gensokyo>获得对灵气紊乱‖color:gui.green‖40%‖end‖的抗性，
+    当‖color:gui.orange‖魔法能力‖end‖不满‖color:gui.green‖70‖end‖但大于‖color:gui.green‖30‖end‖时，为所有技能（原版技能）提供‖color:gui.green‖5‖end‖点加成；大于‖color:gui.green‖70‖end‖时，提供‖color:gui.green‖10‖end‖点加成。</talentdescription.Enter_Gensokyo>
   <talentname.Izakaya>居酒屋</talentname.Izakaya>
   <talentdescription.Izakaya>拥有对醉酒的‖color:gui.green‖80%‖end‖的抗性，解锁配方：‖color:gui.orange‖啤酒‖end‖。</talentdescription.Izakaya>
   <talentname.Gensokyo_Divinggear_Unlocked>幻想入</talentname.Gensokyo_Divinggear_Unlocked>
@@ -502,7 +503,7 @@
   <talentname.Mana_Release>魔力外放</talentname.Mana_Release>
   <talentdescription.Mana_Release>魔法能力等级大于‖color:gui.green‖80‖end‖后，永久免疫水压。</talentdescription.Mana_Release>
   <talentname.Mana_Convergence>魔力内敛</talentname.Mana_Convergence>
-  <talentdescription.Mana_Convergence>在开阔海域获得‖color:gui.green‖50%‖end‖游泳速度加成，但受到的灵压伤害提高‖color:gui.green‖10%‖end‖。</talentdescription.Mana_Convergence>
+  <talentdescription.Mana_Convergence>魔法能力大于‖color:gui.green‖80‖end‖后，在开阔海域获得‖color:gui.green‖50%‖end‖游泳速度加成。</talentdescription.Mana_Convergence>
   <talentname.Power_Point_Efficient_Synthesis>远见卓识</talentname.Power_Point_Efficient_Synthesis>
   <talentdescription.Power_Point_Efficient_Synthesis>每次巡回能额外接受一个任务，获得的声望增加‖color:gui.green‖25%‖end‖，可以全速拖动生物，解锁配方‖color:gui.orange‖：P点（红）（高效合成）‖end‖。</talentdescription.Power_Point_Efficient_Synthesis>
   <talentname.MEID_Unlocked>魔法天才</talentname.MEID_Unlocked>

@@ -115,7 +115,7 @@
       <StatusEffect type="OnWearing" target="Character" interval="5">
         <GiveTalentInfo giverandom="false" talentidentifiers="Savant" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Character" multiplyafflictionsbymaxvitality="true">
+      <StatusEffect type="OnWearing" target="Character">
         <Affliction identifier="Memory_Of_Gensokyo" strength="50" />
       </StatusEffect>
       <StatusEffect type="OnWearing" target="This" targetitemcomponent="StatusHUD" drawhudwhenequipped="false" overlaycolor="0,0,0,0" range="3000" thermalgoggles="false" showdeadcharacters="false" showtexts="true" />

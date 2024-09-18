@@ -176,30 +176,34 @@
   <Talent identifier="Enter_Gensokyo">
     <Icon texture="%ModDir%/Images/Talents/Talents_Magician_Primary.png" sheetindex="0,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.Enter_Gensokyo" />
-    <AbilityGroupEffect abilityeffecttype="OnRepairComplete">
-      <Conditions>
-        <AbilityConditionItem category="Electrical" />
-      </Conditions>
-      <Abilities>
-        <CharacterAbilityGiveItemStat stattype="DetoriationSpeed" value="0.5" />
-      </Abilities>
-    </AbilityGroupEffect>
-    <AbilityGroupEffect abilityeffecttype="OnRepairComplete">
-      <Conditions>
-        <AbilityConditionItem category="Machine" />
-      </Conditions>
-      <Abilities>
-        <CharacterAbilityGiveItemStat stattype="DetoriationSpeed" value="0.5" />
-      </Abilities>
-    </AbilityGroupEffect>
     <AbilityGroupInterval interval="0.9">
       <Abilities>
-        <CharacterAbilityModifyResistance resistanceid="Reiki_Side_Effect" multiplier="0.6" />
+        <CharacterAbilityModifyResistance resistanceid="Reiki_Side_Effect" multiplier="0.75" />
       </Abilities>
     </AbilityGroupInterval>
     <AbilityGroupEffect abilityeffecttype="None">
+      <Conditions>
+        <AbilityConditionHasSkill skillidentifier="helm" minvalue="70" invert="true" />
+        <AbilityConditionHasSkill skillidentifier="helm" minvalue="30" />
+      </Conditions>
       <Abilities>
-        <CharacterAbilityGivePermanentStat statidentifier="tool~toolmaintenance" stattype="IncreaseFabricationQuality" value="-1" targetallies="false" setvalue="true" />
+        <CharacterAbilityGiveStat stattype="ElectricalSkillBonus" value="5" />
+        <CharacterAbilityGiveStat stattype="HelmSkillBonus" value="5" />
+        <CharacterAbilityGiveStat stattype="MechanicalSkillBonus" value="5" />
+        <CharacterAbilityGiveStat stattype="MedicalSkillBonus" value="5" />
+        <CharacterAbilityGiveStat stattype="WeaponsSkillBonus" value="5" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="None">
+      <Conditions>
+        <AbilityConditionHasSkill skillidentifier="helm" minvalue="70" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityGiveStat stattype="ElectricalSkillBonus" value="10" />
+        <CharacterAbilityGiveStat stattype="HelmSkillBonus" value="10" />
+        <CharacterAbilityGiveStat stattype="MechanicalSkillBonus" value="10" />
+        <CharacterAbilityGiveStat stattype="MedicalSkillBonus" value="10" />
+        <CharacterAbilityGiveStat stattype="WeaponsSkillBonus" value="10" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>

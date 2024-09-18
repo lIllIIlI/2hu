@@ -83,6 +83,7 @@
       <SetDataAction value="true" identifier="Touhou_Green_UFO_Mission" />
       <SetDataAction value="false" identifier="Touhou_Akyuu_UFO_Mission01_Agree" />
       <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission01" nextround="true" />
+      <SetDataAction identifier="Touhou_UFO_Mission_ING" value="true" />
     </ScriptedEvent>
     <!--击败红UFO-->
     <ScriptedEvent identifier="Touhou_Red_UFO_Mission_Completed" commonness="0">
@@ -400,7 +401,7 @@
                             </Failure>
                           </CheckItemAction>
                         </Option>
-                        <Option text="A moon-viewing dango and a mooncake.">
+                        <Option text="A fullmoon dumpling and a mooncake.">
                           <CheckItemAction targettag="triggerer_player" itemidentifiers="Touhou_Fullmoon_Dumpling">
                             <Success>
                               <CheckItemAction targettag="triggerer_player" itemidentifiers="Touhou_Fullmoon_Cake">

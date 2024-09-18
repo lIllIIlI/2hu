@@ -45,7 +45,7 @@
     </ItemContainer>
   </Item>
   <!--默认BGM01-->
-  <Item name="Origin_Deafult01" identifier="Origin_Deafult01" description="Good and Evil Reside Within" subcategory="Touhou" category="Misc" tags="smallitem,Touhou_Record,tsm_audio,m_cd" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft" scale="0.25">
+  <Item name="Origin_Default01" identifier="Origin_Deafult01" description="Good and Evil Reside Within" subcategory="Touhou" category="Misc" tags="smallitem,Touhou_Record,tsm_audio,m_cd" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft" scale="0.25">
     <Price baseprice="20">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" minavailable="1" />
@@ -68,7 +68,7 @@
     </ItemComponent>
   </Item>
   <!--默认BGM02-->
-  <Item name="Origin_Deafult02" identifier="Origin_Deafult02" description="Gensokyo Flying Publication Day" subcategory="Touhou" category="Misc" tags="smallitem,Touhou_Record,tsm_audio,m_cd" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft" scale="0.25">
+  <Item name="Origin_Default02" identifier="Origin_Deafult02" description="Gensokyo Flying Publication Day" subcategory="Touhou" category="Misc" tags="smallitem,Touhou_Record,tsm_audio,m_cd" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft" scale="0.25">
     <Price baseprice="20">
       <Price storeidentifier="merchantoutpost" minavailable="1" />
       <Price storeidentifier="merchantcity" minavailable="1" />

@@ -57,6 +57,11 @@
   <Afflictions file="%ModDir%/Yousei_Afflictions.xml" />
   <Missions file="%ModDir%/Missions/TouhouMissions.xml" />
   <Factions file="%ModDir%/Touhou_Faction.xml" />
+  <Character file="%ModDir%/Characters/HumanTouhou_Tail/HumanTouhou_Tail.xml" />
+  <Other file="%ModDir%/Characters/HumanTouhou_Tail/AunnTail.xml" />
+  <Other file="%ModDir%/Characters/HumanTouhou_Tail/MomiziTail.xml" />
+  <Other file="%ModDir%/Characters/HumanTouhou_Tail/PieceWings.xml" />
+  <Other file="%ModDir%/Characters/HumanTouhou_Tail/CirnoWings.xml" />
   <Character file="%ModDir%/Characters/Maoyu/Maoyu.xml" />
   <Character file="%ModDir%/Characters/Little_Ghost/Little_Ghost.xml" />
   <Character file="%ModDir%/Characters/Little_photosphere/Little_photosphere.xml" />
