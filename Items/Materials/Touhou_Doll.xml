@@ -93,15 +93,16 @@
         <Conditional healthpercentage="lt 100" />
         <ReduceAffliction type="bleeding" amount="0.1" />
         <ReduceAffliction type="burn" amount="0.1" />
+        <ReduceAffliction type="debuff" amount="0.1" />
       </StatusEffect>
-      <StatusEffect type="OnContained" target="Contained" condition="0.04">
+      <StatusEffect type="OnContained" target="Contained" condition="0.005">
         <RequiredItem items="Elements_Book_Ammo" type="Contained" />
         <Conditional Hastag="Magic_Veil" />
       </StatusEffect>
-      <StatusEffect type="OnContained" target="Character">
+      <StatusEffect type="OnContained" target="Character" comparison="And">
         <RequiredItem items="Elements_Book_Ammo" type="Contained" />
         <Conditional InWater="false" />
-        <ReduceAffliction type="debuff" amount="0.1" />
+        <Conditional haste="lte 300" />
         <Affliction identifier="haste" amount="2" />
       </StatusEffect>
       <StatusEffect type="OnSecondaryUse" target="Character" comparison="And">
@@ -110,11 +111,12 @@
         <Conditional healthpercentage="lt 100" />
         <ReduceAffliction type="bleeding" amount="0.2" />
         <ReduceAffliction type="burn" amount="0.2" />
+        <ReduceAffliction type="debuff" amount="0.2" />
       </StatusEffect>
-      <StatusEffect type="OnSecondaryUse" target="Character">
+      <StatusEffect type="OnSecondaryUse" target="Character" comparison="And">
         <RequiredItem items="Elements_Book_Ammo" type="Contained" />
         <Conditional InWater="false" />
-        <ReduceAffliction type="debuff" amount="0.2" />
+        <Conditional haste="lte 300" />
         <Affliction identifier="haste" amount="4" />
       </StatusEffect>
     </Holdable>

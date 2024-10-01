@@ -191,7 +191,7 @@
   <entityname.Star_Danmu>Star Barrage</entityname.Star_Danmu>
   <entitydescription.StarDanmu>Patchouli says it's an important piece of the Mini Hakkero. She also modified the formula for this item slightly to make it compatible with charging stations. Talk about QoL!</entitydescription.StarDanmu>
   <entityname.Stardust_Reverie>Stardust Reverie</entityname.Stardust_Reverie>
-  <entitydescription.Stardust_Reverie>From the appearance alone, looks like Star Barrage with a different color.</entitydescription.Stardust_Reverie>
+  <entitydescription.Stardust_Reverie>At first glance, compared to regular star-shaped barrages, it seems like only the color has changed... ‖color:gui.orange‖(Friendly fire warning)‖color:end‖</entitydescription.Stardust_Reverie>
   <entityname.Fake_Hakkero>Hakkero (Imitation) </entityname.Fake_Hakkero>
   <entitydescription.Fake_Hakkero>A poor imitation of Hakkero, but it imitates it nonetheless.</entitydescription.Fake_Hakkero>
   <entityname.Homing_Amulet>Homing Amulet</entityname.Homing_Amulet>
@@ -201,11 +201,11 @@
   <entityname.Blunderbuss>Blunderbuss</entityname.Blunderbuss>
   <entitydescription.Blunderbuss>Both a lunar relic and an unstable mess. Might cause wounds to the user and seems to operate with other lunar relics.</entitydescription.Blunderbuss>
   <entityname.Mind_Bullet>Mind Shaker</entityname.Mind_Bullet>
-  <entitydescription.Mind_Bullet>A lunar relic of unimaginable power.</entitydescription.Mind_Bullet>
+  <entitydescription.Mind_Bullet>A replica of a lunar relic, with immense power ‖color:gui.orange‖(Friendly fire warning)‖color:end‖</entitydescription.Mind_Bullet>
   <entityname.Lunatic_Bullet>‖color:255,80,80,255‖Lunatic Red Eyes‖color:end‖</entityname.Lunatic_Bullet>
-  <entitydescription.Lunatic_Bullet>A lunar relic said to be capable of bringing God himself to his knees.</entitydescription.Lunatic_Bullet>
+  <entitydescription.Lunatic_Bullet>A replica of a lunar relic, containing extremely terrifying destructive force! ‖color:gui.orange‖(Friendly fire warning)‖color:end‖</entitydescription.Lunatic_Bullet>
   <entityname.Touhou_Gungnier>‖color:255,36,0,255‖Gungnir‖color:end‖</entityname.Touhou_Gungnier>
-  <entitydescription.Touhou_Gungnier>"And as Odin pointed his spear to the skies, even Ymir, Útgarða and the mightiest of warriors were obliterated, helpless to do anything against his might."</entitydescription.Touhou_Gungnier>
+  <entitydescription.Touhou_Gungnier>A mysterious weapon from a distant place, containing extremely terrifying destructive force. ‖color:gui.orange‖(Friendly fire warning)‖color:end‖</entitydescription.Touhou_Gungnier>
   <entityname.Mokou_Flamer>‖color:255,72,36,255‖Mokou's Lighter‖color:end‖</entityname.Mokou_Flamer>
   <entitydescription.Mokou_Flamer>A tool that can produce a vigorous flame even in the icy cold of Europa.</entitydescription.Mokou_Flamer>
   <entityname.Phoenix_Tail>‖color:255,72,36,255‖The Undying Phoenix's Tail‖color:end‖</entityname.Phoenix_Tail>
@@ -235,7 +235,7 @@
   <entityname.Nitori_Backpack>Kappa‘s Backpack</entityname.Nitori_Backpack>
   <entitydescription.Nitori_Backpack>The backpacks of the Kappa can hold many items while also having other wonderful functions, even withstanding water pressure up to 3600 meters.</entitydescription.Nitori_Backpack>
   <entityname.Kappa_Backpack_Plus>Kappa‘s Backpack+</entityname.Kappa_Backpack_Plus>
-  <entitydescription.Kappa_Backpack_Plus>Although the capacity of the upgraded version of the Kappa's backpack has not increased, Patchouli has imbued a powerful magic in it that can protect users to a certain extent, and even resist water pressure up to 6000 meters.</entitydescription.Kappa_Backpack_Plus>
+  <entitydescription.Kappa_Backpack_Plus>An upgraded version of the Kappa Work Backpack. Although its capacity has not increased, the more abundant spiritual energy inside can protect the user to some extent, even resisting ‖color:gui.orange‖5000 meters‖color:end‖ of water pressure.</entitydescription.Kappa_Backpack_Plus>
   <entityname.Kappa_Miningdrill>Kappa's Miner</entityname.Kappa_Miningdrill>
   <entitydescription.Kappa_Miningdrill>The mining tools of Kappa have many advantages, such as portability, ease of operation, durability and so on. Unfortunately, batteries rarely last longer than a few seconds when using this tool.</entitydescription.Kappa_Miningdrill>
   <entityname.Illness_Recovery_Charm>‖color:160,238,0,255‖Illness Recovery Charm‖color:end‖</entityname.Illness_Recovery_Charm>
@@ -449,9 +449,9 @@
   <entityname.Water_Element_Book>Grimoire of Water</entityname.Water_Element_Book>
   <entitydescription.Water_Element_Book>Disposable magic book imbued with magic. Perfect for novices.</entitydescription.Water_Element_Book>
   <entityname.Touhou_Concentrated_Energy_Arc_Emitter>Concentrated Arc Emitter</entityname.Touhou_Concentrated_Energy_Arc_Emitter>
-  <entitydescription.Touhou_Concentrated_Energy_Arc_Emitter>Due to Tenshi's strange request, this weapon made by the Kappas was wildly different from an ideal keystone, but its function of launching them satisfied her. The only volunteer to test this weapon disintegrated after using this while underwater.</entitydescription.Touhou_Concentrated_Energy_Arc_Emitter>
+  <entitydescription.Touhou_Concentrated_Energy_Arc_Emitter>The final product made by the Kappa according to Tenshi's request. Although it differs somewhat from the ideal "Kanameishi", its convenient function of firing electric keystones has satisfied her. However, it often harms the user when used underwater... ‖color:gui.orange‖(Friendly fire warning)‖color:end‖</entitydescription.Touhou_Concentrated_Energy_Arc_Emitter>
   <entityname.Lightning_Kanameishi>Electric Keystone</entityname.Lightning_Kanameishi>
-  <entitydescription.Lightning_Kanameishi>Under special conditions, a keystone energized by electricity can be used as either an energy supply for the Concentrated Arc Emitter or for charging batteries. "This is unsulated... right?" - Deceased volunteer</entitydescription.Lightning_Kanameishi>
+  <entitydescription.Lightning_Kanameishi>A Kanameishi infused with lightning during special weather conditions. It can be used as a power unit for the Concentrated Energy Arc Emitter and charged as a regular battery.\n"Technically, Kanameishi should be insulated, right?" ‖color:gui.orange‖(Friendly fire warning)‖color:end‖</entitydescription.Lightning_Kanameishi>
   <entityname.Patchouli_Doll>Patchouli's Doll</entityname.Patchouli_Doll>
   <entitydescription.Patchouli_Doll>Place any bottled element in the doll and it'll heal injuries as long as you hold it. Right-clicking doubles the effect. \nMukyu!</entitydescription.Patchouli_Doll>
   <!--Magician-->
@@ -468,7 +468,7 @@
   <talentname.Talents_Magician_Primary05>Magic Excavation</talentname.Talents_Magician_Primary05>
   <talentdescription.Talents_Magician_Primary05>After completing a round with nobody dying, obtain a ‖color:gui.orange‖Ether-layered Metal‖end‖.</talentdescription.Talents_Magician_Primary05>
   <talentname.Talents_Magician_Primary06>Magic Practice</talentname.Talents_Magician_Primary06>
-  <talentdescription.Talents_Magician_Primary06>Gradually increase your firerate, damage, swimming and walking speed up to ‖color:gui.green‖10%‖end‖ depending on your Magic level.</talentdescription.Talents_Magician_Primary06>
+  <talentdescription.Talents_Magician_Primary06>Based on the current level of magical ability, increase swimming speed, walking speed, ranged attack speed, and attack damage by ‖color:gui.green‖10%‖end‖ accordingly, up to a maximum of ‖color:gui.green‖30%‖end‖.</talentdescription.Talents_Magician_Primary06>
   <talentname.Talents_Magician_Primary07>Monster Exterminator</talentname.Talents_Magician_Primary07>
   <talentdescription.Talents_Magician_Primary07>Damage dealt to non-humans is increased by ‖color:gui.green‖15%‖end‖ and damage caused to non-hostile creatures is reduced by‖color:gui.green‖30%‖end‖.</talentdescription.Talents_Magician_Primary07>
   <talentname.Talents_Magician_Primary08>Physical Magician</talentname.Talents_Magician_Primary08>
@@ -480,12 +480,12 @@
   <talentname.Gensokyo_Hermit>Elegant</talentname.Gensokyo_Hermit>
   <talentdescription.Gensokyo_Hermit>When attacked, there is a ‖color:gui.green‖25%‖end‖ chance to reduce damage taken by ‖color:gui.green‖40%‖end‖. This effect has a ‖color:gui.green‖2‖end‖ second cooldown.</talentdescription.Gensokyo_Hermit>
   <talentname.Enter_Gensokyo>Down to Earth</talentname.Enter_Gensokyo>
-  <talentdescription.Enter_Gensokyo>Gain ‖color:gui.green‖40%‖end‖ resistance to Aura Stripping. 
-  When ‖color:gui.orange‖Magic Ability‖end‖ is below ‖color:gui.green‖70‖end‖ but greater than ‖color:gui.green‖30‖end‖, provide a ‖color:gui.green‖5‖end‖ point bonus to all skills (vanilla skills); if greater than ‖color:gui.green‖70‖end‖, provide a ‖color:gui.green‖10‖end‖ point bonus.</talentdescription.Enter_Gensokyo>
+  <talentdescription.Enter_Gensokyo>Grants ‖color:gui.green‖25%‖end‖ resistance to Magic Destruction.
+    When ‖color:gui.orange‖magical ability‖end‖ is less than ‖color:gui.green‖70‖end‖ but greater than ‖color:gui.green‖30‖end‖, provides a ‖color:gui.green‖5‖end‖ point bonus to all skills (original skills). If greater than ‖color:gui.green‖70‖end‖, provides a ‖color:gui.green‖10‖end‖ point bonus.</talentdescription.Enter_Gensokyo>
   <talentname.Izakaya>Bartender</talentname.Izakaya>
-  <talentdescription.Izakaya>Resistance to drunkeness increases by ‖color:gui.green‖80%‖end‖. Unlocks ‖color:gui.orange‖Beer‖end‖ recipe.</talentdescription.Izakaya>
+  <talentdescription.Izakaya>Grants ‖color:gui.green‖80%‖end‖ resistance to intoxication. After being attacked, temporarily increases ‖color:gui.orange‖burn resistance and bleeding resistance‖end‖ by ‖color:gui.green‖10%‖end‖. Unlocks recipes: ‖color:gui.orange‖Beer, Friendship Juice‖end‖.</talentdescription.Izakaya>
   <talentname.Gensokyo_Divinggear_Unlocked>Skilled</talentname.Gensokyo_Divinggear_Unlocked>
-  <talentdescription.Gensokyo_Divinggear_Unlocked>Gain ‖color:gui.green‖3‖end‖ points to all skill at the end of the round. Unlocks ‖color:gui.orange‖Gensokyo Diving Gear‖end‖.</talentdescription.Gensokyo_Divinggear_Unlocked>
+  <talentdescription.Gensokyo_Divinggear_Unlocked>At the end of the tour, gain ‖color:gui.green‖3‖end‖ points in all skills and magical ability, and give other crew members ‖color:gui.green‖0.5‖end‖ points. Provides additional effects for ‖color:gui.yellow‖Magician/Magical Girl character outfits+‖end‖. Unlocks the recipe: ‖color:gui.orange‖Fantasy Diving Suit‖end‖.</talentdescription.Gensokyo_Divinggear_Unlocked>
   <!--Alchemist Magician-->
   <talenttree.Alchemist>Alchemist Magician</talenttree.Alchemist>
   <talentname.Spell_Card_Recycle_Unlocked>Unlimited Alchemical Works</talentname.Spell_Card_Recycle_Unlocked>
@@ -522,7 +522,7 @@
   <talentname.Hyouibana_Remilia>Spirit Possession: Remilia</talentname.Hyouibana_Remilia>
   <talentdescription.Hyouibana_Remilia>Highly increases resistance to Husk infection and recovery from blood loss.</talentdescription.Hyouibana_Remilia>
   <talentname.Hyouibana_Youmu>Spirit Possession: Youmu</talentname.Hyouibana_Youmu>
-  <talentdescription.Hyouibana_Youmu>Increases ground speed by 10%. Increases melee damage by 25%.</talentdescription.Hyouibana_Youmu>
+  <talentdescription.Hyouibana_Youmu>Increases movement speed by 10%. Increases melee damage by 20%.</talentdescription.Hyouibana_Youmu>
   <talentname.Hyouibana_Patchouli>Spirit Possession: Patchouli</talentname.Hyouibana_Patchouli>
   <talentdescription.Hyouibana_Patchouli>Increases swimming speed by 25%. Increases skill gain speed by 25%. Medical items and buffs are 10% more efficient when used on you. Increases Mukyu chances by 5000%.</talentdescription.Hyouibana_Patchouli>
   <talentname.Hyouibana_Tenshi>Spirit Possession: Tenshi</talentname.Hyouibana_Tenshi>
@@ -634,7 +634,12 @@
   <talentdescription.MomiziTalent>While wearing Momiji's Outfit+, you have increased resistance to bites and stings. \nMaximum health increased by ‖color:gui.green‖30%‖end‖. \nWhen enemies are nearby, you gain alertness and increased ‖color:gui.green‖20%‖end‖ walking speed, ‖color:gui.green‖10%‖end‖ swimming speed, and ‖color:gui.green‖30%‖end‖ melee attack speed. \nAfter being attacked, physical damage resistance and ‖color:gui.green‖40%‖end‖ melee attack damage are briefly increased.</talentdescription.MomiziTalent>
   <!-- Yuka's talent may be further adjusted -->
   <talentname.AunnTalent>Devoted Guardian Beast</talentname.AunnTalent>
-  <talentdescription.AunnTalent>While wearing Aunn's Outfit+, you have higher resistance to spiritual pressure and mental attacks. \nPhysical damage (excluding spiritual pressure) and bites inflicted by non-friendly characters (red-named creatures) increased by ‖color:gui.green‖20%‖end‖. \nDamage to friendly characters is reduced to ‖color:gui.green‖half‖end‖. \nEach time you cycle, you can choose between two states: Lion / Koma Inu. \nKoma Inu: Crew members near you gain the effect of ‖color:gui.orange‖Guardian Beast‖end‖, increasing ‖color:gui.green‖15%‖end‖ ‖color:gui.orange‖physical damage and mental illness‖end‖ resistance, and reducing damage to friendly characters by ‖color:gui.green‖10%‖end‖, recovering faster from ‖color:gui.orange‖spiritual pressure and bites‖end‖, and increasing maximum health by ‖color:gui.green‖20%‖end‖. \nLion: ‖color:gui.orange‖Physical damage‖end‖ resistance reduced by ‖color:gui.green‖10%‖end‖, ‖color:gui.orange‖attack damage, attack speed, and movement speed‖end‖ increased by ‖color:gui.green‖20%‖‖, and damage to non-friendly characters (red-named creatures) increased by ‖color:gui.green‖15%‖‖.</talentdescription.AunnTalent>
+  <talentdescription.AunnTalent>While wearing Aunn's Outfit+, you have higher resistance to spiritual pressure and mental attacks.
+  \nPhysical damage (excluding spiritual pressure) and bites inflicted by non-friendly characters (red-named creatures) increased by ‖color:gui.green‖20%‖end‖.
+  \nDamage to friendly characters is reduced to ‖color:gui.green‖half‖end‖.
+  \nEach time you cycle, you can choose between two states: Lion / Koma Inu.
+  \nKoma Inu: Crew members near you gain the effect of ‖color:gui.orange‖Guardian Beast‖end‖, increasing ‖color:gui.green‖15%‖end‖ ‖color:gui.orange‖physical damage and mental illness‖end‖ resistance, and reducing damage to friendly characters by ‖color:gui.green‖10%‖end‖, recovering faster from ‖color:gui.orange‖spiritual pressure and bites‖end‖, and increasing maximum health by ‖color:gui.green‖20%‖end‖.
+  \nLion: ‖color:gui.orange‖Physical damage‖end‖ resistance reduced by ‖color:gui.green‖25%‖end‖, ‖color:gui.orange‖attack damage, attack speed, and movement speed‖end‖ increased by ‖color:gui.green‖20%‖‖, and damage to non-friendly characters (red-named creatures) increased by ‖color:gui.green‖15%‖‖.</talentdescription.AunnTalent>
   <talentname.FlandreTalent>Destructive Vampire Sister</talentname.FlandreTalent>
   <talentdescription.FlandreTalent>When you wear the Flandre's Outfit+, your resistance to physical damage and burns is very low. Additionally, physical damage received increases by ‖color:gui.green‖40%‖end‖, and burn damage received increases by ‖color:gui.green‖70%‖end‖. \nThe lower your health, the higher the armor penetration of the damage you deal, up to ‖color:gui.green‖66.6%‖end‖. \nRepair speed decreases by ‖color:gui.green‖20%‖end‖. \nYou recover faster from ‖color:gui.orange‖bleeding‖end‖ and ‖color:gui.orange‖blood loss‖end‖. \n‖color:gui.orange‖Medical skill‖end‖ is permanently reduced by ‖color:gui.red‖160‖end‖. \nQuadruple Clones: You can have three additional talents, which can be acquired by crafting and using the ‖color:gui.red‖Flandre Doll‖end‖. </talentdescription.FlandreTalent>
   <talentname.FlandreTalent2>Fearsome Fluctuation</talentname.FlandreTalent2>
@@ -778,6 +783,7 @@
   <entitydescription.Touhou_Missions_Collection_Nue>Can be synthesized with other logs at the Altar to create a master log, allowing you to undertake all currently known missions (cannot re-challenge story missions).</entitydescription.Touhou_Missions_Collection_Nue>
   <entityname.Touhou_Aya_Token>Aya's Token</entityname.Touhou_Aya_Token>
   <entitydescription.Touhou_Aya_Token>Right-click to greatly enhance physical abilities. Effective only for Tengus.</entitydescription.Touhou_Aya_Token>
+  <afflictionname.Touhou_Medical_Effect_Down_Effect>Oblivion</afflictionname.Touhou_Medical_Effect_Down_Effect>
   <afflictiondescription.Touhou_Medical_Effect_Down_Effect>You feel as if your knowledge slips away.</afflictiondescription.Touhou_Medical_Effect_Down_Effect>
   <afflictionname.Scarlet_Long_Night>Long Scarlet Night</afflictionname.Scarlet_Long_Night>
   <afflictiondescription.Scarlet_Long_Night>Even casual remarks may alter the fate of those around you.</afflictiondescription.Scarlet_Long_Night>
@@ -843,7 +849,8 @@
   <missionheader.Clear_Reiki_Erode_Crawler_Nest>Extermination Complete</missionheader.Clear_Reiki_Erode_Crawler_Nest>
   <missionmessage.Clear_Reiki_Erode_Crawler_Nest>The potential mutation was successfully eradicated.</missionmessage.Clear_Reiki_Erode_Crawler_Nest>
   <talentname.Life_And_Death_Half_Half>Life and Death Half &amp; Half</talentname.Life_And_Death_Half_Half>
-  <talentdescription.Life_And_Death_Half_Half>While wearing ‖color:gui.orange‖Youmu's Outfit+‖end‖, Melee damage dealt is increased by ‖color:gui.green‖35%‖end‖, and ‖color:gui.orange‖walking speed‖end‖ is increased by ‖color:gui.green‖36%‖end‖. Based on your weapon skill level, increase its ‖color:gui.orange‖attack speed‖end‖ and ‖color:gui.orange‖attack damage‖end‖ by 10%. \nHolding both ‖color:gui.red‖Hakurouken‖end‖ and ‖color:gui.red‖Roukanken‖end‖ simultaneously will grant a large damage bonus and further increase walking speed.</talentdescription.Life_And_Death_Half_Half>
+  <talentdescription.Life_And_Death_Half_Half>While wearing ‖color:gui.orange‖Youmu's Outfit+‖end‖, Melee damage dealt is increased by ‖color:gui.green‖30%‖end‖, and ‖color:gui.orange‖walking speed‖end‖ is increased by ‖color:gui.green‖36%‖end‖. Based on your weapon skill level, increase ‖color:gui.orange‖ranged attack speed‖end‖.
+  \nHolding both ‖color:gui.red‖Hakurouken‖end‖ and ‖color:gui.red‖Roukanken‖end‖ simultaneously will grant a large damage bonus and further increase walking speed.</talentdescription.Life_And_Death_Half_Half>
   <entityname.Touhou_Penglai_Jade_Branch>Hōrai Jade Branch</entityname.Touhou_Penglai_Jade_Branch>
   <entitydescription.Touhou_Penglai_Jade_Branch>Legend has it that the true Hōrai Jade Branch comes from Hōrai Mountain in the Eastern Sea, with silver as the branch, gold as the stem, and the fruit being jade. Whether this one is real or not is unknown. It contains a hidden gap where placing a dazzling Dragon Jade can activate its danmaku firing ability.</entitydescription.Touhou_Penglai_Jade_Branch>
   <entityname.Touhou_Brilliant_Dragon_Bullet>Brilliant Dragon Jade</entityname.Touhou_Brilliant_Dragon_Bullet>
@@ -871,7 +878,7 @@
   <talentname.Talents_Yousei_Primary02>Temple Workshop Training</talentname.Talents_Yousei_Primary02>
   <talentdescription.Talents_Yousei_Primary02>Increase ‖color:gui.green‖25%‖end‖ of ‖color:gui.orange‖skill gain speed‖end‖, and increase ‖color:gui.green‖5%‖end‖ of ‖color:gui.orange‖movement speed‖end‖. When other crew members are nearby, these effects are doubled </talentdescription.Talents_Yousei_Primary02>
   <talentname.Talents_Yousei_Primary03>Natural Friendship</talentname.Talents_Yousei_Primary03>
-  <talentdescription.Talents_Yousei_Primary03>Nearby crew members gain a ‖color:gui.green‖10%‖end‖ ‖color:gui.orange‖movement speed‖end‖ bonus and ‖color:gui.orange‖25%‖end‖ resistance to ‖color:gui.orange‖oxygen deficiency‖end‖</talentdescription.Talents_Yousei_Primary03>
+  <talentdescription.Talents_Yousei_Primary03>Nearby crew members gain a ‖color:gui.green‖10%‖end‖ ‖color:gui.orange‖movement speed‖end‖ bonus and ‖color:gui.green‖25%‖end‖ resistance to ‖color:gui.orange‖asphyxiation‖end‖, and friendly fire damage dealt is reduced by ‖color:gui.green‖20%‖end‖.</talentdescription.Talents_Yousei_Primary03>
   <talentname.Talents_Yousei_Primary04>Daydream</talentname.Talents_Yousei_Primary04>
   <talentdescription.Talents_Yousei_Primary04>When health is above ‖color:gui.green‖50%‖end‖, increase ‖color:gui.green‖10%‖end‖ ‖color:gui.orange‖repair speed‖end‖, and gain an additional ‖color:gui.orange‖Fairy Candy (Peach Flavor)‖end‖ after completing a mission. </talentdescription.Talents_Yousei_Primary04>
   <talentname.Talents_Yousei_Primary05>Light as a Feather</talentname.Talents_Yousei_Primary05>
@@ -974,7 +981,7 @@
   <entityname.Touhou_Frozen_Frog>Frozen Frog</entityname.Touhou_Frozen_Frog>
   <entitydescription.Touhou_Frozen_Frog>A block of ice exuding a chilling cold, with a frog sealed inside. Inserting a ‖color:gui.yellow‖Perfect Snowflake‖end‖ can activate its barrage-firing ability.</entitydescription.Touhou_Frozen_Frog>
   <entityname.Touhou_Perfect_Snowflake>Perfect Snowflake</entityname.Touhou_Perfect_Snowflake>
-  <entitydescription.Touhou_Perfect_Snowflake>A perfectly hexagonal snowflake, containing pure cold energy.</entitydescription.Touhou_Perfect_Snowflake>
+  <entitydescription.Touhou_Perfect_Snowflake>A perfect hexagonal snowflake, containing pure chill. ‖color:gui.orange‖(Friendly fire warning)‖color:end‖</entitydescription.Touhou_Perfect_Snowflake>
   <entityname.Touhou_Baka_Sword>‖color:60,90,255,255‖Ice Hero Sword‖end‖</entityname.Touhou_Baka_Sword>
   <entitydescription.Touhou_Baka_Sword>“I am the strongest!”</entitydescription.Touhou_Baka_Sword>
   <afflictionname.Cirno_Weapons>Ice Fairy of Misty Lake</afflictionname.Cirno_Weapons>
@@ -990,7 +997,7 @@
   <entityname.Touhou_Nuclear_Battery>“Kappa Fuel”</entityname.Touhou_Nuclear_Battery>
   <entitydescription.Touhou_Nuclear_Battery>Can be used in Kappa welding tools. When equipped, it allows the welding tool to fire repair rays for remote hull repairs.</entitydescription.Touhou_Nuclear_Battery>
   <entityname.Touhou_Fix_Foamg_Tank>Fix Foam Can</entityname.Touhou_Fix_Foamg_Tank>
-  <entitydescription.Touhou_Fix_Foamg_Tank>Highly compressed Fix Foam,especially used for hull repairs with Kappa welding tools. It is quite durable and speeds up repair by about 40%. \n—— “Even though tools are good, don’t forget to improve your own abilities.”</entitydescription.Touhou_Fix_Foamg_Tank>
+  <entitydescription.Touhou_Fix_Foamg_Tank>Highly compressed Fix Foam,especially used for hull repairs with Kappa welding tools. It is quite durable and speeds up repair by about 35%. \n—— “Even though tools are good, don’t forget to improve your own abilities.”</entitydescription.Touhou_Fix_Foamg_Tank>
   <talentdescription.Casket_Of_Star>While wearing ‖color:gui.orange‖Marisa's Outfit+‖end‖, recovery from ‖color:gui.green‖physical damage and burning‖end‖ is faster and resistance is higher: \nDamage dealt increased by ‖color:gui.green‖15%‖end‖. \nAttack speed of ranged weapons increased by ‖color:gui.green‖10%‖end‖. \n15% chance to find ‖color:gui.green‖《Magic Book》‖end‖ each time you open a shipwreck container. \nWearing Marisa’s hat slightly increases resistance and attack damage.</talentdescription.Casket_Of_Star>
   <entityname.Touhou_Nuclear_Energy_Capacitor_Magazine>Nuclear Energy Capacitor Magazine</entityname.Touhou_Nuclear_Energy_Capacitor_Magazine>
   <entitydescription.Touhou_Nuclear_Energy_Capacitor_Magazine>A technological product from Kappa Heavy Industries, a crystallization of advanced nuclear fusion technology that can fire scorching lasers, easily melting obstacles in the way.</entitydescription.Touhou_Nuclear_Energy_Capacitor_Magazine>
@@ -1016,7 +1023,7 @@
   <afflictionname.Candid_Friend>Super Youkai Warhead</afflictionname.Candid_Friend>
   <afflictiondescription.Candid_Friend>A kappa who excels in business and is obsessed with hoarding wealth.</afflictiondescription.Candid_Friend>
   <afflictionname.Nitori_Weapons>Engineer of the Water</afflictionname.Nitori_Weapons>
-  <afflictiondescription.Nitori_Weapons>She is quite shy and has a timid side. When alone, she will immediately flee if a human or other youkai approaches. However, among her companions, she shows a bright and lively side.</afflictiondescription.Nitori_Weapons>
+  <afflictiondescription.Nitori_Weapons>She is quite shy and has a timid side. When alone, she will immediately flee if a human or other youkai approaches.</afflictiondescription.Nitori_Weapons>
   <talentname.Kappa_Pororoca>Akutagawa Ryūnosuke's Kappa</talentname.Kappa_Pororoca>
   <talentdescription.Kappa_Pororoca>When you are wearing the ‖color:52,94,60,255‖Nitori Outfit+‖end‖,
 		\nWhile in water and with ‖color:gui.orange‖Mechanical Engineering‖end‖ and ‖color:gui.orange‖Electrical Engineering‖end‖ both above ‖color:gui.green‖60‖end‖, you slowly recover some health.
@@ -1024,7 +1031,7 @@
 		\nBased on the combined levels of ‖color:gui.orange‖Mechanical Engineering‖end‖ and ‖color:gui.orange‖Electrical Engineering‖end‖, repair speed and hull repair speed increase by ‖color:gui.green‖16%‖end‖.
 		\nBased on the current level of ‖color:gui.orange‖Mechanical Engineering‖end‖, increase ranged attack damage by ‖color:gui.green‖10%‖end‖.
 		\nWhen opening sunken ship containers, there is a ‖color:gui.green‖15%‖end‖ chance to find simple parts and a ‖color:gui.green‖5%‖end‖ chance to find precision parts.
-		\nWhen opening beacon station containers, there is a ‖color:gui.green‖10%‖end‖ chance to find precision parts.
+		\nWhen opening beacon station containers, there is a ‖color:gui.green‖30%‖end‖ chance to find precision parts.
 		\nRepaired equipment becomes significantly harder to break.
 		\nYou get a ‖color:gui.green‖10%‖end‖ discount when trading ships.</talentdescription.Kappa_Pororoca>
   <entityname.Touhou_Simple_Parts>Simple Parts</entityname.Touhou_Simple_Parts>
@@ -1033,8 +1040,104 @@
   <entitydescription.Touhou_Precision_Parts>Usable materials salvaged from unnoticed corners.</entitydescription.Touhou_Precision_Parts>
   <afflictionname.FlandreTalent4_Effect_CD>Cage of the Bird - Remaining Shield Duration</afflictionname.FlandreTalent4_Effect_CD>
   <!--物换星移-->
+  <character.Touhou_reiki_erode_mudraptor>Eroding Raptor</character.Touhou_reiki_erode_mudraptor>
+  <character.Touhou_reiki_deterioration_tigerthresher>Eroding Thresher</character.Touhou_reiki_deterioration_tigerthresher>
+  <character.Touhou_reiki_deterioration_hammerhead>Eroding Hammerhead</character.Touhou_reiki_deterioration_hammerhead>
+  <character.Touhou_Lunar>Moon</character.Touhou_Lunar>
+  <character.Touhou_Lunar_Mini>Imaginary Moon</character.Touhou_Lunar_Mini>
+  <character.Touhou_Lunar_Meteor>Lunar Meteor</character.Touhou_Lunar_Meteor>
+  <!--为时已晚-->
   <missionname.Touhou_OutpostDestroyMission03>Too Late</missionname.Touhou_OutpostDestroyMission03>
-  <missiondescription.Touhou_OutpostDestroyMission03>The alchemy lab lost a batch of important materials here, so they are offering a high reward to any captain willing to retrieve these resources.</missiondescription.Touhou_OutpostDestroyMission03>
+  <missiondescription.Touhou_OutpostDestroyMission03>A batch of important materials was lost in the Alchemy Laboratory here, so a high reward is offered for any willing captain to recover these resources</missiondescription.Touhou_OutpostDestroyMission03>
   <missionheader.Touhou_OutpostDestroyMission03>Purification Complete</missionheader.Touhou_OutpostDestroyMission03>
-  <missionmessage.Touhou_OutpostDestroyMission03>Looks like we arrived too late—the resources have all turned into useless scrap in their hands. Let’s hope the alchemy lab can accept this outcome.</missionmessage.Touhou_OutpostDestroyMission03>
+  <missionmessage.Touhou_OutpostDestroyMission03>It seems we arrived too late; the resources have turned into scrap metal in their hands. Hopefully, the Alchemy Laboratory will accept this outcome</missionmessage.Touhou_OutpostDestroyMission03>
+  <missionfailure.Touhou_OutpostDestroyMission03>Injured All Over</missionfailure.Touhou_OutpostDestroyMission03>
+  <!--雷声隐隐，未知来临-->
+  <missionname.Clear_Reiki_Erode_Mudraptor_Nest>A faint thunder , an unknown threat approaches</missionname.Clear_Reiki_Erode_Mudraptor_Nest>
+  <missiondescription.Clear_Reiki_Erode_Mudraptor_Nest>A group of dangerous Magic Raptors has escaped to a cave. Someone is offering a high reward for you to deal with them.</missiondescription.Clear_Reiki_Erode_Mudraptor_Nest>
+  <missionheader.Clear_Reiki_Erode_Mudraptor_Nest>Purification Complete</missionheader.Clear_Reiki_Erode_Mudraptor_Nest>
+  <missionmessage.Clear_Reiki_Erode_Mudraptor_Nest>Another group of creatures contaminated by spirit energy. Where did the pollution come from?</missionmessage.Clear_Reiki_Erode_Mudraptor_Nest>
+  <!--雷声阵阵，危险来临-->
+  <missionname.Clear_Reiki_Deterioration_Tigerthresher_Nest>Thunder rumbles, danger approaches</missionname.Clear_Reiki_Deterioration_Tigerthresher_Nest>
+  <missiondescription.Clear_Reiki_Deterioration_Tigerthresher_Nest>Some time ago, a cargo ship went missing, and a large number of spirit-energy-polluted creatures appeared nearby. A group of contaminated Tiger Threshers is occupying the cave. Various factions are offering a commission with a high reward to eliminate them.</missiondescription.Clear_Reiki_Deterioration_Tigerthresher_Nest>
+  <missionheader.Clear_Reiki_Deterioration_Tigerthresher_Nest>Purification Complete</missionheader.Clear_Reiki_Deterioration_Tigerthresher_Nest>
+  <missionmessage.Clear_Reiki_Deterioration_Tigerthresher_Nest>The pollution on these creatures has become increasingly severe; it seems we are close to the source.</missionmessage.Clear_Reiki_Deterioration_Tigerthresher_Nest>
+  <!--雷声滚滚，怒潮来临-->
+  <missionname.Kill_Reiki_Deterioration_Hammerhead>Thunder roars, a tidal wave approaches</missionname.Kill_Reiki_Deterioration_Hammerhead>
+  <missiondescription.Kill_Reiki_Deterioration_Hammerhead>After extensive investigation, we found a suspected pollution source in the sea area, where a large number of contaminated creatures are lurking. Eliminating them will yield a high bounty.</missiondescription.Kill_Reiki_Deterioration_Hammerhead>
+  <missionheader.Kill_Reiki_Deterioration_Hammerhead>Purification Complete</missionheader.Kill_Reiki_Deterioration_Hammerhead>
+  <missionmessage.Kill_Reiki_Deterioration_Hammerhead>Continuing to explore along this route should lead us to the source of the pollution.</missionmessage.Kill_Reiki_Deterioration_Hammerhead>
+  <entityname.Nitori_Backpack_Tactical_Expansion>Kappa Backpack - Tactical Expansion</entityname.Nitori_Backpack_Tactical_Expansion>
+  <entitydescription.Nitori_Backpack_Tactical_Expansion>A kappa backpack modified for combat environments, sacrificing some capacity and performance for greater strategic value.  
+  It contains a special slot that can hold river energy fuel to provide oxygen and speed boosts, or a nuclear energy capacitor magazine for slight combat performance enhancement. It can withstand water pressure up to ‖color:gui.orange‖4200 meters‖color:end‖.</entitydescription.Nitori_Backpack_Tactical_Expansion>
+  <afflictionname.Nitori_Tools>Water Technician</afflictionname.Nitori_Tools>
+  <afflictiondescription.Nitori_Tools>Only among her companions does she show a cheerful and lively side.</afflictiondescription.Nitori_Tools>
+  <afflictionname.Nitori_Backpack_Tactical_Expansion_Effect>Optical "Water Camouflage"</afflictionname.Nitori_Backpack_Tactical_Expansion_Effect>
+  <afflictiondescription.Nitori_Backpack_Tactical_Expansion_Effect>Slightly increases bleeding resistance, slightly reduces debuff duration, slightly extends buff duration, and slightly enhances combat performance.</afflictiondescription.Nitori_Backpack_Tactical_Expansion_Effect>
+  <afflictionname.Touhou_Friendship_Juice_Effect>Friendship Toast</afflictionname.Touhou_Friendship_Juice_Effect>
+  <afflictiondescription.Touhou_Friendship_Juice_Effect>Reduces friendly fire damage</afflictiondescription.Touhou_Friendship_Juice_Effect>
+  <entityname.Touhou_Friendship_Juice>Friendship Juice</entityname.Touhou_Friendship_Juice>
+  <entitydescription.Touhou_Friendship_Juice>After drinking, it provides ten minutes of friendship effects, reducing friendly fire damage by 40%</entitydescription.Touhou_Friendship_Juice>
+  <afflictionname.Gensokyo_Divinggear_Unlocked_Effect01>Fantasy In - Patchouli</afflictionname.Gensokyo_Divinggear_Unlocked_Effect01>
+  <afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect01>Reduces 15% friendly fire damage and increases damage dealt of the five elemental types by 15%</afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect01>
+  <afflictionname.Gensokyo_Divinggear_Unlocked_Effect02>Fantasy In - Marisa</afflictionname.Gensokyo_Divinggear_Unlocked_Effect02>
+  <afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect02>Reduces 15% friendly fire damage, and all skills, especially magical abilities, receive a slight boost.</afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect02>
+  <afflictionname.Gensokyo_Divinggear_Unlocked_Effect03>Fantasy In - Flandre</afflictionname.Gensokyo_Divinggear_Unlocked_Effect03>
+  <afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect03>Reduces 15% friendly fire damage and increases maximum health by 10% according to magical ability value.</afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect03>
+  <entityname.Koishi_gear>‖color:60,255,155,255‖Koishi Outfit‖end‖</entityname.Koishi_gear>
+  <entitydescription.Koishi_gear>Koishi is a contradictory character, born as an existence without character traits, a denial of character traits. Although she tries to avoid becoming an object of hatred by evading others' malice, she still contains many things that should be hated, harboring a certain darkness.</entitydescription.Koishi_gear>
+  <entityname.Koishi_Plus>‖color:60,255,155,255‖Koishi's Outfit+‖end‖</entityname.Koishi_Plus>
+  <entitydescription.Koishi_Plus>Koishi is a contradictory character, born as an existence without character traits, a denial of character traits. Although she tries to avoid becoming an object of hatred by evading others' malice, she still contains many things that should be hated, harboring a certain darkness.</entitydescription.Koishi_Plus>
+  <entityname.Koishi_Hat>‖color:60,255,155,255‖Pebble Hat‖end‖</entityname.Koishi_Hat>
+  <entitydescription.Koishi_Hat>Does no one notice me? Oh, well, that makes things easier.</entitydescription.Koishi_Hat>
+  <afflictionname.Closed_Eyes_Of_Koishi>Tightly Closed Eyes of Love</afflictionname.Closed_Eyes_Of_Koishi>
+  <afflictiondescription.Closed_Eyes_Of_Koishi>She is a mind-reading youkai, but after closing off her heart, she lost this ability and gained the power to manipulate the unconscious.</afflictiondescription.Closed_Eyes_Of_Koishi>
+  <talentname.KoishiTalent>Underground Rose</talentname.KoishiTalent>
+  <talentdescription.KoishiTalent>When you wear Koishi's Outfit+,  
+  \nExperience gained from completing tasks increases by ‖color:gui.green‖15%‖end‖, but the speed of ‖color:gui.orange‖skill acquisition‖end‖ decreases by ‖color:gui.green‖30%‖end‖.  
+  ‖color:gui.orange‖Attack damage‖end‖ decreases by ‖color:gui.green‖15%‖end‖, but ‖color:gui.orange‖melee damage‖end‖ increases by ‖color:gui.green‖30%‖end‖.  
+  \nEvery random period of ‖color:gui.green‖(15s-30s)‖end‖, grant a random duration of ‖color:gui.green‖(5s-15s)‖end‖ and random level of ‖color:gui.green‖(Level 1-3)‖end‖ ‖color:gui.yellow‖unconscious‖end‖ effect.  
+  \nAfter taking damage from an attack, you will receive different levels of ‖color:gui.yellow‖unconscious‖end‖ effect based on remaining health, up to a maximum of ‖color:gui.green‖3‖end‖. You will leave an illusion in place that briefly attracts some targets' attacks.  
+  \nWhen your health is above 75%/45% (requirements for Levels 2 and 3), you can actively trigger the unconscious effect, but you will pay a certain amount of health depending on the level.  
+  \n‖color:gui.yellow‖Unconscious‖end‖: Reduces enemies' detection range and aggressiveness towards you, increases stun and debuff resistance, and gradually increases attack damage over time, especially melee damage. The higher the level of unconsciousness, the stronger this effect.  
+  \nDamage taken in an unconscious state is reduced by ‖color:gui.green‖25.7%‖end‖, while damage taken in a non-unconscious state is increased by ‖color:gui.green‖51.4%‖end‖, and all unconscious effects will be removed after an active attack.  
+  \nAttacking with the exclusive weapon will not immediately remove the unconscious effect but will slightly reduce its duration, and killing targets affected by ‖color:gui.yellow‖"Philosophy of the Hated"‖end‖ will slightly extend/continue the unconscious effect.  
+  Wearing the Pebble Hat can slightly extend the duration of unconsciousness.  
+  \nCannot receive bonuses from the talent "Special Forces".  
+  </talentdescription.KoishiTalent>
+  <afflictionname.Liberation_Of_Koishi>Instinct「Liberation of the Self」</afflictionname.Liberation_Of_Koishi>
+  <afflictiondescription.Liberation_Of_Koishi>Deducts maximum health to gain bonuses to melee attack damage and unconscious effects, but greatly reduces ranged attack damage and ranged attack speed.</afflictiondescription.Liberation_Of_Koishi>
+  <afflictionname.Koishi_Weapons>Imaginary Personality Maintainer</afflictionname.Koishi_Weapons>
+  <afflictiondescription.Koishi_Weapons>Due to her ability, she finds it difficult to communicate normally with others and hasn't built complex interpersonal relationships. She lives with her sister, Koishi Komeiji, her sister's pet, Flan, and Rin Kaenbyou in the Palace of Earth Spirits, and they have a close relationship.</afflictiondescription.Koishi_Weapons>
+  <entityname.Touhou_Koishi_Knife>‖color:60,200,130,255‖Love's Kitchen Knife‖end‖</entityname.Touhou_Koishi_Knife>
+  <entitydescription.Touhou_Koishi_Knife>It appears to be an ordinary kitchen knife, a weapon that Love carries with her.</entitydescription.Touhou_Koishi_Knife>
+  <entityname.Touhou_Strange_Phone>‖color:144,47,208,255‖Strange Telephone‖end‖</entityname.Touhou_Strange_Phone>
+  <entitydescription.Touhou_Strange_Phone>A telephone with only one earpiece, strange sounds occasionally come from it. Talking into it will affect nearby hostile creatures, granting them the "Philosophy of the Hated" effect, which increases damage taken, especially from Love.</entitydescription.Touhou_Strange_Phone>
+  <afflictionname.Touhou_Strange_Phone_Effect>Philosophy of the Hated</afflictionname.Touhou_Strange_Phone_Effect>
+  <afflictiondescription.Touhou_Strange_Phone_Effect>Slightly reduces movement speed, physical damage, and stun resistance</afflictiondescription.Touhou_Strange_Phone_Effect>
+  <afflictionname.Touhou_Lunatic_Lunar_Effect>Crazy Moon</afflictionname.Touhou_Lunatic_Lunar_Effect>
+  <afflictiondescription.Touhou_Lunatic_Lunar_Effect>A surge of madness floods your mind, increasing hostility towards your teammates</afflictiondescription.Touhou_Lunatic_Lunar_Effect>
+  <!--遥遥38万公里的旅程-->
+  <missionname.FindClownpiece>A Journey of 380,000 Kilometers</missionname.FindClownpiece>
+  <missiondescription.FindClownpiece>To the Moon</missiondescription.FindClownpiece>
+  <missionheader.FindClownpiece>The prank should end now</missionheader.FindClownpiece>
+  <missionmessage.FindClownpiece>The Noah's Ark of the 20th century, carrying expectations and unease, soars toward the sky.  
+  Now, in the 24th century, known as the future,  
+  removing the disguise of fantasy reveals a lonely expression.  
+  Perhaps within the relics of the bird ship that carry the past, you may find the answers you seek.</missionmessage.FindClownpiece>
+  <entityname.Iron_Element_Book>Grimoire - Gold</entityname.Iron_Element_Book>
+  <entitydescription.Iron_Element_Book>A one-time grimoire with built-in magic power, allowing newcomers to use it easily</entitydescription.Iron_Element_Book>
+  <entityname.Earth_Element_Book>Grimoire - Earth</entityname.Earth_Element_Book>
+  <entitydescription.Earth_Element_Book>A one-time grimoire with built-in magic power, allowing newcomers to use it easily</entitydescription.Earth_Element_Book>
+  <entityname.Touhou_Pendulum_Necklace>Pendulum Necklace</entityname.Touhou_Pendulum_Necklace>
+  <entitydescription.Touhou_Pendulum_Necklace>A necklace made of a crystal filled with magic power, which slightly increases the user's magic. When magical ability exceeds 80, it can lift Patchouli's running restrictions. Occupies the ear slot.</entitydescription.Touhou_Pendulum_Necklace>
+  <entityname.Touhou_Gohei_Reimu>Hakurei's Offering</entityname.Touhou_Gohei_Reimu>
+  <entitydescription.Touhou_Gohei_Reimu>Exorcise Beasts</entitydescription.Touhou_Gohei_Reimu>
+  <entityname.Youmu_Smgmagazine_Plus>‖color:156,158,161,255‖Ethereal Magazine Plus‖color:end‖</entityname.Youmu_Smgmagazine_Plus>
+  <entitydescription.Youmu_Smgmagazine_Plus>Upgraded version of the Ethereal Magazine, with stronger penetration and sharper projectiles</entitydescription.Youmu_Smgmagazine_Plus>
+  <afflictionname.Touhou_Pendulum_Magic>Pendulum Magic</afflictionname.Touhou_Pendulum_Magic>
+  <afflictiondescription.Touhou_Pendulum_Magic>Pendulum magic fills your magical ability.</afflictiondescription.Touhou_Pendulum_Magic>
+  <afflictionname.Nitori_Backpack_Tactical_Expansion_Effect02>Optical "Optical Camouflage"</afflictionname.Nitori_Backpack_Tactical_Expansion_Effect02>
+  <afflictiondescription.Nitori_Backpack_Tactical_Expansion_Effect02>Slightly increases stun resistance, heals infected wounds, and increases movement speed.</afflictiondescription.Nitori_Backpack_Tactical_Expansion_Effect02>
+  
 </infotexts>

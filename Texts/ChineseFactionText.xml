@@ -104,6 +104,8 @@
   <randomnews40>航线上的幽灵数量仍在增加</randomnews40>
   <randomnews41>命莲寺宣称会尽快处理UFO事件</randomnews41>
   <randomnews42>有人在航线上遭遇了大量诡异的存在，有人说那是光球，也有人说是UFO，至今没有统一口径</randomnews42>
+  <randomnews59>一群被称为月面流星的奇特光球仍在骚扰出航的潜艇</randomnews59>
+  <randomnews60>小丑们新的崇拜对象仍然没有现出真身，据描述似乎和月球有关</randomnews60>
   <!--按钮文本等-->
   <uilabel.Alchemy_Table_Input>灵性材料</uilabel.Alchemy_Table_Input>
   <uilabel.Alchemy_Table_Output>炼金产物</uilabel.Alchemy_Table_Output>
@@ -112,4 +114,28 @@
   <Alchemy_Table.Research>转化</Alchemy_Table.Research>
   <Alchemy_Table.Research.Infotext>炼金术转化物质的阶段。经由帕秋莉的指点后，这一步骤已经能简单地在炼金桌上完成了。（Tips:灵性材料请参考帕秋莉手册）</Alchemy_Table.Research.Infotext>
   <Alchemy_Table.Combine.Missingitem>已掺入卑金属，添加不同性质的材料以完成炼金转化（Tips:灵性材料请参考帕秋莉手册）</Alchemy_Table.Combine.Missingitem>
+  <!--敌对AI使用-->
+  <entityname.Illness_Recovery_Charm_Locked01>病气平愈护符-伪造</entityname.Illness_Recovery_Charm_Locked01>
+  <entitydescription.Illness_Recovery_Charm_Locked01>拙劣的复制品，消耗使用者的生命治愈粗浅的外伤</entitydescription.Illness_Recovery_Charm_Locked01>
+  <entityname.Illness_Recovery_Charm_Locked02>病气平愈护符-伪造</entityname.Illness_Recovery_Charm_Locked02>
+  <entitydescription.Illness_Recovery_Charm_Locked02>拙劣的复制品，消耗使用者的生命治愈粗浅的外伤</entitydescription.Illness_Recovery_Charm_Locked02>
+  <entityname.Illness_Recovery_Charm_Shield_Lunatic>病气平愈护符-伪造</entityname.Illness_Recovery_Charm_Shield_Lunatic>
+  <entitydescription.Illness_Recovery_Charm_Shield_Lunatic>拙劣的复制品，消耗使用者的生命治愈粗浅的外伤</entitydescription.Illness_Recovery_Charm_Shield_Lunatic>
+  <entityname.Gensokyo_Divinggear_Enemy>劣质幻想潜水服</entityname.Gensokyo_Divinggear_Enemy>
+  <entitydescription.Gensokyo_Divinggear_Enemy>用昂贵的炼金材料拼凑出来的复制品，材料简单而性能堪用</entitydescription.Gensokyo_Divinggear_Enemy>
+  <entityname.Ether_Divinggear_Enemy>劣质秘境潜水服</entityname.Ether_Divinggear_Enemy>
+  <entitydescription.Ether_Divinggear_Enemy>用炼金材料拼凑出来的复制品，作为复制品来说可堪一用</entitydescription.Ether_Divinggear_Enemy>
+  <entityname.Touhou_Blunderbuss_Enemy>仿制喇叭枪</entityname.Touhou_Blunderbuss_Enemy>
+  <entitydescription.Touhou_Blunderbuss_Enemy>不知经由谁手，模仿喇叭枪外形制作的步枪，对仿制品来说性能可堪一用</entitydescription.Touhou_Blunderbuss_Enemy>
+  <entityname.Touhou_Hompson_Contender_Enemy>劣质汤普森竞争者</entityname.Touhou_Hompson_Contender_Enemy>
+  <entitydescription.Touhou_Hompson_Contender_Enemy>地球曾经某个时代的造物，如今流传到木卫二上的这把显然是拙劣的复制品</entitydescription.Touhou_Hompson_Contender_Enemy>
+  <entityname.Touhou_Magic_Automatic_Shotgun>魔术自动霰弹枪</entityname.Touhou_Magic_Automatic_Shotgun>
+  <entitydescription.Touhou_Magic_Automatic_Shotgun>在自动霰弹枪的基础上增加魔法材料，优化了性能释放，但却让这把武器愈加不稳定</entitydescription.Touhou_Magic_Automatic_Shotgun>
+  <entityname.Touhou_Magic_Automatic_Shotgun_Bullet>魔术霰弹</entityname.Touhou_Magic_Automatic_Shotgun_Bullet>
+  <entitydescription.Touhou_Magic_Automatic_Shotgun_Bullet>用便宜魔法材料制成的霰弹子弹，是个明眼人都看得出来，这只是一堆铁块而已</entitydescription.Touhou_Magic_Automatic_Shotgun_Bullet>
+  <!--NPC显示名称-->
+  <npctitle.Touhou_ODM03_Enemy_Human_Lunatic>掠夺者-Lunatic</npctitle.Touhou_ODM03_Enemy_Human_Lunatic>
+  <npctitle.Touhou_ODM03_Enemy_Human_Hard>掠夺者-Hard</npctitle.Touhou_ODM03_Enemy_Human_Hard>
+  <npctitle.Touhou_ODM03_Enemy_Human_Normal>掠夺者-Normal</npctitle.Touhou_ODM03_Enemy_Human_Normal>
+  <npctitle.Touhou_ODM03_Enemy_Human_Easy>掠夺者-Easy</npctitle.Touhou_ODM03_Enemy_Human_Easy>
 </infotexts>

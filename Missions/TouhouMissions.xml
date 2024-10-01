@@ -31,7 +31,7 @@
     <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons01.png" sourcerect="0,0,256,256" />
     <message header="missionheader.Tohou_Ghost_Line" text="missionheader.Tohou_Ghost_Line" />
   </MonsterMission>
-  <MonsterMission name="Unending Nightmare" identifier="killphotosphere" tags="killphotosphere" type="Monster" difficulty="3" commonness="100" reward="7000" textidentifier="killphotosphere" maxsonarmarkerdistance="10000" sonarlabel="Little_photosphere">
+  <MonsterMission name="Eternal Nightmare" identifier="killphotosphere" tags="killphotosphere" type="Monster" difficulty="3" commonness="100" reward="7000" textidentifier="killphotosphere" maxsonarmarkerdistance="10000" sonarlabel="Little_photosphere">
     <monster character="Little_photosphere" min="6" max="8" />
     <Monster character="Little_photosphere" min="4" max="4" multiplayeronly="true" />
     <Reputation identifier="location" amount="4" />
@@ -159,7 +159,7 @@
     </Characters>
     <message header="missionheader.Touhou_OutpostDestroyMission01" text="missionmessage.Touhou_OutpostDestroyMission01" />
   </OutpostDestroyMission>
-  <OutpostDestroyMission name="Youkai Transformation" identifier="Touhou_OutpostDestroyMission02" textidentifier="Touhou_OutpostDestroyMission02" tags="abandonedoutpost" type="OutpostDestroy" reward="15000" difficulty="4" minleveldifficulty="20" commonness="100" allowretry="true" targetitem="reactor" unhideentitysubcategories="abandonedmonster">
+  <OutpostDestroyMission name="Youkai Transformation" identifier="Touhou_OutpostDestroyMission02" textidentifier="Touhou_OutpostDestroyMission02" tags="abandonedoutpost" type="OutpostDestroy" reward="15000" difficulty="4" minleveldifficulty="25" commonness="100" allowretry="true" targetitem="reactor" unhideentitysubcategories="abandonedmonster">
     <Reputation identifier="Touhou_Gensokyo" amount="4" />
     <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons04.png" sourcerect="0,0,256,256" />
     <TriggerEvent state="0" delay="5" eventidentifier="Touhou_Indestructible_Wall" campaignonly="true" />
@@ -209,7 +209,7 @@
       <Item identifier="crawleregg" />
       <Item identifier="crawleregg" />
     </Items>
-    <Monster character="Touhou_reiki_erode_crawler" min="8" max="8" />
+    <Monster character="Touhou_reiki_erode_crawler" min="6" max="6" />
     <Monster character="Touhou_reiki_erode_crawler" min="4" max="4" multiplayeronly="true" />
     <Reputation identifier="location" amount="3" />
     <Reputation identifier="Touhou_Gensokyo" amount="2" />
@@ -236,17 +236,84 @@
       <Character identifier="Touhou_ODM03_Enemy_Human_Hard" from="Touhou_ODM3_Enemy_NPC" moduleflags="securitymodule" requirekill="true" asfaraspossible="true" multiplayeronly="true" />
       <Character identifier="Touhou_ODM03_Enemy_Human_Hard" from="Touhou_ODM3_Enemy_NPC" moduleflags="securitymodule" requirekill="true" />
       <Character identifier="Touhou_ODM03_Enemy_Human_Hard" from="Touhou_ODM3_Enemy_NPC" moduleflags="banditleader" requirekill="true" multiplayeronly="true" />
-      <Character identifier="Touhou_ODM03_Enemy_Human_Hard" from="Touhou_ODM3_Enemy_NPC" moduleflags="banditleader" requirekill="true" />
       <Character identifier="Touhou_ODM03_Enemy_Human_Hard" from="Touhou_ODM3_Enemy_NPC" moduleflags="researchmodule" requirekill="true" />
       <Character identifier="Touhou_ODM03_Enemy_Human_Normal" from="Touhou_ODM3_Enemy_NPC" moduleflags="researchmodule" asfaraspossible="true" />
       <Character identifier="Touhou_ODM03_Enemy_Human_Normal" from="Touhou_ODM3_Enemy_NPC" moduleflags="researchmodule" requirekill="true" multiplayeronly="true" />
       <Character identifier="Touhou_ODM03_Enemy_Human_Normal" from="Touhou_ODM3_Enemy_NPC" moduleflags="engineeringmodule" requirekill="true" />
       <Character identifier="Touhou_ODM03_Enemy_Human_Normal" from="Touhou_ODM3_Enemy_NPC" moduleflags="engineeringmodule" requirekill="true" multiplayeronly="true" />
-      <Character identifier="Touhou_ODM03_Enemy_Human_Normal" from="Touhou_ODM3_Enemy_NPC" moduleflags="engineeringmodule" requirekill="true" />
       <Character identifier="Touhou_ODM03_Enemy_Human_Easy" from="Touhou_ODM3_Enemy_NPC" moduleflags="banditleader" requirekill="true" />
       <Character identifier="Touhou_ODM03_Enemy_Human_Easy" from="Touhou_ODM3_Enemy_NPC" moduleflags="banditleader" requirekill="true" multiplayeronly="true" />
       <Character identifier="Touhou_ODM03_Enemy_Human_Easy" from="Touhou_ODM3_Enemy_NPC" moduleflags="engineeringmodule" requirekill="true" />
-      <Character identifier="Touhou_ODM03_Enemy_Human_Easy" from="Touhou_ODM3_Enemy_NPC" moduleflags="engineeringmodule" asfaraspossible="true" requirekill="true" />
+      <Character identifier="Touhou_ODM03_Enemy_Human_Easy" from="Touhou_ODM3_Enemy_NPC" moduleflags="engineeringmodule" requirekill="true" />
+      <Character identifier="Touhou_ODM03_Enemy_Human_Easy" from="Touhou_ODM3_Enemy_NPC" moduleflags="securitymodule" requirekill="true" />
+      <Character identifier="Touhou_ODM03_Enemy_Human_Easy" from="Touhou_ODM3_Enemy_NPC" moduleflags="securitymodule" asfaraspossible="true" requirekill="true" />
     </Characters>
   </OutpostDestroyMission>
+  <!--雷声隐隐，未知来临-->
+  <NestMission name="Faint Thunder" identifier="Clear_Reiki_Erode_Mudraptor_Nest" textidentifier="Clear_Reiki_Erode_Mudraptor_Nest" tags="nest,Clear_Reiki_Erode_Mudraptor_Nest" achievementidentifier="nestmission" type="Nest" spawntype="cave" reward="10000" itemspawnradius="800" approachitemsradius="800" monsterspawnradius="4000" nestobjectradius="1500" nestobjectamount="20" difficulty="4" commonness="100">
+    <Items>
+      <Item identifier="largemudraptoregg">
+        <StatusEffectOnApproach target="This" Scale="2.0" setvalue="true" />
+      </Item>
+      <Item identifier="largemudraptoregg">
+        <StatusEffectOnApproach target="This" Scale="2.0" setvalue="true" delay="9" />
+      </Item>
+      <Item identifier="largemudraptoregg">
+        <StatusEffectOnApproach target="This" Scale="2.0" setvalue="true" delay="9" />
+      </Item>
+    </Items>
+    <Monster character="Touhou_reiki_erode_mudraptor" min="5" max="5" />
+    <Monster character="Touhou_reiki_erode_mudraptor" min="3" max="3" multiplayeronly="true" />
+    <Reputation identifier="location" amount="4" />
+    <Reputation identifier="Touhou_Gensokyo" amount="3" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons03.png" sourcerect="0,0,256,256" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <message header="missionheader.Clear_Reiki_Erode_Mudraptor_Nest" text="missionmessage.Clear_Reiki_Erode_Mudraptor_Nest" />
+  </NestMission>
+  <!--雷声阵阵，危险来临-->
+  <NestMission name="Rumbling Thunder" identifier="Clear_Reiki_Deterioration_Tigerthresher_Nest" textidentifier="Clear_Reiki_Deterioration_Tigerthresher_Nest" tags="nest,Clear_Reiki_Deterioration_Tigerthresher_Nest" achievementidentifier="nestmission" type="Nest" spawntype="cave" reward="10000" itemspawnradius="800" approachitemsradius="800" monsterspawnradius="4000" nestobjectradius="1500" nestobjectamount="20" difficulty="4" commonness="100">
+    <Items>
+      <Item identifier="tigerthresheregg">
+        <StatusEffectOnApproach target="This" Scale="2.0" setvalue="true" />
+      </Item>
+      <Item identifier="tigerthresheregg">
+        <StatusEffectOnApproach target="This" Scale="2.0" setvalue="true" delay="9" />
+      </Item>
+      <Item identifier="tigerthresheregg">
+        <StatusEffectOnApproach target="This" Scale="2.0" setvalue="true" delay="9" />
+      </Item>
+    </Items>
+    <Monster character="Touhou_reiki_deterioration_tigerthresher" min="6" max="6" />
+    <Monster character="Touhou_reiki_deterioration_tigerthresher" min="3" max="3" multiplayeronly="true" />
+    <Reputation identifier="separatists" amount="2" />
+    <Reputation identifier="coalition" amount="2" />
+    <Reputation identifier="Touhou_Gensokyo" amount="2" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons03.png" sourcerect="0,0,256,256" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <message header="missionheader.Clear_Reiki_Deterioration_Tigerthresher_Nest" text="missionmessage.Clear_Reiki_Deterioration_Tigerthresher_Nest" />
+  </NestMission>
+  <!--雷声滚滚，怒潮来临-->
+  <MonsterMission name="Booming Thunder" identifier="Kill_Reiki_Deterioration_Hammerhead" textidentifier="Kill_Reiki_Deterioration_Hammerhead" tags="killmonster,Kill_Reiki_Deterioration_Hammerhead" type="Monster" difficulty="4" commonness="100" reward="12000" sonarlabel="target" maxsonarmarkerdistance="10000">
+    <Monster character="Touhou_reiki_deterioration_hammerhead" min="6" max="6" />
+    <Monster character="Touhou_reiki_deterioration_hammerhead" min="4" max="4" multiplayeronly="true" />
+    <Monster character="Touhou_reiki_deterioration_tigerthresher" min="2" max="2" />
+    <Monster character="Touhou_reiki_erode_mudraptor" min="2" max="2" />
+    <Monster character="Touhou_reiki_erode_crawler" min="2" max="2" />
+    <Reputation identifier="separatists" amount="3" />
+    <Reputation identifier="coalition" amount="3" />
+    <Reputation identifier="Touhou_Gensokyo" amount="3" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons03.png" sourcerect="0,0,256,256" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <message header="missionheader.Kill_Reiki_Deterioration_Hammerhead" text="missionmessage.Kill_Reiki_Deterioration_Hammerhead" />
+  </MonsterMission>
+  <!--遥遥38万公里的旅程-->
+  <MonsterMission identifier="FindClownpiece" textidentifier="FindClownpiece" tags="killmonster,FindClownpiece" type="Monster" difficulty="4" commonness="100" reward="20000" sonarlabel="target" maxsonarmarkerdistance="10000">
+    <Monster character="Touhou_lunar" min="1" max="1" />
+    <Reputation identifier="separatists" amount="6" />
+    <Reputation identifier="coalition" amount="6" />
+    <Reputation identifier="Touhou_Gensokyo" amount="6" />
+    <Icon texture="%ModDir%/Images/Missions/Touhou_MissionIcons04.png" sourcerect="0,0,256,256" />
+    <LocationType from="AnyOutpost" to="AnyOutpost" />
+    <message header="missionheader.FindClownpiece" text="missionmessage.FindClownpiece" />
+  </MonsterMission>
 </Missions>

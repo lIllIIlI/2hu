@@ -123,12 +123,12 @@
       <StatusEffect type="OnContained" target="This" tags="weaponreload" duration="0.6" interval="0.5" delay="0.1">
         <Conditional hastag="weapon" targetcontainer="true" />
       </StatusEffect>
-      <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
+      <!-- <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
         <Conditional hasstatustag="neq weaponreload" />
         <Conditional hastag="weapon" targetcontainer="true" />
         <Sound file="Content/Items/Weapons/WEAPON_rifleReload50-_1.ogg" type="OnUse" range="500" selectionmode="Random" />
         <Sound file="Content/Items/Weapons/WEAPON_rifleReload50-_2.ogg" type="OnUse" range="500" />
-      </StatusEffect>
+      </StatusEffect> -->
     </Pickable>
     <Projectile characterusable="false" hitscan="true" removeonhit="true" friendlyfire="false">
       <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,200,115,175" scalemultiplier="1,0.6" />
@@ -180,15 +180,15 @@
     <Sprite texture="%ModDir%/Images/OtherWeapons/Blunderbuss_Bullet.png" sourcerect="85,0,80,70" depth="0.45" origin="0.5,0.5" scale="0.3" />
     <Body width="20" height="20" density="10" />
     <Pickable slots="Any" msg="ItemMsgPickUpSelect">
-      <StatusEffect type="OnContained" target="This" tags="weaponreload" duration="0.6" interval="0.5" delay="0.1">
+      <!-- <StatusEffect type="OnContained" target="This" tags="weaponreload" duration="0.6" interval="0.5" delay="0.1">
         <Conditional hastag="weapon" targetcontainer="true" />
-      </StatusEffect>
-      <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
+      </StatusEffect> -->
+      <!-- <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
         <Conditional hasstatustag="neq weaponreload" />
         <Conditional hastag="weapon" targetcontainer="true" />
         <Sound file="Content/Items/Weapons/WEAPON_rifleReload50-_1.ogg" type="OnUse" range="500" selectionmode="Random" />
         <Sound file="Content/Items/Weapons/WEAPON_rifleReload50-_2.ogg" type="OnUse" range="500" />
-      </StatusEffect>
+      </StatusEffect> -->
     </Pickable>
     <!--        <ParticleEmitter particle="LunaticBulletTracer" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="0.4,0.4" />-->
     <Projectile characterusable="false" hitscan="true" removeonhit="true" friendlyfire="true">
@@ -426,9 +426,9 @@
       <RequiredSkill identifier="weapons" level="100" />
       <RequiredSkill identifier="medical" level="100" />
       <RequiredSkill identifier="Touhou_Magic" level="100" />
-      <RequiredItem identifier="Touhou_Precious_Metal" amount="11" />
+      <RequiredItem identifier="Touhou_Precious_Metal" amount="6" />
       <RequiredItem identifier="incendium" amount="4" />
-      <RequiredItem identifier="Power_Point" amount="11" />
+      <RequiredItem identifier="Power_Point" amount="2" />
       <RequiredItem identifier="Touhou_Rib" />
     </Fabricate>
     <Sprite texture="%ModDir%/Images/OtherWeapons/Blunderbuss_Bullet.png" sourcerect="0,72,64,18" depth="0.45" origin="0.5,0.5" />
@@ -437,12 +437,12 @@
       <StatusEffect type="OnContained" target="This" tags="weaponreload" duration="0.6" interval="0.5" delay="0.1">
         <Conditional hastag="weapon" targetcontainer="true" />
       </StatusEffect>
-      <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
+      <!-- <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true" stackable="false">
         <Conditional hasstatustag="neq weaponreload" />
         <Conditional hastag="weapon" targetcontainer="true" />
         <Sound file="Content/Items/Weapons/WEAPON_rifleReload50-_1.ogg" type="OnUse" range="500" selectionmode="Random" />
         <Sound file="Content/Items/Weapons/WEAPON_rifleReload50-_2.ogg" type="OnUse" range="500" />
-      </StatusEffect>
+      </StatusEffect> -->
     </Pickable>
     <!--        <ParticleEmitter particle="LunaticBulletTracer" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,255,115,175" scalemultiplier="0.4,0.4" />-->
     <Projectile characterusable="false" launchimpulse="50" hitscan="true" removeonhit="true">
@@ -568,12 +568,12 @@
       <StatusEffect type="OnContained" target="This" tags="weaponreload" duration="0.6" interval="0.5" delay="0.1">
         <Conditional hastag="weapon" targetcontainer="true" />
       </StatusEffect>
-      <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
+      <!-- <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
         <Conditional hasstatustag="neq weaponreload" />
         <Conditional hastag="weapon" targetcontainer="true" />
         <Sound file="Content/Items/Weapons/WEAPON_rifleReload50-_1.ogg" type="OnUse" range="500" selectionmode="Random" />
         <Sound file="Content/Items/Weapons/WEAPON_rifleReload50-_2.ogg" type="OnUse" range="500" />
-      </StatusEffect>
+      </StatusEffect> -->
     </Pickable>
     <Projectile characterusable="false" hitscan="true" hitscancount="7" removeonhit="true" spread="12">
       <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="255,72,36,220" scalemultiplier="1,0.9" />
@@ -1417,12 +1417,12 @@
       <StatusEffect type="OnContained" target="This" tags="weaponreload" duration="0.6" interval="0.5" delay="0.1">
         <Conditional hastag="weapon" targetcontainer="true" />
       </StatusEffect>
-      <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
+      <!-- <StatusEffect type="Always" target="This" comparison="And" interval="2" AllowWhenBroken="true">
         <Conditional hasstatustag="neq weaponreload" />
         <Conditional hastag="weapon" targetcontainer="true" />
         <Sound file="Content/Items/Weapons/WEAPON_rifleReload50-_1.ogg" type="OnUse" range="500" selectionmode="Random" />
         <Sound file="Content/Items/Weapons/WEAPON_rifleReload50-_2.ogg" type="OnUse" range="500" />
-      </StatusEffect>
+      </StatusEffect> -->
     </Pickable>
     <Projectile characterusable="false" hitscan="true" maxtargetstohit="2" removeonhit="true">
       <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="55,55,255,255" scalemultiplier="1,0.9" />

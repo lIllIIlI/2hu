@@ -170,4 +170,20 @@
       </StatusEffect>
     </ItemComponent>
   </Item>
+  <!--地狱的恶作剧-皮丝-->
+  <Item name="Hell's Prank - Piece" identifier="Touhou_Boss_Fight_Piece" description="遥か３８万キロのボヤージュ" subcategory="Touhou" category="Misc" tags="smallitem,Touhou_Record,tsm_audio,m_cd" cargocontaineridentifier="metalcrate" impactsoundtag="impact_soft" scale="0.25">
+    <Sprite texture="%ModDir%/Images/Tools/Touhou_Boss_Fight_Piece.png" sourcerect="0,0,128,128" depth="0.55" origin="0.5,0.5" />
+    <Body width="128" height="128" density="10" />
+    <Holdable slots="Any,RightHand,LeftHand" holdpos="0,0" holdangle="0" handle1="0,0" msg="ItemMsgPickUpSelect" />
+    <ItemComponent characterusable="false">
+      <StatusEffect type="Always" target="This" interval="0.5" duration="0.6" comparison="Or">
+        <Conditional hastag="eq tsm_soundplayer" targetcontainer="true" />
+        <Conditional hastag="eq Touhou_Jukebox" targetcontainer="true" />
+        <sound file="%ModDir%/Sounds/BGM/Touhou_Boss_Fight_Piece.ogg" range="2000" loop="true" volume="0.8" />
+      </StatusEffect>
+      <StatusEffect type="OnUse" target="This">
+        <sound file="%ModDir%/Sounds/BGM/Touhou_Boss_Fight_Piece.ogg" range="2000" loop="true" volume="0.8" />
+      </StatusEffect>
+    </ItemComponent>
+  </Item>
 </Items>

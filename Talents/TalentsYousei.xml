@@ -44,7 +44,7 @@
       </Abilities>
     </AbilityGroupEffect>
   </Talent>
-  <!--自然友谊 周围的船员获得10%移动速度加成和对缺氧25%的抗性-->
+  <!--自然友谊 周围的船员获得10%移动速度加成和对缺氧25%的抗性，且造成的友伤下降20%-->
   <Talent identifier="Talents_Yousei_Primary03">
     <Icon texture="%ModDir%/Images/Talents/Talents_Magician_Primary.png" sheetindex="0,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.Talents_Yousei_Primary03" />
@@ -388,7 +388,6 @@
         <AbilityConditionHasAffliction afflictionidentifier="Touhou_Yousei_Power" minimumPercentage="0.4" />
       </Conditions>
       <Abilities>
-        <CharacterAbilityModifyStat stattype="AttackMultiplier" value="0.1" />
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
@@ -654,11 +653,7 @@
         <CharacterAbilityApplyStatusEffectsToAllies requiresalive="true" allowself="true">
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
-              <Reduceaffliction type="damage" amount="10" />
-              <Reduceaffliction type="burn" amount="10" />
-              <Reduceaffliction type="bleeding" amount="10" />
-              <Reduceaffliction identifier="bloodloss" amount="10" />
-              <Reduceaffliction identifier="respawnpenalty" amount="2.5" />
+              <Affliction identifier="Gensokyo_Banquet_Effect" amount="5" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffectsToAllies>

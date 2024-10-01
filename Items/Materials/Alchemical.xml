@@ -72,8 +72,8 @@
   <!--贵金属-->
   <Item name="Divine Metal" identifier="Touhou_Precious_Metal" category="Material,Alien" subcategory="Touhou" maxstacksize="32" tags="smallitem,ore,advmunition_jacket,advmunition_tip,advmunition_core,munition_core,Touhou_Precious_Metal" canbepicked="true" cargocontaineridentifier="mediccrate" description="" scale="0.6" impactsoundtag="impact_soft">
     <PreferredContainer primary="medfabcab" />
-    <PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab" spawnprobability="0.02" />
-    <PreferredContainer primary="ruinstorage,ruinstoragesmall" minamount="1" maxamount="2" spawnprobability="0.02" />
+    <PreferredContainer secondary="abandonedmedcab,wreckmedcab,outpostmedcab" spawnprobability="0.01" />
+    <PreferredContainer primary="ruinstorage,ruinstoragesmall" minamount="1" maxamount="2" spawnprobability="0.01" />
     <PreferredContainer primary="ruinstoragelarge" minamount="1" maxamount="2" spawnprobability="0.03" />
     <!--        <Holdable canBeCombined="true" removeOnCombined="true" slots="RightHand,LeftHand,Any" holdpos="0,0" handle1="0,0" handle2="0,0" />-->
     <Price baseprice="4500" minleveldifficulty="36">

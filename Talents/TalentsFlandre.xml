@@ -194,32 +194,25 @@
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
-        <CharacterAbilityApplyStatusEffects>
-          <StatusEffects>
-            <StatusEffect type="OnAbility" target="Character" Interval="1.0" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
-              <ReduceAffliction type="FlandreTalent4_Effect_CD" amount="1" />
-            </StatusEffect>
-          </StatusEffects>
-        </CharacterAbilityApplyStatusEffects>
       </Abilities>
     </AbilityGroupInterval>
-    <AbilityGroupInterval interval="1.0">
+    <AbilityGroupInterval>
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="Younger_Sister_Of_Scarlet" />
-        <AbilityConditionHasAffliction afflictionidentifier="FlandreTalent4_Effect_CD" minimumPercentage="0.1" />
+        <AbilityConditionHasAffliction afflictionidentifier="FlandreTalent4_Effect_CD" />
         <AbilityConditionCrouched invert="true" />
       </Conditions>
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
-            <StatusEffect type="OnAbility" target="Character" Interval="1.0" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
-              <Affliction identifier="FlandreTalent4_Effect_CD" amount="1" />
+            <StatusEffect type="OnAbility" target="Character" multiplyafflictionsbymaxvitality="true">
+              <Affliction identifier="FlandreTalent4_Effect_CD" amount="2.0" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffects>
       </Abilities>
     </AbilityGroupInterval>
-    <AbilityGroupInterval>
+    <AbilityGroupInterval Interval="20">
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="Younger_Sister_Of_Scarlet" />
         <AbilityConditionHasAffliction afflictionidentifier="FlandreTalent4_Effect_CD" invert="true" />
@@ -228,7 +221,7 @@
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
-            <StatusEffect type="OnAbility" target="Character" delay="30" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
               <Affliction identifier="FlandreTalent4_Effect_CD" amount="15" />
             </StatusEffect>
           </StatusEffects>

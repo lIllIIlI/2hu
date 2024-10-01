@@ -30,6 +30,15 @@
         <sprite texture="Content/Items/Jobgear/Assistant/assistant_torso_[GENDER]_1.png" sourcerect="121,0,76,80" offset="-20,15" />
       </PreviewSprites>
     </ItemSet>
+    <AutonomousObjectives>
+      <Order identifier="rescue" prioritymodifier="1" />
+      <Order identifier="extinguishfires" prioritymodifier="0.5" />
+      <Order identifier="operatereactor" option="powerup" prioritymodifier="0.5" />
+      <Order identifier="inspectnoises" prioritymodifier="0.5" />
+      <Order identifier="fixleaks" prioritymodifier="0.2" />
+      <Order identifier="repairsystems" prioritymodifier="0.2" />
+      <Order identifier="cleanupitems" prioritymodifier="0.1" />
+    </AutonomousObjectives>
   </Job>
   <!--妖精-->
   <Job identifier="Yousei" initialcount="1" AllowAlways="true" pricemultiplier="1" uicolor="0.45,0.7,0.45,1" idlebehavior="Active" hiddenjob="false">

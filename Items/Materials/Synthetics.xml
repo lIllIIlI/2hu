@@ -619,6 +619,11 @@
           <TriggerEvent identifier="Touhou_Ghost_Mission" />
         </StatusEffect>
       </Button>
+      <Button text="like a Clay Ox Entering the Sea">
+        <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+          <TriggerEvent identifier="Touhou_Reiki_Erode_Crawler_Mission" />
+        </StatusEffect>
+      </Button>
     </CustomInterface>
   </Item>
   <!--阿求的任务日志-红UFO-->
@@ -634,9 +639,19 @@
           <TriggerEvent identifier="Touhou_Red_UFO_Mission" />
         </StatusEffect>
       </Button>
-      <Button text="Endless Nightmare">
+      <Button text="Eternal Nightmare">
         <StatusEffect type="OnUse" target="This" disabledeltatime="true">
           <TriggerEvent identifier="Touhou_Photosphere_Mission" />
+        </StatusEffect>
+      </Button>
+      <Button text="Distant Thunder">
+        <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+          <TriggerEvent identifier="Touhou_Reiki_Erode_Mudraptor_Mission" />
+        </StatusEffect>
+      </Button>
+      <Button text="Rumbling Thunder">
+        <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+          <TriggerEvent identifier="Touhou_Reiki_Deterioration_Tigerthresher_Mission" />
         </StatusEffect>
       </Button>
     </CustomInterface>
@@ -662,6 +677,11 @@
       <Button text="Cleaning Keystones">
         <StatusEffect type="OnUse" target="This" disabledeltatime="true">
           <TriggerEvent identifier="Touhou_Maoyu_Mission" />
+        </StatusEffect>
+      </Button>
+      <Button text="Booming Thunder">
+        <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+          <TriggerEvent identifier="Touhou_Reiki_Deterioration_Hammerhead_Mission" />
         </StatusEffect>
       </Button>
     </CustomInterface>
@@ -725,19 +745,39 @@
           <TriggerEvent identifier="Touhou_Ghost_Mission" />
         </StatusEffect>
       </Button>
-      <Button text="Muddy Cow Vanishes">
+      <Button text="like a Clay Ox Entering the Sea">
         <StatusEffect type="OnUse" target="This" disabledeltatime="true">
           <TriggerEvent identifier="Touhou_Reiki_Erode_Crawler_Mission" />
         </StatusEffect>
       </Button>
-      <Button text="Endless Nightmare">
+      <Button text="Faint Thunder">
         <StatusEffect type="OnUse" target="This" disabledeltatime="true">
-          <TriggerEvent identifier="Touhou_Photosphere_Mission" />
+          <TriggerEvent identifier="Touhou_Reiki_Erode_Mudraptor_Mission" />
+        </StatusEffect>
+      </Button>
+      <Button text="Rumbling Thunder">
+        <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+          <TriggerEvent identifier="Touhou_Reiki_Deterioration_Tigerthresher_Mission" />
+        </StatusEffect>
+      </Button>
+      <Button text="Booming Thunder">
+        <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+          <TriggerEvent identifier="Touhou_Reiki_Deterioration_Hammerhead_Mission" />
+        </StatusEffect>
+      </Button>
+      <Button text="Eclipse of Hell">
+        <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+          <TriggerEvent identifier="FindClownpiece_Mission" />
         </StatusEffect>
       </Button>
     </CustomInterface>
     <CustomInterface canbeselected="true" drawhudwhenequipped="true">
       <GuiFrame relativesize="0.3,0.6" anchor="TopCenter" style="ItemUI" relativeoffset="0.2,0" />
+      <Button text="Eternal Nightmare">
+        <StatusEffect type="OnUse" target="This" disabledeltatime="true">
+          <TriggerEvent identifier="Touhou_Photosphere_Mission" />
+        </StatusEffect>
+      </Button>
       <Button text="Unknown Truth - Loyal Green UFO">
         <StatusEffect type="OnUse" target="This" disabledeltatime="true">
           <TriggerEvent identifier="Touhou_Green_UFO_Mission" />
@@ -833,6 +873,9 @@
   <!--简单零件-->
   <Item name="Simple Parts" identifier="Touhou_Simple_Parts" tags="smallitem" subcategory="Touhou" category="Alien" cargocontaineridentifier="metalcrate" maxstacksize="48" scale="0.15" HideConditionBar="true">
     <PreferredContainer primary="engcab" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab" minamount="1" maxamount="2" spawnprobability="0.1" />
+    <PreferredContainer primary="wreckengcab,abandonedengcab,pirateengcab" amount="1" spawnprobability="0.15" />
+    <PreferredContainer secondary="outpostsecarmcab" amount="1" spawnprobability="0.15" />
     <Deconstruct time="10" chooserandom="true" amount="4">
       <Item identifier="iron" commonness="0.8" />
       <Item identifier="steel" commonness="0.6" />
@@ -850,6 +893,9 @@
   <!--精密零件-->
   <Item name="Precision Parts" identifier="Touhou_Precision_Parts" tags="smallitem" subcategory="Touhou" category="Alien" cargocontaineridentifier="metalcrate" maxstacksize="48" scale="0.15" HideConditionBar="true">
     <PreferredContainer primary="engcab" />
+    <PreferredContainer secondary="wreckstoragecab,abandonedstoragecab,piratestoragecab" amount="1" spawnprobability="0.05" />
+    <PreferredContainer primary="wreckengcab,abandonedengcab,pirateengcab" amount="1" spawnprobability="0.05" />
+    <PreferredContainer secondary="outpostsecarmcab" amount="1" spawnprobability="0.1" />
     <Deconstruct time="10" chooserandom="true" amount="8">
       <Item identifier="iron" commonness="0.4" />
       <Item identifier="steel" commonness="0.4" />

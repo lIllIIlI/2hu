@@ -49,7 +49,7 @@
         </CharacterAbilityApplyStatusEffects>
       </Abilities>
     </AbilityGroupInterval>
-    <!--        <AbilityGroupEffect abilityeffecttype="OnAttack">
+    <!--        <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
             <Conditions>
                 <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Ice" />
                 <AbilityConditionAttackData tags="Low_Alchemical_Metal" ignorenonharmfulattacks="true" weapontype="Ranged"/>
@@ -59,7 +59,7 @@
                 <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="1" />
             </Abilities>
         </AbilityGroupEffect>
-        <AbilityGroupEffect abilityeffecttype="OnAttack">
+        <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
             <Conditions>
                 <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Ice" />
                 <AbilityConditionAttackData tags="Normal_Alchemical_Metal" ignorenonharmfulattacks="true" weapontype="Ranged"/>
@@ -69,7 +69,7 @@
                 <CharacterAbilityGiveAffliction affliction="Touhou_Freeze" strength="1" />
             </Abilities>
         </AbilityGroupEffect>
-        <AbilityGroupEffect abilityeffecttype="OnAttack">
+        <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
             <Conditions>
                 <AbilityConditionHasAffliction afflictionidentifier="Fairy_Of_Ice" />
                 <AbilityConditionAttackData tags="High_Alchemical_Metal" ignorenonharmfulattacks="true" weapontype="Ranged"/>

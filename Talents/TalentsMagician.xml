@@ -83,12 +83,21 @@
     <Icon texture="%ModDir%/Images/Talents/Talents_Magician_Primary.png" sheetindex="0,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.Talents_Magician_Primary06" />
     <AbilityGroupInterval interval="0.5">
+      <Conditions>
+        <AbilityConditionHasSkill skillidentifier="Touhou_Magic" minvalue="300" invert="true" />
+      </Conditions>
       <Abilities>
         <CharacterAbilityModifyStatToSkill stattype="swimmingspeed" maxvalue="0.1" skillidentifier="Touhou_Magic" />
         <CharacterAbilityModifyStatToSkill stattype="WalkingSpeed" maxvalue="0.1" skillidentifier="Touhou_Magic" />
         <CharacterAbilityModifyStatToSkill stattype="RangedAttackSpeed" maxvalue="0.1" skillidentifier="Touhou_Magic" />
         <CharacterAbilityModifyStatToSkill stattype="AttackMultiplier" maxvalue="0.1" skillidentifier="Touhou_Magic" />
       </Abilities>
+      <FallbackAbilities>
+        <CharacterAbilityModifyStat stattype="swimmingspeed" value="0.3" />
+        <CharacterAbilityModifyStat stattype="WalkingSpeed" value="0.3" />
+        <CharacterAbilityModifyStat stattype="RangedAttackSpeed" value="0.3" />
+        <CharacterAbilityModifyStat stattype="AttackMultiplier" value="0.3" />
+      </FallbackAbilities>
     </AbilityGroupInterval>
   </Talent>
   <!--妖怪退治 对非人类造成的物理伤害提高15%，对友军造成的伤害减少30%-->
@@ -102,7 +111,7 @@
         </AbilityConditionCharacter>
       </Conditions>
       <Abilities>
-        <CharacterAbilityModifyAffliction afflictionidentifiers="internaldamage,blunttrauma,lacerations,bitewounds,gunshotwound,organdamage,explosiondamage,Reiki_Pressure" addedmultiplier="0.15" />
+        <CharacterAbilityModifyAffliction afflictionidentifiers="internaldamage,blunttrauma,lacerations,bitewounds,gunshotwound,organdamage,explosiondamage,Reiki_Pressure,Touhou_Bite" addedmultiplier="0.15" />
       </Abilities>
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="None">
@@ -140,11 +149,7 @@
         <CharacterAbilityApplyStatusEffectsToAllies requiresalive="true" allowself="true">
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
-              <Reduceaffliction type="damage" amount="15" />
-              <Reduceaffliction type="burn" amount="15" />
-              <Reduceaffliction type="bleeding" amount="15" />
-              <Reduceaffliction identifier="bloodloss" amount="20" />
-              <Reduceaffliction identifier="respawnpenalty" amount="5" />
+              <Affliction identifier="Gensokyo_Banquet_Effect" amount="5" />
             </StatusEffect>
           </StatusEffects>
         </CharacterAbilityApplyStatusEffectsToAllies>
@@ -164,7 +169,7 @@
         <CharacterAbilityModifyAttackData addeddamagemultiplier="-0.4" />
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
-            <StatusEffect type="OnAbility" target="Character" multiplyafflictionsbymaxvitality="true">
+            <StatusEffect type="OnAbility" target="Character" delay="0.05" multiplyafflictionsbymaxvitality="true">
               <Affliction identifier="Gensokyo_Hermit_CD" amount="1.0" />
             </StatusEffect>
           </StatusEffects>
@@ -183,8 +188,8 @@
     </AbilityGroupInterval>
     <AbilityGroupEffect abilityeffecttype="None">
       <Conditions>
-        <AbilityConditionHasSkill skillidentifier="helm" minvalue="70" invert="true" />
-        <AbilityConditionHasSkill skillidentifier="helm" minvalue="30" />
+        <AbilityConditionHasSkill skillidentifier="Touhou_Magic" minvalue="70" invert="true" />
+        <AbilityConditionHasSkill skillidentifier="Touhou_Magic" minvalue="30" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveStat stattype="ElectricalSkillBonus" value="5" />
@@ -196,7 +201,7 @@
     </AbilityGroupEffect>
     <AbilityGroupEffect abilityeffecttype="None">
       <Conditions>
-        <AbilityConditionHasSkill skillidentifier="helm" minvalue="70" />
+        <AbilityConditionHasSkill skillidentifier="Touhou_Magic" minvalue="70" />
       </Conditions>
       <Abilities>
         <CharacterAbilityGiveStat stattype="ElectricalSkillBonus" value="10" />
@@ -221,18 +226,56 @@
         <AbilityConditionHasAffliction afflictionidentifier="drunk" />
       </Conditions>
       <Abilities>
-        <CharacterAbilityModifyResistance resistanceid="nausea" multiplier="0" />
+        <CharacterAbilityModifyResistance resistanceid="nausea" multiplier="0.2" />
       </Abilities>
     </AbilityGroupInterval>
+    <AbilityGroupInterval interval="5.0">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="This" disabledeltatime="true">
+              <Affliction identifier="Izakaya_Effect_CD" amount="10" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupEffect abilityeffecttype="OnAttacked">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="Izakaya_Effect_CD" minimumpercentage="0.1" />
+        <AbilityConditionAttackData ignorenonharmfulattacks="true" weapontype="NoWeapon,Melee,Ranged" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <Affliction identifier="Izakaya_Effect" amount="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAttackedResult">
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="This">
+              <ReduceAffliction identifier="Izakaya_Effect_CD" strength="100.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupEffect>
     <AddedRecipe itemidentifier="Touhou_Beer" />
+    <AddedRecipe itemidentifier="Touhou_Friendship_Juice" />
   </Talent>
   <!--幻想入 巡回结束时获得所有技能和魔法能力3点，解锁配方：幻想潜水服-->
   <Talent identifier="Gensokyo_Divinggear_Unlocked">
     <Icon texture="%ModDir%/Images/Talents/Talents_Magician_Primary.png" sheetindex="0,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.Gensokyo_Divinggear_Unlocked" />
-    <AbilityGroupEffect abilityeffecttype="OnAllMissionsCompleted">
+    <AbilityGroupEffect abilityeffecttype="OnAnyMissionCompleted">
       <Abilities>
-        <CharacterAbilityApplyStatusEffectsToAllies requiresalive="true" allowself="true">
+        <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
             <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
               <GiveSkill skillidentifier="electrical" amount="3" triggertalents="false" />
@@ -243,9 +286,64 @@
               <GiveSkill skillidentifier="Touhou_Magic" amount="3" triggertalents="false" />
             </StatusEffect>
           </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+        <CharacterAbilityApplyStatusEffectsToAllies requiresalive="true" allowself="false">
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true">
+              <GiveSkill skillidentifier="electrical" amount="0.5" triggertalents="false" />
+              <GiveSkill skillidentifier="helm" amount="0.5" triggertalents="false" />
+              <GiveSkill skillidentifier="mechanical" amount="0.5" triggertalents="false" />
+              <GiveSkill skillidentifier="medical" amount="0.5" triggertalents="false" />
+              <GiveSkill skillidentifier="weapons" amount="0.5" triggertalents="false" />
+              <GiveSkill skillidentifier="Touhou_Magic" amount="0.5" triggertalents="false" />
+            </StatusEffect>
+          </StatusEffects>
         </CharacterAbilityApplyStatusEffectsToAllies>
       </Abilities>
     </AbilityGroupEffect>
+    <AbilityGroupInterval interval="4.9">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="The_Still_Library" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+              <Affliction identifier="Gensokyo_Divinggear_Unlocked_Effect01" strength="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval interval="4.9">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="Ordinary_Magician" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+              <Affliction identifier="Gensokyo_Divinggear_Unlocked_Effect02" strength="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+      </Abilities>
+    </AbilityGroupInterval>
+    <AbilityGroupInterval interval="4.9">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="Younger_Sister_Of_Scarlet" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityApplyStatusEffects>
+          <StatusEffects>
+            <StatusEffect type="OnAbility" target="Character" disabledeltatime="true" multiplyafflictionsbymaxvitality="true">
+              <Affliction identifier="Gensokyo_Divinggear_Unlocked_Effect03" strength="1.0" />
+            </StatusEffect>
+          </StatusEffects>
+        </CharacterAbilityApplyStatusEffects>
+        <CharacterAbilityModifyStatToSkill stattype="MaximumHealthMultiplier" maxvalue="0.1" skillidentifier="Touhou_Magic" />
+      </Abilities>
+    </AbilityGroupInterval>
     <AddedRecipe itemidentifier="gensokyo_divinggear" />
   </Talent>
   <!--炼金无限 瓶装元素的出售价格增加至75%，解锁配方：回收日、月符卡-->
@@ -268,7 +366,7 @@
   <Talent identifier="Magic_Breakthrough">
     <Icon texture="%ModDir%/Images/Talents/Talents_Magician_Primary.png" sheetindex="0,0" sheetelementsize="128,128" />
     <Description tag="talentdescription.Magic_Breakthrough" />
-    <AbilityGroupInterval interval="0.9">
+    <AbilityGroupInterval interval="4.9">
       <Abilities>
         <CharacterAbilityApplyStatusEffects>
           <StatusEffects>
@@ -279,7 +377,7 @@
         </CharacterAbilityApplyStatusEffects>
       </Abilities>
     </AbilityGroupInterval>
-    <AbilityGroupInterval interval="0.9">
+    <AbilityGroupInterval interval="4.9">
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="The_Still_Library" />
       </Conditions>
@@ -293,7 +391,7 @@
         </CharacterAbilityApplyStatusEffects>
       </Abilities>
     </AbilityGroupInterval>
-    <AbilityGroupInterval interval="0.9">
+    <AbilityGroupInterval interval="4.9">
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="Ordinary_Magician" />
       </Conditions>
@@ -307,7 +405,7 @@
         </CharacterAbilityApplyStatusEffects>
       </Abilities>
     </AbilityGroupInterval>
-    <AbilityGroupInterval interval="0.9">
+    <AbilityGroupInterval interval="4.9">
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="Younger_Sister_Of_Scarlet" />
       </Conditions>

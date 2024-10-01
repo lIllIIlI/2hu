@@ -64,7 +64,7 @@
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="burn" damagemultiplier="0.4" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="Phoenix_Burn" damagemultiplier="0.5" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="stun" damagemultiplier="0.5" deflectprojectiles="true" />
-      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.55" deflectprojectiles="true" />
+      <damagemodifier armorsector="0.0,360.0" afflictiontypes="damage" damagemultiplier="0.5" deflectprojectiles="true" />
       <damagemodifier armorsector="0.0,360.0" afflictiontypes="nausea" damagemultiplier="0.2" deflectprojectiles="true" />
     </Wearable>
   </Item>

@@ -43,10 +43,10 @@
       <Conditions>
         <AbilityConditionHasAffliction afflictionidentifier="Candid_Friend" />
         <AbilityConditionItemInSubmarine submarinetype="BeaconStation" />
-        <AbilityConditionItem tags="container" />
+        <AbilityConditionItem tags="container,beaconengcab,beaconsupplycab" />
       </Conditions>
       <Abilities>
-        <CharacterAbilitySpawnItemsToContainer randomchance="0.1" oncepercontainer="true">
+        <CharacterAbilitySpawnItemsToContainer randomchance="0.3" oncepercontainer="true">
           <StatusEffects>
             <StatusEffect type="OnAbility" target="UseTarget">
               <SpawnItem identifiers="Touhou_Precision_Parts" spawnposition="ThisInventory" spawnifcantbecontained="false" />

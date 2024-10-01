@@ -25,8 +25,6 @@
       </Conditions>
       <Abilities>
         <CharacterAbilityModifyStatToSkill stattype="RangedAttackSpeed" maxvalue="0.1" skillidentifier="weapons" />
-        <CharacterAbilityModifyStatToSkill stattype="MeleeAttackSpeed" maxvalue="0.1" skillidentifier="weapons" />
-        <CharacterAbilityModifyStatToSkill stattype="AttackMultiplier" maxvalue="0.1" skillidentifier="weapons" />
       </Abilities>
     </AbilityGroupInterval>
   </Talent>

@@ -16,7 +16,7 @@
   <inventory Slots="Any,Any,Any,Any" AccessibleWhenAlive="False" Commonness="0.75">
     <item Identifier="Touhou_Boss_Fight_Music_Nue" />
     <item amount="5" Identifier="Score_Point" />
-    <item amount="4" Identifier="Power_Point" />
+    <item amount="6" Identifier="Power_Point" />
   </inventory>
   <inventory Slots="Any,Any,Any,Any" AccessibleWhenAlive="False" Commonness="0.95">
     <item Identifier="Touhou_Boss_Fight_Music_Nue" />

@@ -29,6 +29,7 @@
   <Item file="%ModDir%/Items/Clothes/Nue_gear.xml" />
   <Item file="%ModDir%/Items/Clothes/Piece_gear.xml" />
   <Item file="%ModDir%/Items/Clothes/Cirno_gear.xml" />
+  <Item file="%ModDir%/Items/Clothes/Koishi_gear.xml" />
   <Item file="%ModDir%/Items/Tools/Tools.xml" />
   <Item file="%ModDir%/Items/Tools/MusicPlayer.xml" />
   <Item file="%ModDir%/Items/Materials/Monster_Drops/Maoyu.xml" />
@@ -80,6 +81,13 @@
   <Character file="%ModDir%/Characters/Touhou_Monster_houjuu_nue_Hard/Touhou_Monster_houjuu_nue_Hard.xml" />
   <Character file="%ModDir%/Characters/Touhou_Monster_houjuu_nue_Lunatic/Touhou_Monster_houjuu_nue_Lunatic.xml" />
   <Character file="%ModDir%/Characters/Touhou_reiki_erode_crawler/Touhou_reiki_erode_crawler.xml" />
+  <Character file="%ModDir%/Characters/Touhou_reiki_erode_mudraptor/Touhou_reiki_erode_mudraptor.xml" />
+  <Character file="%ModDir%/Characters/Touhou_reiki_deterioration_tigerthresher/Touhou_reiki_deterioration_tigerthresher.xml" />
+  <Character file="%ModDir%/Characters/Touhou_reiki_deterioration_hammerhead/Touhou_reiki_deterioration_hammerhead.xml" />
+  <Character file="%ModDir%/Characters/Touhou_Koishi_Phantom/Touhou_Koishi_Phantom.xml" />
+  <Character file="%ModDir%/Characters/Touhou_Lunar/Touhou_Lunar.xml" />
+  <Character file="%ModDir%/Characters/Touhou_Lunar_Mini/Touhou_Lunar_Mini.xml" />
+  <Character file="%ModDir%/Characters/Touhou_Lunar_Meteor/Touhou_Lunar_Meteor.xml" />
   <Talents file="%ModDir%/Talents/Hyouibana.xml" />
   <Talents file="%ModDir%/Talents/TalentEnemy.xml" />
   <Talents file="%ModDir%/Talents/TalentsAya.xml" />
@@ -101,6 +109,7 @@
   <Talents file="%ModDir%/Talents/TalentsMagician.xml" />
   <Talents file="%ModDir%/Talents/TalentsYousei.xml" />
   <Talents file="%ModDir%/Talents/TalentsCirno.xml" />
+  <Talents file="%ModDir%/Talents/TalentsKoishi.xml" />
   <TalentTrees file="%ModDir%/Talents/TalentTrees.xml" />
   <Sounds file="%ModDir%/Sounds/BGM/Music_Override.xml" />
   <UIStyle file="%ModDir%/Items/Book/Style.xml" />

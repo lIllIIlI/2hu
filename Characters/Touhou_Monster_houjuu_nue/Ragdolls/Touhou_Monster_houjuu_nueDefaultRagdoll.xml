@@ -152,10 +152,6 @@
         <SpawnItem identifier="Touhou_Rippling_Bolt_Monster" spawnposition="This" count="6" aimspread="20" rotationtype="Collider" rotation="0" />
         <SpawnItem identifier="Touhou_Half_Health_Bolt_Nue" spawnposition="This" count="6" aimspread="20" rotationtype="Collider" rotation="0" />
       </StatusEffect>
-      <StatusEffect type="Always" target="This" Interval="1.0">
-        <Conditional HealthPercentage="lte 50" />
-        <ParticleEmitter particle="Touhou_Electric_Shock" AngleMax="360" VelocityMax="30" ScaleMin="0.4" ScaleMax="0.8" ScaleMultiplier="0.2,0.2" ParticleAmount="30" ColorMultiplier="100,100,255,255" DrawOnTop="True" />
-      </StatusEffect>
     </attack>
   </limb>
   <joint Name="Joint 3 - 0" Limb1="3" Limb2="0" Limb1Anchor="301.5316,-153.93788" Limb2Anchor="-55.620003,-94.047676" CanBeSevered="False" SeveranceProbabilityModifier="1" BreakSound="gore" LimitEnabled="True" UpperLimit="10" LowerLimit="-10" Stiffness="0.25" Scale="1" WeldJoint="False" ClockWiseRotation="False" />

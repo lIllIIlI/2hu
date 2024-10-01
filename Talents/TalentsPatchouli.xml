@@ -34,16 +34,24 @@
       <Abilities>
         <CharacterAbilityModifyAffliction afflictionidentifiers="Touhou_Mu_Elements" addedmultiplier="3" />
         <CharacterAbilityModifyAffliction afflictionidentifiers="Touhou_Huo_Elements" addedmultiplier="3" />
-        <CharacterAbilityModifyAffliction afflictionidentifiers="burn" addedmultiplier="0.1" />
         <CharacterAbilityModifyAffliction afflictionidentifiers="Touhou_Shui_Elements" addedmultiplier="3" />
-        <CharacterAbilityModifyAffliction afflictionidentifiers="Touhou_Freeze" addedmultiplier="0.1" />
         <CharacterAbilityModifyAffliction afflictionidentifiers="Touhou_Tu_Elements" addedmultiplier="3" />
-        <CharacterAbilityModifyAffliction afflictionidentifiers="blunttrauma" addedmultiplier="0.1" />
         <CharacterAbilityModifyAffliction afflictionidentifiers="Touhou_Jin_Elements" addedmultiplier="3" />
-        <CharacterAbilityModifyAffliction afflictionidentifiers="bleeding" addedmultiplier="0.1" />
         <CharacterAbilityModifyAffliction afflictionidentifiers="Touhou_Shui_Elements" addedmultiplier="3" />
-        <CharacterAbilityModifyAffliction afflictionidentifiers="acidburn" addedmultiplier="0.1" />
         <CharacterAbilityModifyAffliction afflictionidentifiers="Reiki_Pressure" addedmultiplier="0.25" />
+      </Abilities>
+    </AbilityGroupEffect>
+    <AbilityGroupEffect abilityeffecttype="OnAddDamageAffliction">
+      <Conditions>
+        <AbilityConditionHasAffliction afflictionidentifier="The_Still_Library" />
+        <AbilityConditionHasAffliction afflictionidentifier="Gensokyo_Divinggear_Unlocked_Effect01" />
+      </Conditions>
+      <Abilities>
+        <CharacterAbilityModifyAffliction afflictionidentifiers="burn" addedmultiplier="0.15" />
+        <CharacterAbilityModifyAffliction afflictionidentifiers="Touhou_Freeze" addedmultiplier="0.15" />
+        <CharacterAbilityModifyAffliction afflictionidentifiers="blunttrauma" addedmultiplier="0.15" />
+        <CharacterAbilityModifyAffliction afflictionidentifiers="bleeding" addedmultiplier="0.15" />
+        <CharacterAbilityModifyAffliction afflictionidentifiers="acidburn" addedmultiplier="0.15" />
       </Abilities>
     </AbilityGroupEffect>
   </Talent>

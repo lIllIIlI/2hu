@@ -58,6 +58,18 @@
     <ScriptedEvent identifier="Touhou_Reiki_Erode_Crawler_Mission" commonness="0">
       <MissionAction missiontag="Clear_Reiki_Erode_Crawler_Nest" />
     </ScriptedEvent>
+    <!--魔咒迅猛龙任务-->
+    <ScriptedEvent identifier="Touhou_Reiki_Erode_Mudraptor_Mission" commonness="0">
+      <MissionAction missiontag="Clear_Reiki_Erode_Mudraptor_Nest" />
+    </ScriptedEvent>
+    <!--劣化虎尾鲨任务-->
+    <ScriptedEvent identifier="Touhou_Reiki_Deterioration_Tigerthresher_Mission" commonness="0">
+      <MissionAction missiontag="Clear_Reiki_Deterioration_Tigerthresher_Nest" />
+    </ScriptedEvent>
+    <!--劣化锤头鲨任务-->
+    <ScriptedEvent identifier="Touhou_Reiki_Deterioration_Hammerhead_Mission" commonness="0">
+      <MissionAction missiontag="Kill_Reiki_Deterioration_Hammerhead" />
+    </ScriptedEvent>
     <!--长眠不醒的噩梦任务-->
     <ScriptedEvent identifier="Touhou_Photosphere_Mission" commonness="0">
       <MissionAction missiontag="killphotosphere" />
@@ -77,31 +89,51 @@
     <!--寻找灵异珠-获得凭证-->
     <ScriptedEvent identifier="Salvage_Mysterious_Pearl_Completed" commonness="0">
       <SetDataAction value="true" identifier="Salvage_Mysterious_Pearl_Completed" />
+      <SetDataAction value="true" identifier="Touhou_Find_Nue_Mission_End" />
     </ScriptedEvent>
     <!--击败绿UFO-->
     <ScriptedEvent identifier="Touhou_Green_UFO_Mission_Completed" commonness="0">
       <SetDataAction value="true" identifier="Touhou_Green_UFO_Mission" />
       <SetDataAction value="false" identifier="Touhou_Akyuu_UFO_Mission01_Agree" />
-      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission01" nextround="true" />
-      <SetDataAction identifier="Touhou_UFO_Mission_ING" value="true" />
+      <CheckDataAction identifier="Touhou_Find_Nue_Mission_End" condition="eq true">
+        <Success></Success>
+        <Failure>
+          <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission01" nextround="true" />
+        </Failure>
+      </CheckDataAction>
     </ScriptedEvent>
     <!--击败红UFO-->
     <ScriptedEvent identifier="Touhou_Red_UFO_Mission_Completed" commonness="0">
       <SetDataAction value="true" identifier="Touhou_Red_UFO_Mission" />
       <SetDataAction value="false" identifier="Touhou_Akyuu_UFO_Mission02_Agree" />
-      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission02" nextround="true" />
+      <CheckDataAction identifier="Touhou_Find_Nue_Mission_End" condition="eq true">
+        <Success></Success>
+        <Failure>
+          <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission02" nextround="true" />
+        </Failure>
+      </CheckDataAction>
     </ScriptedEvent>
     <!--击败蓝UFO-->
     <ScriptedEvent identifier="Touhou_Blue_UFO_Mission_Completed" commonness="0">
       <SetDataAction value="true" identifier="Touhou_Blue_UFO_Mission" />
       <SetDataAction value="false" identifier="Touhou_Akyuu_UFO_Mission03_Agree" />
-      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission03" nextround="true" />
+      <SetDataAction value="false" identifier="Touhou_Find_Nue_Mission_End" />
+      <CheckDataAction identifier="Touhou_Find_Nue_Mission_End" condition="eq true">
+        <Success></Success>
+        <Failure>
+          <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission03" nextround="true" />
+        </Failure>
+      </CheckDataAction>
     </ScriptedEvent>
     <!--击败封兽-->
     <ScriptedEvent identifier="Touhou_Find_Nue_Mission_Completed" commonness="0">
       <SetDataAction value="true" identifier="Touhou_Find_Nue_Mission" />
-      <SetDataAction value="false" identifier="Touhou_Find_Nue_Mission_End" />
-      <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission04" nextround="true" />
+      <CheckDataAction identifier="Touhou_Find_Nue_Mission_End" condition="eq true">
+        <Success></Success>
+        <Failure>
+          <TriggerEventAction identifier="Touhou_Akyuu_UFO_Mission04" nextround="true" />
+        </Failure>
+      </CheckDataAction>
     </ScriptedEvent>
     <!--封兽鵺Easy-->
     <ScriptedEvent identifier="FindHoujuuNue_Mission_Easy" commonness="0">
@@ -119,6 +151,10 @@
     <ScriptedEvent identifier="FindHoujuuNue_Mission_Lunatic" commonness="0">
       <MissionAction missiontag="FindHoujuuNue_Lunatic" />
     </ScriptedEvent>
+    <!--皮丝任务-->
+    <ScriptedEvent identifier="FindClownpiece_Mission" commonness="0">
+      <MissionAction missiontag="FindClownpiece" />
+    </ScriptedEvent>
     <!--文文的记者证选择事件-->
     <ScriptedEvent identifier="Aya_Press_Card_Select_Event" commonness="0">
       <CheckDataAction identifier="Touhou_Mysterious_Pearl_Rippling_Completed" condition="eq true">
@@ -129,6 +165,198 @@
           <TriggerEventAction identifier="Touhou_Akyuu_Mission" />
         </Failure>
       </CheckDataAction>
+    </ScriptedEvent>
+    <!--恋恋的无意识概率事件-->
+    <ScriptedEvent identifier="KoishiTalent_Unconscious" commonness="0">
+      <CheckAfflictionAction identifier="Koishi_Unconscious_Flag" MinStrength="0.1">
+        <Success></Success>
+        <Failure>
+          <RNGAction chance="0.5">
+            <!--长时间无意识-->
+            <Success>
+              <RNGAction chance="0.5">
+                <!--最长时间无意识-->
+                <Success>
+                  <RNGAction chance="0.33">
+                    <!--3级无意识-->
+                    <Success>
+                      <StatusEffectAction targettag="statuseffectuser">
+                        <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                          <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                          <Conditional Koishi_Unconscious_Flag="lte 0" />
+                          <Affliction identifier="Koishi_Unconscious_Flag" strength="25" />
+                          <Affliction identifier="Koishi_Unconscious03" strength="25" />
+                        </StatusEffect>
+                      </StatusEffectAction>
+                    </Success>
+                    <!--低等级无意识-->
+                    <Failure>
+                      <RNGAction chance="0.5">
+                        <!--2级无意识-->
+                        <Success>
+                          <StatusEffectAction targettag="statuseffectuser">
+                            <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                              <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                              <Conditional Koishi_Unconscious_Flag="lte 0" />
+                              <Affliction identifier="Koishi_Unconscious_Flag" strength="25" />
+                              <Affliction identifier="Koishi_Unconscious02" strength="25" />
+                            </StatusEffect>
+                          </StatusEffectAction>
+                        </Success>
+                        <!--1级无意识-->
+                        <Failure>
+                          <StatusEffectAction targettag="statuseffectuser">
+                            <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                              <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                              <Conditional Koishi_Unconscious_Flag="lte 0" />
+                              <Affliction identifier="Koishi_Unconscious_Flag" strength="25" />
+                              <Affliction identifier="Koishi_Unconscious01" strength="25" />
+                            </StatusEffect>
+                          </StatusEffectAction>
+                        </Failure>
+                      </RNGAction>
+                    </Failure>
+                  </RNGAction>
+                </Success>
+                <!--较长时间无意识-->
+                <Failure>
+                  <RNGAction chance="0.33">
+                    <!--3级无意识-->
+                    <Success>
+                      <StatusEffectAction targettag="statuseffectuser">
+                        <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                          <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                          <Conditional Koishi_Unconscious_Flag="lte 0" />
+                          <Affliction identifier="Koishi_Unconscious_Flag" strength="12" />
+                          <Affliction identifier="Koishi_Unconscious03" strength="12" />
+                        </StatusEffect>
+                      </StatusEffectAction>
+                    </Success>
+                    <!--低等级无意识-->
+                    <Failure>
+                      <RNGAction chance="0.5">
+                        <!--2级无意识-->
+                        <Success>
+                          <StatusEffectAction targettag="statuseffectuser">
+                            <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                              <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                              <Conditional Koishi_Unconscious_Flag="lte 0" />
+                              <Affliction identifier="Koishi_Unconscious_Flag" strength="12" />
+                              <Affliction identifier="Koishi_Unconscious02" strength="12" />
+                            </StatusEffect>
+                          </StatusEffectAction>
+                        </Success>
+                        <!--1级无意识-->
+                        <Failure>
+                          <StatusEffectAction targettag="statuseffectuser">
+                            <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                              <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                              <Conditional Koishi_Unconscious_Flag="lte 0" />
+                              <Affliction identifier="Koishi_Unconscious_Flag" strength="12" />
+                              <Affliction identifier="Koishi_Unconscious01" strength="12" />
+                            </StatusEffect>
+                          </StatusEffectAction>
+                        </Failure>
+                      </RNGAction>
+                    </Failure>
+                  </RNGAction>
+                </Failure>
+              </RNGAction>
+            </Success>
+            <!--短时间无意识-->
+            <Failure>
+              <RNGAction chance="0.5">
+                <!--较短时间无意识-->
+                <Success>
+                  <RNGAction chance="0.33">
+                    <!--3级无意识-->
+                    <Success>
+                      <StatusEffectAction targettag="statuseffectuser">
+                        <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                          <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                          <Conditional Koishi_Unconscious_Flag="lte 0" />
+                          <Affliction identifier="Koishi_Unconscious_Flag" strength="8" />
+                          <Affliction identifier="Koishi_Unconscious03" strength="8" />
+                        </StatusEffect>
+                      </StatusEffectAction>
+                    </Success>
+                    <!--低等级无意识-->
+                    <Failure>
+                      <RNGAction chance="0.5">
+                        <!--2级无意识-->
+                        <Success>
+                          <StatusEffectAction targettag="statuseffectuser">
+                            <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                              <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                              <Conditional Koishi_Unconscious_Flag="lte 0" />
+                              <Affliction identifier="Koishi_Unconscious_Flag" strength="8" />
+                              <Affliction identifier="Koishi_Unconscious02" strength="8" />
+                            </StatusEffect>
+                          </StatusEffectAction>
+                        </Success>
+                        <!--1级无意识-->
+                        <Failure>
+                          <StatusEffectAction targettag="statuseffectuser">
+                            <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                              <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                              <Conditional Koishi_Unconscious_Flag="lte 0" />
+                              <Affliction identifier="Koishi_Unconscious_Flag" strength="8" />
+                              <Affliction identifier="Koishi_Unconscious01" strength="8" />
+                            </StatusEffect>
+                          </StatusEffectAction>
+                        </Failure>
+                      </RNGAction>
+                    </Failure>
+                  </RNGAction>
+                </Success>
+                <!--最短时间无意识-->
+                <Failure>
+                  <RNGAction chance="0.33">
+                    <!--3级无意识-->
+                    <Success>
+                      <StatusEffectAction targettag="statuseffectuser">
+                        <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                          <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                          <Conditional Koishi_Unconscious_Flag="lte 0" />
+                          <Affliction identifier="Koishi_Unconscious_Flag" strength="5" />
+                          <Affliction identifier="Koishi_Unconscious03" strength="5" />
+                        </StatusEffect>
+                      </StatusEffectAction>
+                    </Success>
+                    <!--低等级无意识-->
+                    <Failure>
+                      <RNGAction chance="0.5">
+                        <!--2级无意识-->
+                        <Success>
+                          <StatusEffectAction targettag="statuseffectuser">
+                            <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                              <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                              <Conditional Koishi_Unconscious_Flag="lte 0" />
+                              <Affliction identifier="Koishi_Unconscious_Flag" strength="5" />
+                              <Affliction identifier="Koishi_Unconscious02" strength="5" />
+                            </StatusEffect>
+                          </StatusEffectAction>
+                        </Success>
+                        <!--1级无意识-->
+                        <Failure>
+                          <StatusEffectAction targettag="statuseffectuser">
+                            <StatusEffect target="Character" disabledeltatime="true" comparison="And">
+                              <Conditional Closed_Eyes_Of_Koishi="gt 0" />
+                              <Conditional Koishi_Unconscious_Flag="lte 0" />
+                              <Affliction identifier="Koishi_Unconscious_Flag" strength="5" />
+                              <Affliction identifier="Koishi_Unconscious01" strength="5" />
+                            </StatusEffect>
+                          </StatusEffectAction>
+                        </Failure>
+                      </RNGAction>
+                    </Failure>
+                  </RNGAction>
+                </Failure>
+              </RNGAction>
+            </Failure>
+          </RNGAction>
+        </Failure>
+      </CheckAfflictionAction>
     </ScriptedEvent>
     <!--补给站事件01-->
     <ScriptedEvent identifier="Touhou_Supply_Station01" commonness="0">

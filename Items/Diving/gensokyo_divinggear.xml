@@ -67,16 +67,16 @@
       <StatValue stattype="FlowResistance" value="0.9" />
       <!--使用元素瓶-->
       <StatusEffect type="OnWearing" target="Contained,Character" Condition="-0.02" OxygenAvailable="1000.0" targetslot="0">
-				<RequiredItem items="Mu_Alchemical" type="Contained" />
-				<Conditional targetcontainer="true" targetgrandparent="true" IsDead="false" />
-				<Conditional targetcontainer="true" targetgrandparent="true" DecreasedOxygenConsumption="lt 99" />
-				<Conditional targetcontainer="true" targetgrandparent="true" NeedsAir="true" />
-				<Conditional InWater="true" />
-			</StatusEffect>
+        <RequiredItem items="Mu_Alchemical" type="Contained" />
+        <Conditional targetcontainer="true" targetgrandparent="true" IsDead="false" />
+        <Conditional targetcontainer="true" targetgrandparent="true" DecreasedOxygenConsumption="lt 99" />
+        <Conditional targetcontainer="true" targetgrandparent="true" NeedsAir="true" />
+        <Conditional InWater="true" />
+      </StatusEffect>
       <StatusEffect type="OnWearing" target="Contained,Character" Condition="0.01" OxygenAvailable="1000.0" targetslot="0">
-				<RequiredItem items="Mu_Alchemical" type="Contained" />
-				<Conditional HullOxygenPercentage="gt 50" />
-				<Conditional InWater="false" />
+        <RequiredItem items="Mu_Alchemical" type="Contained" />
+        <Conditional HullOxygenPercentage="gt 50" />
+        <Conditional InWater="false" />
       </StatusEffect>
       <StatusEffect type="OnWearing" target="Character" OxygenAvailable="0.0" UseHullOxygen="true" />
       <StatusEffect type="Always" target="Contained" Condition="0.2" targetslot="0" comparison="And">
@@ -149,7 +149,7 @@
       <SubContainer capacity="1" maxstacksize="1">
         <Containable items="oxygensource,weldingtoolfuel,Mu_Alchemical" excludeditems="oxygenitetank" />
         <Containable items="oxygenitetank">
-          <StatusEffect type="OnWearing" target="Character" setvalue="true" comparison="And" targetslot="0">
+          <StatusEffect type="OnWearing" target="Character" comparison="And" targetslot="0">
             <Conditional IsDead="false" />
             <Conditional HullOxygenPercentage="lt 50" />
             <Conditional DecreasedOxygenConsumption="lt 99" />
@@ -257,16 +257,16 @@
       <StatValue stattype="FlowResistance" value="0.3" />
       <!--使用元素瓶-->
       <StatusEffect type="OnWearing" target="Contained,Character" Condition="-0.02" OxygenAvailable="1000.0" targetslot="0">
-				<RequiredItem items="Mu_Alchemical" type="Contained" />
-				<Conditional targetcontainer="true" targetgrandparent="true" IsDead="false" />
-				<Conditional targetcontainer="true" targetgrandparent="true" DecreasedOxygenConsumption="lt 99" />
-				<Conditional targetcontainer="true" targetgrandparent="true" NeedsAir="true" />
-				<Conditional InWater="true" />
-			</StatusEffect>
+        <RequiredItem items="Mu_Alchemical" type="Contained" />
+        <Conditional targetcontainer="true" targetgrandparent="true" IsDead="false" />
+        <Conditional targetcontainer="true" targetgrandparent="true" DecreasedOxygenConsumption="lt 99" />
+        <Conditional targetcontainer="true" targetgrandparent="true" NeedsAir="true" />
+        <Conditional InWater="true" />
+      </StatusEffect>
       <StatusEffect type="OnWearing" target="Contained,Character" Condition="0.01" OxygenAvailable="1000.0" targetslot="0">
-				<RequiredItem items="Mu_Alchemical" type="Contained" />
-				<Conditional HullOxygenPercentage="gt 50" />
-				<Conditional InWater="false" />
+        <RequiredItem items="Mu_Alchemical" type="Contained" />
+        <Conditional HullOxygenPercentage="gt 50" />
+        <Conditional InWater="false" />
       </StatusEffect>
       <!-- Refill oxygen when the suit is contained. -->
       <StatusEffect type="OnContained" target="Contained" Condition="1.0" targetslot="0" interval="1" disabledeltatime="true">
@@ -276,7 +276,7 @@
       <StatusEffect type="OnWearing" target="Contained,Character" UseHullOxygen="false" OxygenAvailable="1000.0" comparison="And" targetslot="0">
         <RequiredItem items="oxygensource" type="Contained" />
       </StatusEffect>
-      <StatusEffect type="OnWearing" target="Contained" UseHullOxygen="false" Condition="0.02" comparison="And" targetslot="0">
+      <StatusEffect type="OnWearing" target="Contained" UseHullOxygen="false" Condition="0.08" comparison="And" targetslot="0">
         <Conditional targetcontainer="true" targetgrandparent="true" IsDead="false" />
         <Conditional targetcontainer="true" targetgrandparent="true" HullOxygenPercentage="gt 50" />
         <Conditional InWater="false" />
@@ -315,10 +315,9 @@
       <SkillModifier skillidentifier="Touhou_Magic" skillvalue="5" />
     </Wearable>
     <Holdable slots="RightHand+LeftHand" controlpose="true" holdpos="0,-50" handle1="-10,-20" handle2="10,-20" holdangle="45" msg="ItemMsgPickUpUse" canbeselected="false" canbepicked="true" pickkey="Use" />
-    <ItemContainer capacity="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0" autoinject="true">
+    <ItemContainer capacity="0" hideitems="true" containedstateindicatorstyle="tank" containedstateindicatorslot="0">
       <Containable identifiers="oxygentank,weldingfueltank,oxygeniteshard,oxygenitetank,incendiumfueltank,oxygensource" />
       <SlotIcon slotindex="0" texture="Content/UI/ContainerIndicators.png" sourcerect="1,93,120,29" origin="0.5,0.45" />
-      <SlotIcon slotindex="1" texture="Content/UI/StatusMonitorUI.png" sourcerect="384,448,64,64" origin="0.5,0.5" />
       <StatusEffect type="OnWearing" target="Contained">
         <Conditional condition="lt 5.0" />
         <Sound file="Content/Items/WarningBeepSlow.ogg" range="500" loop="true" />
@@ -330,7 +329,7 @@
       <SubContainer capacity="1" maxstacksize="1">
         <Containable items="oxygensource,weldingtoolfuel,Mu_Alchemical" excludeditems="oxygenitetank" />
         <Containable items="oxygenitetank">
-          <StatusEffect type="OnWearing" target="Character" setvalue="true" comparison="And" targetslot="0">
+          <StatusEffect type="OnWearing" target="Character" comparison="And" targetslot="0">
             <Conditional IsDead="false" />
             <Conditional HullOxygenPercentage="lt 50" />
             <Conditional DecreasedOxygenConsumption="lt 99" />
@@ -362,9 +361,6 @@
             <Conditional NeedsAir="true" />
           </StatusEffect>
         </Containable>
-      </SubContainer>
-      <SubContainer capacity="1" maxstacksize="1">
-        <Containable items="chem,syringe" />
       </SubContainer>
     </ItemContainer>
     <aitarget maxsightrange="1500" />

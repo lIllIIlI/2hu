@@ -1089,40 +1089,46 @@
                     <Success>
                       <CheckDataAction identifier="Salvage_Mysterious_Pearl_Completed" condition="eq true">
                         <Success>
-                          <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“Thanks to your help, the paranormal orb has been successfully recovered.”">
-                            <Option text="Submit Proof">
-                              <CheckItemAction itemidentifiers="Salvage_Mysterious_Pearl_Mission_Completed" targettag="triggerer_player">
-                                <Success>
-                                  <ConversationAction text="“This is valuable information! As a reward, please accept this. Although it's a replica, its exquisite craftsmanship makes it indistinguishable from the real thing.”" dialogtype="Small" targettag="triggerer_player" />
-                                  <RemoveItemAction itemidentifier="Salvage_Mysterious_Pearl_Mission_Completed" targettag="triggerer_player" />
-                                  <SpawnAction itemidentifier="Touhou_Mysterious_Pearl_Rippling" targetinventory="triggerer_player" />
-                                  <SetDataAction identifier="Touhou_UFO_Mission_ING" value="false" />
-                                  <SetDataAction identifier="Touhou_Mysterious_Pearl_Rippling_Completed" value="true" />
-                                  <GoTo name="waitformission" />
-                                </Success>
-                                <Failure>
-                                  <ConversationAction text="You seem to have forgotten to bring the proof..." dialogtype="Small" targettag="triggerer_player" />
-                                  <ClearTagAction tag="triggerer_player" />
-                                  <GoTo name="waitformission" />
-                                </Failure>
-                              </CheckItemAction>
-                            </Option>
-                          </ConversationAction>
+                          <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“Thanks to your help，the Mystic Orb has been successfully recovered。”The girl expresses her gratitude to you" />
                         </Success>
                         <Failure>
-                          <ConversationAction targettag="triggerer_player" dialogtype="Small" text="An earlier transport accident led to the loss of some important items, including an unstable object suspected to be a paranormal orb. The client is willing to offer a large sum to secretly recover the paranormal orb.">
-                            <Option text="Agree">
-                              <ConversationAction text="“The process must remain confidential; if the supernatural orb falls into the wrong hands, it could lead to very serious consequences.”" dialogtype="Small" targettag="triggerer_player" />
-                              <SpawnAction itemidentifier="Europa_Infusion" targetinventory="triggerer_player" amount="4" />
-                              <SpawnAction itemidentifier="antibleeding1" targetinventory="triggerer_player" amount="4" />
-                              <SetDataAction identifier="Touhou_UFO_Mission_ING" value="false" />
-                              <MissionAction missiontag="Salvage_Mysterious_Pearl" />
-                            </Option>
-                            <Option text="Think it over" endconversation="true">
-                              <ClearTagAction tag="triggerer_player" />
-                              <GoTo name="waitformission" />
-                            </Option>
-                          </ConversationAction>
+                          <CheckDataAction identifier="Salvage_Mysterious_Pearl_Completed" condition="eq true">
+                            <Success>
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="“Thanks to your help，the Mystic Orb has been successfully recovered。”">
+                                <Option text="Submit the voucher">
+                                  <CheckItemAction itemidentifiers="Salvage_Mysterious_Pearl_Mission_Completed" targettag="triggerer_player">
+                                    <Success>
+                                      <ConversationAction text="“This is valuable information! As a token of appreciation，please accept this，Although it is just a replica，its exquisite craftsmanship makes it indistinguishable from the original”" dialogtype="Small" targettag="triggerer_player" />
+                                      <RemoveItemAction itemidentifier="Salvage_Mysterious_Pearl_Mission_Completed" targettag="triggerer_player" />
+                                      <SpawnAction itemidentifier="Touhou_Mysterious_Pearl_Rippling" targetinventory="triggerer_player" />
+                                      <SetDataAction identifier="Touhou_UFO_Mission_ING" value="false" />
+                                      <SetDataAction identifier="Touhou_Mysterious_Pearl_Rippling_Completed" value="true" />
+                                    </Success>
+                                    <Failure>
+                                      <ConversationAction text="It seems you forgot to bring the voucher……" dialogtype="Small" targettag="triggerer_player" />
+                                      <ClearTagAction tag="triggerer_player" />
+                                      <GoTo name="waitformission" />
+                                    </Failure>
+                                  </CheckItemAction>
+                                </Option>
+                              </ConversationAction>
+                            </Success>
+                            <Failure>
+                              <ConversationAction targettag="triggerer_player" dialogtype="Small" text="A previous transportation accident caused some important items to be lost，including an unstable object suspected to be a Mystic Orb，The client is willing to pay handsomely for you to secretly recover the Mystic Orb。">
+                                <Option text="Agree">
+                                  <ConversationAction text="“The process must remain confidential，If the Mystic Orb falls into the wrong hands, it could lead to severe consequences。”" dialogtype="Small" targettag="triggerer_player" />
+                                  <SpawnAction itemidentifier="Europa_Infusion" targetinventory="triggerer_player" amount="4" />
+                                  <SpawnAction itemidentifier="antibleeding1" targetinventory="triggerer_player" amount="4" />
+                                  <SetDataAction identifier="Touhou_UFO_Mission_ING" value="false" />
+                                  <MissionAction missiontag="Salvage_Mysterious_Pearl" />
+                                </Option>
+                                <Option text="Think it over" endconversation="true">
+                                  <ClearTagAction tag="triggerer_player" />
+                                  <GoTo name="waitformission" />
+                                </Option>
+                              </ConversationAction>
+                            </Failure>
+                          </CheckDataAction>
                         </Failure>
                       </CheckDataAction>
                     </Success>

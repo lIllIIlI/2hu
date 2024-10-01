@@ -178,7 +178,7 @@
   <entityname.Star_Danmu>星星弹幕</entityname.Star_Danmu>
   <entitydescription.StarDanmu>迷你八卦炉的重要配件，放入后激活八卦炉（可以和电池一样充电）</entitydescription.StarDanmu>
   <entityname.Stardust_Reverie>星屑幻想</entityname.Stardust_Reverie>
-  <entitydescription.Stardust_Reverie>只从外表上看，相比常规的星星弹幕，似乎只是颜色变了……</entitydescription.Stardust_Reverie>
+  <entitydescription.Stardust_Reverie>只从外表上看，相比常规的星星弹幕，似乎只是颜色变了……‖color:gui.orange‖（小心友伤）‖color:end‖</entitydescription.Stardust_Reverie>
   <entityname.Fake_Hakkero>迷你八卦炉（仿制）</entityname.Fake_Hakkero>
   <entitydescription.Fake_Hakkero>对迷你八卦炉的拙劣模仿，但模仿的是迷你八卦炉</entitydescription.Fake_Hakkero>
   <entityname.Homing_Amulet>灵之御扎</entityname.Homing_Amulet>
@@ -188,11 +188,11 @@
   <entityname.Blunderbuss>喇叭枪</entityname.Blunderbuss>
   <entitydescription.Blunderbuss>月球遗物，一把相当不稳定的枪，会伤到自己（蓄力使用，消耗两种月球遗物作为弹药）</entitydescription.Blunderbuss>
   <entityname.Mind_Bullet>心灵震颤</entityname.Mind_Bullet>
-  <entitydescription.Mind_Bullet>月球遗物的仿制品，威力巨大</entitydescription.Mind_Bullet>
+  <entitydescription.Mind_Bullet>月球遗物的仿制品，威力巨大‖color:gui.orange‖（小心友伤）‖color:end‖</entitydescription.Mind_Bullet>
   <entityname.Lunatic_Bullet>月狂之眼</entityname.Lunatic_Bullet>
-  <entitydescription.Lunatic_Bullet>月球遗物的仿制品，蕴含极其恐怖的破坏力</entitydescription.Lunatic_Bullet>
+  <entitydescription.Lunatic_Bullet>月球遗物的仿制品，蕴含极其恐怖的破坏力‖color:gui.orange‖（小心友伤）‖color:end‖</entitydescription.Lunatic_Bullet>
   <entityname.Touhou_Gungnier>‖color:255,36,0,255‖冈格尼尔‖color:end‖</entityname.Touhou_Gungnier>
-  <entitydescription.Touhou_Gungnier>来自遥远地方的神秘武器，蕴含极其恐怖的破坏力。(小心误伤！)</entitydescription.Touhou_Gungnier>
+  <entitydescription.Touhou_Gungnier>来自遥远地方的神秘武器，蕴含极其恐怖的破坏力。‖color:gui.orange‖（小心友伤）‖color:end‖</entitydescription.Touhou_Gungnier>
   <entityname.Mokou_Flamer>‖color:255,72,36,255‖妹红的氧化剂‖color:end‖</entityname.Mokou_Flamer>
   <entitydescription.Mokou_Flamer>因地制宜的快捷点火工具，即便是在冰冷的木卫二也能生出热烈的火焰</entitydescription.Mokou_Flamer>
   <entityname.Phoenix_Tail>‖color:255,72,36,255‖不灭「不死鸟之尾」‖color:end‖</entityname.Phoenix_Tail>
@@ -222,7 +222,7 @@
   <entityname.Nitori_Backpack>河童背包</entityname.Nitori_Backpack>
   <entitydescription.Nitori_Backpack>河童们的工作背包，能容纳很多物品的同时，还有其它奇妙功能，甚至能抵抗3600米的水压……</entitydescription.Nitori_Backpack>
   <entityname.Kappa_Backpack_Plus>河童背包plus</entityname.Kappa_Backpack_Plus>
-  <entitydescription.Kappa_Backpack_Plus>河童工作背包的升级款，虽然容量并未增加，但其中更加充裕的灵气可以一定程度上保护使用者，甚至可以抵抗6000米的水压</entitydescription.Kappa_Backpack_Plus>
+  <entitydescription.Kappa_Backpack_Plus>河童工作背包的升级款，虽然容量并未增加，但其中更加充裕的灵气可以一定程度上保护使用者，甚至可以抵抗‖color:gui.orange‖5000米‖color:end‖的水压</entitydescription.Kappa_Backpack_Plus>
   <entityname.Kappa_Miningdrill>河童采矿机</entityname.Kappa_Miningdrill>
   <entitydescription.Kappa_Miningdrill>河童们的采矿工具，兼具便携性、易操作性、耐用等多种优点，关键是……它很便宜</entitydescription.Kappa_Miningdrill>
   <entityname.Illness_Recovery_Charm>‖color:160,238,0,255‖病气平愈护符‖color:end‖</entityname.Illness_Recovery_Charm>
@@ -447,9 +447,9 @@
   <entityname.Water_Element_Book>魔导书-水</entityname.Water_Element_Book>
   <entitydescription.Water_Element_Book>内置魔力的一次性魔导书，让新手也能轻松使用</entitydescription.Water_Element_Book>
   <entityname.Touhou_Concentrated_Energy_Arc_Emitter>聚能电弧发射器-手持型</entityname.Touhou_Concentrated_Energy_Arc_Emitter>
-  <entitydescription.Touhou_Concentrated_Energy_Arc_Emitter>河童们根据天子的要求，最后做出来的成品，虽然与理想中的“要石”有一些差距，但其便捷发射要石的功能很让她满意。只是在水下使用时常常会伤及自己……</entitydescription.Touhou_Concentrated_Energy_Arc_Emitter>
+  <entitydescription.Touhou_Concentrated_Energy_Arc_Emitter>河童们根据天子的要求，最后做出来的成品，虽然与理想中的“要石”有一些差距，但其便捷发射要石的功能很让她满意。只是在水下使用时常常会伤及自己……‖color:gui.orange‖（小心友伤）‖color:end‖</entitydescription.Touhou_Concentrated_Energy_Arc_Emitter>
   <entityname.Lightning_Kanameishi>电能要石</entityname.Lightning_Kanameishi>
-  <entitydescription.Lightning_Kanameishi>在特殊天气下，一块被闪电注能的要石，可作为聚能电弧发射器的供能单元，也可以作为正常电池充电。\n“按理说，要石应该绝缘才对吧……”</entitydescription.Lightning_Kanameishi>
+  <entitydescription.Lightning_Kanameishi>在特殊天气下，一块被闪电注能的要石，可作为聚能电弧发射器的供能单元，也可以作为正常电池充电。\n“按理说，要石应该绝缘才对吧……”‖color:gui.orange‖（小心友伤）‖color:end‖</entitydescription.Lightning_Kanameishi>
   <entityname.Patchouli_Doll>帕秋莉人偶</entityname.Patchouli_Doll>
   <entitydescription.Patchouli_Doll>姆Q！（放入任意瓶装元素后，携带使用，能缓慢治愈伤势，手持时右键可以使效果翻倍）</entitydescription.Patchouli_Doll>
   <!--魔法师职业-->
@@ -466,7 +466,7 @@
   <talentname.Talents_Magician_Primary05>魔法开掘</talentname.Talents_Magician_Primary05>
   <talentdescription.Talents_Magician_Primary05>巡回完成任意任务,如果没有人死亡，则获得一块‖color:gui.orange‖以太层金属‖end‖。</talentdescription.Talents_Magician_Primary05>
   <talentname.Talents_Magician_Primary06>修行</talentname.Talents_Magician_Primary06>
-  <talentdescription.Talents_Magician_Primary06>根据当前魔法能力的水平，提高相应‖color:gui.green‖10%‖end‖的游泳速度、行走速度、远程射击速度和攻击伤害。</talentdescription.Talents_Magician_Primary06>
+  <talentdescription.Talents_Magician_Primary06>根据当前魔法能力的水平，提高相应‖color:gui.green‖10%‖end‖的游泳速度、行走速度、远程射击速度和攻击伤害。最多‖color:gui.green‖30%‖end‖</talentdescription.Talents_Magician_Primary06>
   <talentname.Talents_Magician_Primary07>妖怪退治</talentname.Talents_Magician_Primary07>
   <talentdescription.Talents_Magician_Primary07>对非人类造成的物理伤害提高‖color:gui.green‖15%‖end‖，对友军造成的伤害减少‖color:gui.green‖30%‖end‖。</talentdescription.Talents_Magician_Primary07>
   <talentname.Talents_Magician_Primary08>物理魔法使</talentname.Talents_Magician_Primary08>
@@ -478,12 +478,12 @@
   <talentname.Gensokyo_Hermit>飘逸</talentname.Gensokyo_Hermit>
   <talentdescription.Gensokyo_Hermit>受到攻击时有‖color:gui.green‖25%‖end‖概率减少‖color:gui.green‖40%‖end‖的承受伤害，这个效果有‖color:gui.green‖2‖end‖秒冷却。</talentdescription.Gensokyo_Hermit>
   <talentname.Enter_Gensokyo>超出常识</talentname.Enter_Gensokyo>
-  <talentdescription.Enter_Gensokyo>获得对灵气紊乱‖color:gui.green‖40%‖end‖的抗性，
+  <talentdescription.Enter_Gensokyo>获得对灵气紊乱‖color:gui.green‖25%‖end‖的抗性，
     当‖color:gui.orange‖魔法能力‖end‖不满‖color:gui.green‖70‖end‖但大于‖color:gui.green‖30‖end‖时，为所有技能（原版技能）提供‖color:gui.green‖5‖end‖点加成；大于‖color:gui.green‖70‖end‖时，提供‖color:gui.green‖10‖end‖点加成。</talentdescription.Enter_Gensokyo>
   <talentname.Izakaya>居酒屋</talentname.Izakaya>
-  <talentdescription.Izakaya>拥有对醉酒的‖color:gui.green‖80%‖end‖的抗性，解锁配方：‖color:gui.orange‖啤酒‖end‖。</talentdescription.Izakaya>
+  <talentdescription.Izakaya>拥有对醉酒的‖color:gui.green‖80%‖end‖的抗性，受到攻击后，短暂提高‖color:gui.green‖10%‖end‖‖color:gui.orange‖烧伤抗性和出血抗性‖end‖，解锁配方：‖color:gui.orange‖啤酒，友谊果汁‖end‖。</talentdescription.Izakaya>
   <talentname.Gensokyo_Divinggear_Unlocked>幻想入</talentname.Gensokyo_Divinggear_Unlocked>
-  <talentdescription.Gensokyo_Divinggear_Unlocked>巡回结束时获得所有技能和魔法能力‖color:gui.green‖3‖end‖点，解锁配方：‖color:gui.orange‖幻想潜水服‖end‖。</talentdescription.Gensokyo_Divinggear_Unlocked>
+  <talentdescription.Gensokyo_Divinggear_Unlocked>巡回结束时获得所有技能和魔法能力‖color:gui.green‖3‖end‖点，给予其他船员‖color:gui.green‖0.5‖end‖点，为‖color:gui.yellow‖魔法使/魔法少女角色装束+‖end‖提供额外效果。解锁配方：‖color:gui.orange‖幻想潜水服‖end‖。</talentdescription.Gensokyo_Divinggear_Unlocked>
   <!--三重伟大-->
   <talenttree.Alchemist>三重伟大</talenttree.Alchemist>
   <talentname.Spell_Card_Recycle_Unlocked>炼金无限</talentname.Spell_Card_Recycle_Unlocked>
@@ -520,7 +520,7 @@
   <talentname.Hyouibana_Remilia>凭依蕾米莉亚</talentname.Hyouibana_Remilia>
   <talentdescription.Hyouibana_Remilia>拥有对外星感染的抗性，从失血中恢复得更快。</talentdescription.Hyouibana_Remilia>
   <talentname.Hyouibana_Youmu>凭依妖梦</talentname.Hyouibana_Youmu>
-  <talentdescription.Hyouibana_Youmu>行走速度提高10%，近战伤害提高25%。</talentdescription.Hyouibana_Youmu>
+  <talentdescription.Hyouibana_Youmu>行走速度提高10%，近战伤害提高20%。</talentdescription.Hyouibana_Youmu>
   <talentname.Hyouibana_Patchouli>凭依帕秋莉</talentname.Hyouibana_Patchouli>
   <talentdescription.Hyouibana_Patchouli>游泳速度提高25%，技能获取速度提高25%，使用医疗物品的效果提高10%，增益效果在自己身上持续时间更久。</talentdescription.Hyouibana_Patchouli>
   <talentname.Hyouibana_Tenshi>凭依天子</talentname.Hyouibana_Tenshi>
@@ -626,7 +626,7 @@
     \n对非友好角色（红名生物）造成的物理伤害(不包括灵压)和噬咬提高‖color:gui.green‖20%‖end‖。
     \n对友方角色造成的伤害为原本的‖color:gui.green‖一半‖end‖。
     \n每个巡回一次，可以选择两种状态：狮子/狛犬。
-    \n狛犬：在你身边的船员能获得‖color:gui.orange‖守护神兽‖end‖的效果，该效果能提高‖color:gui.green‖15%‖end‖‖color:gui.orange‖物理伤害和精神病‖end‖抗性，并且对友方角色造成的伤害再下降‖color:gui.green‖10%‖end‖，更快地从‖color:gui.orange‖灵压、噬咬‖end‖中恢复,并提高‖color:gui.green‖20%‖end‖最大生命值。
+    \n狛犬：在你身边的船员能获得‖color:gui.orange‖守护神兽‖end‖的效果，该效果能提高‖color:gui.green‖15%‖end‖‖color:gui.orange‖物理伤害和精神病‖end‖抗性，并且对友方角色造成的伤害再下降‖color:gui.green‖25%‖end‖，更快地从‖color:gui.orange‖灵压、噬咬‖end‖中恢复,并提高‖color:gui.green‖20%‖end‖最大生命值。
     \n狮子：‖color:gui.orange‖物理伤害‖end‖抗性下降‖color:gui.green‖10%‖end‖，‖color:gui.orange‖攻击伤害、攻击速度、移动速度‖end‖增加‖color:gui.green‖20%‖end‖，对非友好角色（红名生物）造成的伤害额外增加‖color:gui.green‖15%‖end‖</talentdescription.AunnTalent>
   <talentname.FlandreTalent>吸血鬼的破坏性妹妹</talentname.FlandreTalent>
   <talentdescription.FlandreTalent>当你身着 芙兰朵露装束+ 时，对物理伤害和烧伤的抗性非常低，同时，受到的物理伤害额外增加‖color:gui.green‖40%‖end‖，受到的烧伤额外增加‖color:gui.green‖70%‖end‖。
@@ -810,6 +810,7 @@
   <entitydescription.Touhou_Missions_Collection_Nue>可以在仪式台与其他日志合成总日志，可以接取目前已知的所有任务（剧情难度无法再次挑战）</entitydescription.Touhou_Missions_Collection_Nue>
   <entityname.Touhou_Aya_Token>文文的信物</entityname.Touhou_Aya_Token>
   <entitydescription.Touhou_Aya_Token>右键使用后，可大幅增强身体机能。仅对天狗生效。</entitydescription.Touhou_Aya_Token>
+  <afflictionname.Touhou_Medical_Effect_Down_Effect>遗忘</afflictionname.Touhou_Medical_Effect_Down_Effect>
   <afflictiondescription.Touhou_Medical_Effect_Down_Effect>你突然忘掉了一些很重要的知识，尤其是医疗和魔法方面。</afflictiondescription.Touhou_Medical_Effect_Down_Effect>
   <afflictionname.Scarlet_Long_Night>漫长红夜</afflictionname.Scarlet_Long_Night>
   <afflictiondescription.Scarlet_Long_Night>无意之间说出的话都可能改变周围人的命运。</afflictiondescription.Scarlet_Long_Night>
@@ -890,9 +891,9 @@
     312个：提高‖color:gui.green‖25%‖end‖攻击伤害，游泳速度增加‖color:gui.green‖50%‖end‖。</talentdescription.NueTalent>
   <talentname.Life_And_Death_Half_Half>生与死的Half &amp; Half</talentname.Life_And_Death_Half_Half>
   <talentdescription.Life_And_Death_Half_Half>当你身着‖color:gui.orange‖魂魄妖梦装束+‖end‖时，
-    造成的‖color:gui.orange‖近战伤害‖end‖提高‖color:gui.green‖35%‖end‖，
+    造成的‖color:gui.orange‖近战伤害‖end‖提高‖color:gui.green‖30%‖end‖，
     ‖color:gui.orange‖行走速度‖end‖提高‖color:gui.green‖36%‖end‖。
-    根据自身的武器操作等级，提高其数值相应10%的‖color:gui.orange‖攻击速度‖end‖和‖color:gui.orange‖攻击伤害‖end‖。
+    根据自身的武器操作等级，提高其数值相应10%的‖color:gui.orange‖远程攻击速度‖end‖。
     \n同时持有‖color:gui.red‖白楼剑‖end‖和‖color:gui.red‖楼观剑‖end‖时，会获得大量伤害加成，并进一步加快行走速度。</talentdescription.Life_And_Death_Half_Half>
   <entityname.Touhou_Penglai_Jade_Branch>蓬莱玉枝</entityname.Touhou_Penglai_Jade_Branch>
   <entitydescription.Touhou_Penglai_Jade_Branch>传说真正的蓬莱玉枝来自东海蓬莱山，银为枝，金作茎，果实为玉。而这一件是真是假不得而知，其中暗藏一个缺口，放入耀眼的龙玉就可以激活其发射弹幕的能力。</entitydescription.Touhou_Penglai_Jade_Branch>
@@ -922,7 +923,7 @@
   <talentname.Talents_Yousei_Primary02>寺子屋进修</talentname.Talents_Yousei_Primary02>
   <talentdescription.Talents_Yousei_Primary02>增加‖color:gui.green‖25%‖end‖的‖color:gui.orange‖技能获取速度‖end‖，增加‖color:gui.green‖5%‖end‖‖color:gui.orange‖移动速度‖end‖，周围有其他船员时，这些效果翻倍</talentdescription.Talents_Yousei_Primary02>
   <talentname.Talents_Yousei_Primary03>自然友谊</talentname.Talents_Yousei_Primary03>
-  <talentdescription.Talents_Yousei_Primary03>周围的船员获得‖color:gui.green‖10%‖end‖‖color:gui.orange‖移动速度‖end‖加成和对‖color:gui.orange‖缺氧‖end‖‖color:gui.green‖25%‖end‖的抗性</talentdescription.Talents_Yousei_Primary03>
+  <talentdescription.Talents_Yousei_Primary03>周围的船员获得‖color:gui.green‖10%‖end‖‖color:gui.orange‖移动速度‖end‖加成和对‖color:gui.orange‖缺氧‖end‖‖color:gui.green‖25%‖end‖的抗性，且造成的友伤下降‖color:gui.green‖20%‖end‖</talentdescription.Talents_Yousei_Primary03>
   <talentname.Talents_Yousei_Primary04>白日梦</talentname.Talents_Yousei_Primary04>
   <talentdescription.Talents_Yousei_Primary04>生命值高于‖color:gui.green‖50%‖end‖时，增加‖color:gui.green‖10%‖end‖‖color:gui.orange‖修复速度‖end‖，且巡回完成任务后额外获得‖color:gui.orange‖妖精糖果（蜜桃味）‖end‖</talentdescription.Talents_Yousei_Primary04>
   <talentname.Talents_Yousei_Primary05>轻飘飘</talentname.Talents_Yousei_Primary05>
@@ -1040,7 +1041,7 @@
   <entityname.Touhou_Frozen_Frog>冻青蛙</entityname.Touhou_Frozen_Frog>
   <entitydescription.Touhou_Frozen_Frog>一块透着寒意的冰块，里面还封着一只青蛙。填入‖color:gui.yellow‖完美雪花‖end‖可以激活发射弹幕的能力。</entitydescription.Touhou_Frozen_Frog>
   <entityname.Touhou_Perfect_Snowflake>完美雪花</entityname.Touhou_Perfect_Snowflake>
-  <entitydescription.Touhou_Perfect_Snowflake>一块完美的六边形雪花，蕴含纯粹的寒气。</entitydescription.Touhou_Perfect_Snowflake>
+  <entitydescription.Touhou_Perfect_Snowflake>一块完美的六边形雪花，蕴含纯粹的寒气。‖color:gui.orange‖（小心友伤）‖color:end‖</entitydescription.Touhou_Perfect_Snowflake>
   <entityname.Touhou_Baka_Sword>‖color:60,90,255,255‖ 冰之勇者剑‖end‖</entityname.Touhou_Baka_Sword>
   <entitydescription.Touhou_Baka_Sword>“咱可是最强的！”</entitydescription.Touhou_Baka_Sword>
   <afflictionname.Cirno_Weapons>雾之湖的冰精</afflictionname.Cirno_Weapons>
@@ -1056,7 +1057,7 @@
   <entityname.Touhou_Nuclear_Battery>“河能燃料”</entityname.Touhou_Nuclear_Battery>
   <entitydescription.Touhou_Nuclear_Battery>可用于河童工具枪，装配后，可让河童工具枪发射修复光线，进行远程船体修复。</entitydescription.Touhou_Nuclear_Battery>
   <entityname.Touhou_Fix_Foamg_Tank>固化泡沫罐</entityname.Touhou_Fix_Foamg_Tank>
-  <entitydescription.Touhou_Fix_Foamg_Tank>高度压缩的固化泡沫，专用于河童工具枪的船体修复，相当耐用的同时，还能加快约40%的修复速度。\n——“外物虽好，也不要忘了锻炼自身的能力。”</entitydescription.Touhou_Fix_Foamg_Tank>
+  <entitydescription.Touhou_Fix_Foamg_Tank>高度压缩的固化泡沫，专用于河童工具枪的船体修复，相当耐用的同时，还能加快约35%的修复速度。\n——“外物虽好，也不要忘了锻炼自身的能力。”</entitydescription.Touhou_Fix_Foamg_Tank>
   <talentdescription.Casket_Of_Star>当你身着‖color:gui.orange‖魔理沙装束+‖end‖时，从‖color:gui.orange‖物理伤害、烧伤‖end‖中恢复得更快、抗性也更高：
     \n造成的伤害提高‖color:gui.green‖15%‖end‖。
     \n远程武器的攻击速度提高‖color:gui.green‖10%‖end‖。
@@ -1087,7 +1088,7 @@
   <afflictionname.Candid_Friend>超妖怪弹头</afflictionname.Candid_Friend>
   <afflictiondescription.Candid_Friend>擅长买卖且守财如命的河童</afflictiondescription.Candid_Friend>
   <afflictionname.Nitori_Weapons>水中的工程师</afflictionname.Nitori_Weapons>
-  <afflictiondescription.Nitori_Weapons>她很怕生，有着胆小的一面，独处时如果有人类或者其他妖怪靠近就会立即逃跑。只有在同伴圈里，她才表现出开朗活泼的另一面。</afflictiondescription.Nitori_Weapons>
+  <afflictiondescription.Nitori_Weapons>她很怕生，有着胆小的一面，独处时如果有人类或者其他妖怪靠近就会立即逃跑。</afflictiondescription.Nitori_Weapons>
   <talentname.Kappa_Pororoca>芥川龙之介的河童</talentname.Kappa_Pororoca>
   <talentdescription.Kappa_Pororoca>当你身着‖color:52,94,60,255‖荷取装束+‖end‖时，
       \n在水中且‖color:gui.orange‖机械工程‖end‖和‖color:gui.orange‖电气工程‖end‖均大于‖color:gui.green‖60‖end‖时，缓慢恢复部分伤势
@@ -1095,7 +1096,7 @@
       \n根据当前‖color:gui.orange‖机械工程‖end‖和‖color:gui.orange‖电气工程‖end‖之和的水平，提高相应‖color:gui.green‖16%‖end‖的‖color:gui.orange‖修理速度‖end‖和‖color:gui.orange‖船体修复速度‖end‖
       \n根据当前‖color:gui.orange‖机械工程‖end‖的水平，额外提高相应‖color:gui.green‖10%‖end‖的‖color:gui.orange‖远程攻击伤害
       \n当打开沉船容器时，有‖color:gui.green‖15%‖end‖概率找到简单零件，‖color:gui.green‖5%‖end‖概率找到精密零件
-      \n当打开信标站容器时，有‖color:gui.green‖10%‖end‖概率找到精密零件
+      \n当打开信标站容器时，有‖color:gui.green‖30%‖end‖概率找到精密零件
       \n修复的设备相当难以损坏
       \n交易舰船时拥有‖color:gui.green‖10%‖end‖的折扣</talentdescription.Kappa_Pororoca>
   <entityname.Touhou_Simple_Parts>简单零件</entityname.Touhou_Simple_Parts>
@@ -1103,9 +1104,118 @@
   <entityname.Touhou_Precision_Parts>精密零件</entityname.Touhou_Precision_Parts>
   <entitydescription.Touhou_Precision_Parts>从无人在意的角落里回收的可用材料。</entitydescription.Touhou_Precision_Parts>
   <afflictionname.FlandreTalent4_Effect_CD>笼中鸟-护盾剩余时长</afflictionname.FlandreTalent4_Effect_CD>
-  <!--物换星移-->
+  <!--生物名称-->
+  <character.Little_Ghost>小幽灵</character.Little_Ghost>
+  <character.Little_photosphere>正体不明</character.Little_photosphere>
+  <character.Maoyu>毛玉</character.Maoyu>
+  <character.Touhou_blue_ufo>UFO</character.Touhou_blue_ufo>
+  <character.Touhou_red_ufo>UFO</character.Touhou_red_ufo>
+  <character.Touhou_red_ufo_range>UFO</character.Touhou_red_ufo_range>
+  <character.Touhou_green_ufo>UFO</character.Touhou_green_ufo>
+  <character.Touhou_fortune_teller>易者</character.Touhou_fortune_teller>
+  <character.Touhou_Monster_houjuu_nue>封兽鵺</character.Touhou_Monster_houjuu_nue>
+  <character.Touhou_Monster_houjuu_nue_Easy>封兽鵺</character.Touhou_Monster_houjuu_nue_Easy>
+  <character.Touhou_Monster_houjuu_nue_Normal>封兽鵺</character.Touhou_Monster_houjuu_nue_Normal>
+  <character.Touhou_Monster_houjuu_nue_Hard>封兽鵺</character.Touhou_Monster_houjuu_nue_Hard>
+  <character.Touhou_Monster_houjuu_nue_Lunatic>封兽鵺</character.Touhou_Monster_houjuu_nue_Lunatic>
+  <character.Touhou_reiki_erode_crawler>魔咒爬行者</character.Touhou_reiki_erode_crawler>
+  <character.Touhou_reiki_erode_mudraptor>魔咒迅猛龙</character.Touhou_reiki_erode_mudraptor>
+  <character.Touhou_reiki_deterioration_tigerthresher>劣化虎尾鲨</character.Touhou_reiki_deterioration_tigerthresher>
+  <character.Touhou_reiki_deterioration_hammerhead>劣化锤头鲨</character.Touhou_reiki_deterioration_hammerhead>
+  <character.Touhou_Lunar>月</character.Touhou_Lunar>
+  <character.Touhou_Lunar_Mini>拟月</character.Touhou_Lunar_Mini>
+  <character.Touhou_Lunar_Meteor>月面流星</character.Touhou_Lunar_Meteor>
+  <!--为时已晚-->
   <missionname.Touhou_OutpostDestroyMission03>为时已晚</missionname.Touhou_OutpostDestroyMission03>
   <missiondescription.Touhou_OutpostDestroyMission03>炼金实验室在此处丢失了一批重要材料，因此出重金委托有意愿的船长回收这些资源</missiondescription.Touhou_OutpostDestroyMission03>
   <missionheader.Touhou_OutpostDestroyMission03>净化完成</missionheader.Touhou_OutpostDestroyMission03>
   <missionmessage.Touhou_OutpostDestroyMission03>看来我们来晚了，资源都变成他们手里的破铜烂铁了，希望炼金实验室愿意接受这个结局吧</missionmessage.Touhou_OutpostDestroyMission03>
+  <missionfailure.Touhou_OutpostDestroyMission03>满身疮痍</missionfailure.Touhou_OutpostDestroyMission03>
+  <!--雷声隐隐，未知来临-->
+  <missionname.Clear_Reiki_Erode_Mudraptor_Nest>雷声隐隐，未知来临</missionname.Clear_Reiki_Erode_Mudraptor_Nest>
+  <missiondescription.Clear_Reiki_Erode_Mudraptor_Nest>一群相当危险的魔咒迅猛龙残党逃至一处洞穴内，有人出重金请你解决它们。</missiondescription.Clear_Reiki_Erode_Mudraptor_Nest>
+  <missionheader.Clear_Reiki_Erode_Mudraptor_Nest>净化完成</missionheader.Clear_Reiki_Erode_Mudraptor_Nest>
+  <missionmessage.Clear_Reiki_Erode_Mudraptor_Nest>又是一群被灵气污染的生物，污染从何而来？</missionmessage.Clear_Reiki_Erode_Mudraptor_Nest>
+  <!--雷声阵阵，危险来临-->
+  <missionname.Clear_Reiki_Deterioration_Tigerthresher_Nest>雷声阵阵，危险来临</missionname.Clear_Reiki_Deterioration_Tigerthresher_Nest>
+  <missiondescription.Clear_Reiki_Deterioration_Tigerthresher_Nest>前段时间一艘货运船失踪后，周遭就出现了大量灵气污染的生物，一群被污染的虎尾鲨盘踞在洞穴内，多方势力发出委托，重金请人解决它们。</missiondescription.Clear_Reiki_Deterioration_Tigerthresher_Nest>
+  <missionheader.Clear_Reiki_Deterioration_Tigerthresher_Nest>净化完成</missionheader.Clear_Reiki_Deterioration_Tigerthresher_Nest>
+  <missionmessage.Clear_Reiki_Deterioration_Tigerthresher_Nest>这些生物身上的污染愈发严重起来，似乎离源头不远了。</missionmessage.Clear_Reiki_Deterioration_Tigerthresher_Nest>
+  <!--雷声滚滚，怒潮来临-->
+  <missionname.Kill_Reiki_Deterioration_Hammerhead>雷声滚滚，怒潮来临</missionname.Kill_Reiki_Deterioration_Hammerhead>
+  <missiondescription.Kill_Reiki_Deterioration_Hammerhead>经过多方调查，我们找到了疑似污染源头的海域，那里徘徊着大片被污染的生物，清理掉它们就能拿到高额赏金。</missiondescription.Kill_Reiki_Deterioration_Hammerhead>
+  <missionheader.Kill_Reiki_Deterioration_Hammerhead>净化完成</missionheader.Kill_Reiki_Deterioration_Hammerhead>
+  <missionmessage.Kill_Reiki_Deterioration_Hammerhead>顺着这条路线继续探索下去，应该就能找到污染源了。</missionmessage.Kill_Reiki_Deterioration_Hammerhead>
+  <entityname.Nitori_Backpack_Tactical_Expansion>河童背包-战术拓展</entityname.Nitori_Backpack_Tactical_Expansion>
+  <entitydescription.Nitori_Backpack_Tactical_Expansion>为了战斗环境而改良的河童背包，牺牲了部分容量和性能换来了更多的战略价值。
+    内含特殊槽位，可以放入河能燃料以提供氧气和移速提升，或核能电容弹匣提供些许战斗性能。能抵御‖color:gui.orange‖4200米‖color:end‖的水压。</entitydescription.Nitori_Backpack_Tactical_Expansion>
+  <afflictionname.Nitori_Tools>水中的技工</afflictionname.Nitori_Tools>
+  <afflictiondescription.Nitori_Tools>只有在同伴圈里，她才表现出开朗活泼的另一面。</afflictiondescription.Nitori_Tools>
+  <afflictionname.Nitori_Backpack_Tactical_Expansion_Effect>光学「水迷彩」</afflictionname.Nitori_Backpack_Tactical_Expansion_Effect>
+  <afflictiondescription.Nitori_Backpack_Tactical_Expansion_Effect>些许提高出血抗性，略微减少debuff的持续时间，略微延长buff的持续时间，略微增强战斗性能。</afflictiondescription.Nitori_Backpack_Tactical_Expansion_Effect>
+  <afflictionname.Touhou_Friendship_Juice_Effect>友谊干杯</afflictionname.Touhou_Friendship_Juice_Effect>
+  <afflictiondescription.Touhou_Friendship_Juice_Effect>减少友军伤害</afflictiondescription.Touhou_Friendship_Juice_Effect>
+  <entityname.Touhou_Friendship_Juice>友谊果汁</entityname.Touhou_Friendship_Juice>
+  <entitydescription.Touhou_Friendship_Juice>喝下后，可以提供十分钟的友谊效果，减少40%的友军伤害</entitydescription.Touhou_Friendship_Juice>
+  <afflictionname.Gensokyo_Divinggear_Unlocked_Effect01>幻想入-帕秋莉</afflictionname.Gensokyo_Divinggear_Unlocked_Effect01>
+  <afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect01>减少15%友军伤害，造成的五种元素对应的伤害增加15%</afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect01>
+  <afflictionname.Gensokyo_Divinggear_Unlocked_Effect02>幻想入-魔理沙</afflictionname.Gensokyo_Divinggear_Unlocked_Effect02>
+  <afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect02>减少15%友军伤害，所有技能，尤其是魔法能力得到小幅提升。</afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect02>
+  <afflictionname.Gensokyo_Divinggear_Unlocked_Effect03>幻想入-芙兰朵露</afflictionname.Gensokyo_Divinggear_Unlocked_Effect03>
+  <afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect03>减少15%友军伤害，根据魔法能力的数值，增加相应10%的最大生命值。</afflictiondescription.Gensokyo_Divinggear_Unlocked_Effect03>
+  <entityname.Koishi_gear>‖color:60,255,155,255‖恋恋装束‖end‖</entityname.Koishi_gear>
+  <entitydescription.Koishi_gear>恋是矛盾的角色，是作为没有角色性的存在而诞生的，是对角色性的否定。她虽然试图通过回避他人的恶意来避免成为被厌恶者，但她依然含有很多理应遭到厌恶的东西，心怀某种黑暗。</entitydescription.Koishi_gear>
+  <entityname.Koishi_Plus>‖color:60,255,155,255‖恋恋装束+‖end‖</entityname.Koishi_Plus>
+  <entitydescription.Koishi_Plus>恋是矛盾的角色，是作为没有角色性的存在而诞生的，是对角色性的否定。她虽然试图通过回避他人的恶意来避免成为被厌恶者，但她依然含有很多理应遭到厌恶的东西，心怀某种黑暗。</entitydescription.Koishi_Plus>
+  <entityname.Koishi_Hat>‖color:60,255,155,255‖小石子帽子‖end‖</entityname.Koishi_Hat>
+  <entitydescription.Koishi_Hat>难道说没人注意到我？这样啊，这下就方便了。</entitydescription.Koishi_Hat>
+  <afflictionname.Closed_Eyes_Of_Koishi>紧闭的恋之瞳</afflictionname.Closed_Eyes_Of_Koishi>
+  <afflictiondescription.Closed_Eyes_Of_Koishi>她是觉妖怪，一种拥有读心能力的妖怪，但恋封闭内心后失去了该能力，同时获得操纵无意识的能力。</afflictiondescription.Closed_Eyes_Of_Koishi>
+  <talentname.KoishiTalent>地底蔷薇</talentname.KoishiTalent>
+  <talentdescription.KoishiTalent>当你身着恋恋装束+时，
+    \n增加‖color:gui.green‖15%‖end‖完成任务获得的经验，但减少‖color:gui.green‖30%‖end‖‖color:gui.orange‖技能获取速度‖end‖。
+    ‖color:gui.orange‖攻击伤害‖end‖减少‖color:gui.green‖15%‖end‖，但‖color:gui.orange‖近战伤害‖end‖增加‖color:gui.green‖30%‖end‖。
+    \n每隔随机时间‖color:gui.green‖（15s-30s）‖end‖，给予随机时长‖color:gui.green‖（5s-15s）‖end‖、随机等级‖color:gui.green‖（1级-3级）‖end‖‖color:gui.yellow‖无意识‖end‖效果。
+    \n当你受到造成伤害的攻击后，会根据剩余血量获得不同等级的‖color:gui.yellow‖无意识‖end‖效果，最高‖color:gui.green‖3‖end‖级。并在原地留下幻影，幻影会短暂吸引部分目标的攻击。
+    \n生命值满足75%/45%（2级、3级需求）以上时，可主动触发无意识效果，但会随等级支付一定生命值。
+    \n‖color:gui.yellow‖无意识‖end‖：减少敌人对你的索敌距离和攻击性，提高眩晕和debuff抗性，随时间增加攻击伤害，尤其是近战攻击伤害。无意识等级越高，这个效果越强
+    \n无意识状态下受到的所有伤害减少‖color:gui.green‖25.7%‖end‖，非无意识状态下受到的所有伤害增加‖color:gui.green‖51.4%‖end‖，所有无意识效果都会在主动攻击后移除。
+    \n专属武器攻击后不会立刻移除无意识效果，而是少量减少无意识持续时间，且击杀带有‖color:gui.yellow‖“被厌恶者的哲学”‖end‖效果的目标后会略微延长/续行无意识效果。
+    佩戴小石子帽子可以略微延长无意识的持续时间
+    \n无法受到天赋“特种部队”给予的加成。
+  </talentdescription.KoishiTalent>
+  <afflictionname.Liberation_Of_Koishi>本能「本我的解放」</afflictionname.Liberation_Of_Koishi>
+  <afflictiondescription.Liberation_Of_Koishi>扣除最大生命值以换取近战攻击伤害加成和无意识效果，但是会大幅削弱远程攻击伤害和远程攻击速度</afflictiondescription.Liberation_Of_Koishi>
+  <afflictionname.Koishi_Weapons>空想上的人格保持者</afflictionname.Koishi_Weapons>
+  <afflictiondescription.Koishi_Weapons>由于自己的能力，她很难和他人正常交流，也没去建立复杂的人际关系。她和姐姐古明地觉以及姐姐的宠物火焰猫燐、灵乌路空同居于地灵殿，关系较为亲密。</afflictiondescription.Koishi_Weapons>
+  <entityname.Touhou_Koishi_Knife>‖color:60,200,130,255‖恋恋的菜刀‖end‖</entityname.Touhou_Koishi_Knife>
+  <entitydescription.Touhou_Koishi_Knife>外表看上去是一把再寻常不过的菜刀，是恋随身携带的武器。</entitydescription.Touhou_Koishi_Knife>
+  <entityname.Touhou_Strange_Phone>‖color:144,47,208,255‖怪奇电话‖end‖</entityname.Touhou_Strange_Phone>
+  <entitydescription.Touhou_Strange_Phone>仅有听筒一端的电话，里面时不时传来一些奇怪的声音。对着里面说话，会让周围的敌对生物受到影响，获得“被厌恶者的哲学”效果，这个效果会让受到的攻击伤害增加，尤其是恋恋造成的伤害。</entitydescription.Touhou_Strange_Phone>
+  <afflictionname.Touhou_Strange_Phone_Effect>被厌恶者的哲学</afflictionname.Touhou_Strange_Phone_Effect>
+  <afflictiondescription.Touhou_Strange_Phone_Effect>略微减少移速，减少物理伤害和眩晕抗性</afflictiondescription.Touhou_Strange_Phone_Effect>
+  <afflictionname.Touhou_Lunatic_Lunar_Effect>疯狂之月</afflictionname.Touhou_Lunatic_Lunar_Effect>
+  <afflictiondescription.Touhou_Lunatic_Lunar_Effect>一股疯狂从脑海内涌出，你对你的队友敌意更高了</afflictiondescription.Touhou_Lunatic_Lunar_Effect>
+  <!--遥遥38万公里的旅程-->
+  <missionname.FindClownpiece>遥遥38万公里的旅程</missionname.FindClownpiece>
+  <missiondescription.FindClownpiece>去月球</missiondescription.FindClownpiece>
+  <missionheader.FindClownpiece>恶作剧该结束了</missionheader.FindClownpiece>
+  <missionmessage.FindClownpiece>二十世纪的诺亚方舟，承载着期待与不安向着天空飞去，
+    　现如今，在被称为未来的二十四世纪，
+    　摘下幻想的伪装，那之后是怎样一副落寞的表情。
+      也许承载着过去的鸟船遗迹里，有你想要的答案。</missionmessage.FindClownpiece>
+  <entityname.Iron_Element_Book>魔导书-金</entityname.Iron_Element_Book>
+  <entitydescription.Iron_Element_Book>内置魔力的一次性魔导书，让新手也能轻松使用</entitydescription.Iron_Element_Book>
+  <entityname.Earth_Element_Book>魔导书-土</entityname.Earth_Element_Book>
+  <entitydescription.Earth_Element_Book>内置魔力的一次性魔导书，让新手也能轻松使用</entitydescription.Earth_Element_Book>
+  <entityname.Touhou_Pendulum_Necklace>灵摆项链</entityname.Touhou_Pendulum_Necklace>
+  <entitydescription.Touhou_Pendulum_Necklace>赋予充盈魔力的水晶制成的项链，可略微提高使用者的魔力。当魔法能力大于80后，可解除帕秋莉的奔跑限制。占用耳机槽位。</entitydescription.Touhou_Pendulum_Necklace>
+  <entityname.Touhou_Gohei_Reimu>博丽的御币</entityname.Touhou_Gohei_Reimu>
+  <entitydescription.Touhou_Gohei_Reimu>降妖化兽</entitydescription.Touhou_Gohei_Reimu>
+  <entityname.Youmu_Smgmagazine_Plus>‖color:156,158,161,255‖幽冥弹匣Plus‖color:end‖</entityname.Youmu_Smgmagazine_Plus>
+  <entitydescription.Youmu_Smgmagazine_Plus>幽冥弹匣的升级款，具备更强的穿透力，射弹也更加锐利</entitydescription.Youmu_Smgmagazine_Plus>
+  <afflictionname.Touhou_Pendulum_Magic>灵摆魔力</afflictionname.Touhou_Pendulum_Magic>
+  <afflictiondescription.Touhou_Pendulum_Magic>灵摆魔力让你的魔法能力更加充盈。</afflictiondescription.Touhou_Pendulum_Magic>
+  <afflictionname.Nitori_Backpack_Tactical_Expansion_Effect02>光学「光学迷彩」</afflictionname.Nitori_Backpack_Tactical_Expansion_Effect02>
+  <afflictiondescription.Nitori_Backpack_Tactical_Expansion_Effect02>略微提高眩晕抗性，恢复感染的伤口，增加移动速度。</afflictiondescription.Nitori_Backpack_Tactical_Expansion_Effect02>
 </infotexts>
