@@ -1090,7 +1090,7 @@
   <entitydescription.Koishi_Plus>Koishi is a contradictory character, born as an existence without character traits, a denial of character traits. Although she tries to avoid becoming an object of hatred by evading others' malice, she still contains many things that should be hated, harboring a certain darkness.</entitydescription.Koishi_Plus>
   <entityname.Koishi_Hat>‖color:60,255,155,255‖Pebble Hat‖end‖</entityname.Koishi_Hat>
   <entitydescription.Koishi_Hat>Does no one notice me? Oh, well, that makes things easier.</entitydescription.Koishi_Hat>
-  <afflictionname.Closed_Eyes_Of_Koishi>Tightly Closed Eyes of Love</afflictionname.Closed_Eyes_Of_Koishi>
+  <afflictionname.Closed_Eyes_Of_Koishi>Koishi's Closed Eyes</afflictionname.Closed_Eyes_Of_Koishi>
   <afflictiondescription.Closed_Eyes_Of_Koishi>She is a mind-reading youkai, but after closing off her heart, she lost this ability and gained the power to manipulate the unconscious.</afflictiondescription.Closed_Eyes_Of_Koishi>
   <talentname.KoishiTalent>Underground Rose</talentname.KoishiTalent>
   <talentdescription.KoishiTalent>When you wear Koishi's Outfit+,  
@@ -1109,10 +1109,10 @@
   <afflictiondescription.Liberation_Of_Koishi>Deducts maximum health to gain bonuses to melee attack damage and unconscious effects, but greatly reduces ranged attack damage and ranged attack speed.</afflictiondescription.Liberation_Of_Koishi>
   <afflictionname.Koishi_Weapons>Imaginary Personality Maintainer</afflictionname.Koishi_Weapons>
   <afflictiondescription.Koishi_Weapons>Due to her ability, she finds it difficult to communicate normally with others and hasn't built complex interpersonal relationships. She lives with her sister, Koishi Komeiji, her sister's pet, Flan, and Rin Kaenbyou in the Palace of Earth Spirits, and they have a close relationship.</afflictiondescription.Koishi_Weapons>
-  <entityname.Touhou_Koishi_Knife>‖color:60,200,130,255‖Love's Kitchen Knife‖end‖</entityname.Touhou_Koishi_Knife>
-  <entitydescription.Touhou_Koishi_Knife>It appears to be an ordinary kitchen knife, a weapon that Love carries with her.</entitydescription.Touhou_Koishi_Knife>
+  <entityname.Touhou_Koishi_Knife>‖color:60,200,130,255‖Koishi's Kitchen Knife‖end‖</entityname.Touhou_Koishi_Knife>
+  <entitydescription.Touhou_Koishi_Knife>It appears to be an ordinary kitchen knife, a weapon that Koishi carries with her.</entitydescription.Touhou_Koishi_Knife>
   <entityname.Touhou_Strange_Phone>‖color:144,47,208,255‖Strange Telephone‖end‖</entityname.Touhou_Strange_Phone>
-  <entitydescription.Touhou_Strange_Phone>A telephone with only one earpiece, strange sounds occasionally come from it. Talking into it will affect nearby hostile creatures, granting them the "Philosophy of the Hated" effect, which increases damage taken, especially from Love.</entitydescription.Touhou_Strange_Phone>
+  <entitydescription.Touhou_Strange_Phone>A telephone with only one earpiece, strange sounds occasionally come from it. Talking into it will affect nearby hostile creatures, granting them the "Philosophy of the Hated" effect, which increases damage taken, especially from Koishi.</entitydescription.Touhou_Strange_Phone>
   <afflictionname.Touhou_Strange_Phone_Effect>Philosophy of the Hated</afflictionname.Touhou_Strange_Phone_Effect>
   <afflictiondescription.Touhou_Strange_Phone_Effect>Slightly reduces movement speed, physical damage, and stun resistance</afflictiondescription.Touhou_Strange_Phone_Effect>
   <afflictionname.Touhou_Lunatic_Lunar_Effect>Crazy Moon</afflictionname.Touhou_Lunatic_Lunar_Effect>
